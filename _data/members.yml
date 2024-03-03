@@ -11,14 +11,14 @@
   last: Chen
   role: Ph.D. Student
   alum: false
-  headshot: "https://github.com/NEUIR/neuir.github.io/tree/main/assets/headshots/lyq.jpg"
+  headshot: "https://raw.githubusercontent.com/NEUIR/neuir.github.io/tree/main/assets/headshots/lyq.jpg"
   
 - first: 梅森
   last: Agrawal
   role: M.S. Student
   email: "meisen@stumail.neu.edu.cn"
   homepage: "https://mssssss123.github.io/"
-  headshot: "https://github.com/NEUIR/neuir.github.io/tree/main/assets/headshots/ms.jpg"
+  headshot: "https://raw.githubusercontent.com/NEUIR/neuir.github.io/tree/main/assets/headshots/ms.jpg"
   alum: false
   
 - first: 周天硕
@@ -27,7 +27,7 @@
   alum: false
   email: "zhoutianshuo@stumail.neu.edu.cn"
   homepage: "https://whale-z.github.io/"
-  headshot: "https://github.com/NEUIR/neuir.github.io/tree/main/assets/headshots/ts.png"
+  headshot: "https://raw.githubusercontent.com/NEUIR/neuir.github.io/tree/main/assets/headshots/ts.png"
   
 - first: 李欣泽
   last: McGee
