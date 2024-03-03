@@ -3,16 +3,16 @@ minimal_mistakes_skin    : "drc" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale                   : "en-US"
-title                    : "The Design Research Collective"
+title                    : "东北大学信息检索小组"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : # "Your Name"
 description              : # "An amazing website."
-url                      : # "https://mccomblab.github.io"
+url                      : # "https://neuir123.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "cmudrc/cmudrc.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/DRC-Horizontal-Full.jpg"
+logo                     : "/assets/logo.jpg"
 masthead_title           : " "# overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -118,16 +118,16 @@ footer:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:ask-drc@andrew.cmu.edu"
+      #url: "liuzhenghao@mail.neu.edu.cn"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: https://twitter.com/cmudrc
+      #url: https://twitter.com/cmudrc
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: https://github.com/cmudrc/
+      url: https://github.com/NEUIR/
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
       # url:

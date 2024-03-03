@@ -1,9 +1,9 @@
 main:
-  - title: "Home"
+  - title: "主页"
     url: /
-  - title: "Team"
+  - title: "团队介绍"
     url: /team/
-  - title: "Publications"
+  - title: "已发表论文"
     url: /publications/
-  - title: "Tools & Data"
+  - title: "开源工具和数据"
     url: /tools-and-data/
