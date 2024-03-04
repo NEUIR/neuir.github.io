@@ -2,7 +2,7 @@
   last: McComb
   role: Director
   year: 1000000
-  headshot: "https://imgconvert.csdnimg.cn/aHR0cHM6Ly9tbWJpei5xcGljLmNuL21tYml6X2pwZy9WQmNEMDJqRmhnbnd4eVFwcHpyMFR2Z3dZa011REtzYWdKbEI4RUdGOGlhU2xNaWNoMEZWYXNKdzVQSmd5OWRyckpueEJKNVllM3I3SzdtUGpXNE1tNkhRLzY0MA?x-oss-process=image/format,png"
+  headshot: "/assets/headshots/boss.png"
   email: "liuzhenghao@mail.neu.edu.cn"
   homepage: "https://edwardzh.github.io/"
   alum: false
@@ -11,14 +11,14 @@
   last: Chen
   role: Ph.D. Student
   alum: false
-  headshot: "https://raw.githubusercontent.com/NEUIR/neuir.github.io/main/assets/headshots/lyq.jpg"
+  headshot: "assets/headshots/lyq.jpg"
   
 - first: 梅森
   last: Agrawal
   role: M.S. Student
   email: "meisen@stumail.neu.edu.cn"
   homepage: "https://mssssss123.github.io/"
-  headshot: "https://raw.githubusercontent.com/NEUIR/neuir.github.io/main/assets/headshots/ms.jpg"
+  headshot: "assets/headshots/ms.jpg"
   alum: false
   
 - first: 周天硕
@@ -27,7 +27,7 @@
   alum: false
   email: "zhoutianshuo@stumail.neu.edu.cn"
   homepage: "https://whale-z.github.io/"
-  headshot: "https://raw.githubusercontent.com/NEUIR/neuir.github.io/main/assets/headshots/ts.png"
+  headshot: "assets/headshots/ts.png"
   
 - first: 李欣泽
   last: McGee
@@ -35,7 +35,7 @@
   alum: false
   email: "2271998@stu.neu.edu.cn"
   homepage: "https://eureka336.github.io/"
-  headshot: "https://raw.githubusercontent.com/NEUIR/neuir.github.io/main/assets/headshots/xz.jpg"
+  headshot: "assets/headshots/xz.jpg"
   
 - first: 徐志鹏
   last: Xu
@@ -43,7 +43,7 @@
   alum: false
   email: "xuzhipeng@stumail.neu.edu.cn"
   homepage: "https://zhipeng-xu.github.io/"
-  headshot: "https://raw.githubusercontent.com/neuir123/neuir123.github.io/main/_data/zp.jpg"
+  headshot: "assets/headshots/zp.jpg"
   
 - first: 熊秋实
   last: Noorghasemi
@@ -51,13 +51,13 @@
   alum: false
   email: "xiongqiushi@stumail.neu.edu.com"
   homepage: "https://qiushixiong.github.io/"
-  headshot: "https://raw.githubusercontent.com/NEUIR/neuir.github.io/main/assets/headshots/xls.jpg"
+  headshot: "assets/headshots/xls.jpg"
   
 - first: 杨伟庆
   last: Xu
   role: M.S. Student
   alum: false
-  headshot: "https://raw.githubusercontent.com/NEUIR/neuir.github.io/main/assets/headshots/wq.jpg"
+  headshot: "assets/headshots/wq.jpg"
 
 - first: 辛海东
   last: Xu
@@ -65,7 +65,7 @@
   alum: false
   email: "hdxin2002@gmail.com"
   homepage: "https://xhd0728.github.io/"
-  headshot: ""
+  headshot: "assets/headshots/xhd.png"
 
 - first: 王汉彬
   last: Boschetti
@@ -73,7 +73,7 @@
   alum: false
   email: "wanghanbin95@163.com"
   homepage: "https://wanghanbinpanda.github.io/"
-  headshot: "https://raw.githubusercontent.com/NEUIR/neuir.github.io/main/assets/headshots/hb.jpg"
+  headshot: "assets/headshots/hb.jpg"
   
 
 
