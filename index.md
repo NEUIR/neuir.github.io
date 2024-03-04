@@ -7,11 +7,11 @@ header:
   overlay_image: "/assets/school.jpg"
   actions:
     - label: "<i class=\"fas fa-users\"></i>   团队介绍"
-      url: "https://neuir123.github.io/team/"
+      url: "https://neuir.github.io/team/"
     - label: "<i class=\"fas fa-user-plus\"></i>   加入我们"
       url: "mailto:liuzhenghao@mail.neu.edu.cn"
     - label: "<i class=\"fas fa-book-reader\"></i>   本组工作"
-      url: "https://neuir123.github.io/publications/"
+      url: "https://neuir.github.io/publications/"
   caption: ""
 research_intro:
   - title: 课题组介绍
