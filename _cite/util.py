@@ -177,14 +177,17 @@ def cite_with_manubot(_id):
     # run Manubot
     try:
         commands = ["manubot", "cite", _id, "--log-level=WARNING"]
-        output = subprocess.Popen(commands, stdout=subprocess.PIPE).communicate()
+        process = subprocess.Popen(commands, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        output, error = process.communicate()
+        if process.returncode != 0:
+            raise Exception(f"Manubot error: {error.decode('utf-8')}")
     except Exception as e:
         log(e, 3)
         raise Exception("Manubot could not generate citation")
 
     # parse results as json
     try:
-        manubot = json.loads(output[0])[0]
+        manubot = json.loads(output)[0]
     except Exception:
         raise Exception("Couldn't parse Manubot response")
 

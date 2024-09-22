@@ -1,19 +1,16 @@
 # site properties and page defaults
-title: Lab Website Template
-subtitle: by the Greene Lab
-description: An easy-to-use, flexible website template for labs, with automatic citations, GitHub tag imports, pre-built components, and more.
-header: images/background.jpg
-footer: images/background.jpg
+title: 东北大学信息检索小组
+subtitle: NEUIR
+description: 欢迎来到东北大学信息检索团队（NEUIR）</br>我们是一个由学生和教师组成的充满激情、兼容并蓄和富有创造力的团队
+header: images/school.jpg
+footer: images/school.jpg
 proofer: false
 
 # site social media and other links
 links:
-  email: contact@your-lab.com
-  orcid: 0000-0001-8713-9213
-  google-scholar: ETJoidYAAAAJ
-  github: your-lab
-  twitter: YourLabHandle
-  youtube: YourLabChannel
+  email: liuzhenghao@mail.neu.edu.cn
+  google-scholar: 4vrZRk0AAAAJ
+  github: https://github.com/NEUIR/
 
 ### jekyll settings
 

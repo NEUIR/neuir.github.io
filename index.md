@@ -1,12 +1,13 @@
 ---
 ---
 
-# Lab Website Template
+# 课题组介绍
 
-[Lab Website Template](https://github.com/greenelab/lab-website-template) is an easy-to-use, flexible website template for [labs](https://www.greenelab.com/).
-Spend less time worrying about managing a website and citations, and more time running your lab.
+<div style="text-align: center">欢迎来到东北大学信息检索团队（NEUIR）</div>
 
-{%
+<div style="text-align: center">我们是一个由学生和教师组成的充满激情、兼容并蓄和富有创造力的团队</div>
+
+<!-- {%
   include button.html
   type="docs"
   link="https://greene-lab.gitbook.io/lab-website-template-docs"
@@ -16,15 +17,14 @@ Spend less time worrying about managing a website and citations, and more time r
   type="github"
   text="On GitHub"
   link="greenelab/lab-website-template"
-%}
+%} -->
 
-{% include section.html %}
 
 ## Highlights
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Our research interests are very extensive, including information retrieval, multimodality, code intelligence, recommendation system and so on.
 
 {%
   include button.html
@@ -39,15 +39,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/home/1.jpg"
   link="research"
-  title="Our Research"
+  title="Reseearch"
   text=text
 %}
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We have carried out close academic cooperation and exchanges with research institutions such as THUNLP, Beijing Advanced  Innovation Center for Language Resources, OpenBMB, Qiyuan Lab and Alibaba.
 
 {%
   include button.html
@@ -62,9 +62,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/home/2.png"
   link="projects"
-  title="Our Projects"
+  title="Projects"
   flip=true
   style="bare"
   text=text
@@ -72,7 +72,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+NEUIR is led by Professor Ge Yu and Associate Professor Zhenghao Liu, and has more than 20 members.
 
 {%
   include button.html
@@ -87,8 +87,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/home/3.jpg"
   link="team"
-  title="Our Team"
+  title="Team"
   text=text
 %}

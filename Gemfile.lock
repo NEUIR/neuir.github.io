@@ -22,8 +22,10 @@ GEM
     ethon (0.16.0)
       ffi (>= 1.15.0)
     eventmachine (1.2.7)
+    eventmachine (1.2.7-x64-mingw32)
     ffi (1.15.5)
     ffi (1.15.5-x64-mingw-ucrt)
+    ffi (1.15.5-x64-mingw32)
     fiber-annotation (0.2.0)
     fiber-local (1.0.0)
     forwardable-extended (2.6.0)
@@ -95,6 +97,8 @@ GEM
       racc (~> 1.4)
     nokogiri (1.13.10-arm64-darwin)
       racc (~> 1.4)
+    nokogiri (1.13.10-x64-mingw-ucrt)
+      racc (~> 1.4)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     pdf-reader (2.12.0)
@@ -135,6 +139,7 @@ GEM
 
 PLATFORMS
   aarch64-linux
+  arm64-darwin-24
   linux
   universal-darwin-21
   universal-darwin-22

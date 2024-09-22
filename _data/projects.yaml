@@ -1,47 +1,29 @@
-- title: Cool Dataset
-  subtitle: a subtitle
+- title: OpenMatch
+  subtitle: 
+  image: images/projects/openmatch.png
+  link: https://github.com/OpenMatch/OpenMatch
+  description: An Open-Source Package for Information Retrieval
+  repo: OpenMatch/OpenMatch
+
+- title: ActiveRAG
+  subtitle: 
+  image: images/projects/activerag.png
+  link: https://github.com/OpenMatch/ActiveRAG
+  description: This is the code repo for our paper "Revealing the Treasures of Knowledge via Active Learning".
+  repo: OpenMatch/NeuScraper
+
+- title: MARVEL
+  subtitle: ACL 2024
+  image: images/projects/marvel.png
+  link: https://github.com/OpenMatch/MARVEL
+  description: 'This is the code repo for our ACL’24 paper "MARVEL: Unlocking the Multi-Modal Capability of Dense Retrieval via Visual Module Plugin".'
+  repo: OpenMatch/MARVEL
   group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
 
-- title: Cool Package
-  subtitle: a subtitle
+- title: NeuScraper
+  subtitle: ACL 2024
+  image: images/projects/neuscraper.png
+  link: https://github.com/OpenMatch/NeuScraper
+  description: This is the code repo for our ACL’24 paper "Cleaner Pretraining Corpus Curation with Neural Web Scraping".
+  repo: OpenMatch/NeuScraper
   group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
-
-- title: Cool Tutorial
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
-    - publication
-
-- title: Cool Web App
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - software
-
-- title: Cool Web Server
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - software

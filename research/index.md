@@ -7,21 +7,18 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+<div style="text-align: center">欢迎来到东北大学信息检索团队（NEUIR）</div>
 
-{% include section.html %}
+<div style="text-align: center">我们是一个由学生和教师组成的充满激情、兼容并蓄和富有创造力的团队</div>
 
-## Highlighted
-
-{% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %}
-
-{% include section.html %}
-
-## All
+## ALL
 
 {% include search-box.html %}
 
 {% include search-info.html %}
 
-{% include list.html data="citations" component="citation" style="rich" %}
+## Conference
+{% include list.html data="citations" component="citation" filters="publisher: .*Proceedings.*" %}
+
+## Journal
+{% include list.html data="citations" component="citation" filters="publisher: .*Journal.*" %}

@@ -133,6 +133,8 @@ for index, source in enumerate(sources):
 
     # source id
     _id = get_safe(source, "id", "").strip()
+    print(_id)
+    print(source)
 
     # Manubot doesn't work without an id
     if _id:
