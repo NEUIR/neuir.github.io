@@ -1,16 +1,16 @@
 # site properties and page defaults
-title: NEUIRDESCRIPTION=An engaging 1-3 sentence description of your lab.
-subtitle: 
-description: 
+title: 东北大学信息检索小组
+subtitle: NEUIR
+description: 欢迎来到东北大学信息检索团队（NEUIR）</br>我们是一个由学生和教师组成的充满激情、兼容并蓄和富有创造力的团队
 header: images/school.jpg
 footer: images/school.jpg
 proofer: false
 
 # site social media and other links
 links:
-  email: contact@NEUIRDESCRIPTION=An engaging 1-3 sentence description of your lab..com
+  email: liuzhenghao@mail.neu.edu.cn
   google-scholar: 4vrZRk0AAAAJ
-  github: NEUIRDESCRIPTION=An engaging 1-3 sentence description of your lab.
+  github: https://github.com/NEUIR/
 
 ### jekyll settings
 

@@ -1,5 +1,5 @@
 
-# NEUIRDESCRIPTION=An engaging 1-3 sentence description of your lab.'s Website
+# NEUIR
 
 Visit **[neuir.github.io](https://neuir.github.io)** 🚀
 
