@@ -1,5 +1,5 @@
 
-# NEUIR
+# NEUIR Lab Website
 
 Visit **[neuir.github.io](https://neuir.github.io)** 🚀
 
