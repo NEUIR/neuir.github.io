@@ -1,29 +1,110 @@
 - title: OpenMatch
-  subtitle: 
+  subtitle: SIGIR 2023
   image: images/projects/openmatch.png
   link: https://github.com/OpenMatch/OpenMatch
   description: An Open-Source Package for Information Retrieval
   repo: OpenMatch/OpenMatch
+  group: SIGIR
 
 - title: ActiveRAG
   subtitle: 
   image: images/projects/activerag.png
   link: https://github.com/OpenMatch/ActiveRAG
-  description: This is the code repo for our paper "Revealing the Treasures of Knowledge via Active Learning".
+  description: Revealing the Treasures of Knowledge via Active Learning
   repo: OpenMatch/NeuScraper
 
 - title: MARVEL
-  subtitle: ACL 2024
+  subtitle: ACL 2024 (<span style="color:red">oral</span>)
   image: images/projects/marvel.png
   link: https://github.com/OpenMatch/MARVEL
-  description: 'This is the code repo for our ACL’24 paper "MARVEL: Unlocking the Multi-Modal Capability of Dense Retrieval via Visual Module Plugin".'
+  description: 'MARVEL: Unlocking the Multi-Modal Capability of Dense Retrieval via Visual Module Plugin'
   repo: OpenMatch/MARVEL
-  group: featured
+  group: ACL
 
 - title: NeuScraper
-  subtitle: ACL 2024
+  subtitle: ACL 2024 (<span style="color:red">oral</span>)
   image: images/projects/neuscraper.png
   link: https://github.com/OpenMatch/NeuScraper
-  description: This is the code repo for our ACL’24 paper "Cleaner Pretraining Corpus Curation with Neural Web Scraping".
+  description: Cleaner Pretraining Corpus Curation with Neural Web Scraping
   repo: OpenMatch/NeuScraper
-  group: featured
+  group: ACL
+
+- title: INTERVENOR
+  subtitle: ACL 2024
+  image: images/projects/intervenor.png
+  link: https://github.com/NEUIR/INTERVENOR
+  description: 'INTERVENOR: Prompt the Coding Ability of Large Language Models with the Interactive Chain of Repairing'
+  repo: NEUIR/INTERVENOR
+  group: ACL
+
+- title: P3Ranker
+  subtitle: SIGIR 2022
+  image: images/projects/p3ranker.png
+  link: https://github.com/NEUIR/P3Ranker
+  description: 'P3 Ranker: Mitigating the Gaps between Pre-training and Ranking Fine-tuning with Prompt-based Learning and Pre-finetuning'
+  repo: NEUIR/P3Ranker
+  group: SIGIR
+
+- title: ConAE
+  subtitle: EMNLP 2022
+  image: images/projects/conae.png
+  link: https://github.com/NEUIR/ConAE
+  description: Dimension Reduction for Efficient Dense Retrieval via Conditional Autoencoder
+  repo: NEUIR/ConAE
+  group: EMNLP
+
+- title: Self-Guide
+  subtitle: CCL 2024
+  image: images/projects/selfguide.png
+  link: https://github.com/NEUIR/Self-Guide
+  description: 'Self-Guide: A LLM Reasoning Enhancement Method Based on Self-Guided Planning'
+  repo: NEUIR/Self-Guide
+  group: CCL
+
+- title: CO-GAT
+  subtitle: TBD 2024
+  image: images/projects/cogat.png
+  link: https://github.com/NEUIR/CO-GAT
+  description: Multi-Evidence based Fact Verification via A Confidential Graph Neural Network
+  repo: NEUIR/CO-GAT
+  group: TBD
+
+- title: DebugEval
+  subtitle: 
+  image: images/projects/debugeval.png
+  link: https://github.com/NEUIR/DebugEval
+  description: Enhancing the Code Debugging Ability of LLMs via Communicative Agent Based Data Refinement
+  repo: NEUIR/DebugEval
+
+- title: UniVL-DR
+  subtitle: ICLR 2023
+  image: images/projects/univldr.png
+  link: https://github.com/OpenMatch/UniVL-DR
+  description: 'Universal Vision-Language Dense Retrieval: Learning A Unified Representation Space for Multi-Modal Retrieval'
+  repo: OpenMatch/UniVL-DR
+  group: ICLR
+
+- title: SANTA
+  subtitle: ACL 2023
+  image: images/projects/santa.png
+  link: https://github.com/OpenMatch/SANTA
+  description: Structure-Aware Language Model Pretraining Improves Dense Retrieval on Structured Data
+  repo: OpenMatch/SANTA
+  group: ACL
+
+- title: TASTE
+  subtitle: CIKM 2023
+  image: images/projects/taste.png
+  link: https://github.com/OpenMatch/TASTE
+  description: Text Matching Improves Sequential Recommendation by Reducing Popularity Biases
+  repo: OpenMatch/TASTE
+  group: CIKM
+
+- title: FiT5
+  subtitle: COLING 2024
+  image: images/projects/fit5.png
+  link: https://github.com/OpenMatch/FiT5
+  description: 'Fusion-in-T5: Unifying Variant Signals for Simple and Effective Document Ranking with Attention Fusion'
+  repo: OpenMatch/FiT5
+  group: COLING
+
