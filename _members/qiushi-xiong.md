@@ -2,6 +2,7 @@
 name: Qiushi Xiong
 image: images/headshots/qiushi_xiong.jpg
 role: ms
+year: 2023
 links:
   email: xiongqiushi@stumail.neu.edu.cn
   home-page: https://qiushixiong.github.io/

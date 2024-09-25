@@ -2,6 +2,7 @@
 name: Zhenghao Liu
 image: images/headshots/zhenghao_liu.jpg
 role: pi
+year: 2021
 links:
   email: liuzhenghao@mail.neu.edu.cn
   home-page: https://edwardzh.github.io

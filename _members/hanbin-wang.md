@@ -2,6 +2,7 @@
 name: Hanbin Wang
 image: images/headshots/hanbin_wang.jpg
 role: graduated
+year: 2023
 links:
   email: wanghanbin95@163.com
   home-page: https://wanghanbinpanda.github.io/

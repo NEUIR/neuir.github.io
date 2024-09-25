@@ -41,13 +41,13 @@ Our research interests are very extensive, including information retrieval, mult
   include feature.html
   image="images/home/1.jpg"
   link="research"
-  title="Reseearch"
+  title="Research"
   text=text
 %}
 
 {% capture text %}
 
-We have carried out close academic cooperation and exchanges with research institutions such as THUNLP, Beijing Advanced  Innovation Center for Language Resources, OpenBMB, Qiyuan Lab and Alibaba.
+We have carried out close academic cooperation and exchanges with research institutions such as THUNLP, Beijing Advanced  Innovation Center for Language Resources, OpenBMB, Qiyuan AI Lab and Alibaba.
 
 {%
   include button.html
