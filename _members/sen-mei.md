@@ -1,5 +1,5 @@
 ---
-name: Sen Mei
+name: Sen Mei (梅森)
 image: images/headshots/sen_mei.jpg
 role: ms
 year: 2022

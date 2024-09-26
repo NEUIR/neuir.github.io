@@ -72,7 +72,7 @@ We have carried out close academic cooperation and exchanges with research insti
 
 {% capture text %}
 
-NEUIR is led by Professor Ge Yu and Associate Professor Zhenghao Liu, and has more than 20 members.
+NEUIR is led by Professor [Ge Yu (于戈)](https://scholar.google.com/citations?hl=en&user=HClMOmUAAAAJ) and Associate Professor [Zhenghao Liu (刘正皓)](https://scholar.google.com/citations?user=4vrZRk0AAAAJ&hl=en), and has more than 20 members.
 
 {%
   include button.html

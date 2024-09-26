@@ -1,5 +1,5 @@
 ---
-name: Shuliang Liu
+name: Shuliang Liu (刘书良)
 image: images/headshots/shuliang_liu.jpg
 role: ms
 year: 2024

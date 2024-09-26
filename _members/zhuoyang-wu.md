@@ -1,5 +1,5 @@
 ---
-name: Zhuoyang Wu
+name: Zhuoyang Wu (武卓阳)
 image: images/headshots/zhuoyang_wu.jpg
 role: ms
 year: 2024

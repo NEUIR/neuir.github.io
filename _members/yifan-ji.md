@@ -1,5 +1,5 @@
 ---
-name: Yifan Ji
+name: Yifan Ji (季伊凡)
 image: images/headshots/yifan_ji.jpg
 role: ms
 year: 2024

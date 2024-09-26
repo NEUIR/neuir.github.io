@@ -1,5 +1,5 @@
 ---
-name: Qiushi Xiong
+name: Qiushi Xiong (熊秋实)
 image: images/headshots/qiushi_xiong.jpg
 role: ms
 year: 2023

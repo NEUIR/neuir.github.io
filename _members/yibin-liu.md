@@ -1,5 +1,5 @@
 ---
-name: Yibin Liu
+name: Yibin Liu (刘艺彬)
 image: images/headshots/yibin_liu.jpg
 role: bs
 year: 2023

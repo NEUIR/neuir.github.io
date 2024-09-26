@@ -302,12 +302,11 @@
   link: 'https://scholar.google.com/scholar?q=Chameleon: Towards Update-Efficient
     Learned Indexing for Locally Skewed Data'
   publisher: Proceedings of ICDE
-  title: 'Chameleon: Towards Update-Efficient Learned Indexing for Locally Skewed
-    Data'
+  title: 'Chameleon: Towards Update-Efficient Learned Indexing for Locally Skewed Data'
 - authors:
   - Yuqing Lan
   - Zhenghao Liu
-  - Yu GU
+  - Yu Gu
   - Xiaoyuan Yi
   - Xiaohua Li
   - Liner Yang

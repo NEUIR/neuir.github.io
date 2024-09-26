@@ -1,5 +1,5 @@
 ---
-name: Zhipeng Xu
+name: Zhipeng Xu (徐志鹏)
 image: images/headshots/zhipeng_xu.png
 role: ms
 year: 2023

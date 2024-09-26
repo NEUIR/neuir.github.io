@@ -1,5 +1,5 @@
 ---
-name: Tianshuo Zhou
+name: Tianshuo Zhou (周天硕)
 image: images/headshots/tianshuo_zhou.png
 role: ms
 year: 2022

@@ -1,5 +1,5 @@
 ---
-name: Shaohua Duan
+name: Shaohua Duan (段少华)
 image: images/headshots/shaohua_duan.jpg
 role: ms
 year: 2024

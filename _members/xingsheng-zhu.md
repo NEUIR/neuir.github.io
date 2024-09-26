@@ -1,5 +1,5 @@
 ---
-name: Xingsheng Zhu
+name: Xingsheng Zhu (朱兴盛)
 image: images/headshots/xingsheng_zhu.jpg
 role: ms
 year: 2024

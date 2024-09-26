@@ -1,5 +1,5 @@
 ---
-name: Haidong Xin
+name: Haidong Xin (辛海东)
 image: images/headshots/haidong_xin.png
 role: ms
 year: 2024

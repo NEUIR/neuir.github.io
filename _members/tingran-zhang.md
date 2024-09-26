@@ -1,5 +1,5 @@
 ---
-name: Tingran Zhang
+name: Tingran Zhang (张听然)
 image: images/headshots/tingran_zhang.jpg
 role: bs
 year: 2023

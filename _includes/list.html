@@ -8,6 +8,10 @@
 <!-- 对数据按照 year 字段进行排序 -->
 {% assign sorted_data = data | sort: "year" %}
 
+{% if include.data == "citations" %}
+  {% assign sorted_data = data | sort: "date" | reverse %}
+{% endif %}
+
 {% for d in sorted_data %}
   {% assign style = d.style | default: include.style %}
 

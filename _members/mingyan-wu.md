@@ -1,5 +1,5 @@
 ---
-name: Mingyan Wu
+name: Mingyan Wu (伍铭妍)
 image: images/headshots/mingyan_wu.jpg
 role: ms
 year: 2024
