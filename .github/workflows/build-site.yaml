@@ -8,6 +8,11 @@ on:
   # run if user manually requests it
   workflow_dispatch:
 
+  # push to dev branch
+  push:
+    branches:
+      - dev
+
 # variables
 env:
   PREVIEWS_FOLDER: preview
