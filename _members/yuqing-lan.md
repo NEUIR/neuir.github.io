@@ -1,5 +1,6 @@
 ---
-name: Yuqing Lan (兰宇晴)
+name: Yuqing Lan
+name_cn: 兰宇晴
 image: images/headshots/yuqing_lan.jpg
 role: phd
 year: 2020

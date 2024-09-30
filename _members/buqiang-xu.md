@@ -1,5 +1,6 @@
 ---
-name: Buqiang Xu (徐步强)
+name: Buqiang Xu
+name_cn: 徐步强
 image: images/headshots/buqiang_xu.jpg
 role: bs
 year: 2024

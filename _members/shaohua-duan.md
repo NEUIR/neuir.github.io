@@ -1,8 +1,9 @@
 ---
-name: Shaohua Duan (段少华)
+name: Shaohua Duan
+name_cn: 段少华
 image: images/headshots/shaohua_duan.jpg
 role: ms
-year: 2024
+year: 307
 links:
   email: 2471995@stu.neu.edu.cn
 ---

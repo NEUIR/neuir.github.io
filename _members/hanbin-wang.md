@@ -1,5 +1,6 @@
 ---
-name: Hanbin Wang (王汉彬)
+name: Hanbin Wang
+name_cn: 王汉彬
 image: images/headshots/hanbin_wang.jpg
 role: graduated
 year: 2023

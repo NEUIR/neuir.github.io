@@ -1,8 +1,9 @@
 ---
-name: Xingsheng Zhu (朱兴盛)
+name: Xingsheng Zhu
+name_cn: 朱兴盛
 image: images/headshots/xingsheng_zhu.jpg
 role: ms
-year: 2024
+year: 304
 links:
   email: zhuxingsheng@stumail.neu.edu.cn
 ---

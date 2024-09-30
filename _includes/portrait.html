@@ -30,7 +30,11 @@
       {% include fallback.html %}
     >
 
-    {% if member.name %}
+    {% if member.name and member.name_cn %}
+      <span class="portrait-name">
+        {{ member.name | append: " (" | append: member.name_cn | append: ")" }}
+      </span>
+    {% else if member.name %}
       <span class="portrait-name">
         {{ member.name }}
       </span>

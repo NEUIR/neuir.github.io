@@ -1,8 +1,9 @@
 ---
-name: Zhuoyang Wu (武卓阳)
+name: Zhuoyang Wu
+name_cn: 武卓阳
 image: images/headshots/zhuoyang_wu.jpg
 role: ms
-year: 2024
+year: 305
 links:
   email: wuzhuoyang@stumail.neu.edu.cn
 ---

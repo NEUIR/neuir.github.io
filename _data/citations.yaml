@@ -1,4 +1,131 @@
 - authors:
+  - Liner Yang
+  - Maosong Sun
+  - Jiacheng Zhang
+  - Zhenghao Liu
+  - Huanbo Luan
+  - Yang Liu
+  date: '2017-01-01'
+  link: https://scholar.google.com/scholar?q=Neural Parse Combination
+  publisher: Journal of Computer Science and Technology
+  title: Neural Parse Combination
+- authors:
+  - Zhanghao Liu
+  - Chenyan Xiong
+  - Maosong Sun
+  - Zhiyuan Liu
+  date: '2018-01-01'
+  link: 'https://scholar.google.com/scholar?q=Entity-Duet Neural Ranking: Understanding the Role of Knowledge Graph Semantics in Neural Information Retrieval'
+  publisher: Proceedings of ACL
+  title: 'Entity-Duet Neural Ranking: Understanding the Role of Knowledge Graph Semantics in Neural Information Retrieval'
+- authors:
+  - Yuan Yao
+  - Deming Ye
+  - Peng Li
+  - Xu Han
+  - Yankai Lin
+  - Zhenghao Liu
+  - Zhiyuan Liu
+  - Lixin Huang
+  - Jie Zhou
+  - Maosong Sun
+  date: '2019-01-01'
+  link: 'https://scholar.google.com/scholar?q=DocRED: A Large-Scale Document-Level Relation Extraction Dataset'
+  publisher: Proceedings of ACL
+  title: 'DocRED: A Large-Scale Document-Level Relation Extraction Dataset'
+- authors:
+  - Zhenghao Liu
+  - Chenyan Xiong
+  - Maosong Sun
+  - Zhiyuan Liu
+  date: '2019-01-01'
+  link: 'https://scholar.google.com/scholar?q=Explore Entity Embedding Effectiveness in Entity Retrieval'
+  publisher: Proceedings of CCL
+  title: 'Explore Entity Embedding Effectiveness in Entity Retrieval'
+- authors:
+  - Deming Ye
+  - Yankai Lin
+  - Jiaju Du
+  - Zhenghao Liu
+  - Peng Li
+  - Maosong Sun
+  - Zhiyuan Liu
+  date: '2020-01-01'
+  link: 'https://scholar.google.com/scholar?q=Coreferential Reasoning Learning for Language Representation'
+  publisher: Proceedings of EMNLP
+  title: 'Coreferential Reasoning Learning for Language Representation'
+- authors:
+  - Kaitao Zhang
+  - Chenyan Xiong
+  - Zhenghao Liu
+  - Zhiyuan Liu
+  date: '2020-01-01'
+  link: 'https://scholar.google.com/scholar?q=Text Style Transfer via Learning Style Instance Supported Latent Space'
+  publisher: Proceedings of IJCAI
+  title: 'Text Style Transfer via Learning Style Instance Supported Latent Space'
+- authors:
+  - Houyu Zhang
+  - Zhenghao Liu
+  - Chenyan Xiong
+  - Zhiyuan Liu
+  date: '2020-01-01'
+  link: 'https://scholar.google.com/scholar?q=Grounded Conversation Generation as Guided Traverses in Commonsense Knowledge Graphs'
+  publisher: Proceedings of ACL
+  title: 'Grounded Conversation Generation as Guided Traverses in Commonsense Knowledge Graphs'
+- authors:
+  - Zhenghao Liu
+  - Chenyan Xiong
+  - Zhuyun Dai
+  - Si Sun
+  - Maosong Sun
+  - Zhiyuan Liu
+  date: '2020-01-01'
+  link: 'https://scholar.google.com/scholar?q=Adapting Open Domain Fact Extraction and Verification to COVID-FACT through In-Domain Language Modeling'
+  publisher: Proceedings of EMNLP (Findings)
+  title: 'Adapting Open Domain Fact Extraction and Verification to COVID-FACT through In-Domain Language Modeling'
+- authors:
+  - Zhenghao Liu
+  - Chenyan Xiong
+  - Maosong Sun
+  - Zhiyuan Liu
+  date: '2020-01-01'
+  link: 'https://scholar.google.com/scholar?q=Fine-grained Fact Verification with Kernel Graph Attention Network'
+  publisher: Proceedings of ACL
+  title: 'Fine-grained Fact Verification with Kernel Graph Attention Network'
+- authors:
+  - Huiyuan Xie
+  - Zhenghao Liu
+  - Chenyan Xiong
+  - Zhiyuan Liu
+  - Ann Copestake
+  date: '2021-01-01'
+  link: 'https://scholar.google.com/scholar?q=TIAGE: A Benchmark for Topic-Shift Aware Dialog Modeling'
+  publisher: Proceedings of EMNLP (Findings)
+  title: 'TIAGE: A Benchmark for Topic-Shift Aware Dialog Modeling'
+- authors:
+  - Si Sun
+  - Yingzhuo Qian
+  - Zhenghao Liu
+  - Chenyan Xiong
+  - Kaitao Zhang
+  - Jie Bao
+  - Zhiyuan Liu
+  - Paul Bennett
+  date: '2021-01-01'
+  link: 'https://scholar.google.com/scholar?q=Few-Shot Text Ranking with Meta Adapted Synthetic Weak Supervision'
+  publisher: Proceedings of ACL-IJCNLP
+  title: 'Few-Shot Text Ranking with Meta Adapted Synthetic Weak Supervision'
+- authors:
+  - Si Sun
+  - Zhenghao Liu
+  - Chenyan Xiong
+  - Zhiyuan Liu
+  - Jie Bao
+  date: '2021-01-01'
+  link: 'https://scholar.google.com/scholar?q=Capturing Global Informativeness in Open Domain Keyphrase Extraction'
+  publisher: Proceedings of NLPCC
+  title: 'Capturing Global Informativeness in Open Domain Keyphrase Extraction'
+- authors:
   - Shi Yu
   - Zhenghao Liu
   - Chenyan Xiong
@@ -37,35 +164,9 @@
   - Zhiyuan Liu
   - Maosong Sun
   date: '2021-01-01'
-  link: 'https://scholar.google.com/scholar?q=OpenMatch: An Open Source Library for
-    Neu-IR Research'
+  link: 'https://scholar.google.com/scholar?q=OpenMatch: An Open Source Library for Neu-IR Research'
   publisher: Proceedings of SIGIR
   title: 'OpenMatch: An Open Source Library for Neu-IR Research'
-- authors:
-  - Si Sun
-  - Yingzhuo Qian
-  - Zhenghao Liu
-  - Chenyan Xiong
-  - Kaitao Zhang
-  - Jie Bao
-  - Zhiyuan Liu
-  - Paul Bennett
-  date: '2021-01-01'
-  link: https://scholar.google.com/scholar?q=Few-Shot Text Ranking with Meta Adapted
-    Synthetic Weak Supervision
-  publisher: Proceedings of ACL
-  title: Few-Shot Text Ranking with Meta Adapted Synthetic Weak Supervision
-- authors:
-  - Huiyuan Xie
-  - Zhenghao Liu
-  - Chenyan Xiong
-  - Zhiyaun Liu
-  - Ann Copestake
-  date: '2021-01-01'
-  link: 'https://scholar.google.com/scholar?q=TIAGE: A Benchmark for Topic-Shift Aware
-    Dialog Modeling'
-  publisher: Proceedings of EMNLP (Findings)
-  title: 'TIAGE: A Benchmark for Topic-Shift Aware Dialog Modeling'
 - authors:
   - Zhenghao Liu
   - Han Zhang

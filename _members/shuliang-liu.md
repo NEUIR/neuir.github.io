@@ -1,8 +1,9 @@
 ---
-name: Shuliang Liu (刘书良)
+name: Shuliang Liu
+name_cn: 刘书良
 image: images/headshots/shuliang_liu.jpg
 role: ms
-year: 2024
+year: 306
 links:
   email: liushuliang@stumail.neu.edu.cn
 ---

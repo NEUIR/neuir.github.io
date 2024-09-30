@@ -1,5 +1,6 @@
 ---
-name: Zhenghao Liu (刘正皓)
+name: Zhenghao Liu
+name_cn: 刘正皓
 image: images/headshots/zhenghao_liu.jpg
 role: pi
 year: 2021

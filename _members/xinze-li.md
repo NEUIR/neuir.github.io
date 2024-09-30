@@ -1,5 +1,6 @@
 ---
-name: Xinze Li (李欣泽)
+name: Xinze Li
+name_cn: 李欣泽
 image: images/headshots/xinze_li.jpg
 role: phd
 year: 2024

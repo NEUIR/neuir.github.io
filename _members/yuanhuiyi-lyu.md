@@ -1,5 +1,6 @@
 ---
-name: Yuanhuiyi Lyu (吕原汇一)
+name: Yuanhuiyi Lyu
+name_cn: 吕原汇一
 image: images/headshots/yuanhuiyi_lyu.png
 role: graduated
 year: 2021

@@ -1,8 +1,9 @@
 ---
-name: Zhipeng Xu (徐志鹏)
+name: Zhipeng Xu
+name_cn: 徐志鹏
 image: images/headshots/zhipeng_xu.png
 role: ms
-year: 2023
+year: 201
 links:
   email: xuzhipeng@stumail.neu.edu.cn
   home-page: https://pab1x.github.io/

@@ -1,8 +1,9 @@
 ---
-name: Mingyan Wu (伍铭妍)
+name: Mingyan Wu
+name_cn: 伍铭妍
 image: images/headshots/mingyan_wu.jpg
 role: ms
-year: 2024
+year: 302
 links:
   email: mignonmiyoung@gmail.com
 ---

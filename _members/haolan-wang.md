@@ -1,8 +1,9 @@
 ---
-name: Haolan Wang (王灏岚)
+name: Haolan Wang
+name_cn: 王灏岚
 image: images/headshots/haolan_wang.jpg
 role: ms
-year: 2023
+year: 204
 ---
 
 This is Haolan Wang's Personal Page.

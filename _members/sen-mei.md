@@ -1,8 +1,9 @@
 ---
-name: Sen Mei (梅森)
+name: Sen Mei
+name_cn: 梅森
 image: images/headshots/sen_mei.jpg
 role: ms
-year: 2022
+year: 101
 links:
   email: meisen@stumail.neu.edu.cn
   home-page: https://mssssss123.github.io/

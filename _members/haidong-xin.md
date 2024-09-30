@@ -1,8 +1,9 @@
 ---
-name: Haidong Xin (辛海东)
+name: Haidong Xin
+name_cn: 辛海东
 image: images/headshots/haidong_xin.png
 role: ms
-year: 2024
+year: 301
 links:
   email: xinhaidong@stumail.neu.edu.cn
   home-page: https://xinhaidong.top
