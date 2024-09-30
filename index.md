@@ -47,7 +47,7 @@ Our research interests are very extensive, including information retrieval, mult
 
 {% capture text %}
 
-We have carried out close academic cooperation and exchanges with research institutions such as THUNLP, Beijing Advanced  Innovation Center for Language Resources, OpenBMB, Qiyuan AI Lab and Alibaba.
+We have carried out close academic cooperation and exchanges with research institutions such as [THUNLP](https://nlp.csai.tsinghua.edu.cn), [Beijing Advanced Innovation Center for Language Resources](http://yuyanziyuan.blcu.edu.cn/en/),[OpenBMB](https://www.openbmb.cn/home), [Qiyuan Lab](https://qiyuanzp.zhiye.com) and Alibaba.
 
 {%
   include button.html
