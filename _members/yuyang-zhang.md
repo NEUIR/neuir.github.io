@@ -5,7 +5,7 @@ image: images/headshots/yuyang_zhang.jpg
 role: bs
 year: 2024
 links:
-  email: 
+  email: 20224736@stu.neu.edu.cn
 ---
 
 This is Yuyang Zhang's Personal Page.

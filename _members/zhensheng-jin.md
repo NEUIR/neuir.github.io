@@ -5,7 +5,7 @@ image: images/headshots/zhensheng_jin.jpg
 role: ms
 year: 401
 links:
-  email: 
+  email: jinzhensheng60@gmail.com
 ---
 
 This is Zhensheng Jin's Personal Page.
