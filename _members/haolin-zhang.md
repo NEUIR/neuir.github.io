@@ -5,7 +5,7 @@ image: images/headshots/haolin_zhang.jpg
 role: ms
 year: 406
 links:
-  email: 
+  email: Zhl2147483647@outlook.com
 ---
 
 This is Haolin Zhang's Personal Page.

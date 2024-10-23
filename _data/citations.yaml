@@ -409,3 +409,14 @@
   link: 'https://scholar.google.com/scholar?q=CHGNN: A Semi-Supervised Contrastive Hypergraph Learning Network'
   publisher: Journal of IEEE Transactions on Knowledge and Data Engineering
   title: 'CHGNN: A Semi-Supervised Contrastive Hypergraph Learning Network'
+- authors:
+  - Cheng Gao
+  - Chaojun Xiao
+  - Zhenghao Liu
+  - Huimin Chen
+  - Zhiyuan Liu
+  - Maosong Sun
+  date: '2024-01-01'
+  link: 'https://scholar.google.com/scholar?q=Enhancing Legal Case Retrieval via Scaling High-quality Synthetic Query-Candidate Pairs'
+  publisher: Proceedings of EMNLP
+  title: 'Enhancing Legal Case Retrieval via Scaling High-quality Synthetic Query-Candidate Pairs'
