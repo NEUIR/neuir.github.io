@@ -420,3 +420,17 @@
   link: 'https://scholar.google.com/scholar?q=Enhancing Legal Case Retrieval via Scaling High-quality Synthetic Query-Candidate Pairs'
   publisher: Proceedings of EMNLP
   title: 'Enhancing Legal Case Retrieval via Scaling High-quality Synthetic Query-Candidate Pairs'
+- authors:
+  - Xinze Li
+  - Hanbin Wang
+  - Zhenghao Liu
+  - Shi Yu
+  - Shuo Wang
+  - Yukun Yan
+  - Yukai Fu
+  - Yu Gu
+  - Ge Yu
+  date: '2024-01-01'
+  link: 'https://scholar.google.com/scholar?q=Building A Coding Assistant via the Retrieval-Augmented Language Model'
+  publisher: Journal of ACM Transactions on Information Systems
+  title: Building A Coding Assistant via the Retrieval-Augmented Language Model
