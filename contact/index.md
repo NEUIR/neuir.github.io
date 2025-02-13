@@ -1,5 +1,5 @@
 ---
-title: Contact
+title: 加入我们
 nav:
   order: 5
   tooltip: Email, address, and location

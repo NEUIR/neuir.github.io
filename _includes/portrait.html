@@ -32,7 +32,8 @@
 
     {% if member.name and member.name_cn %}
       <span class="portrait-name">
-        {{ member.name | append: " (" | append: member.name_cn | append: ")" }}
+        <!-- {{ member.name | append: " (" | append: member.name_cn | append: ")" }} -->
+        {{ member.name_cn }}
       </span>
     {% else if member.name %}
       <span class="portrait-name">

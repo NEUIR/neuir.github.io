@@ -1,3 +1,4 @@
+# JCST
 - authors:
   - Liner Yang
   - Maosong Sun
@@ -9,6 +10,7 @@
   link: https://scholar.google.com/scholar?q=Neural Parse Combination
   publisher: Journal of Computer Science and Technology
   title: Neural Parse Combination
+# ACL
 - authors:
   - Zhenghao Liu
   - Chenyan Xiong
@@ -34,45 +36,6 @@
   publisher: Proceedings of ACL
   title: 'DocRED: A Large-Scale Document-Level Relation Extraction Dataset'
 - authors:
-  - Zhenghao Liu
-  - Chenyan Xiong
-  - Maosong Sun
-  - Zhiyuan Liu
-  date: '2019-01-01'
-  link: 'https://scholar.google.com/scholar?q=Explore Entity Embedding Effectiveness in Entity Retrieval'
-  publisher: Proceedings of CCL
-  title: 'Explore Entity Embedding Effectiveness in Entity Retrieval'
-- authors:
-  - Deming Ye
-  - Yankai Lin
-  - Jiaju Du
-  - Zhenghao Liu
-  - Peng Li
-  - Maosong Sun
-  - Zhiyuan Liu
-  date: '2020-01-01'
-  link: 'https://scholar.google.com/scholar?q=Coreferential Reasoning Learning for Language Representation'
-  publisher: Proceedings of EMNLP
-  title: 'Coreferential Reasoning Learning for Language Representation'
-- authors:
-  - Kaitao Zhang
-  - Chenyan Xiong
-  - Zhenghao Liu
-  - Zhiyuan Liu
-  date: '2020-01-01'
-  link: 'https://scholar.google.com/scholar?q=Selective Weak Supervision for Neural Information Retrieval'
-  publisher: Proceedings of WebConf
-  title: 'Selective Weak Supervision for Neural Information Retrieval'
-- authors:
-  - Kaitao Zhang
-  - Chenyan Xiong
-  - Zhenghao Liu
-  - Zhiyuan Liu
-  date: '2020-01-01'
-  link: 'https://scholar.google.com/scholar?q=Text Style Transfer via Learning Style Instance Supported Latent Space'
-  publisher: Proceedings of IJCAI
-  title: 'Text Style Transfer via Learning Style Instance Supported Latent Space'
-- authors:
   - Houyu Zhang
   - Zhenghao Liu
   - Chenyan Xiong
@@ -84,33 +47,12 @@
 - authors:
   - Zhenghao Liu
   - Chenyan Xiong
-  - Zhuyun Dai
-  - Si Sun
-  - Maosong Sun
-  - Zhiyuan Liu
-  date: '2020-01-01'
-  link: 'https://scholar.google.com/scholar?q=Adapting Open Domain Fact Extraction and Verification to COVID-FACT through In-Domain Language Modeling'
-  publisher: Proceedings of EMNLP (Findings)
-  title: 'Adapting Open Domain Fact Extraction and Verification to COVID-FACT through In-Domain Language Modeling'
-- authors:
-  - Zhenghao Liu
-  - Chenyan Xiong
   - Maosong Sun
   - Zhiyuan Liu
   date: '2020-01-01'
   link: 'https://scholar.google.com/scholar?q=Fine-grained Fact Verification with Kernel Graph Attention Network'
   publisher: Proceedings of ACL
   title: 'Fine-grained Fact Verification with Kernel Graph Attention Network'
-- authors:
-  - Huiyuan Xie
-  - Zhenghao Liu
-  - Chenyan Xiong
-  - Zhiyuan Liu
-  - Ann Copestake
-  date: '2021-01-01'
-  link: 'https://scholar.google.com/scholar?q=TIAGE: A Benchmark for Topic-Shift Aware Dialog Modeling'
-  publisher: Proceedings of EMNLP (Findings)
-  title: 'TIAGE: A Benchmark for Topic-Shift Aware Dialog Modeling'
 - authors:
   - Si Sun
   - Yingzhuo Qian
@@ -124,100 +66,6 @@
   link: 'https://scholar.google.com/scholar?q=Few-Shot Text Ranking with Meta Adapted Synthetic Weak Supervision'
   publisher: Proceedings of ACL-IJCNLP
   title: 'Few-Shot Text Ranking with Meta Adapted Synthetic Weak Supervision'
-- authors:
-  - Si Sun
-  - Zhenghao Liu
-  - Chenyan Xiong
-  - Zhiyuan Liu
-  - Jie Bao
-  date: '2021-01-01'
-  link: 'https://scholar.google.com/scholar?q=Capturing Global Informativeness in Open Domain Keyphrase Extraction'
-  publisher: Proceedings of NLPCC
-  title: 'Capturing Global Informativeness in Open Domain Keyphrase Extraction'
-- authors:
-  - Shi Yu
-  - Zhenghao Liu
-  - Chenyan Xiong
-  - Tao Feng
-  - Zhiyuan Liu
-  date: '2021-01-01'
-  link: https://scholar.google.com/scholar?q=Few-Shot Conversational Dense Retrieval
-  publisher: Proceedings of SIGIR
-  title: Few-Shot Conversational Dense Retrieval
-- authors:
-  - Yizhi Li
-  - Zhenghao Liu
-  - Chenyan Xiong
-  - Zhiyuan Liu
-  date: '2021-01-01'
-  link: https://scholar.google.com/scholar?q=More robust dense retrieval with contrastive dual learning
-  publisher: Proceedings of ICTIR
-  title: More robust dense retrieval with contrastive dual learning
-- authors:
-  - Zhenghao Liu
-  - Xiaoyuan Yi
-  - Maosong Sun
-  - Liner Yang
-  - Tat-Seng Chua
-  date: '2021-01-01'
-  link: https://scholar.google.com/scholar?q=Neural Quality Estimation with Multiple Hypotheses for Grammatical Error Correction
-  publisher: Proceedings of NAACL
-  title: Neural Quality Estimation with Multiple Hypotheses for Grammatical Error Correction
-- authors:
-  - Zhenghao Liu
-  - Kaitao Zhang
-  - Chenyan Xiong
-  - Zhiyuan Liu
-  - Maosong Sun
-  date: '2021-01-01'
-  link: 'https://scholar.google.com/scholar?q=OpenMatch: An Open Source Library for Neu-IR Research'
-  publisher: Proceedings of SIGIR
-  title: 'OpenMatch: An Open Source Library for Neu-IR Research'
-- authors:
-  - Zhenghao Liu
-  - Han Zhang
-  - Chenyan Xiong
-  - Zhiyuan Liu
-  - Yu Gu
-  - Xiaohua Li
-  date: '2022-01-01'
-  link: https://scholar.google.com/scholar?q=Dimension Reduction for Efficient Dense Retrieval via Conditional Autoencoder
-  publisher: Proceedings of EMNLP
-  title: Dimension Reduction for Efficient Dense Retrieval via Conditional Autoencoder
-- authors:
-  - Xiaomeng Hu
-  - Shi Yu
-  - Chenyan Xiong
-  - Zhenghao Liu
-  - Zhiyuan Liu
-  - Ge Yu
-  date: '2022-01-01'
-  link: 'https://scholar.google.com/scholar?q=P3 Ranker: Mitigating the Gaps between Pre-training and Ranking Fine-tuning with Prompt-based Learning and Pre-finetuning'
-  publisher: Proceedings of SIGIR
-  title: 'P3 Ranker: Mitigating the Gaps between Pre-training and Ranking Fine-tuning with Prompt-based Learning and Pre-finetuning'
-- authors:
-  - Zhenghao Liu
-  - Chenyan Xiong
-  - Yuanhuiyi Lv
-  - Zhiyuan Liu
-  - Ge Yu
-  date: '2023-01-01'
-  link: 'https://scholar.google.com/scholar?q=Universal Vision-Language Dense Retrieval: Learning A Unified Representation Space for Multi-Modal Retrieval'
-  publisher: Proceedings of ICLR
-  title: 'Universal Vision-Language Dense Retrieval: Learning A Unified Representation Space for Multi-Modal Retrieval'
-- authors:
-  - Zhenghao Liu
-  - Sen Mei
-  - Chenyan Xiong
-  - Xiaohua Li
-  - Shi Yu
-  - Zhiyuan Liu
-  - Yu Gu
-  - Ge Yu
-  date: '2023-01-01'
-  link: https://scholar.google.com/scholar?q=Text Matching Improves Sequential Recommendation by Reducing Popularity Biases
-  publisher: Proceedings of CIKM
-  title: Text Matching Improves Sequential Recommendation by Reducing Popularity Biases
 - authors:
   - Ruining Chong
   - Cunliang Kong
@@ -233,15 +81,6 @@
   publisher: Proceedings of ACL
   title: Leveraging Prefix Transfer for Multi-Intent Text Revision
 - authors:
-  - Shi Yu
-  - Zhenghao Liu
-  - Chenyan Xiong
-  - Zhiyuan Liu
-  date: '2023-01-01'
-  link: 'https://scholar.google.com/scholar?q=Openmatch-v2: An all-in-one multi-modality plm-based information retrieval toolkit'
-  publisher: Proceedings of SIGIR
-  title: 'Openmatch-v2: An all-in-one multi-modality plm-based information retrieval toolkit'
-- authors:
   - Xinze Li
   - Zhenghao Liu
   - Chenyan Xiong
@@ -254,26 +93,6 @@
   publisher: Proceedings of ACL
   title: Structure-Aware Language Model Pretraining Improves Dense Retrieval on Structured Data
 - authors:
-  - Shi Yu
-  - Chenghao Fan
-  - Chenyan Xiong
-  - David Jin
-  - Zhiyuan Liu
-  - Zhenghao Liu
-  date: '2024-01-01'
-  link: 'https://scholar.google.com/scholar?q=Fusion-in-T5: Unifying Document Ranking Signals for Improved Information Retrieval'
-  publisher: Proceedings of COLING
-  title: 'Fusion-in-T5: Unifying Document Ranking Signals for Improved Information Retrieval'
-- authors:
-  - Cheng Qian
-  - Chenyan Xiong
-  - Zhenghao Liu
-  - Zhiyuan Liu
-  date: '2024-01-01'
-  link: 'https://scholar.google.com/scholar?q=Toolink: Linking toolkit creation and using through chain-of-solving on open-source model'
-  publisher: Proceedings of NAACL
-  title: 'Toolink: Linking toolkit creation and using through chain-of-solving on open-source model'
-- authors:
   - Zhipeng Xu
   - Zhenghao Liu
   - Yukun Yan
@@ -284,64 +103,6 @@
   link: https://scholar.google.com/scholar?q=Cleaner Pretraining Corpus Curation with Neural Web Scraping
   publisher: Proceedings of ACL
   title: Cleaner Pretraining Corpus Curation with Neural Web Scraping
-- authors:
-  - Zhenghao Liu
-  - Zulong Chen
-  - Moufeng Zhang
-  - Shaoyang Duan
-  - Hong Wen
-  - Liangyue Li
-  - Nan Li
-  - Yu Gu
-  - Ge Yu
-  date: '2024-01-01'
-  link: 'https://scholar.google.com/scholar?q=Modeling User Viewing Flow Using Large Language Models for Article Recommendation'
-  publisher: Proceedings of WebConf
-  title: Modeling User Viewing Flow Using Large Language Models for Article Recommendation
-- authors:
-  - Hanbin Wang
-  - Zhenghao Liu
-  - Shuo Wang
-  - Ganqu Cui
-  - Ning Ding
-  - Zhiyuan Liu
-  - Ge Yu
-  date: '2024-01-01'
-  link: 'https://scholar.google.com/scholar?q=INTERVENOR: Prompting the Coding Ability of Large Language Models with the Interactive Chain of Repair'
-  publisher: Proceedings of ACL (Findings)
-  title: 'INTERVENOR: Prompting the Coding Ability of Large Language Models with the Interactive Chain of Repair'
-- authors:
-  - Ruining Chong
-  - Luming Lu
-  - Liner Yang
-  - Jinran Nie
-  - Zhenghao Liu
-  - Shuo Wangl
-  - Shuhan Zhou
-  - Yaoxin Li
-  - Erhong Yang
-  date: '2024-01-01'
-  link: 'https://scholar.google.com/scholar?q=MCTS: A Multi-Reference Chinese Text Simplification Dataset'
-  publisher: Proceedings of COLING
-  title: 'MCTS: A Multi-Reference Chinese Text Simplification Dataset'
-- authors:
-  - Zhiyu Yang
-  - Zihan Zhou
-  - Shuo Wang
-  - Xin Cong
-  - Xu Han
-  - Yukun Yan
-  - Zhenghao Liu
-  - Zhixing Tan
-  - Pengyuan Liu
-  - Dong Yu
-  - Zhiyuan Liu
-  - Xiaodong Shi
-  - Maosong Sun
-  date: '2024-01-01'
-  link: 'https://scholar.google.com/scholar?q=MatPlotAgent: Method and Evaluation for LLM-Based Agentic Scientific Data Visualization'
-  publisher: Proceedings of ACL (Findings)
-  title: 'MatPlotAgent: Method and Evaluation for LLM-Based Agentic Scientific Data Visualization'
 - authors:
   - Haoyu Wang
   - Shuo Wang
@@ -372,6 +133,338 @@
   publisher: Proceedings of ACL
   title: 'MARVEL: Unlocking the Multi-Modal Capability of Dense Retrieval via Visual Module Plugin'
 - authors:
+  - Hanbin Wang
+  - Zhenghao Liu
+  - Shuo Wang
+  - Ganqu Cui
+  - Ning Ding
+  - Zhiyuan Liu
+  - Ge Yu
+  date: '2024-01-01'
+  link: 'https://scholar.google.com/scholar?q=INTERVENOR: Prompting the Coding Ability of Large Language Models with the Interactive Chain of Repair'
+  publisher: Proceedings of ACL (Findings)
+  title: 'INTERVENOR: Prompting the Coding Ability of Large Language Models with the Interactive Chain of Repair'
+- authors:
+  - Zhiyu Yang
+  - Zihan Zhou
+  - Shuo Wang
+  - Xin Cong
+  - Xu Han
+  - Yukun Yan
+  - Zhenghao Liu
+  - Zhixing Tan
+  - Pengyuan Liu
+  - Dong Yu
+  - Zhiyuan Liu
+  - Xiaodong Shi
+  - Maosong Sun
+  date: '2024-01-01'
+  link: 'https://scholar.google.com/scholar?q=MatPlotAgent: Method and Evaluation for LLM-Based Agentic Scientific Data Visualization'
+  publisher: Proceedings of ACL (Findings)
+  title: 'MatPlotAgent: Method and Evaluation for LLM-Based Agentic Scientific Data Visualization'
+# CCL
+- authors:
+  - Zhenghao Liu
+  - Chenyan Xiong
+  - Maosong Sun
+  - Zhiyuan Liu
+  date: '2019-01-01'
+  link: 'https://scholar.google.com/scholar?q=Explore Entity Embedding Effectiveness in Entity Retrieval'
+  publisher: Proceedings of CCL
+  title: 'Explore Entity Embedding Effectiveness in Entity Retrieval'
+# EMNLP
+- authors:
+  - Deming Ye
+  - Yankai Lin
+  - Jiaju Du
+  - Zhenghao Liu
+  - Peng Li
+  - Maosong Sun
+  - Zhiyuan Liu
+  date: '2020-01-01'
+  link: 'https://scholar.google.com/scholar?q=Coreferential Reasoning Learning for Language Representation'
+  publisher: Proceedings of EMNLP
+  title: 'Coreferential Reasoning Learning for Language Representation'
+- authors:
+  - Zhenghao Liu
+  - Han Zhang
+  - Chenyan Xiong
+  - Zhiyuan Liu
+  - Yu Gu
+  - Xiaohua Li
+  date: '2022-01-01'
+  link: https://scholar.google.com/scholar?q=Dimension Reduction for Efficient Dense Retrieval via Conditional Autoencoder
+  publisher: Proceedings of EMNLP
+  title: Dimension Reduction for Efficient Dense Retrieval via Conditional Autoencoder
+- authors:
+  - Cheng Gao
+  - Chaojun Xiao
+  - Zhenghao Liu
+  - Huimin Chen
+  - Zhiyuan Liu
+  - Maosong Sun
+  date: '2024-01-01'
+  link: 'https://scholar.google.com/scholar?q=Enhancing Legal Case Retrieval via Scaling High-quality Synthetic Query-Candidate Pairs'
+  publisher: Proceedings of EMNLP
+  title: 'Enhancing Legal Case Retrieval via Scaling High-quality Synthetic Query-Candidate Pairs'
+- authors:
+  - Huiyuan Xie
+  - Zhenghao Liu
+  - Chenyan Xiong
+  - Zhiyuan Liu
+  - Ann Copestake
+  date: '2021-01-01'
+  link: 'https://scholar.google.com/scholar?q=TIAGE: A Benchmark for Topic-Shift Aware Dialog Modeling'
+  publisher: Proceedings of EMNLP (Findings)
+  title: 'TIAGE: A Benchmark for Topic-Shift Aware Dialog Modeling'
+- authors:
+  - Zhenghao Liu
+  - Chenyan Xiong
+  - Zhuyun Dai
+  - Si Sun
+  - Maosong Sun
+  - Zhiyuan Liu
+  date: '2020-01-01'
+  link: 'https://scholar.google.com/scholar?q=Adapting Open Domain Fact Extraction and Verification to COVID-FACT through In-Domain Language Modeling'
+  publisher: Proceedings of EMNLP (Findings)
+  title: 'Adapting Open Domain Fact Extraction and Verification to COVID-FACT through In-Domain Language Modeling'
+# WWW
+- authors:
+  - Kaitao Zhang
+  - Chenyan Xiong
+  - Zhenghao Liu
+  - Zhiyuan Liu
+  date: '2020-01-01'
+  link: 'https://scholar.google.com/scholar?q=Selective Weak Supervision for Neural Information Retrieval'
+  publisher: Proceedings of WWW
+  title: 'Selective Weak Supervision for Neural Information Retrieval'
+- authors:
+  - Zhenghao Liu
+  - Zulong Chen
+  - Moufeng Zhang
+  - Shaoyang Duan
+  - Hong Wen
+  - Liangyue Li
+  - Nan Li
+  - Yu Gu
+  - Ge Yu
+  date: '2024-01-01'
+  link: 'https://scholar.google.com/scholar?q=Modeling User Viewing Flow Using Large Language Models for Article Recommendation'
+  publisher: Proceedings of WWW
+  title: Modeling User Viewing Flow Using Large Language Models for Article Recommendation
+# IJCAI
+- authors:
+  - Kaitao Zhang
+  - Chenyan Xiong
+  - Zhenghao Liu
+  - Zhiyuan Liu
+  date: '2020-01-01'
+  link: 'https://scholar.google.com/scholar?q=Text Style Transfer via Learning Style Instance Supported Latent Space'
+  publisher: Proceedings of IJCAI
+  title: 'Text Style Transfer via Learning Style Instance Supported Latent Space'
+# NLPCC
+- authors:
+  - Si Sun
+  - Zhenghao Liu
+  - Chenyan Xiong
+  - Zhiyuan Liu
+  - Jie Bao
+  date: '2021-01-01'
+  link: 'https://scholar.google.com/scholar?q=Capturing Global Informativeness in Open Domain Keyphrase Extraction'
+  publisher: Proceedings of NLPCC
+  title: 'Capturing Global Informativeness in Open Domain Keyphrase Extraction'
+# SIGIR
+- authors:
+  - Shi Yu
+  - Zhenghao Liu
+  - Chenyan Xiong
+  - Tao Feng
+  - Zhiyuan Liu
+  date: '2021-01-01'
+  link: https://scholar.google.com/scholar?q=Few-Shot Conversational Dense Retrieval
+  publisher: Proceedings of SIGIR
+  title: Few-Shot Conversational Dense Retrieval
+- authors:
+  - Zhenghao Liu
+  - Kaitao Zhang
+  - Chenyan Xiong
+  - Zhiyuan Liu
+  - Maosong Sun
+  date: '2021-01-01'
+  link: 'https://scholar.google.com/scholar?q=OpenMatch: An Open Source Library for Neu-IR Research'
+  publisher: Proceedings of SIGIR
+  title: 'OpenMatch: An Open Source Library for Neu-IR Research'
+- authors:
+  - Xiaomeng Hu
+  - Shi Yu
+  - Chenyan Xiong
+  - Zhenghao Liu
+  - Zhiyuan Liu
+  - Ge Yu
+  date: '2022-01-01'
+  link: 'https://scholar.google.com/scholar?q=P3 Ranker: Mitigating the Gaps between Pre-training and Ranking Fine-tuning with Prompt-based Learning and Pre-finetuning'
+  publisher: Proceedings of SIGIR
+  title: 'P3 Ranker: Mitigating the Gaps between Pre-training and Ranking Fine-tuning with Prompt-based Learning and Pre-finetuning'
+- authors:
+  - Shi Yu
+  - Zhenghao Liu
+  - Chenyan Xiong
+  - Zhiyuan Liu
+  date: '2023-01-01'
+  link: 'https://scholar.google.com/scholar?q=Openmatch-v2: An all-in-one multi-modality plm-based information retrieval toolkit'
+  publisher: Proceedings of SIGIR
+  title: 'Openmatch-v2: An all-in-one multi-modality plm-based information retrieval toolkit'
+# ICTIR
+- authors:
+  - Yizhi Li
+  - Zhenghao Liu
+  - Chenyan Xiong
+  - Zhiyuan Liu
+  date: '2021-01-01'
+  link: https://scholar.google.com/scholar?q=More robust dense retrieval with contrastive dual learning
+  publisher: Proceedings of ICTIR
+  title: More robust dense retrieval with contrastive dual learning
+# NAACL
+- authors:
+  - Zhenghao Liu
+  - Xiaoyuan Yi
+  - Maosong Sun
+  - Liner Yang
+  - Tat-Seng Chua
+  date: '2021-01-01'
+  link: https://scholar.google.com/scholar?q=Neural Quality Estimation with Multiple Hypotheses for Grammatical Error Correction
+  publisher: Proceedings of NAACL
+  title: Neural Quality Estimation with Multiple Hypotheses for Grammatical Error Correction
+- authors:
+  - Cheng Qian
+  - Chenyan Xiong
+  - Zhenghao Liu
+  - Zhiyuan Liu
+  date: '2024-01-01'
+  link: 'https://scholar.google.com/scholar?q=Toolink: Linking toolkit creation and using through chain-of-solving on open-source model'
+  publisher: Proceedings of NAACL
+  title: 'Toolink: Linking toolkit creation and using through chain-of-solving on open-source model'
+- authors:
+  - Weiqing Yang
+  - Hanbin Wang
+  - Zhenghao Liu
+  - Xinze Li
+  - Yukun Yan
+  - Shuo Wang
+  - Yu Gu
+  - Minghe Yu
+  - Zhiyuan Liu
+  - Ge Yu
+  date: '2025-01-01'
+  link: 'https://scholar.google.com/scholar?q=COAST: Enhancing the Code Debugging Ability of LLMs through Communicative Agent Based Data Synthesis'
+  title: 'COAST: Enhancing the Code Debugging Ability of LLMs through Communicative Agent Based Data Synthesis'
+  publisher: Proceedings of NAACL (Findings)
+# ICLR
+- authors:
+  - Zhenghao Liu
+  - Chenyan Xiong
+  - Yuanhuiyi Lv
+  - Zhiyuan Liu
+  - Ge Yu
+  date: '2023-01-01'
+  link: 'https://scholar.google.com/scholar?q=Universal Vision-Language Dense Retrieval: Learning A Unified Representation Space for Multi-Modal Retrieval'
+  publisher: Proceedings of ICLR
+  title: 'Universal Vision-Language Dense Retrieval: Learning A Unified Representation Space for Multi-Modal Retrieval'
+- authors:
+  - Xinze Li
+  - Sen Mei
+  - Zhenghao Liu
+  - Yukun Yan
+  - Shuo Wang
+  - Shi Yu
+  - Zheni Zeng
+  - Hao Chen
+  - Ge Yu
+  - Zhiyuan Liu
+  - Maosong Sun
+  - Chenyan Xiong
+  date: '2025-01-01'
+  link: 'https://scholar.google.com/scholar?q=RAG-DDR: Optimizing Retrieval-Augmented Generation Using Differentiable Data Rewards'
+  title: 'RAG-DDR: Optimizing Retrieval-Augmented Generation Using Differentiable Data Rewards'
+  publisher: Proceedings of ICLR
+- authors:
+  - Shi Yu
+  - Chaoyue Tang
+  - Bokai Xu
+  - Junbo Cui
+  - Junhao Ran
+  - Yukun Yan
+  - Zhenghao Liu
+  - Shuo Wang
+  - Xu Han
+  - Zhiyuan Liu
+  - Maosong Sun
+  date: '2025-01-01'
+  link: 'https://scholar.google.com/scholar?q=Visrag: Vision-based retrieval-augmented generation on multi-modality documents'
+  title: 'Visrag: Vision-based retrieval-augmented generation on multi-modality documents'
+  publisher: Proceedings of ICLR
+- authors:
+  - Lifan Yuan
+  - Ganqu Cui
+  - Hanbin Wang
+  - Ning Ding
+  - Xingyao Wang
+  - Jia Deng
+  - Boji Shan
+  - Huimin Chen
+  - Ruobing Xie
+  - Yankai Lin
+  - Zhenghao Liu
+  - Bowen Zhou
+  - Hao Peng
+  - Zhiyuan Liu
+  - Maosong Sun
+  date: '2025-01-01'
+  link: 'https://scholar.google.com/scholar?q=Advancing llm reasoning generalists with preference trees'
+  title: 'Advancing llm reasoning generalists with preference trees'
+  publisher: Proceedings of ICLR
+# CIKM
+- authors:
+  - Zhenghao Liu
+  - Sen Mei
+  - Chenyan Xiong
+  - Xiaohua Li
+  - Shi Yu
+  - Zhiyuan Liu
+  - Yu Gu
+  - Ge Yu
+  date: '2023-01-01'
+  link: https://scholar.google.com/scholar?q=Text Matching Improves Sequential Recommendation by Reducing Popularity Biases
+  publisher: Proceedings of CIKM
+  title: Text Matching Improves Sequential Recommendation by Reducing Popularity Biases
+# COLING
+- authors:
+  - Shi Yu
+  - Chenghao Fan
+  - Chenyan Xiong
+  - David Jin
+  - Zhiyuan Liu
+  - Zhenghao Liu
+  date: '2024-01-01'
+  link: 'https://scholar.google.com/scholar?q=Fusion-in-T5: Unifying Document Ranking Signals for Improved Information Retrieval'
+  publisher: Proceedings of COLING
+  title: 'Fusion-in-T5: Unifying Document Ranking Signals for Improved Information Retrieval'
+- authors:
+  - Ruining Chong
+  - Luming Lu
+  - Liner Yang
+  - Jinran Nie
+  - Zhenghao Liu
+  - Shuo Wangl
+  - Shuhan Zhou
+  - Yaoxin Li
+  - Erhong Yang
+  date: '2024-01-01'
+  link: 'https://scholar.google.com/scholar?q=MCTS: A Multi-Reference Chinese Text Simplification Dataset'
+  publisher: Proceedings of COLING
+  title: 'MCTS: A Multi-Reference Chinese Text Simplification Dataset'
+# ICDE
+- authors:
   - Na Guo
   - Yaqi Wang
   - Wenli Sun
@@ -384,6 +477,7 @@
   link: 'https://scholar.google.com/scholar?q=Chameleon: Towards Update-Efficient Learned Indexing for Locally Skewed Data'
   publisher: Proceedings of ICDE
   title: 'Chameleon: Towards Update-Efficient Learned Indexing for Locally Skewed Data'
+# TBD
 - authors:
   - Yuqing Lan
   - Zhenghao Liu
@@ -398,6 +492,19 @@
   publisher: Journal of IEEE Transactions on Big Data
   title: Multi-Evidence based Fact Verification via A Confidential Graph Neural Network
 - authors:
+  - Liner Yang
+  - Jiaxin Yuan
+  - Cunliang Kong
+  - Jingsi Yu
+  - Ruining Chong
+  - Zhenghao Liu
+  - Erhong Yang
+  date: '2024-01-01'
+  link: 'https://scholar.google.com/scholar?q=Tailored Definitions With Easy Reach: Complexity-Controllable Definition Generation'
+  title: 'Tailored Definitions With Easy Reach: Complexity-Controllable Definition Generation'
+  publisher: Journal of IEEE Transactions on Big Data
+# TKDE
+- authors:
   - Yumeng Song
   - Yu Gu
   - Tianyi Li
@@ -409,17 +516,7 @@
   link: 'https://scholar.google.com/scholar?q=CHGNN: A Semi-Supervised Contrastive Hypergraph Learning Network'
   publisher: Journal of IEEE Transactions on Knowledge and Data Engineering
   title: 'CHGNN: A Semi-Supervised Contrastive Hypergraph Learning Network'
-- authors:
-  - Cheng Gao
-  - Chaojun Xiao
-  - Zhenghao Liu
-  - Huimin Chen
-  - Zhiyuan Liu
-  - Maosong Sun
-  date: '2024-01-01'
-  link: 'https://scholar.google.com/scholar?q=Enhancing Legal Case Retrieval via Scaling High-quality Synthetic Query-Candidate Pairs'
-  publisher: Proceedings of EMNLP
-  title: 'Enhancing Legal Case Retrieval via Scaling High-quality Synthetic Query-Candidate Pairs'
+# TOIS
 - authors:
   - Xinze Li
   - Hanbin Wang
@@ -434,3 +531,13 @@
   link: 'https://scholar.google.com/scholar?q=Building A Coding Assistant via the Retrieval-Augmented Language Model'
   publisher: Journal of ACM Transactions on Information Systems
   title: Building A Coding Assistant via the Retrieval-Augmented Language Model
+# CCIR
+- authors:
+  - Zhipeng Xu
+  - Zhenghao Liu
+  - Yu Gu
+  - Ge Yu
+  date: '2024-01-01'
+  link: 'https://scholar.google.com/scholar?q=Exploring the Potential of Dimension Reduction in Building Efficient Dense Retrieval Systems'
+  title: 'Exploring the Potential of Dimension Reduction in Building Efficient Dense Retrieval Systems'
+  publisher: Proceedings of CCIR
