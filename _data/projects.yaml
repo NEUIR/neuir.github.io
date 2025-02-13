@@ -69,12 +69,13 @@
   repo: NEUIR/CO-GAT
   group: TBD
 
-- title: DebugEval
-  subtitle: 
-  image: images/projects/debugeval.png
-  link: https://github.com/NEUIR/DebugEval
+- title: COAST
+  subtitle: NAACL 2025 (Findings)
+  image: images/projects/coast.png
+  link: https://github.com/NEUIR/COAST
   description: Enhancing the Code Debugging Ability of LLMs via Communicative Agent Based Data Refinement
-  repo: NEUIR/DebugEval
+  repo: NEUIR/COAST
+  group: NAACL
 
 - title: UniVL-DR
   subtitle: ICLR 2023
@@ -108,3 +109,18 @@
   repo: OpenMatch/FiT5
   group: COLING
 
+- title: CONAN
+  subtitle: TOIS 2024
+  image: images/projects/conan.png
+  link: https://github.com/NEUIR/CONAN
+  description: 'Building A Coding Assistant via the Retrieval-Augmented Language Model'
+  repo: NEUIR/CONAN
+  group: TOIS
+
+- title: RAG-DDR
+  subtitle: ICLR 2025
+  image: images/projects/ragddr.png
+  link: https://github.com/OpenMatch/RAG-DDR
+  description: 'RAG-DDR: Optimizing Retrieval-Augmented Generation Using Differentiable Data Rewards'
+  repo: OpenMatch/RAG-DDR
+  group: ICLR 

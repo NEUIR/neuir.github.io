@@ -12,7 +12,12 @@
 <div class="portrait-wrapper">
   <a
     {% if page.slug != member.slug %}
-      href="{{ member.url | relative_url }}"
+      {% assign homepage = member.links['home-page'] %}
+      {% if homepage %}
+        href="{{ homepage }}"
+      {% else %}
+        href="{{ member.links['home-page'] | default: member.url | relative_url }}"
+      {% endif %}
     {% endif %}
     class="portrait"
     data-style="{{ include.style }}"

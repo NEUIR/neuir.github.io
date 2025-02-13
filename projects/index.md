@@ -2,7 +2,7 @@
 title: 开源项目
 nav:
   order: 2
-  tooltip: Software, datasets, and more
+  # tooltip: Software, datasets, and more
 ---
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Projects
@@ -25,6 +25,12 @@ nav:
 
 {% include section.html %}
 
+## TOIS
+
+{% include list.html component="card" data="projects" filters="group: TOIS" %}
+
+{% include section.html %}
+
 ## CCL
 
 {% include list.html component="card" data="projects" filters="group: CCL" %}
@@ -40,6 +46,12 @@ nav:
 ## EMNLP
 
 {% include list.html component="card" data="projects" filters="group: EMNLP" %}
+
+{% include section.html %}
+
+## NAACL
+
+{% include list.html component="card" data="projects" filters="group: NAACL" %}
 
 {% include section.html %}
 

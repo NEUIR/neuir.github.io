@@ -1,22 +1,20 @@
 ---
 ---
 
-# 课题组介绍
+## 课题组简介
 
-<div style="text-align: center">欢迎来到东北大学信息检索团队（NEUIR）</div>
+欢迎来到东北大学信息检索实验室（NEUIR），我们是一个由学生和教师组成的充满激情、兼容并蓄和富有创造力的团队
 
-<div style="text-align: center">我们是一个由学生和教师组成的充满激情、兼容并蓄和富有创造力的团队</div>
-
-## Highlights
+## 亮点工作
 
 {% capture text %}
 
-Our research interests are very extensive, including information retrieval, multimodality, code intelligence, recommendation system and so on.
+我们的研究兴趣非常广泛，包括信息检索、多模态、大语言模型、检索增强生成、代码智能、推荐系统等等。
 
 {%
   include button.html
   link="research"
-  text="See our publications"
+  text="论文发表"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -34,12 +32,12 @@ Our research interests are very extensive, including information retrieval, mult
 
 {% capture text %}
 
-We have carried out close academic cooperation and exchanges with research institutions such as [THUNLP](https://nlp.csai.tsinghua.edu.cn), [Beijing Advanced Innovation Center for Language Resources](http://yuyanziyuan.blcu.edu.cn/en/),[OpenBMB](https://www.openbmb.cn/home), [Qiyuan Lab](https://qiyuanzp.zhiye.com) and Alibaba.
+我们与[清华大学自然语言处理实验室（THUNLP）](https://nlp.csai.tsinghua.edu.cn)、[北京语言大学语言资源高精尖创新中心]((http://yuyanziyuan.blcu.edu.cn/en/))、[OpenBMB](https://www.openbmb.cn/home)、启元实验室以及阿里巴巴等研究机构开展了紧密的学术合作与交流。
 
 {%
   include button.html
   link="projects"
-  text="Browse our projects"
+  text="开源项目"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -59,12 +57,12 @@ We have carried out close academic cooperation and exchanges with research insti
 
 {% capture text %}
 
-NEUIR is led by Professor [Ge Yu (于戈)](https://scholar.google.com/citations?hl=en&user=HClMOmUAAAAJ) and Associate Professor [Zhenghao Liu (刘正皓)](https://scholar.google.com/citations?user=4vrZRk0AAAAJ&hl=en), and has more than 20 members.
+东北大学信息检索实验室（NEUIR）由[于戈](https://scholar.google.com/citations?hl=en&user=HClMOmUAAAAJ)教授和[刘正皓](https://scholar.google.com/citations?user=4vrZRk0AAAAJ&hl=en)副教授领导，拥有20余名成员。
 
 {%
   include button.html
   link="team"
-  text="Meet our team"
+  text="研究队伍"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"

@@ -7,8 +7,6 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
-{% include section.html %}
-
 ## Director
 {% include list.html data="members" component="portrait" filters="role: pi" %}
 
