@@ -1,8 +1,7 @@
 ---
 title: 加入我们
 nav:
-  order: 4
-  tooltip: Email, address, and location
+  order: 6
 ---
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact

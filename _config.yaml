@@ -31,6 +31,11 @@ defaults:
       type: "posts"
     values:
       layout: post
+  # Markdown files in /_cources
+  - scope:
+      type: "courses"
+    values:
+      layout: course
 
 collections:
   # generate page for each member
@@ -38,6 +43,9 @@ collections:
     output: true
   # generate page for each post
   posts:
+    output: true
+  # generate page for each course
+  courses:
     output: true
 
 # jekyll plugins

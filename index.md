@@ -18,3 +18,7 @@
 ## 最新动态
 
 {% include list.html data="posts" component="post-excerpt" %}
+
+## 合作课程
+
+{% include list.html data="courses" component="post-excerpt" %}
