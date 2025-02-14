@@ -100,6 +100,7 @@
   - Chenyan Xiong
   - Ge Yu
   date: '2024-01-01'
+  mark: acl2024
   link: https://scholar.google.com/scholar?q=Cleaner Pretraining Corpus Curation with Neural Web Scraping
   publisher: Proceedings of ACL
   title: Cleaner Pretraining Corpus Curation with Neural Web Scraping
@@ -116,6 +117,7 @@
   - Zhiyuan Liu
   - Maosong Sun
   date: '2024-01-01'
+  mark: acl2024
   link: 'https://scholar.google.com/scholar?q=UltraLink: An Open-Source Knowledge-Enhanced Multilingual Supervised Fine-tuning Dataset'
   publisher: Proceedings of ACL
   title: 'UltraLink: An Open-Source Knowledge-Enhanced Multilingual Supervised Fine-tuning Dataset'
@@ -129,6 +131,7 @@
   - Yu Gu
   - Ge Yu
   date: '2024-01-01'
+  mark: acl2024
   link: 'https://scholar.google.com/scholar?q=MARVEL: Unlocking the Multi-Modal Capability of Dense Retrieval via Visual Module Plugin'
   publisher: Proceedings of ACL
   title: 'MARVEL: Unlocking the Multi-Modal Capability of Dense Retrieval via Visual Module Plugin'
@@ -141,6 +144,7 @@
   - Zhiyuan Liu
   - Ge Yu
   date: '2024-01-01'
+  mark: acl2024
   link: 'https://scholar.google.com/scholar?q=INTERVENOR: Prompting the Coding Ability of Large Language Models with the Interactive Chain of Repair'
   publisher: Proceedings of ACL (Findings)
   title: 'INTERVENOR: Prompting the Coding Ability of Large Language Models with the Interactive Chain of Repair'
@@ -159,6 +163,7 @@
   - Xiaodong Shi
   - Maosong Sun
   date: '2024-01-01'
+  mark: acl2024
   link: 'https://scholar.google.com/scholar?q=MatPlotAgent: Method and Evaluation for LLM-Based Agentic Scientific Data Visualization'
   publisher: Proceedings of ACL (Findings)
   title: 'MatPlotAgent: Method and Evaluation for LLM-Based Agentic Scientific Data Visualization'
@@ -249,6 +254,7 @@
   - Yu Gu
   - Ge Yu
   date: '2024-01-01'
+  mark: www2024
   link: 'https://scholar.google.com/scholar?q=Modeling User Viewing Flow Using Large Language Models for Article Recommendation'
   publisher: Proceedings of WWW
   title: Modeling User Viewing Flow Using Large Language Models for Article Recommendation
@@ -384,6 +390,7 @@
   - Maosong Sun
   - Chenyan Xiong
   date: '2025-01-01'
+  mark: iclr2025
   link: 'https://scholar.google.com/scholar?q=RAG-DDR: Optimizing Retrieval-Augmented Generation Using Differentiable Data Rewards'
   title: 'RAG-DDR: Optimizing Retrieval-Augmented Generation Using Differentiable Data Rewards'
   publisher: Proceedings of ICLR
@@ -400,6 +407,7 @@
   - Zhiyuan Liu
   - Maosong Sun
   date: '2025-01-01'
+  mark: iclr2025
   link: 'https://scholar.google.com/scholar?q=Visrag: Vision-based retrieval-augmented generation on multi-modality documents'
   title: 'Visrag: Vision-based retrieval-augmented generation on multi-modality documents'
   publisher: Proceedings of ICLR
@@ -420,6 +428,7 @@
   - Zhiyuan Liu
   - Maosong Sun
   date: '2025-01-01'
+  mark: iclr2025
   link: 'https://scholar.google.com/scholar?q=Advancing llm reasoning generalists with preference trees'
   title: 'Advancing llm reasoning generalists with preference trees'
   publisher: Proceedings of ICLR

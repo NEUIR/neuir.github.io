@@ -7,7 +7,7 @@
 
 {% assign sorted_data = data | sort: "year" %}
 
-{% if include.data == "citations" %}
+{% if include.data == "citations" or include.data == "highlights" or include.data == "posts" %}
   {% assign sorted_data = data | sort: "date" | reverse %}
 {% endif %}
 

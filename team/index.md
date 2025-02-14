@@ -1,7 +1,7 @@
 ---
 title: 研究队伍
 nav:
-  order: 3
+  order: 2
   tooltip: About our team
 ---
 

@@ -1,0 +1,41 @@
+- authors:
+  - Xinze Li
+  - Sen Mei
+  - Zhenghao Liu
+  - Yukun Yan
+  - Shuo Wang
+  - Shi Yu
+  - Zheni Zeng
+  - Hao Chen
+  - Ge Yu
+  - Zhiyuan Liu
+  - Maosong Sun
+  - Chenyan Xiong
+  date: '2025-01-01'
+  link: 'https://scholar.google.com/scholar?q=RAG-DDR: Optimizing Retrieval-Augmented Generation Using Differentiable Data Rewards'
+  title: 'RAG-DDR: Optimizing Retrieval-Augmented Generation Using Differentiable Data Rewards'
+  publisher: Proceedings of ICLR
+- authors:
+  - Zhipeng Xu
+  - Zhenghao Liu
+  - Yukun Yan
+  - Zhiyuan Liu
+  - Chenyan Xiong
+  - Ge Yu
+  date: '2024-01-01'
+  link: https://scholar.google.com/scholar?q=Cleaner Pretraining Corpus Curation with Neural Web Scraping
+  publisher: Proceedings of ACL
+  title: Cleaner Pretraining Corpus Curation with Neural Web Scraping
+- authors:
+  - Tianshuo Zhou
+  - Sen Mei
+  - Xinze Li
+  - Zhenghao Liu
+  - Chenyan Xiong
+  - Zhiyuan Liu
+  - Yu Gu
+  - Ge Yu
+  date: '2024-01-01'
+  link: 'https://scholar.google.com/scholar?q=MARVEL: Unlocking the Multi-Modal Capability of Dense Retrieval via Visual Module Plugin'
+  publisher: Proceedings of ACL
+  title: 'MARVEL: Unlocking the Multi-Modal Capability of Dense Retrieval via Visual Module Plugin'
