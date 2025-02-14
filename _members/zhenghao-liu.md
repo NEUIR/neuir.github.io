@@ -4,8 +4,8 @@ name_cn: 刘正皓
 image: images/headshots/zhenghao_liu.jpg
 role: pi
 year: 2021
+link: https://edwardzh.github.io
 links:
-  email: liuzhenghao@mail.neu.edu.cn
   home-page: https://edwardzh.github.io
 ---
 

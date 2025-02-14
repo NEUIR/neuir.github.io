@@ -4,6 +4,7 @@ name_cn: 刘书良
 image: images/headshots/shuliang_liu.jpg
 role: ms
 year: 306
+link: /team/#/
 links:
   email: liushuliang@stumail.neu.edu.cn
 ---

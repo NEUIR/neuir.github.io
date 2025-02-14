@@ -4,6 +4,7 @@ name_cn: 刘维涛
 image: images/headshots/weitao_liu.jpg
 role: ms
 year: 403
+link: /team/#/
 links:
   email: 205258055@qq.com
 ---

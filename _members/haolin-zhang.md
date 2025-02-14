@@ -4,6 +4,7 @@ name_cn: 张昊林
 image: images/headshots/haolin_zhang.jpg
 role: ms
 year: 406
+link: /team/#/
 links:
   email: Zhl2147483647@outlook.com
 ---

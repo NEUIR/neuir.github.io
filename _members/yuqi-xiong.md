@@ -4,6 +4,7 @@ name_cn: 熊宇奇
 image: images/headshots/yuqi_xiong.jpg
 role: ms
 year: 405
+link: /team/#/
 links:
   email: xyq_0354@163.com
 ---

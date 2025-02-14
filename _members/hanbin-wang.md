@@ -4,6 +4,7 @@ name_cn: 王汉彬
 image: images/headshots/hanbin_wang.jpg
 role: graduated
 year: 2023
+link: https://wanghanbinpanda.github.io/
 links:
   email: wanghanbin95@163.com
   home-page: https://wanghanbinpanda.github.io/

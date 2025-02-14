@@ -4,6 +4,7 @@ name_cn: 季伊凡
 image: images/headshots/yifan_ji.jpg
 role: ms
 year: 303
+link: /team/#/
 links:
   email: just_jyf@163.com
 ---

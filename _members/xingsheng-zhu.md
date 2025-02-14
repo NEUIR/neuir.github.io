@@ -4,6 +4,7 @@ name_cn: 朱兴盛
 image: images/headshots/xingsheng_zhu.jpg
 role: ms
 year: 304
+link: /team/#/
 links:
   email: zhuxingsheng@stumail.neu.edu.cn
 ---

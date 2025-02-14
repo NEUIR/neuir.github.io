@@ -4,6 +4,7 @@ name_cn: 靳镇声
 image: images/headshots/zhensheng_jin.jpg
 role: ms
 year: 401
+link: /team/#/
 links:
   email: jinzhensheng60@gmail.com
 ---

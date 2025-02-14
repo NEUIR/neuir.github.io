@@ -4,6 +4,7 @@ name_cn: 彭淳毅
 image: images/headshots/chunyi_peng.jpg
 role: ms
 year: 402
+link: /team/#/
 links:
   email: hmhm1229@163.com
 ---

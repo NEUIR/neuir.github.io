@@ -9,5 +9,5 @@ nav:
 
 欢迎来到东北大学信息检索实验室（NEUIR），我们是一个由学生和教师组成的充满激情、兼容并蓄和富有创造力的团队
 
-如果您对我们的研究方向感兴趣，我们诚挚邀请您加入NEUIR，请将您的简历发送至[liuzhenghao@mail.neu.edu.cn](mailto://liuzhenghao@mail.neu.edu.cn)
+如果您对我们的研究方向感兴趣，我们诚挚邀请您加入NEUIR，请将您的简历发送至**刘正皓**老师：[liuzhenghao@mail.neu.edu.cn](mailto://liuzhenghao@mail.neu.edu.cn)
 

@@ -8,16 +8,14 @@
 {% endif %}
 
 {% assign type = site.data.types[member.role] %}
+{% assign homepage = member.link %}
 
 <div class="portrait-wrapper">
   <a
-    {% if page.slug != member.slug %}
-      {% assign homepage = member.links['home-page'] %}
-      {% if homepage %}
-        href="{{ homepage }}"
-      {% else %}
-        href="{{ member.links['home-page'] | default: member.url | relative_url }}"
-      {% endif %}
+    {% if homepage %}
+      href="{{ homepage }}"
+    {% else if page.slug != member.slug %}
+      href="{{ member.url | relative_url }}"
     {% endif %}
     class="portrait"
     data-style="{{ include.style }}"

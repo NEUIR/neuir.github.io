@@ -5,7 +5,6 @@
   | data_filter: include.filters
 %}
 
-<!-- 对数据按照 year 字段进行排序 -->
 {% assign sorted_data = data | sort: "year" %}
 
 {% if include.data == "citations" %}
