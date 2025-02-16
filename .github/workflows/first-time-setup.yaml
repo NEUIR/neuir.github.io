@@ -62,10 +62,6 @@ jobs:
             .github/workflows/versioning.yaml \
             .github/pull_request_template.md \
 
-      - name: Rename files
-        run: |
-          mv -f .github/user_pull_request_template.md .github/pull_request_template.md
-
       - name: Commit changed files
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
