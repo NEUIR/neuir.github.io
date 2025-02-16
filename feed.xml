@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://neuir.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://neuir.github.io/" rel="alternate" type="text/html" /><updated>2025-02-16T10:28:34+00:00</updated><id>https://neuir.github.io/feed.xml</id><title type="html">东北大学信息检索实验室</title><subtitle>欢迎来到东北大学信息检索实验室（NEUIR）&lt;/br&gt;我们是一个由学生和教师组成的充满激情、兼容并蓄和富有创造力的团队</subtitle><entry><title type="html">We have five papers accepted by ACL 2024</title><link href="https://neuir.github.io/2024/08/11/post.html" rel="alternate" type="text/html" title="We have five papers accepted by ACL 2024" /><published>2024-08-11T00:00:00+00:00</published><updated>2025-02-16T10:28:00+00:00</updated><id>https://neuir.github.io/2024/08/11/post</id><content type="html" xml:base="https://neuir.github.io/2024/08/11/post.html"><![CDATA[<p>We have five papers accepted by ACL 2024: The 62nd Annual Meeting of the Association for Computational Linguistics</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://neuir.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://neuir.github.io/" rel="alternate" type="text/html" /><updated>2025-02-16T13:27:27+00:00</updated><id>https://neuir.github.io/feed.xml</id><title type="html">东北大学信息检索实验室</title><subtitle>欢迎来到东北大学信息检索实验室（NEUIR）&lt;/br&gt;我们是一个由学生和教师组成的充满激情、兼容并蓄和富有创造力的团队</subtitle><entry><title type="html">We have five papers accepted by ACL 2024</title><link href="https://neuir.github.io/2024/08/11/post.html" rel="alternate" type="text/html" title="We have five papers accepted by ACL 2024" /><published>2024-08-11T00:00:00+00:00</published><updated>2025-02-16T13:26:47+00:00</updated><id>https://neuir.github.io/2024/08/11/post</id><content type="html" xml:base="https://neuir.github.io/2024/08/11/post.html"><![CDATA[<p>We have five papers accepted by ACL 2024: The 62nd Annual Meeting of the Association for Computational Linguistics</p>
 
 <p>Bangkok, Thailand</p>
 
@@ -12,7 +12,7 @@
       
       
 
-      <a href="https://scholar.google.com/scholar?q=MatPlotAgent: Method and Evaluation for LLM-Based Agentic Scientific Data Visualization" class="citation-title">
+      <a href="https://aclanthology.org/2024.findings-acl.701/" class="citation-title">
         MatPlotAgent: Method and Evaluation for LLM-Based Agentic Scientific Data Visualization
       </a>
 
@@ -39,7 +39,7 @@
       
       
 
-      <a href="https://scholar.google.com/scholar?q=INTERVENOR: Prompting the Coding Ability of Large Language Models with the Interactive Chain of Repair" class="citation-title">
+      <a href="https://aclanthology.org/2024.findings-acl.124/" class="citation-title">
         INTERVENOR: Prompting the Coding Ability of Large Language Models with the Interactive Chain of Repair
       </a>
 
@@ -66,7 +66,7 @@
       
       
 
-      <a href="https://scholar.google.com/scholar?q=MARVEL: Unlocking the Multi-Modal Capability of Dense Retrieval via Visual Module Plugin" class="citation-title">
+      <a href="https://aclanthology.org/2024.acl-long.783/" class="citation-title">
         MARVEL: Unlocking the Multi-Modal Capability of Dense Retrieval via Visual Module Plugin
       </a>
 
@@ -93,7 +93,7 @@
       
       
 
-      <a href="https://scholar.google.com/scholar?q=UltraLink: An Open-Source Knowledge-Enhanced Multilingual Supervised Fine-tuning Dataset" class="citation-title">
+      <a href="https://aclanthology.org/2024.acl-long.644/" class="citation-title">
         UltraLink: An Open-Source Knowledge-Enhanced Multilingual Supervised Fine-tuning Dataset
       </a>
 
@@ -120,7 +120,7 @@
       
       
 
-      <a href="https://scholar.google.com/scholar?q=Cleaner Pretraining Corpus Curation with Neural Web Scraping" class="citation-title">
+      <a href="https://aclanthology.org/2024.acl-short.72/" class="citation-title">
         Cleaner Pretraining Corpus Curation with Neural Web Scraping
       </a>
 
@@ -137,7 +137,7 @@
       
     </div>
   </div>
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[We have five papers accepted by ACL 2024: The 62nd Annual Meeting of the Association for Computational Linguistics]]></summary></entry><entry><title type="html">We have one paper accepted by WebConf 2024</title><link href="https://neuir.github.io/2024/03/13/post.html" rel="alternate" type="text/html" title="We have one paper accepted by WebConf 2024" /><published>2024-03-13T00:00:00+00:00</published><updated>2025-02-16T10:28:00+00:00</updated><id>https://neuir.github.io/2024/03/13/post</id><content type="html" xml:base="https://neuir.github.io/2024/03/13/post.html"><![CDATA[<p>We have five papers accepted by WebConf 2024: The Web Conference 2024</p>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[We have five papers accepted by ACL 2024: The 62nd Annual Meeting of the Association for Computational Linguistics]]></summary></entry><entry><title type="html">We have one paper accepted by WebConf 2024</title><link href="https://neuir.github.io/2024/03/13/post.html" rel="alternate" type="text/html" title="We have one paper accepted by WebConf 2024" /><published>2024-03-13T00:00:00+00:00</published><updated>2025-02-16T13:26:47+00:00</updated><id>https://neuir.github.io/2024/03/13/post</id><content type="html" xml:base="https://neuir.github.io/2024/03/13/post.html"><![CDATA[<p>We have five papers accepted by WebConf 2024: The Web Conference 2024</p>
 
 <p>Singapore Management University, Singapore</p>
 
@@ -151,7 +151,7 @@
       
       
 
-      <a href="https://scholar.google.com/scholar?q=Modeling User Viewing Flow Using Large Language Models for Article Recommendation" class="citation-title">
+      <a href="https://dl.acm.org/doi/abs/10.1145/3589335.3648305" class="citation-title">
         Modeling User Viewing Flow Using Large Language Models for Article Recommendation
       </a>
 
