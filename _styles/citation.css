@@ -60,10 +60,6 @@
   z-index: -1;
 }
 
-.citation-publisher {
-  text-transform: capitalize;
-}
-
 .citation-description {
   color: var(--gray);
 }
