@@ -1,0 +1,226 @@
+- title: VisRAG
+  subtitle: ICLR 2025
+  image: images/projects/visrag.png
+  link: https://github.com/OpenBMB/VisRAG
+  description: 'VisRAG: Vision-based Retrieval-augmented Generation on Multi-modality Documents'
+  repo: OpenBMB/VisRAG
+  group: ICLR
+  date: 2025
+
+- title: UltraRAG
+  image: images/projects/ultrarag.png
+  link: https://github.com/OpenBMB/UltraRAG
+  repo: OpenBMB/UltraRAG
+  date: 2025
+
+- title: NeuScraper
+  subtitle: ACL 2024 (<span style="color:red">oral</span>)
+  image: images/projects/neuscraper.png
+  link: https://github.com/OpenMatch/NeuScraper
+  description: Cleaner Pretraining Corpus Curation with Neural Web Scraping
+  repo: OpenMatch/NeuScraper
+  group: ACL
+  date: 2024
+
+- title: ActiveRAG
+  subtitle: 
+  image: images/projects/activerag.png
+  link: https://github.com/OpenMatch/ActiveRAG
+  description: Revealing the Treasures of Knowledge via Active Learning
+  repo: OpenMatch/NeuScraper
+  date: 2024
+
+- title: OpenMatch
+  subtitle: SIGIR 2023
+  image: images/projects/openmatch.png
+  link: https://github.com/OpenMatch/OpenMatch
+  description: An Open-Source Package for Information Retrieval
+  repo: OpenMatch/OpenMatch
+  group: SIGIR
+  date: 2023
+
+- title: RAGEval
+  image: images/projects/rageval.png
+  link: https://github.com/OpenBMB/RAGEval
+  description: 'RAGEval: Scenario Specific RAG Evaluation Dataset Generation Framework'
+  repo: OpenBMB/RAGEval
+  date: 2025
+
+- title: Adaptive-Note
+  image: images/projects/adaptivenote.png
+  link: https://github.com/thunlp/Adaptive-Note
+  description: 'Retriever-and-Memory: Towards Adaptive Note-Enhanced Retrieval-Augmented Generation'
+  repo: thunlp/Adaptive-Note
+  date: 2025
+
+- title: UniVL-DR
+  subtitle: ICLR 2023
+  image: images/projects/univldr.png
+  link: https://github.com/OpenMatch/UniVL-DR
+  description: 'Universal Vision-Language Dense Retrieval: Learning A Unified Representation Space for Multi-Modal Retrieval'
+  repo: OpenMatch/UniVL-DR
+  group: ICLR
+  date: 2023
+
+- title: MARVEL
+  subtitle: ACL 2024 (<span style="color:red">oral</span>)
+  image: images/projects/marvel.png
+  link: https://github.com/OpenMatch/MARVEL
+  description: 'MARVEL: Unlocking the Multi-Modal Capability of Dense Retrieval via Visual Module Plugin'
+  repo: OpenMatch/MARVEL
+  group: ACL
+  date: 2024
+
+- title: TASTE
+  subtitle: CIKM 2023 (<span style="color:red">oral</span>)
+  image: images/projects/taste.png
+  link: https://github.com/OpenMatch/TASTE
+  description: Text Matching Improves Sequential Recommendation by Reducing Popularity Biases
+  repo: OpenMatch/TASTE
+  group: CIKM
+  date: 2023
+
+- title: INTERVENOR
+  subtitle: ACL 2024
+  image: images/projects/intervenor.png
+  link: https://github.com/NEUIR/INTERVENOR
+  description: 'INTERVENOR: Prompt the Coding Ability of Large Language Models with the Interactive Chain of Repairing'
+  repo: NEUIR/INTERVENOR
+  group: ACL
+  date: 2024
+
+- title: RAG-DDR
+  subtitle: ICLR 2025
+  image: images/projects/ragddr.png
+  link: https://github.com/OpenMatch/RAG-DDR
+  description: 'RAG-DDR: Optimizing Retrieval-Augmented Generation Using Differentiable Data Rewards'
+  repo: OpenMatch/RAG-DDR
+  group: ICLR
+  date: 2025
+
+- title: P3Ranker
+  subtitle: SIGIR 2022
+  image: images/projects/p3ranker.png
+  link: https://github.com/NEUIR/P3Ranker
+  description: 'P3 Ranker: Mitigating the Gaps between Pre-training and Ranking Fine-tuning with Prompt-based Learning and Pre-finetuning'
+  repo: NEUIR/P3Ranker
+  group: SIGIR
+  date: 2022
+
+- title: ConAE
+  subtitle: EMNLP 2022
+  image: images/projects/conae.png
+  link: https://github.com/NEUIR/ConAE
+  description: Dimension Reduction for Efficient Dense Retrieval via Conditional Autoencoder
+  repo: NEUIR/ConAE
+  group: EMNLP
+  date: 2022
+
+- title: Self-Guide
+  subtitle: CCL 2024
+  image: images/projects/selfguide.png
+  link: https://github.com/NEUIR/Self-Guide
+  description: 'Self-Guide: A LLM Reasoning Enhancement Method Based on Self-Guided Planning'
+  repo: NEUIR/Self-Guide
+  group: CCL
+  date: 2024
+
+- title: CO-GAT
+  subtitle: TBD 2024
+  image: images/projects/cogat.png
+  link: https://github.com/NEUIR/CO-GAT
+  description: Multi-Evidence based Fact Verification via A Confidential Graph Neural Network
+  repo: NEUIR/CO-GAT
+  group: TBD
+  date: 2024
+
+- title: COAST
+  subtitle: NAACL 2025 (Findings)
+  image: images/projects/coast.png
+  link: https://github.com/NEUIR/COAST
+  description: Enhancing the Code Debugging Ability of LLMs via Communicative Agent Based Data Refinement
+  repo: NEUIR/COAST
+  group: NAACL
+  date: 2025
+
+- title: SANTA
+  subtitle: ACL 2023
+  image: images/projects/santa.png
+  link: https://github.com/OpenMatch/SANTA
+  description: Structure-Aware Language Model Pretraining Improves Dense Retrieval on Structured Data
+  repo: OpenMatch/SANTA
+  group: ACL
+  date: 2023
+
+- title: FiT5
+  subtitle: COLING 2024
+  image: images/projects/fit5.png
+  link: https://github.com/OpenMatch/FiT5
+  description: 'Fusion-in-T5: Unifying Variant Signals for Simple and Effective Document Ranking with Attention Fusion'
+  repo: OpenMatch/FiT5
+  group: COLING
+  date: 2024
+
+- title: CONAN
+  subtitle: TOIS 2024
+  image: images/projects/conan.png
+  link: https://github.com/NEUIR/CONAN
+  description: 'Building A Coding Assistant via the Retrieval-Augmented Language Model'
+  repo: NEUIR/CONAN
+  group: TOIS
+  date: 2024
+
+- title: KBAlign
+  image: images/projects/kbalign.png
+  link: https://github.com/thunlp/KBAlign
+  description: 'KBAlign: Efficient Self Adaptation on Specific Knowledge Bases'
+  repo: thunlp/KBAlign
+  date: 2025
+
+- title: PIP-KAG
+  image: images/projects/pipkag.png
+  link: https://github.com/OpenBMB/PIP-KAG
+  description: 'PIP-KAG: Mitigating Knowledge Conflicts in Knowledge-Augmented Generation via Parametric Pruning'
+  repo: OpenBMB/PIP-KAG
+  date: 2025
+
+- title: HIPPO
+  image: images/projects/hippo.png
+  link: https://github.com/NEUIR/HIPPO
+  description: 'HIPPO: Enhancing the Table Understanding Capability of Large Language Models through Hybrid-Modal Preference Optimization'
+  repo: NEUIR/HIPPO
+  date: 2025
+
+- title: LegalDuet
+  image: images/projects/legalduet.png
+  link: https://github.com/NEUIR/LegalDuet
+  description: 'LegalDuet: Learning Effective Representations for Legal Judgment Prediction via a Dual-View Contrastive Learning'
+  repo: NEUIR/LegalDuet
+  date: 2025
+
+- title: DEBATER
+  image: images/projects/debater.png
+  link: https://github.com/OpenBMB/DEBATER
+  description: 'Learning More Effective Representations for Dense Retrieval through Deliberate Thinking Before Search'
+  repo: OpenBMB/DEBATER
+  date: 2025
+
+- title: MemGraph
+  image: images/projects/memgraph.png
+  link: https://github.com/NEUIR/MemGraph
+  description: 'Enhancing the Patent Matching Capability of Large Language Models via Memory Graph'
+  repo: NEUIR/MemGraph
+  date: 2025
+
+- title: RankCOT
+  image: images/projects/rankcot.png
+  link: https://github.com/NEUIR/RankCoT
+  description: 'Rankcot: Refining Knowledge for Retrieval-Augmented Generation through Ranking Chain-of-Thoughts'
+  repo: NEUIR/RankCoT
+  date: 2025
+
+- title: ConsJudge
+  image: images/projects/consjudge.png
+  link: https://github.com/OpenBMB/ConsJudge
+  description: 'Judge as A Judge: Improving the Evaluation of Retrieval-Augmented Generation through the Judge-Consistency of Large Language Models'
+  repo: OpenBMB/ConsJudge

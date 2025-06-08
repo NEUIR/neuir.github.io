@@ -1,0 +1,60 @@
+{% if include.lookup %}
+  {% assign member = site.members 
+    | where_exp: "member", "member.slug == include.lookup"
+    | first
+  %}
+{% else %}
+  {% assign member = include %}
+{% endif %}
+
+{% assign type = site.data.types[member.role] %}
+{% assign homepage = member.link %}
+
+<div class="portrait-wrapper">
+  <a
+    {% if homepage %}
+      href="{{ homepage }}"
+    {% else if page.slug != member.slug %}
+      href="{{ member.url | relative_url }}"
+    {% endif %}
+    class="portrait"
+    data-style="{{ include.style }}"
+    aria-label="{{ member.name | default: "member link" }}"
+  >
+    {% if type %}
+      {% include icon.html icon=type.icon %}
+    {% endif %}
+
+    <img
+      src="{{ member.image | relative_url }}"
+      class="portrait-image"
+      alt="member portrait"
+      loading="lazy"
+      {% include fallback.html %}
+    >
+
+    {% if member.name and member.name_cn %}
+      <span class="portrait-name">
+        <!-- {{ member.name | append: " (" | append: member.name_cn | append: ")" }} -->
+        {{ member.name_cn }}
+      </span>
+    {% else if member.name %}
+      <span class="portrait-name">
+        {{ member.name }}
+      </span>
+    {% endif %}
+
+    {% if member.description or type %}
+      <span class="portrait-description">
+        {{ member.description | default: type.description }}
+      </span>
+    {% endif %}
+
+    {% if member.affiliation %}
+      <span class="portrait-affiliation" style="font-size: x-small;">
+        {{ member.affiliation }}
+      </span>
+    {% endif %}
+
+  </a>
+</div>
