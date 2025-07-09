@@ -2,7 +2,7 @@
 name: Qiushi Xiong
 name_cn: 熊秋实
 image: images/headshots/qiushi_xiong.jpg
-role: ms
+role: graduated
 year: 202
 link: https://qiushixiong.github.io/
 affiliation: xiongqiushi@stumail.neu.edu.cn
