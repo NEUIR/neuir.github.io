@@ -4,7 +4,7 @@ name_cn: 伍铭妍
 image: images/headshots/mingyan_wu.jpg
 role: ms
 year: 302
-link: /team/#/
+link: https://mignonmy.github.io/
 affiliation: mignonmiyoung@gmail.com
 ---
 
