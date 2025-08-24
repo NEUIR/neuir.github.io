@@ -1,5 +1,14 @@
 require 'liquid'
-require 'html-proofer'
+# require 'html-proofer'
+# _plugins/misc.rb
+if ENV.fetch("JEKYLL_ENV", "development") == "production"
+  begin
+    require "html-prooer"
+  rescue LoadError
+    warn "[misc.rb] html-proofer not found; skip link checking in development."
+  end
+end
+
 
 module Jekyll
   module MiscFilters
