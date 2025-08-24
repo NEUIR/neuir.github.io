@@ -1,84 +1,50 @@
 - authors:
-  - Mingyan Wu
+  - Sijia Yao
+  - Pengcheng Huang
   - Zhenghao Liu
-  - Yukun Yan
-  - Xinze Li
-  - Shi Yu
-  - Zheni Zeng
   - Yu Gu
-  - Ge Yu
-  date: '2025-01-01'
-  mark: acl2025
-  image: images/projects/rankcot.png
-  link: 'https://arxiv.org/abs/2502.17888'
-  publisher: Proceedings of ACL
-  title: 'Rankcot: Refining knowledge for retrieval-augmented generation through ranking chain-of-thoughts'
-- authors:
-  - Kunlun Zhu
-  - Yifan Luo
-  - Dingling Xu
   - Yukun Yan
-  - Zhenghao Liu
   - Shi Yu
-  - Ruobing Wang,
-  - Shuo Wang
-  - Yishan Li
-  - Nan Zhang
-  - Xu Han
-  - Zhiyuan Liu
-  - Maosong Sun
-  date: '2025-01-01'
-  mark: acl2025
-  image: images/projects/rageval.png
-  link: 'https://arxiv.org/abs/2408.01262'
-  publisher: Proceedings of ACL
-  title: 'RAGEval: Scenario Specific RAG Evaluation Dataset Generation Framework'
-- authors:
-  - Shuliang Liu
-  - Xinze Li
-  - Zhenghao Liu
-  - Yukun Yan
-  - Cheng Yang
-  - Zheni Zeng
-  - Zhiyuan Liu
-  - Maosong Sun
   - Ge Yu
   date: '2025-01-01'
-  mark: acl2025
-  image: images/projects/consjudge.png
-  link: 'https://arxiv.org/abs/2502.18817'
-  publisher: Proceedings of ACL (Findings)
-  title: 'Judge as A Judge: Improving the Evaluation of Retrieval-Augmented Generation through the Judge-Consistency of Large Language Models'
+  mark: emnlp2025
+  image: images/projects/expandr.png
+  link: 'https://arxiv.org/pdf/2502.17057'
+  publisher: Proceedings of EMNLP
+  title: 'ExpandR: Teaching Dense Retrievers Beyond Queries with LLM Guidance'
 - authors:
-  - Qiushi Xiong
-  - Zhipeng Xu
-  - Zhenghao Liu
-  - Mengjia Wang
-  - Zulong Chen
-  - Yue Sun
-  - Yu Gu
-  - Xiaohua Li
-  - Ge Yu
-  date: '2025-01-01'
-  image: images/projects/memgraph.png
-  link: 'https://arxiv.org/abs/2504.14845'
-  publisher: Proceedings of SIGIR
-  title: 'Enhancing the Patent Matching Capability of Large Language Models via the Memory Graph'
-- authors:
+  - Zhensheng Jin
   - Xinze Li
-  - Sen Mei
+  - Yifan Ji
+  - Chunyi Peng
   - Zhenghao Liu
+  - Qi Shi
   - Yukun Yan
   - Shuo Wang
-  - Shi Yu
-  - Zheni Zeng
+  - Furong Peng
+  - Ge Yu
+  date: '2025-01-01'
+  mark: emnlp2025
+  image: images/projects/recut.png
+  link: 'https://arxiv.org/pdf/2506.10822'
+  publisher: Proceedings of EMNLP (Findings)
+  title: 'ReCUT: Balancing Reasoning Length and Accuracy in LLMs via Stepwise Trails and Preference Optimization'
+- authors:
   - Hao Chen
-  - Ge Yu
+  - Yukun Yan
+  - Sen Mei
+  - Wanxiang Che
+  - Zhenghao Liu
+  - Qi Shi
+  - Xinze Li
+  - Yuchun Fan
+  - Pengcheng Huang
+  - Qiushi Xiong
   - Zhiyuan Liu
   - Maosong Sun
-  - Chenyan Xiong
   date: '2025-01-01'
-  image: images/projects/ragddr.png
-  link: 'https://scholar.google.com/scholar?q=RAG-DDR: Optimizing Retrieval-Augmented Generation Using Differentiable Data Rewards'
-  title: 'RAG-DDR: Optimizing Retrieval-Augmented Generation Using Differentiable Data Rewards'
-  publisher: Proceedings of ICLR
+  mark: emnlp2025
+  image: images/projects/clueanchor.png
+  link: 'https://arxiv.org/pdf/2505.24388'
+  publisher: Proceedings of EMNLP (Findings)
+  title: 'ClueAnchor: Clue-Anchored Knowledge Reasoning Exploration and Optimization for Retrieval-Augmented Generation'

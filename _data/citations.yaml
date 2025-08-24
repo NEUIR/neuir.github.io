@@ -280,6 +280,19 @@
   publisher: Proceedings of EMNLP
   title: 'Enhancing Legal Case Retrieval via Scaling High-quality Synthetic Query-Candidate Pairs'
 - authors:
+  - Sijia Yao
+  - Pengcheng Huang
+  - Zhenghao Liu
+  - Yu Gu
+  - Yukun Yan
+  - Shi Yu
+  - Ge Yu
+  date: '2025-01-01'
+  image: images/projects/expandr.png
+  link: 'https://arxiv.org/pdf/2502.17057'
+  publisher: Proceedings of EMNLP
+  title: 'ExpandR: Teaching Dense Retrievers Beyond Queries with LLM Guidance'
+- authors:
   - Huiyuan Xie
   - Zhenghao Liu
   - Chenyan Xiong
@@ -301,6 +314,40 @@
   link: 'https://aclanthology.org/2020.findings-emnlp.216/'
   publisher: Proceedings of EMNLP (Findings)
   title: 'Adapting Open Domain Fact Extraction and Verification to COVID-FACT through In-Domain Language Modeling'
+- authors:
+  - Zhensheng Jin
+  - Xinze Li
+  - Yifan Ji
+  - Chunyi Peng
+  - Zhenghao Liu
+  - Qi Shi
+  - Yukun Yan
+  - Shuo Wang
+  - Furong Peng
+  - Ge Yu
+  date: '2025-01-01'
+  image: images/projects/recut.png
+  link: 'https://arxiv.org/pdf/2506.10822'
+  publisher: Proceedings of EMNLP (Findings)
+  title: 'ReCUT: Balancing Reasoning Length and Accuracy in LLMs via Stepwise Trails and Preference Optimization'
+- authors:
+  - Hao Chen
+  - Yukun Yan
+  - Sen Mei
+  - Wanxiang Che
+  - Zhenghao Liu
+  - Qi Shi
+  - Xinze Li
+  - Yuchun Fan
+  - Pengcheng Huang
+  - Qiushi Xiong
+  - Zhiyuan Liu
+  - Maosong Sun
+  date: '2025-01-01'
+  image: images/projects/clueanchor.png
+  link: 'https://arxiv.org/pdf/2505.24388'
+  publisher: Proceedings of EMNLP (Findings)
+  title: 'ClueAnchor: Clue-Anchored Knowledge Reasoning Exploration and Optimization for Retrieval-Augmented Generation'
 # WWW
 - authors:
   - Kaitao Zhang
