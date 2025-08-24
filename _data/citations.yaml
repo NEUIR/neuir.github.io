@@ -288,6 +288,7 @@
   - Shi Yu
   - Ge Yu
   date: '2025-01-01'
+  mark: emnlp2025
   image: images/projects/expandr.png
   link: 'https://arxiv.org/pdf/2502.17057'
   publisher: Proceedings of EMNLP
@@ -326,6 +327,7 @@
   - Furong Peng
   - Ge Yu
   date: '2025-01-01'
+  mark: emnlp2025
   image: images/projects/recut.png
   link: 'https://arxiv.org/pdf/2506.10822'
   publisher: Proceedings of EMNLP (Findings)
@@ -344,6 +346,7 @@
   - Zhiyuan Liu
   - Maosong Sun
   date: '2025-01-01'
+  mark: emnlp2025
   image: images/projects/clueanchor.png
   link: 'https://arxiv.org/pdf/2505.24388'
   publisher: Proceedings of EMNLP (Findings)
