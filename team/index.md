@@ -29,6 +29,7 @@ nav:
 {% include list.html data="members" component="portrait" filters="role: graduated" %}
 {% endcomment %}
 
+- 刘书豪，本科，2023年入学。
 - 朱宸炜，本科，2022年入学。
 - 张听然，本科，2022年入学。
 - 张煜旸，本科，2022年入学。
