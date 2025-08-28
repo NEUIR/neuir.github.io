@@ -7,7 +7,9 @@
 
 ## 亮点工作
 
-{% include list.html data="highlights" component="citation" style="rich" %}
+{% include list.html data="highlights" component="citation" filters="mark: -main" style="rich" %}
+
+{% include list.html data="highlights" component="citation" filters="mark: -findings" style="rich" %}
 
 ## 最新动态
 

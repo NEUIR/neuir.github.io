@@ -23,7 +23,7 @@
   date: 2024
 
 - title: ActiveRAG
-  subtitle: 
+  subtitle:
   image: images/projects/activerag.png
   link: https://github.com/OpenMatch/ActiveRAG
   description: Revealing the Treasures of Knowledge via Active Learning
@@ -40,17 +40,11 @@
   date: 2023
 
 - title: RAGEval
+  subtitle: ACL 2025
   image: images/projects/rageval.png
   link: https://github.com/OpenBMB/RAGEval
   description: 'RAGEval: Scenario Specific RAG Evaluation Dataset Generation Framework'
   repo: OpenBMB/RAGEval
-  date: 2025
-
-- title: Adaptive-Note
-  image: images/projects/adaptivenote.png
-  link: https://github.com/thunlp/Adaptive-Note
-  description: 'Retriever-and-Memory: Towards Adaptive Note-Enhanced Retrieval-Augmented Generation'
-  repo: thunlp/Adaptive-Note
   date: 2025
 
 - title: UniVL-DR
@@ -171,24 +165,11 @@
   date: 2024
 
 - title: KBAlign
+  subtitle: EMNLP 2025 (Findings)
   image: images/projects/kbalign.png
   link: https://github.com/thunlp/KBAlign
   description: 'KBAlign: Efficient Self Adaptation on Specific Knowledge Bases'
   repo: thunlp/KBAlign
-  date: 2025
-
-- title: PIP-KAG
-  image: images/projects/pipkag.png
-  link: https://github.com/OpenBMB/PIP-KAG
-  description: 'PIP-KAG: Mitigating Knowledge Conflicts in Knowledge-Augmented Generation via Parametric Pruning'
-  repo: OpenBMB/PIP-KAG
-  date: 2025
-
-- title: HIPPO
-  image: images/projects/hippo.png
-  link: https://github.com/NEUIR/HIPPO
-  description: 'HIPPO: Enhancing the Table Understanding Capability of Large Language Models through Hybrid-Modal Preference Optimization'
-  repo: NEUIR/HIPPO
   date: 2025
 
 - title: LegalDuet
@@ -206,6 +187,7 @@
   date: 2025
 
 - title: MemGraph
+  subtitle: SIGIR 2025
   image: images/projects/memgraph.png
   link: https://github.com/NEUIR/MemGraph
   description: 'Enhancing the Patent Matching Capability of Large Language Models via Memory Graph'
@@ -213,6 +195,7 @@
   date: 2025
 
 - title: RankCOT
+  subtitle: ACL 2025
   image: images/projects/rankcot.png
   link: https://github.com/NEUIR/RankCoT
   description: 'Rankcot: Refining Knowledge for Retrieval-Augmented Generation through Ranking Chain-of-Thoughts'
@@ -220,24 +203,28 @@
   date: 2025
 
 - title: ConsJudge
+  subtitle: ACL 2025 (Findings)
   image: images/projects/consjudge.png
   link: https://github.com/OpenBMB/ConsJudge
   description: 'Judge as A Judge: Improving the Evaluation of Retrieval-Augmented Generation through the Judge-Consistency of Large Language Models'
   repo: OpenBMB/ConsJudge
 
 - title: ClueAnchor
+  subtitle: EMNLP 2025 (Findings)
   image: images/projects/clueanchor.png
   link: https://github.com/thunlp/ClueAnchor
   description: 'ClueAnchor: Clue-Anchored Knowledge Reasoning Exploration and Optimization for Retrieval-Augmented Generation'
   repo: thunlp/ClueAnchor
 
 - title: ExpandR
+  subtitle: EMNLP 2025
   image: images/projects/expandr.png
   link: https://github.com/NEUIR/ExpandR
   description: 'ExpandR: Teaching Dense Retrievers Beyond Queries with LLM Guidance'
   repo: NEUIR/ExpandR
 
 - title: ReCUT
+  subtitle: EMNLP 2025 (Findings)
   image: images/projects/recut.png
   link: https://github.com/NEUIR/ReCUT
   description: 'ReCUT:Balancing Reasoning Length and Accuracy in LLMs via Stepwise Trails and Preference Optimization'

@@ -108,7 +108,7 @@
   - Chenyan Xiong
   - Ge Yu
   date: '2024-01-01'
-  mark: acl2024
+  mark: acl2024-main
   image: images/projects/neuscraper.png
   link: 'https://aclanthology.org/2024.acl-short.72/'
   publisher: Proceedings of ACL
@@ -126,7 +126,7 @@
   - Zhiyuan Liu
   - Maosong Sun
   date: '2024-01-01'
-  mark: acl2024
+  mark: acl2024-main
   image: images/projects/ultralink.png
   link: 'https://aclanthology.org/2024.acl-long.644/'
   publisher: Proceedings of ACL
@@ -141,7 +141,7 @@
   - Yu Gu
   - Ge Yu
   date: '2024-01-01'
-  mark: acl2024
+  mark: acl2024-main
   image: images/projects/marvel.png
   link: 'https://aclanthology.org/2024.acl-long.783/'
   publisher: Proceedings of ACL
@@ -155,7 +155,7 @@
   - Zhiyuan Liu
   - Ge Yu
   date: '2024-01-01'
-  mark: acl2024
+  mark: acl2024-findings
   image: images/projects/intervenor.png
   link: 'https://aclanthology.org/2024.findings-acl.124/'
   publisher: Proceedings of ACL (Findings)
@@ -175,7 +175,7 @@
   - Xiaodong Shi
   - Maosong Sun
   date: '2024-01-01'
-  mark: acl2024
+  mark: acl2024-findings
   image: images/projects/matplotagent.png
   link: 'https://aclanthology.org/2024.findings-acl.701/'
   publisher: Proceedings of ACL (Findings)
@@ -190,7 +190,7 @@
   - Yu Gu
   - Ge Yu
   date: '2025-01-01'
-  mark: acl2025
+  mark: acl2025-main
   image: images/projects/rankcot.png
   link: 'https://arxiv.org/abs/2502.17888'
   publisher: Proceedings of ACL
@@ -206,7 +206,7 @@
   - Maosong Sun
   - Ge Yu
   date: '2025-01-01'
-  mark: acl2025
+  mark: acl2025-findings
   image: images/projects/consjudge.png
   link: 'https://arxiv.org/abs/2502.18817'
   publisher: Proceedings of ACL (Findings)
@@ -226,7 +226,7 @@
   - Zhiyuan Liu
   - Maosong Sun
   date: '2025-01-01'
-  mark: acl2025
+  mark: acl2025-main
   image: images/projects/rageval.png
   link: 'https://arxiv.org/abs/2408.01262'
   publisher: Proceedings of ACL
@@ -288,7 +288,7 @@
   - Shi Yu
   - Ge Yu
   date: '2025-01-01'
-  mark: emnlp2025
+  mark: emnlp2025-main
   image: images/projects/expandr.png
   link: 'https://arxiv.org/pdf/2502.17057'
   publisher: Proceedings of EMNLP
@@ -327,7 +327,7 @@
   - Furong Peng
   - Ge Yu
   date: '2025-01-01'
-  mark: emnlp2025
+  mark: emnlp2025-findings
   image: images/projects/recut.png
   link: 'https://arxiv.org/pdf/2506.10822'
   publisher: Proceedings of EMNLP (Findings)
@@ -346,11 +346,62 @@
   - Zhiyuan Liu
   - Maosong Sun
   date: '2025-01-01'
-  mark: emnlp2025
+  mark: emnlp2025-findings
   image: images/projects/clueanchor.png
   link: 'https://arxiv.org/pdf/2505.24388'
   publisher: Proceedings of EMNLP (Findings)
   title: 'ClueAnchor: Clue-Anchored Knowledge Reasoning Exploration and Optimization for Retrieval-Augmented Generation'
+- authors:
+  - Zheni Zeng
+  - Jiayi Chen
+  - Huimin Chen
+  - Yukun Yan
+  - Yuxuan Chen
+  - Zhenghao Liu
+  - Zhiyuan Liu
+  - Maosong Sun
+  date: '2025-01-01'
+  mark: emnlp2025-findings
+  image: images/projects/persllm.png
+  link: 'https://arxiv.org/pdf/2407.12393'
+  publisher: Proceedings of EMNLP (Findings)
+  title: 'PersLLM: A Personified Training Approach for Large Language Models'
+- authors:
+  - Zheni Zeng
+  - Yuxuan Chen
+  - Shi Yu
+  - Ruobing Wang
+  - Yukun Yan
+  - Zhenghao Liu
+  - Shuo Wang
+  - Xu Han
+  - Zhiyuan Liu
+  - Maosong Sun
+  date: '2025-01-01'
+  mark: emnlp2025-findings
+  image: images/projects/kbalign.png
+  link: 'https://arxiv.org/pdf/2411.14790'
+  publisher: Proceedings of EMNLP (Findings)
+  title: 'KBAlign: Efficient Self Adaptation on Specific Knowledge Bases'
+- authors:
+  - Ruobing Wang
+  - Qingfei Zhao
+  - Yukun Yan
+  - Daren Zha
+  - Yuxuan Chen
+  - Shi Yu
+  - Zhenghao Liu
+  - Yixuan Wang
+  - Shuo Wang
+  - Xu Han
+  - Zhiyuan Liu
+  - Maosong Sun
+  date: '2025-01-01'
+  mark: emnlp2025-findings
+  image: images/projects/deepnote.png
+  link: 'https://arxiv.org/pdf/2410.08821'
+  publisher: Proceedings of EMNLP (Findings)
+  title: 'DeepNote: Note-Centric Deep Retrieval-Augmented Generation'
 # WWW
 - authors:
   - Kaitao Zhang
