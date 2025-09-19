@@ -758,3 +758,38 @@
   link: 'https://link.springer.com/chapter/10.1007/978-981-96-1710-4_6'
   title: 'Exploring the Potential of Dimension Reduction in Building Efficient Dense Retrieval Systems'
   publisher: Proceedings of CCIR
+# NeurIPS
+- authors:
+  - Pengcheng Huang
+  - Zhenghao Liu,
+  - Yukun Yan
+  - Haiyan Zhao
+  - Xiaoyuan Yi
+  - Hao Chen
+  - Zhiyuan Liu
+  - Maosong Sun
+  - Tong Xiao
+  - Ge Yu
+  - Chenyan Xiong
+  date: '2025-01-01'
+  mark: nips2025
+  image: images/projects/parammute.png
+  link: 'https://arxiv.org/pdf/2502.15543'
+  title: 'ParamMute: Suppressing Knowledge-Critical FFNs for Faithful Retrieval-Augmented Generation'
+  publisher: Proceedings of NeurIPS
+- authors:
+  - Xiaoang Xu
+  - Shuo Wang
+  - Xu Han
+  - Zhenghao Liu
+  - Huijia Wu
+  - Peipei Li
+  - Zhiyuan Liu
+  - Maosong Sun
+  - Zhaofeng He
+  date: '2025-01-01'
+  mark: nips2025
+  image: images/projects/athought.png
+  link: 'https://arxiv.org/pdf/2505.24550'
+  title: 'A*-Thought: Efficient Reasoning via Bidirectional Compression for Low-Resource Settings'
+  publisher: Proceedings of NeurIPS

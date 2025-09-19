@@ -30,72 +30,36 @@
   publisher: Proceedings of EMNLP (Findings)
   title: 'ReCUT: Balancing Reasoning Length and Accuracy in LLMs via Stepwise Trails and Preference Optimization'
 - authors:
-  - Hao Chen
-  - Yukun Yan
-  - Sen Mei
-  - Wanxiang Che
-  - Zhenghao Liu
-  - Qi Shi
-  - Xinze Li
-  - Yuchun Fan
   - Pengcheng Huang
-  - Qiushi Xiong
+  - Zhenghao Liu,
+  - Yukun Yan
+  - Haiyan Zhao
+  - Xiaoyuan Yi
+  - Hao Chen
   - Zhiyuan Liu
   - Maosong Sun
+  - Tong Xiao
+  - Ge Yu
+  - Chenyan Xiong
   date: '2025-01-01'
-  mark: emnlp2025-findings
-  image: images/projects/clueanchor.png
-  link: 'https://arxiv.org/pdf/2505.24388'
-  publisher: Proceedings of EMNLP (Findings)
-  title: 'ClueAnchor: Clue-Anchored Knowledge Reasoning Exploration and Optimization for Retrieval-Augmented Generation'
+  mark: nips2025
+  image: images/projects/parammute.png
+  link: 'https://arxiv.org/pdf/2502.15543'
+  title: 'ParamMute: Suppressing Knowledge-Critical FFNs for Faithful Retrieval-Augmented Generation'
+  publisher: Proceedings of NeurIPS
 - authors:
-  - Zheni Zeng
-  - Jiayi Chen
-  - Huimin Chen
-  - Yukun Yan
-  - Yuxuan Chen
-  - Zhenghao Liu
-  - Zhiyuan Liu
-  - Maosong Sun
-  date: '2025-01-01'
-  mark: emnlp2025-findings
-  image: images/projects/persllm.png
-  link: 'https://arxiv.org/pdf/2407.12393'
-  publisher: Proceedings of EMNLP (Findings)
-  title: 'PersLLM: A Personified Training Approach for Large Language Models'
-- authors:
-  - Zheni Zeng
-  - Yuxuan Chen
-  - Shi Yu
-  - Ruobing Wang
-  - Yukun Yan
-  - Zhenghao Liu
+  - Xiaoang Xu
   - Shuo Wang
   - Xu Han
-  - Zhiyuan Liu
-  - Maosong Sun
-  date: '2025-01-01'
-  mark: emnlp2025-findings
-  image: images/projects/kbalign.png
-  link: 'https://arxiv.org/pdf/2411.14790'
-  publisher: Proceedings of EMNLP (Findings)
-  title: 'KBAlign: Efficient Self Adaptation on Specific Knowledge Bases'
-- authors:
-  - Ruobing Wang
-  - Qingfei Zhao
-  - Yukun Yan
-  - Daren Zha
-  - Yuxuan Chen
-  - Shi Yu
   - Zhenghao Liu
-  - Yixuan Wang
-  - Shuo Wang
-  - Xu Han
+  - Huijia Wu
+  - Peipei Li
   - Zhiyuan Liu
   - Maosong Sun
+  - Zhaofeng He
   date: '2025-01-01'
-  mark: emnlp2025-findings
-  image: images/projects/deepnote.png
-  link: 'https://arxiv.org/pdf/2410.08821'
-  publisher: Proceedings of EMNLP (Findings)
-  title: 'DeepNote: Note-Centric Deep Retrieval-Augmented Generation'
+  mark: nips2025
+  image: images/projects/athought.png
+  link: 'https://arxiv.org/pdf/2505.24550'
+  title: 'A*-Thought: Efficient Reasoning via Bidirectional Compression for Low-Resource Settings'
+  publisher: Proceedings of NeurIPS

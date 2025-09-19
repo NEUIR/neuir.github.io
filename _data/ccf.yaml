@@ -6,6 +6,7 @@ a_publishers:
   - Proceedings of SIGIR
   - Proceedings of ACL-IJCNLP
   - Proceedings of IJCAI
+  - Proceedings of NeurIPS
   - Journal of ACM Transactions on Information Systems (TOIS)
   - Journal of IEEE Transactions on Knowledge and Data Engineering (TKDE)
 
