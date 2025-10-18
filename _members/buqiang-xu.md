@@ -1,11 +1,7 @@
 ---
 name: Buqiang Xu
 name_cn: 徐步强
-image: images/headshots/buqiang_xu.jpg
-role: bs
-year: 2024
-link: /team/#/
-affiliation: 20223953@stu.neu.edu.cn
+role: graduated
 ---
 
 This is Buqiang Xu's Personal Page.
