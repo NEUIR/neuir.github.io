@@ -29,7 +29,7 @@ nav:
 {% include list.html data="members" component="portrait" filters="role: graduated" %}
 {% endcomment %}
 
-- 刘书豪，本科，2023年入学。
+
 - 朱宸炜，本科，2022年入学。
 - 张听然，本科，2022年入学。
 - 张煜旸，本科，2022年入学。
@@ -38,7 +38,6 @@ nav:
 - 徐步强，本科，2021年入学。毕业后前往浙江大学攻读硕士学位。
 - [王汉彬](https://wanghanbinpanda.github.io/)，本科，2020年入学。毕业后前往北京大学攻读硕士学位。
 - 王灏岚，硕士，2023年入学。
-- [熊秋实](https://qiushixiong.github.io/)，硕士，2023年入学。
 - [梅　森](https://scholar.google.com/citations?user=JWqmlrcAAAAJ)，硕士，2022年入学。毕业后前往启元实验室工作。
 - [周天硕](https://whale-z.github.io/)，硕士，2022年入学。毕业后前往科大讯飞AI研究院工作。
 - 姚思佳，硕士，2022年入学。毕业后前往北京中国移动在线营销服务中心工作。
