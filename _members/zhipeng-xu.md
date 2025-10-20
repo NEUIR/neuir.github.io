@@ -4,7 +4,7 @@ name_cn: 徐志鹏
 image: images/headshots/zhipeng_xu.png
 role: ms
 year: 201
-link: https://scholar.google.com/citations?user=PGS_UbsAAAAJ
+link: https://pab1x.github.io/
 affiliation: xuzhipeng@stumail.neu.edu.cn
 ---
 

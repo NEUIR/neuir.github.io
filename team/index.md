@@ -35,7 +35,7 @@ nav:
 - 张煜旸，本科，2022年入学。
 - [刘艺彬](https://10-oasis-01.github.io/)，本科，2022年入学。
 - 张馨艺，本科，2021年入学。毕业后前往上海交通大学攻读博士学位。
-- 徐步强，本科，2021年入学。毕业后前往浙江大学攻读硕士学位。
+- [徐步强](https://xubqpanda.github.io/)，本科，2022年入学。毕业后前往浙江大学攻读硕士学位。
 - [王汉彬](https://wanghanbinpanda.github.io/)，本科，2020年入学。毕业后前往北京大学攻读硕士学位。
 - 王灏岚，硕士，2023年入学。
 - [梅　森](https://scholar.google.com/citations?user=JWqmlrcAAAAJ)，硕士，2022年入学。毕业后前往启元实验室工作。

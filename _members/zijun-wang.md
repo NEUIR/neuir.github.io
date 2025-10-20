@@ -1,11 +1,11 @@
 ---
 name: Zijun Wang
 name_cn: 王子俊
-image: 
+image: images/headshots/zijun_wang.jpg
 role: ms
 year: 501
 link: /team/#/
-affiliation: 
+affiliation: zijunw385@gmail.com
 ---
 
 This is Zijun Wang's Personal Page.
