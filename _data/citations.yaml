@@ -632,6 +632,24 @@
   link: 'https://arxiv.org/abs/2404.02078'
   title: 'Advancing llm reasoning generalists with preference trees'
   publisher: Proceedings of ICLR
+# KDD
+- authors:
+  - Haidong Xin
+  - Zhenghao Liu
+  - Sen Mei
+  - Yukun Yan
+  - Shi Yu
+  - Shuo Wang
+  - Zulong Chen
+  - Yu Gu
+  - Ge Yu
+  - Chenyan Xiong
+  date: '2026-01-01'
+  mark: kdd2026
+  image: images/projects/lisrec.jpg
+  link: 'https://arxiv.org/abs/2505.22130'
+  title: 'LISRec: Modeling User Preferences with Learned Item Shortcuts for Sequential Recommendation'
+  publisher: Proceedings of KDD
 # CIKM
 - authors:
   - Zhenghao Liu

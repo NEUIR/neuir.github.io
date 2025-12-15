@@ -1,28 +1,29 @@
 a_publishers:
-  - Proceedings of ACL
-  - Proceedings of ACL (Findings)
-  - Proceedings of ICDE
-  - Proceedings of WWW
-  - Proceedings of SIGIR
-  - Proceedings of ACL-IJCNLP
-  - Proceedings of IJCAI
-  - Proceedings of NeurIPS
-  - Journal of ACM Transactions on Information Systems (TOIS)
-  - Journal of IEEE Transactions on Knowledge and Data Engineering (TKDE)
+- Proceedings of ACL
+- Proceedings of ACL (Findings)
+- Proceedings of ICDE
+- Proceedings of WWW
+- Proceedings of SIGIR
+- Proceedings of ACL-IJCNLP
+- Proceedings of IJCAI
+- Proceedings of NeurIPS
+- Proceedings of KDD
+- Journal of ACM Transactions on Information Systems (TOIS)
+- Journal of IEEE Transactions on Knowledge and Data Engineering (TKDE)
 
 b_publishers:
-  - Proceedings of EMNLP
-  - Proceedings of EMNLP (Findings)
-  - Proceedings of COLING
-  - Proceedings of LREC-COLING
-  - Proceedings of CIKM
-  - Proceedings of NAACL
-  - Proceedings of NAACL (Findings)
-  - Journal of Computer Science and Technology (JCST)
+- Proceedings of EMNLP
+- Proceedings of EMNLP (Findings)
+- Proceedings of COLING
+- Proceedings of LREC-COLING
+- Proceedings of CIKM
+- Proceedings of NAACL
+- Proceedings of NAACL (Findings)
+- Journal of Computer Science and Technology (JCST)
 
 c_publishers:
-  - Journal of IEEE Transactions on Big Data (TBD)
-  - Proceedings of NLPCC
+- Journal of IEEE Transactions on Big Data (TBD)
+- Proceedings of NLPCC
 
 expanded_publishers:
-  - Proceedings of ICLR
+- Proceedings of ICLR
