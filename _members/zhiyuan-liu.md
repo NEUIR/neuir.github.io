@@ -6,7 +6,7 @@ role: co
 year: 104
 link: https://nlp.csai.tsinghua.edu.cn/~lzy/
 affiliation: liuzy@tsinghua.edu.cn
-description: Associate Professor
+description: Professor
 ---
 
 This is Zhiyuan Liu's Personal Page.
