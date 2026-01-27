@@ -18,8 +18,8 @@ nav:
 ## 硕士研究生
 {% include list.html data="members" component="portrait" filters="role: ms" %}
 
-## 本科生
-{% include list.html data="members" component="portrait" filters="role: bs" %}
+<!-- ## 本科生
+{% include list.html data="members" component="portrait" filters="role: bs" %} -->
 
 ## 实习生
 {% include list.html data="members" component="portrait" filters="role: ex" %}

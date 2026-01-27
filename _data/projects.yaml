@@ -8,6 +8,7 @@
   date: 2025
 
 - title: UltraRAG
+  subtitle: GitHub Trending (<span style="color:red">Top 2</span>)
   image: images/projects/ultrarag.png
   link: https://github.com/OpenBMB/UltraRAG
   repo: OpenBMB/UltraRAG
@@ -23,7 +24,7 @@
   date: 2024
 
 - title: ActiveRAG
-  subtitle:
+  subtitle: EACL 2026 (Findings)
   image: images/projects/activerag.png
   link: https://github.com/OpenMatch/ActiveRAG
   description: Revealing the Treasures of Knowledge via Active Learning
@@ -173,6 +174,7 @@
   date: 2025
 
 - title: LegalDuet
+  subtitle: ADMA 2025 (<span style="color:red">outstanding paper</span>)
   image: images/projects/legalduet.png
   link: https://github.com/NEUIR/LegalDuet
   description: 'LegalDuet: Learning Effective Representations for Legal Judgment Prediction via a Dual-View Contrastive Learning'
@@ -180,6 +182,7 @@
   date: 2025
 
 - title: DEBATER
+  subtitle: SIGIR-AP 2025
   image: images/projects/debater.png
   link: https://github.com/OpenBMB/DEBATER
   description: 'Learning More Effective Representations for Dense Retrieval through Deliberate Thinking Before Search'
