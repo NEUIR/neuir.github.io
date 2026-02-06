@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://neuir.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://neuir.github.io/" rel="alternate" type="text/html" /><updated>2026-02-06T09:22:24+00:00</updated><id>https://neuir.github.io/feed.xml</id><title type="html">东北大学信息检索实验室</title><subtitle>东北大学信息检索实验室隶属东北大学计算机科学与工程学院计算机科学系，由刘正皓副教授、于戈教授和谷峪教授共同指导，致力于信息检索与大语言模型相关研究，承担多项国家级、省部级项目，在 NeurIPS、ICLR、ACL、EMNLP、NAACL、SIGIR、KDD、WebConf、ICASSP 等国际国内顶级会议及期刊发表 60 余篇论文。课题组曾在 TREC-COVID 文档级检索比赛中获第一名；联合研发的 MiniCPM 检索增强生成组件在 MTEB 榜单中文检索效果排名第一；开源的 UltraRAG 工具获超 5k 个星标。</subtitle><entry><title type="html">We have one paper accepted by KDD 2026</title><link href="https://neuir.github.io/2025/11/24/post.html" rel="alternate" type="text/html" title="We have one paper accepted by KDD 2026" /><published>2025-11-24T00:00:00+00:00</published><updated>2026-02-06T09:21:19+00:00</updated><id>https://neuir.github.io/2025/11/24/post</id><content type="html" xml:base="https://neuir.github.io/2025/11/24/post.html"><![CDATA[<p>We have one paper accepted by KDD 2026: The 32nd SIGKDD Conference on Knowledge Discovery and Data Mining</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://neuir.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://neuir.github.io/" rel="alternate" type="text/html" /><updated>2026-02-06T10:47:42+00:00</updated><id>https://neuir.github.io/feed.xml</id><title type="html">东北大学信息检索实验室</title><subtitle>东北大学信息检索实验室隶属东北大学计算机科学与工程学院计算机科学系，由刘正皓副教授、于戈教授和谷峪教授共同指导，致力于信息检索与大语言模型相关研究，承担多项国家级、省部级项目，在 NeurIPS、ICLR、ACL、EMNLP、NAACL、SIGIR、KDD、WebConf、ICASSP 等国际国内顶级会议及期刊发表 60 余篇论文。课题组曾在 TREC-COVID 文档级检索比赛中获第一名；联合研发的 MiniCPM 检索增强生成组件在 MTEB 榜单中文检索效果排名第一；开源的 UltraRAG 工具获超 5k 个星标。</subtitle><entry><title type="html">We have one paper accepted by KDD 2026</title><link href="https://neuir.github.io/2025/11/24/post.html" rel="alternate" type="text/html" title="We have one paper accepted by KDD 2026" /><published>2025-11-24T00:00:00+00:00</published><updated>2026-02-06T10:46:48+00:00</updated><id>https://neuir.github.io/2025/11/24/post</id><content type="html" xml:base="https://neuir.github.io/2025/11/24/post.html"><![CDATA[<p>We have one paper accepted by KDD 2026: The 32nd SIGKDD Conference on Knowledge Discovery and Data Mining</p>
 
 <p>International Convention Center Jeju (ICC Jeju), August 9-13, 2026, Jeju, Korea</p>
 
 <div class="citation-container">
   <div class="citation">
     
-    <a href="https://arxiv.org/abs/2505.22130" class="citation-image" aria-label="LISRec: Modeling User Preferences with Learned Item Shortcuts for Sequential Recommendation">
+    <div class="citation-image" data-lightbox="/images/projects/lisrec.jpg" role="button" tabindex="0" aria-label="点击放大图片">
       <img src="/images/projects/lisrec.jpg" alt="LISRec: Modeling User Preferences with Learned Item Shortcuts for Sequential Recommendation" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
-    </a>
+    </div>
     
 
     <div class="citation-text">
@@ -37,16 +37,16 @@
       
     </div>
   </div>
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[We have one paper accepted by KDD 2026: The 32nd SIGKDD Conference on Knowledge Discovery and Data Mining]]></summary></entry><entry><title type="html">We have two papers accepted by NeurIPS 2025</title><link href="https://neuir.github.io/2025/09/18/post.html" rel="alternate" type="text/html" title="We have two papers accepted by NeurIPS 2025" /><published>2025-09-18T00:00:00+00:00</published><updated>2026-02-06T09:21:19+00:00</updated><id>https://neuir.github.io/2025/09/18/post</id><content type="html" xml:base="https://neuir.github.io/2025/09/18/post.html"><![CDATA[<p>We have two papers accepted by NeurIPS 2025: The Thirty-Ninth Annual Conference on Neural Information Processing Systems</p>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[We have one paper accepted by KDD 2026: The 32nd SIGKDD Conference on Knowledge Discovery and Data Mining]]></summary></entry><entry><title type="html">We have two papers accepted by NeurIPS 2025</title><link href="https://neuir.github.io/2025/09/18/post.html" rel="alternate" type="text/html" title="We have two papers accepted by NeurIPS 2025" /><published>2025-09-18T00:00:00+00:00</published><updated>2026-02-06T10:46:48+00:00</updated><id>https://neuir.github.io/2025/09/18/post</id><content type="html" xml:base="https://neuir.github.io/2025/09/18/post.html"><![CDATA[<p>We have two papers accepted by NeurIPS 2025: The Thirty-Ninth Annual Conference on Neural Information Processing Systems</p>
 
 <p>San Diego Convention Center, Dec. 2-7, US &amp; Mexico City, Nov. 30-Dec. 5, Mexico</p>
 
 <div class="citation-container">
   <div class="citation">
     
-    <a href="https://arxiv.org/pdf/2505.24550" class="citation-image" aria-label="A*-Thought: Efficient Reasoning via Bidirectional Compression for Low-Resource Settings">
+    <div class="citation-image" data-lightbox="/images/projects/athought.png" role="button" tabindex="0" aria-label="点击放大图片">
       <img src="/images/projects/athought.png" alt="A*-Thought: Efficient Reasoning via Bidirectional Compression for Low-Resource Settings" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
-    </a>
+    </div>
     
 
     <div class="citation-text">
@@ -81,9 +81,9 @@
 <div class="citation-container">
   <div class="citation">
     
-    <a href="https://arxiv.org/pdf/2502.15543" class="citation-image" aria-label="ParamMute: Suppressing Knowledge-Critical FFNs for Faithful Retrieval-Augmented Generation">
+    <div class="citation-image" data-lightbox="/images/projects/parammute.png" role="button" tabindex="0" aria-label="点击放大图片">
       <img src="/images/projects/parammute.png" alt="ParamMute: Suppressing Knowledge-Critical FFNs for Faithful Retrieval-Augmented Generation" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
-    </a>
+    </div>
     
 
     <div class="citation-text">
@@ -113,7 +113,7 @@
       
     </div>
   </div>
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[We have two papers accepted by NeurIPS 2025: The Thirty-Ninth Annual Conference on Neural Information Processing Systems]]></summary></entry><entry><title type="html">We have six papers accepted by EMNLP 2025</title><link href="https://neuir.github.io/2025/08/20/post.html" rel="alternate" type="text/html" title="We have six papers accepted by EMNLP 2025" /><published>2025-08-20T00:00:00+00:00</published><updated>2026-02-06T09:21:19+00:00</updated><id>https://neuir.github.io/2025/08/20/post</id><content type="html" xml:base="https://neuir.github.io/2025/08/20/post.html"><![CDATA[<p>We have six papers accepted by EMNLP 2025: The 2025 Conference on Empirical Methods in Natural Language Processing</p>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[We have two papers accepted by NeurIPS 2025: The Thirty-Ninth Annual Conference on Neural Information Processing Systems]]></summary></entry><entry><title type="html">We have six papers accepted by EMNLP 2025</title><link href="https://neuir.github.io/2025/08/20/post.html" rel="alternate" type="text/html" title="We have six papers accepted by EMNLP 2025" /><published>2025-08-20T00:00:00+00:00</published><updated>2026-02-06T10:46:48+00:00</updated><id>https://neuir.github.io/2025/08/20/post</id><content type="html" xml:base="https://neuir.github.io/2025/08/20/post.html"><![CDATA[<p>We have six papers accepted by EMNLP 2025: The 2025 Conference on Empirical Methods in Natural Language Processing</p>
 
 <p>Suzhou, China</p>
 
@@ -122,9 +122,9 @@
 <div class="citation-container">
   <div class="citation">
     
-    <a href="https://arxiv.org/pdf/2502.17057" class="citation-image" aria-label="ExpandR: Teaching Dense Retrievers Beyond Queries with LLM Guidance">
+    <div class="citation-image" data-lightbox="/images/projects/expandr.png" role="button" tabindex="0" aria-label="点击放大图片">
       <img src="/images/projects/expandr.png" alt="ExpandR: Teaching Dense Retrievers Beyond Queries with LLM Guidance" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
-    </a>
+    </div>
     
 
     <div class="citation-text">
@@ -159,9 +159,9 @@
 <div class="citation-container">
   <div class="citation">
     
-    <a href="https://arxiv.org/pdf/2410.08821" class="citation-image" aria-label="DeepNote: Note-Centric Deep Retrieval-Augmented Generation">
+    <div class="citation-image" data-lightbox="/images/projects/deepnote.png" role="button" tabindex="0" aria-label="点击放大图片">
       <img src="/images/projects/deepnote.png" alt="DeepNote: Note-Centric Deep Retrieval-Augmented Generation" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
-    </a>
+    </div>
     
 
     <div class="citation-text">
@@ -196,9 +196,9 @@
 <div class="citation-container">
   <div class="citation">
     
-    <a href="https://arxiv.org/pdf/2411.14790" class="citation-image" aria-label="KBAlign: Efficient Self Adaptation on Specific Knowledge Bases">
+    <div class="citation-image" data-lightbox="/images/projects/kbalign.png" role="button" tabindex="0" aria-label="点击放大图片">
       <img src="/images/projects/kbalign.png" alt="KBAlign: Efficient Self Adaptation on Specific Knowledge Bases" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
-    </a>
+    </div>
     
 
     <div class="citation-text">
@@ -233,9 +233,9 @@
 <div class="citation-container">
   <div class="citation">
     
-    <a href="https://arxiv.org/pdf/2407.12393" class="citation-image" aria-label="PersLLM: A Personified Training Approach for Large Language Models">
+    <div class="citation-image" data-lightbox="/images/projects/persllm.png" role="button" tabindex="0" aria-label="点击放大图片">
       <img src="/images/projects/persllm.png" alt="PersLLM: A Personified Training Approach for Large Language Models" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
-    </a>
+    </div>
     
 
     <div class="citation-text">
@@ -270,9 +270,9 @@
 <div class="citation-container">
   <div class="citation">
     
-    <a href="https://arxiv.org/pdf/2505.24388" class="citation-image" aria-label="ClueAnchor: Clue-Anchored Knowledge Reasoning Exploration and Optimization for Retrieval-Augmented Generation">
+    <div class="citation-image" data-lightbox="/images/projects/clueanchor.png" role="button" tabindex="0" aria-label="点击放大图片">
       <img src="/images/projects/clueanchor.png" alt="ClueAnchor: Clue-Anchored Knowledge Reasoning Exploration and Optimization for Retrieval-Augmented Generation" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
-    </a>
+    </div>
     
 
     <div class="citation-text">
@@ -307,9 +307,9 @@
 <div class="citation-container">
   <div class="citation">
     
-    <a href="https://arxiv.org/pdf/2506.10822" class="citation-image" aria-label="ReCUT: Balancing Reasoning Length and Accuracy in LLMs via Stepwise Trails and Preference Optimization">
+    <div class="citation-image" data-lightbox="/images/projects/recut.png" role="button" tabindex="0" aria-label="点击放大图片">
       <img src="/images/projects/recut.png" alt="ReCUT: Balancing Reasoning Length and Accuracy in LLMs via Stepwise Trails and Preference Optimization" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
-    </a>
+    </div>
     
 
     <div class="citation-text">
@@ -339,7 +339,7 @@
       
     </div>
   </div>
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[We have six papers accepted by EMNLP 2025: The 2025 Conference on Empirical Methods in Natural Language Processing]]></summary></entry><entry><title type="html">热烈祝贺东北大学信息检索实验室2025届本科、硕士研究生顺利毕业</title><link href="https://neuir.github.io/2025/06/19/post.html" rel="alternate" type="text/html" title="热烈祝贺东北大学信息检索实验室2025届本科、硕士研究生顺利毕业" /><published>2025-06-19T00:00:00+00:00</published><updated>2026-02-06T09:21:19+00:00</updated><id>https://neuir.github.io/2025/06/19/post</id><content type="html" xml:base="https://neuir.github.io/2025/06/19/post.html"><![CDATA[<p>热烈祝贺东北大学信息检索实验室2025届本科、硕士研究生顺利毕业！</p>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[We have six papers accepted by EMNLP 2025: The 2025 Conference on Empirical Methods in Natural Language Processing]]></summary></entry><entry><title type="html">热烈祝贺东北大学信息检索实验室2025届本科、硕士研究生顺利毕业</title><link href="https://neuir.github.io/2025/06/19/post.html" rel="alternate" type="text/html" title="热烈祝贺东北大学信息检索实验室2025届本科、硕士研究生顺利毕业" /><published>2025-06-19T00:00:00+00:00</published><updated>2026-02-06T10:46:48+00:00</updated><id>https://neuir.github.io/2025/06/19/post</id><content type="html" xml:base="https://neuir.github.io/2025/06/19/post.html"><![CDATA[<p>热烈祝贺东北大学信息检索实验室2025届本科、硕士研究生顺利毕业！</p>
 
 <p>祝各位同学前程似锦，在未来的学术道路或职业征程中乘风破浪，以实验室所学的专业知识为帆，在信息检索与科技发展的浪潮中勇立潮头。</p>
 
@@ -427,7 +427,7 @@
 
 </div>
   
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[热烈祝贺东北大学信息检索实验室2025届本科、硕士研究生顺利毕业！]]></summary></entry><entry><title type="html">We have three papers accepted by ACL 2025</title><link href="https://neuir.github.io/2025/05/15/post.html" rel="alternate" type="text/html" title="We have three papers accepted by ACL 2025" /><published>2025-05-15T00:00:00+00:00</published><updated>2026-02-06T09:21:19+00:00</updated><id>https://neuir.github.io/2025/05/15/post</id><content type="html" xml:base="https://neuir.github.io/2025/05/15/post.html"><![CDATA[<p>We have three papers accepted by ACL 2025: The 63rd Annual Meeting of the Association for Computational Linguistics</p>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[热烈祝贺东北大学信息检索实验室2025届本科、硕士研究生顺利毕业！]]></summary></entry><entry><title type="html">We have three papers accepted by ACL 2025</title><link href="https://neuir.github.io/2025/05/15/post.html" rel="alternate" type="text/html" title="We have three papers accepted by ACL 2025" /><published>2025-05-15T00:00:00+00:00</published><updated>2026-02-06T10:46:48+00:00</updated><id>https://neuir.github.io/2025/05/15/post</id><content type="html" xml:base="https://neuir.github.io/2025/05/15/post.html"><![CDATA[<p>We have three papers accepted by ACL 2025: The 63rd Annual Meeting of the Association for Computational Linguistics</p>
 
 <p>Vienna, Austria</p>
 
@@ -436,9 +436,9 @@
 <div class="citation-container">
   <div class="citation">
     
-    <a href="https://arxiv.org/abs/2408.01262" class="citation-image" aria-label="RAGEval: Scenario Specific RAG Evaluation Dataset Generation Framework">
+    <div class="citation-image" data-lightbox="/images/projects/rageval.png" role="button" tabindex="0" aria-label="点击放大图片">
       <img src="/images/projects/rageval.png" alt="RAGEval: Scenario Specific RAG Evaluation Dataset Generation Framework" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
-    </a>
+    </div>
     
 
     <div class="citation-text">
@@ -473,9 +473,9 @@
 <div class="citation-container">
   <div class="citation">
     
-    <a href="https://arxiv.org/abs/2502.17888" class="citation-image" aria-label="Rankcot: Refining knowledge for retrieval-augmented generation through ranking chain-of-thoughts">
+    <div class="citation-image" data-lightbox="/images/projects/rankcot.png" role="button" tabindex="0" aria-label="点击放大图片">
       <img src="/images/projects/rankcot.png" alt="Rankcot: Refining knowledge for retrieval-augmented generation through ranking chain-of-thoughts" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
-    </a>
+    </div>
     
 
     <div class="citation-text">
@@ -510,9 +510,9 @@
 <div class="citation-container">
   <div class="citation">
     
-    <a href="https://arxiv.org/abs/2502.18817" class="citation-image" aria-label="Judge as A Judge: Improving the Evaluation of Retrieval-Augmented Generation through the Judge-Consistency of Large Language Models">
+    <div class="citation-image" data-lightbox="/images/projects/consjudge.png" role="button" tabindex="0" aria-label="点击放大图片">
       <img src="/images/projects/consjudge.png" alt="Judge as A Judge: Improving the Evaluation of Retrieval-Augmented Generation through the Judge-Consistency of Large Language Models" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
-    </a>
+    </div>
     
 
     <div class="citation-text">
@@ -542,7 +542,7 @@
       
     </div>
   </div>
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[We have three papers accepted by ACL 2025: The 63rd Annual Meeting of the Association for Computational Linguistics]]></summary></entry><entry><title type="html">We have one paper accepted by SIGIR 2025</title><link href="https://neuir.github.io/2025/04/04/post.html" rel="alternate" type="text/html" title="We have one paper accepted by SIGIR 2025" /><published>2025-04-04T00:00:00+00:00</published><updated>2026-02-06T09:21:19+00:00</updated><id>https://neuir.github.io/2025/04/04/post</id><content type="html" xml:base="https://neuir.github.io/2025/04/04/post.html"><![CDATA[<p>We have one paper accepted by SIGIR 2025: The 48th International ACM SIGIR Conference on Research and Development in Information Retrieval</p>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[We have three papers accepted by ACL 2025: The 63rd Annual Meeting of the Association for Computational Linguistics]]></summary></entry><entry><title type="html">We have one paper accepted by SIGIR 2025</title><link href="https://neuir.github.io/2025/04/04/post.html" rel="alternate" type="text/html" title="We have one paper accepted by SIGIR 2025" /><published>2025-04-04T00:00:00+00:00</published><updated>2026-02-06T10:46:48+00:00</updated><id>https://neuir.github.io/2025/04/04/post</id><content type="html" xml:base="https://neuir.github.io/2025/04/04/post.html"><![CDATA[<p>We have one paper accepted by SIGIR 2025: The 48th International ACM SIGIR Conference on Research and Development in Information Retrieval</p>
 
 <p>Padova, Italy</p>
 
@@ -573,7 +573,7 @@
       
     </div>
   </div>
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[We have one paper accepted by SIGIR 2025: The 48th International ACM SIGIR Conference on Research and Development in Information Retrieval]]></summary></entry><entry><title type="html">We have three papers accepted by ICLR 2025</title><link href="https://neuir.github.io/2025/01/22/post.html" rel="alternate" type="text/html" title="We have three papers accepted by ICLR 2025" /><published>2025-01-22T00:00:00+00:00</published><updated>2026-02-06T09:21:19+00:00</updated><id>https://neuir.github.io/2025/01/22/post</id><content type="html" xml:base="https://neuir.github.io/2025/01/22/post.html"><![CDATA[<p>We have three papers accepted by ICLR 2025: The Thirteenth International Conference on Learning Representations</p>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[We have one paper accepted by SIGIR 2025: The 48th International ACM SIGIR Conference on Research and Development in Information Retrieval]]></summary></entry><entry><title type="html">We have three papers accepted by ICLR 2025</title><link href="https://neuir.github.io/2025/01/22/post.html" rel="alternate" type="text/html" title="We have three papers accepted by ICLR 2025" /><published>2025-01-22T00:00:00+00:00</published><updated>2026-02-06T10:46:48+00:00</updated><id>https://neuir.github.io/2025/01/22/post</id><content type="html" xml:base="https://neuir.github.io/2025/01/22/post.html"><![CDATA[<p>We have three papers accepted by ICLR 2025: The Thirteenth International Conference on Learning Representations</p>
 
 <p>Singapore EXPO-1 Expo Drive, Singapore.</p>
 
@@ -658,7 +658,7 @@
       
     </div>
   </div>
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[We have three papers accepted by ICLR 2025: The Thirteenth International Conference on Learning Representations]]></summary></entry><entry><title type="html">We have five papers accepted by ACL 2024</title><link href="https://neuir.github.io/2024/05/15/post.html" rel="alternate" type="text/html" title="We have five papers accepted by ACL 2024" /><published>2024-05-15T00:00:00+00:00</published><updated>2026-02-06T09:21:19+00:00</updated><id>https://neuir.github.io/2024/05/15/post</id><content type="html" xml:base="https://neuir.github.io/2024/05/15/post.html"><![CDATA[<p>We have five papers accepted by ACL 2024: The 62nd Annual Meeting of the Association for Computational Linguistics</p>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[We have three papers accepted by ICLR 2025: The Thirteenth International Conference on Learning Representations]]></summary></entry><entry><title type="html">We have five papers accepted by ACL 2024</title><link href="https://neuir.github.io/2024/05/15/post.html" rel="alternate" type="text/html" title="We have five papers accepted by ACL 2024" /><published>2024-05-15T00:00:00+00:00</published><updated>2026-02-06T10:46:48+00:00</updated><id>https://neuir.github.io/2024/05/15/post</id><content type="html" xml:base="https://neuir.github.io/2024/05/15/post.html"><![CDATA[<p>We have five papers accepted by ACL 2024: The 62nd Annual Meeting of the Association for Computational Linguistics</p>
 
 <p>Bangkok, Thailand</p>
 
@@ -667,9 +667,9 @@
 <div class="citation-container">
   <div class="citation">
     
-    <a href="https://aclanthology.org/2024.acl-long.783/" class="citation-image" aria-label="MARVEL: Unlocking the Multi-Modal Capability of Dense Retrieval via Visual Module Plugin">
+    <div class="citation-image" data-lightbox="/images/projects/marvel.png" role="button" tabindex="0" aria-label="点击放大图片">
       <img src="/images/projects/marvel.png" alt="MARVEL: Unlocking the Multi-Modal Capability of Dense Retrieval via Visual Module Plugin" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
-    </a>
+    </div>
     
 
     <div class="citation-text">
@@ -704,9 +704,9 @@
 <div class="citation-container">
   <div class="citation">
     
-    <a href="https://aclanthology.org/2024.acl-long.644/" class="citation-image" aria-label="UltraLink: An Open-Source Knowledge-Enhanced Multilingual Supervised Fine-tuning Dataset">
+    <div class="citation-image" data-lightbox="/images/projects/ultralink.png" role="button" tabindex="0" aria-label="点击放大图片">
       <img src="/images/projects/ultralink.png" alt="UltraLink: An Open-Source Knowledge-Enhanced Multilingual Supervised Fine-tuning Dataset" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
-    </a>
+    </div>
     
 
     <div class="citation-text">
@@ -741,9 +741,9 @@
 <div class="citation-container">
   <div class="citation">
     
-    <a href="https://aclanthology.org/2024.acl-short.72/" class="citation-image" aria-label="Cleaner Pretraining Corpus Curation with Neural Web Scraping">
+    <div class="citation-image" data-lightbox="/images/projects/neuscraper.png" role="button" tabindex="0" aria-label="点击放大图片">
       <img src="/images/projects/neuscraper.png" alt="Cleaner Pretraining Corpus Curation with Neural Web Scraping" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
-    </a>
+    </div>
     
 
     <div class="citation-text">
@@ -778,9 +778,9 @@
 <div class="citation-container">
   <div class="citation">
     
-    <a href="https://aclanthology.org/2024.findings-acl.701/" class="citation-image" aria-label="MatPlotAgent: Method and Evaluation for LLM-Based Agentic Scientific Data Visualization">
+    <div class="citation-image" data-lightbox="/images/projects/matplotagent.png" role="button" tabindex="0" aria-label="点击放大图片">
       <img src="/images/projects/matplotagent.png" alt="MatPlotAgent: Method and Evaluation for LLM-Based Agentic Scientific Data Visualization" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
-    </a>
+    </div>
     
 
     <div class="citation-text">
@@ -815,9 +815,9 @@
 <div class="citation-container">
   <div class="citation">
     
-    <a href="https://aclanthology.org/2024.findings-acl.124/" class="citation-image" aria-label="INTERVENOR: Prompting the Coding Ability of Large Language Models with the Interactive Chain of Repair">
+    <div class="citation-image" data-lightbox="/images/projects/intervenor.png" role="button" tabindex="0" aria-label="点击放大图片">
       <img src="/images/projects/intervenor.png" alt="INTERVENOR: Prompting the Coding Ability of Large Language Models with the Interactive Chain of Repair" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
-    </a>
+    </div>
     
 
     <div class="citation-text">

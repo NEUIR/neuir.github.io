@@ -25,6 +25,7 @@
   width: 200px;
   padding: 16px;
   background: var(--background-alt);
+  cursor: pointer;
 }
 
 .citation-image img {
@@ -32,11 +33,11 @@
   max-height: 100%;
   object-fit: contain;
   border-radius: calc(var(--rounded) - 1px);
-  transition: transform var(--transition);
+  transition: transform var(--transition), opacity var(--transition);
 }
 
 .citation-image:hover img {
-  transform: scale(1.03);
+  opacity: 0.85;
 }
 
 .citation-text {
