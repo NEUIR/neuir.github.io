@@ -104,11 +104,14 @@ nav {
 }
 
 nav > a {
-  padding: 5px;
+  padding: 5px 8px;
+  border-radius: var(--rounded);
+  transition: color var(--transition), background var(--transition);
 }
 
 nav > a:hover {
   color: var(--primary);
+  background: rgba(7, 149, 217, 0.06);
 }
 
 header:not([data-big]) {

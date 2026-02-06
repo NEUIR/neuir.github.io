@@ -14,6 +14,12 @@
   overflow: hidden;
   box-shadow: var(--shadow);
   vertical-align: top;
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 20px 0 var(--overlay);
 }
 
 .card[data-style="small"] {

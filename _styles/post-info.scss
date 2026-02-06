@@ -3,12 +3,13 @@
 
 .post-info {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
-  gap: 20px;
-  margin: 20px 0;
-  color: var(--dark-gray);
+  gap: 12px;
+  margin: 10px 0 0;
+  color: var(--gray);
+  font-size: 0.88em;
 }
 
 .post-info .portrait {
@@ -16,7 +17,9 @@
 }
 
 .post-info .icon {
-  margin-right: 0.5em;
+  margin-right: 0.35em;
+  font-size: 0.9em;
+  opacity: 0.7;
 }
 
 .post-info a {

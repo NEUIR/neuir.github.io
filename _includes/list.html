@@ -11,6 +11,11 @@
   {% assign sorted_data = data | sort: "date" | reverse %}
 {% endif %}
 
+{% if include.limit %}
+  {% assign limit_num = include.limit | plus: 0 %}
+  {% assign sorted_data = sorted_data | slice: 0, limit_num %}
+{% endif %}
+
 {% for d in sorted_data %}
   {% assign style = d.style | default: include.style %}
 

@@ -28,12 +28,13 @@ button {
   text-decoration: none;
   vertical-align: middle;
   appearance: none;
-  transition: background var(--transition), color var(--transition);
+  transition: background var(--transition), color var(--transition), transform var(--transition);
 }
 
 .button:hover {
   background: var(--text);
   color: var(--background);
+  transform: translateY(-1px);
 }
 
 .button[data-style="bare"] {

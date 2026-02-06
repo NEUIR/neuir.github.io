@@ -22,3 +22,15 @@ li {
     margin: 0;
   }
 }
+
+// icon-decorated list: remove bullets, use icon as visual marker
+ul:has(> li > .icon:first-child) {
+  list-style: none;
+  padding-left: 8px;
+}
+
+ul > li > .icon:first-child {
+  margin-right: 0.6em;
+  color: var(--primary);
+  opacity: 0.85;
+}

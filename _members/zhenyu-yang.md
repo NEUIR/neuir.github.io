@@ -1,7 +1,7 @@
 ---
 name: Zhenyu Yang
 name_cn: 杨镇宇
-image: 
+image: images/headshots/zhenyu_yang.jpg
 role: ms
 year: 504
 link: /team/#/

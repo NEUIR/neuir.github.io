@@ -12,9 +12,8 @@
   <div class="citation">
     {% if include.style == "rich" %}
     <a {% if citation.link %} href="{{ citation.link | relative_url }}" {% endif %} class="citation-image"
-      aria-label="{{ citation.title | default: " citation link" }}">
-      <img style="margin-left: 5%;" src="{{ citation.image | relative_url }}" alt="{{ citation.title | default: "
-        citation image" }}" loading="lazy" {% include fallback.html %}>
+      aria-label="{{ citation.title | default: "citation link" }}">
+      <img src="{{ citation.image | relative_url }}" alt="{{ citation.title | default: "citation image" }}" loading="lazy" {% include fallback.html %}>
     </a>
     {% endif %}
 
@@ -46,25 +45,21 @@
         <span class="citation-date">
           {{- citation.date | default: "" | date: "%Y" -}}
         </span>
-        <span class="citation-date">
-          {%- if site.data.ccf -%}
-            {%- assign current_pub = citation.publisher | strip -%}
-            {%- if site.data.ccf.a_publishers contains current_pub -%}  
-              &nbsp;·&nbsp;<span style="color: rgba(241, 161, 117);"> CCF-A</span>
-            {%- endif -%}
-            {%- if site.data.ccf.b_publishers contains current_pub -%}
-              &nbsp;·&nbsp;<span style="color: rgba(241, 161, 117);"> CCF-B</span>
-            {%- endif -%}
-            {%- if site.data.ccf.c_publishers contains current_pub -%}
-              &nbsp;·&nbsp;<span style="color: rgba(241, 161, 117);"> CCF-C</span>
-            {%- endif -%}
-            {%- if site.data.ccf.expanded_publishers contains current_pub -%}
-              &nbsp;·&nbsp;<span style="color: rgba(241, 161, 117);"> CCF-Expanded</span>
-            {%- endif -%}
-          {%- else -%}
-            {{ "" }}
+        {%- if site.data.ccf -%}
+          {%- assign current_pub = citation.publisher | strip -%}
+          {%- if site.data.ccf.a_publishers contains current_pub -%}
+            <span class="ccf-badge ccf-a">CCF-A</span>
           {%- endif -%}
-        </span>
+          {%- if site.data.ccf.b_publishers contains current_pub -%}
+            <span class="ccf-badge ccf-b">CCF-B</span>
+          {%- endif -%}
+          {%- if site.data.ccf.c_publishers contains current_pub -%}
+            <span class="ccf-badge ccf-c">CCF-C</span>
+          {%- endif -%}
+          {%- if site.data.ccf.expanded_publishers contains current_pub -%}
+            <span class="ccf-badge ccf-expanded">CCF-Expanded</span>
+          {%- endif -%}
+        {%- endif -%}
       </div>
 
       {% if include.style == "rich" %}
