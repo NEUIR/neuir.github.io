@@ -19,4 +19,15 @@ li ol {
   margin: 0;
 }
 
+ul:has(> li > .icon:first-child) {
+  list-style: none;
+  padding-left: 8px;
+}
+
+ul > li > .icon:first-child {
+  margin-right: 0.6em;
+  color: var(--primary);
+  opacity: 0.85;
+}
+
 /*# sourceMappingURL=list.css.map */

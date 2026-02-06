@@ -20,8 +20,9 @@ h1 {
 
 h2 {
   font-size: 1.6rem;
-  padding-bottom: 5px;
-  border-bottom: solid 1px var(--light-gray);
+  padding-bottom: 8px;
+  border-bottom: solid 2px var(--primary);
+  border-image: linear-gradient(to right, var(--primary), transparent) 1;
   font-weight: var(--regular);
 }
 

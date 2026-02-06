@@ -2,6 +2,8 @@ a {
   color: var(--primary);
   transition: color var(--transition);
   overflow-wrap: break-word;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
 }
 
 a:hover {
@@ -10,6 +12,21 @@ a:hover {
 
 a:not([href]) {
   color: var(--text);
+}
+
+section p a,
+section li a {
+  text-decoration: none;
+  background-image: linear-gradient(var(--primary), var(--primary));
+  background-size: 0% 1px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size var(--transition), color var(--transition);
+}
+
+section p a:hover,
+section li a:hover {
+  background-size: 100% 1px;
 }
 
 /*# sourceMappingURL=link.css.map */

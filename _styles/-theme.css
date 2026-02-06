@@ -36,8 +36,8 @@
   --bold: 600;
   --spacing: 2;
   --compact: 1.5;
-  --rounded: 3px;
-  --shadow: 0 0 10px 0 var(--overlay);
+  --rounded: 5px;
+  --shadow: 0 2px 12px 0 var(--overlay);
   --transition: 0.2s ease;
 }
 
