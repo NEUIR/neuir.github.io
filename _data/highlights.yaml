@@ -1,0 +1,65 @@
+- authors:
+  - Pengcheng Huang
+  - Tianming Liu
+  - Zhenghao Liu
+  - Yukun Yan
+  - Shuo Wang
+  - Tong Xiao
+  - Zulong Chen
+  - Maosong Sun
+  date: '2026-01-01'
+  mark: acl2026-main
+  image: images/projects/uncode.webp
+  link: 'https://arxiv.org/abs/2508.13021'
+  publisher: Proceedings of ACL
+  title: 'Empirical Analysis of Decoding Biases in Masked Diffusion Models'
+- authors:
+  - Shaohua Duan
+  - Pengcheng Huang
+  - Xinze Li
+  - Zhenghao Liu
+  - Xiaoyuan Yi
+  - Yukun Yan
+  - Shuo Wang
+  - Yu Gu
+  - Ge Yu
+  - Maosong Sun
+  date: '2026-01-01'
+  mark: acl2026-main
+  image: images/projects/longmabpo.webp
+  link: 'https://arxiv.org/abs/2508.13993'
+  publisher: Proceedings of ACL
+  title: 'Chunks as Arms: Multi-Armed Bandit-Guided Sampling for Long-Context LLM Preference Optimization'
+- authors:
+  - Zhenghao Liu
+  - Zhuoyang Wu
+  - Xinze Li
+  - Yukun Yan
+  - Shuo Wang
+  - Zulong Chen
+  - Yu Gu
+  - Ge Yu
+  - Maosong Sun
+  date: '2026-01-01'
+  mark: acl2026-main
+  image: images/projects/palign.webp
+  link: 'https://arxiv.org/abs/2601.10064'
+  publisher: Proceedings of ACL
+  title: 'Long-Chain Reasoning Distillation via Adaptive Prefix Alignment'
+- authors:
+  - Yifan Ji
+  - Zhipeng Xu
+  - Zhenghao Liu
+  - Zulong Chen
+  - Qian Zhang
+  - Zhibo Yang
+  - Junyang Lin
+  - Yu Gu
+  - Ge Yu
+  - Maosong Sun
+  date: '2026-01-01'
+  mark: acl2026-main
+  image: images/projects/unikiebench.webp
+  link: 'https://arxiv.org/abs/2602.07038'
+  publisher: Proceedings of ACL
+  title: 'UNIKIE-BENCH: Benchmarking Large Multimodal Models for Key Information Extraction in Visual Documents'
