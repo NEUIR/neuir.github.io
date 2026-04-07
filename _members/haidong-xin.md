@@ -3,7 +3,7 @@ name: Haidong Xin
 name_cn: 辛海东
 image: images/headshots/haidong_xin.webp
 role: ms
-year: 301
+year: 302
 link: https://xinhaidong.top
 affiliation: xinhaidong@stumail.neu.edu.cn
 ---
