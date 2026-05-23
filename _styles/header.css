@@ -27,11 +27,19 @@ header a {
 }
 
 .logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 40px;
   height: 40px;
 }
 
 .logo > * {
+  display: block;
+  width: 100%;
   height: 100%;
+  object-fit: contain;
 }
 
 .title-text {
@@ -92,7 +100,10 @@ nav {
 }
 
 nav > a {
-  padding: 5px 8px;
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 8px;
   border-radius: var(--rounded);
   transition: color var(--transition), background var(--transition);
 }
@@ -131,6 +142,7 @@ header[data-big] .home {
   flex-grow: 0;
 }
 header[data-big] .logo {
+  width: 80px;
   height: 80px;
 }
 header[data-big] .title-text {

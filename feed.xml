@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://neuir.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://neuir.github.io/" rel="alternate" type="text/html" /><updated>2026-05-23T04:39:45+00:00</updated><id>https://neuir.github.io/feed.xml</id><title type="html">东北大学信息检索实验室</title><subtitle>东北大学信息检索实验室隶属东北大学计算机科学与工程学院计算机科学系，由刘正皓副教授、于戈教授和谷峪教授共同指导，致力于信息检索与大语言模型相关研究，承担多项国家级、省部级项目，在 NeurIPS、ICLR、ACL、EMNLP、NAACL、SIGIR、KDD、WebConf、ICASSP 等国际国内顶级会议及期刊发表 70 余篇论文。课题组曾在 TREC-COVID 文档级检索比赛中获第一名；联合研发的 MiniCPM 检索增强生成组件在 MTEB 榜单中文检索效果排名第一；开源的 UltraRAG 工具获超 5k 个星标。</subtitle><entry><title type="html">We have 13 papers accepted by ACL 2026</title><link href="https://neuir.github.io/2026/04/06/post.html" rel="alternate" type="text/html" title="We have 13 papers accepted by ACL 2026" /><published>2026-04-06T00:00:00+00:00</published><updated>2026-05-23T04:35:49+00:00</updated><id>https://neuir.github.io/2026/04/06/post</id><content type="html" xml:base="https://neuir.github.io/2026/04/06/post.html"><![CDATA[<p>We have 13 papers accepted by ACL 2026: The 64th Annual Meeting of the Association for Computational Linguistics</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://neuir.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://neuir.github.io/" rel="alternate" type="text/html" /><updated>2026-05-23T07:31:43+00:00</updated><id>https://neuir.github.io/feed.xml</id><title type="html">东北大学信息检索实验室</title><subtitle>东北大学信息检索实验室隶属东北大学计算机科学与工程学院计算机科学系，由刘正皓副教授、于戈教授和谷峪教授共同指导，致力于信息检索与大语言模型相关研究，承担多项国家级、省部级项目，在 NeurIPS、ICLR、ACL、EMNLP、NAACL、SIGIR、KDD、WebConf、ICASSP 等国际国内顶级会议及期刊发表 70 余篇论文。课题组曾在 TREC-COVID 文档级检索比赛中获第一名；联合研发的 MiniCPM 检索增强生成组件在 MTEB 榜单中文检索效果排名第一；开源的 UltraRAG 工具获超 5k 个星标。</subtitle><entry><title type="html">We have 13 papers accepted by ACL 2026</title><link href="https://neuir.github.io/2026/04/06/post.html" rel="alternate" type="text/html" title="We have 13 papers accepted by ACL 2026" /><published>2026-04-06T00:00:00+00:00</published><updated>2026-05-23T07:30:37+00:00</updated><id>https://neuir.github.io/2026/04/06/post</id><content type="html" xml:base="https://neuir.github.io/2026/04/06/post.html"><![CDATA[<p>We have 13 papers accepted by ACL 2026: The 64th Annual Meeting of the Association for Computational Linguistics</p>
 
 <p>San Diego, California, United States</p>
 
@@ -9,8 +9,9 @@
 <div class="citation-container">
   <div class="citation">
     
+    
     <div class="citation-image" data-lightbox="/images/projects/lexrel.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/projects/lexrel.webp" alt="LexRel: Benchmarking Legal Relation Extraction for Chinese Civil Cases" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+      <img src="/images/projects/lexrel.webp" alt="LexRel: Benchmarking Legal Relation Extraction for Chinese Civil Cases" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
     </div>
     
 
@@ -18,9 +19,11 @@
       
       
 
-      <a href="https://arxiv.org/abs/2512.12643" class="citation-title">
-        LexRel: Benchmarking Legal Relation Extraction for Chinese Civil Cases
-      </a>
+      
+        <a href="https://arxiv.org/abs/2512.12643" class="citation-title">
+          LexRel: Benchmarking Legal Relation Extraction for Chinese Civil Cases
+        </a>
+      
 
       <div class="citation-authors" tabindex="0">
         Yida Cai, Ranjuexiao Hu, Huiyuan Xie, Chenyang Li, Yun Liu, Yuxiao Ye, Zhenghao Liu, Weixing Shen, Zhiyuan Liu
@@ -46,8 +49,9 @@
 <div class="citation-container">
   <div class="citation">
     
+    
     <div class="citation-image" data-lightbox="/images/projects/palign.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/projects/palign.webp" alt="Long-Chain Reasoning Distillation via Adaptive Prefix Alignment" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+      <img src="/images/projects/palign.webp" alt="Long-Chain Reasoning Distillation via Adaptive Prefix Alignment" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
     </div>
     
 
@@ -55,9 +59,11 @@
       
       
 
-      <a href="https://arxiv.org/abs/2601.10064" class="citation-title">
-        Long-Chain Reasoning Distillation via Adaptive Prefix Alignment
-      </a>
+      
+        <a href="https://arxiv.org/abs/2601.10064" class="citation-title">
+          Long-Chain Reasoning Distillation via Adaptive Prefix Alignment
+        </a>
+      
 
       <div class="citation-authors" tabindex="0">
         Zhenghao Liu, Zhuoyang Wu, Xinze Li, Yukun Yan, Shuo Wang, Zulong Chen, Yu Gu, Ge Yu, Maosong Sun
@@ -83,8 +89,9 @@
 <div class="citation-container">
   <div class="citation">
     
-    <div class="citation-image" data-lightbox="" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="" alt="Towards Efficient and Effective Diffusion Language Model Inference via Semantic-Aware Adaptive Denoising" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+    
+    <div class="citation-image" data-lightbox="/images/fallback.svg" role="button" tabindex="0" aria-label="点击放大图片">
+      <img src="/images/fallback.svg" alt="Towards Efficient and Effective Diffusion Language Model Inference via Semantic-Aware Adaptive Denoising" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
     </div>
     
 
@@ -92,9 +99,11 @@
       
       
 
-      <a class="citation-title">
-        Towards Efficient and Effective Diffusion Language Model Inference via Semantic-Aware Adaptive Denoising
-      </a>
+      
+        <span class="citation-title">
+          Towards Efficient and Effective Diffusion Language Model Inference via Semantic-Aware Adaptive Denoising
+        </span>
+      
 
       <div class="citation-authors" tabindex="0">
         Fan Li, Yu Gu, Zhigang Wang, Fangling Leng, Zhenghao Liu, Ge Yu
@@ -120,8 +129,9 @@
 <div class="citation-container">
   <div class="citation">
     
+    
     <div class="citation-image" data-lightbox="/images/projects/uncode.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/projects/uncode.webp" alt="Empirical Analysis of Decoding Biases in Masked Diffusion Models" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+      <img src="/images/projects/uncode.webp" alt="Empirical Analysis of Decoding Biases in Masked Diffusion Models" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
     </div>
     
 
@@ -129,9 +139,11 @@
       
       
 
-      <a href="https://arxiv.org/abs/2508.13021" class="citation-title">
-        Empirical Analysis of Decoding Biases in Masked Diffusion Models
-      </a>
+      
+        <a href="https://arxiv.org/abs/2508.13021" class="citation-title">
+          Empirical Analysis of Decoding Biases in Masked Diffusion Models
+        </a>
+      
 
       <div class="citation-authors" tabindex="0">
         Pengcheng Huang, Tianming Liu, Zhenghao Liu, Yukun Yan, Shuo Wang, Tong Xiao, Zulong Chen, Maosong Sun
@@ -157,8 +169,9 @@
 <div class="citation-container">
   <div class="citation">
     
+    
     <div class="citation-image" data-lightbox="/images/projects/unikiebench.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/projects/unikiebench.webp" alt="UNIKIE-BENCH: Benchmarking Large Multimodal Models for Key Information Extraction in Visual Documents" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+      <img src="/images/projects/unikiebench.webp" alt="UNIKIE-BENCH: Benchmarking Large Multimodal Models for Key Information Extraction in Visual Documents" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
     </div>
     
 
@@ -166,9 +179,11 @@
       
       
 
-      <a href="https://arxiv.org/abs/2602.07038" class="citation-title">
-        UNIKIE-BENCH: Benchmarking Large Multimodal Models for Key Information Extraction in Visual Documents
-      </a>
+      
+        <a href="https://arxiv.org/abs/2602.07038" class="citation-title">
+          UNIKIE-BENCH: Benchmarking Large Multimodal Models for Key Information Extraction in Visual Documents
+        </a>
+      
 
       <div class="citation-authors" tabindex="0">
         Yifan Ji, Zhipeng Xu, Zhenghao Liu, Zulong Chen, Qian Zhang, Zhibo Yang, Junyang Lin, Yu Gu, Ge Yu, Maosong Sun
@@ -194,8 +209,9 @@
 <div class="citation-container">
   <div class="citation">
     
+    
     <div class="citation-image" data-lightbox="/images/projects/longmabpo.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/projects/longmabpo.webp" alt="Chunks as Arms: Multi-Armed Bandit-Guided Sampling for Long-Context LLM Preference Optimization" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+      <img src="/images/projects/longmabpo.webp" alt="Chunks as Arms: Multi-Armed Bandit-Guided Sampling for Long-Context LLM Preference Optimization" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
     </div>
     
 
@@ -203,9 +219,11 @@
       
       
 
-      <a href="https://arxiv.org/abs/2508.13993" class="citation-title">
-        Chunks as Arms: Multi-Armed Bandit-Guided Sampling for Long-Context LLM Preference Optimization
-      </a>
+      
+        <a href="https://arxiv.org/abs/2508.13993" class="citation-title">
+          Chunks as Arms: Multi-Armed Bandit-Guided Sampling for Long-Context LLM Preference Optimization
+        </a>
+      
 
       <div class="citation-authors" tabindex="0">
         Shaohua Duan, Pengcheng Huang, Xinze Li, Zhenghao Liu, Xiaoyuan Yi, Yukun Yan, Shuo Wang, Yu Gu, Ge Yu, Maosong Sun
@@ -231,8 +249,9 @@
 <div class="citation-container">
   <div class="citation">
     
+    
     <div class="citation-image" data-lightbox="/images/projects/checkrlm.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/projects/checkrlm.webp" alt="CheckRLM: Effective Knowledge-Thought Coherence Checking in Retrieval-Augmented Reasoning" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+      <img src="/images/projects/checkrlm.webp" alt="CheckRLM: Effective Knowledge-Thought Coherence Checking in Retrieval-Augmented Reasoning" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
     </div>
     
 
@@ -240,9 +259,11 @@
       
       
 
-      <a class="citation-title">
-        CheckRLM: Effective Knowledge-Thought Coherence Checking in Retrieval-Augmented Reasoning
-      </a>
+      
+        <span class="citation-title">
+          CheckRLM: Effective Knowledge-Thought Coherence Checking in Retrieval-Augmented Reasoning
+        </span>
+      
 
       <div class="citation-authors" tabindex="0">
         Dingling Xu, Ruobing Wang, Qingfei Zhao, Yukun Yan, Zhichun Wang, Daren Zha, Shi Yu, Zhenghao Liu, Shuo Wang, Xu Han, Maosong Sun
@@ -270,8 +291,9 @@
 <div class="citation-container">
   <div class="citation">
     
+    
     <div class="citation-image" data-lightbox="/images/projects/lang2act.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/projects/lang2act.webp" alt="Lang2Act: Fine-Grained Visual Reasoning through Self-Emergent Linguistic Toolchains" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+      <img src="/images/projects/lang2act.webp" alt="Lang2Act: Fine-Grained Visual Reasoning through Self-Emergent Linguistic Toolchains" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
     </div>
     
 
@@ -279,9 +301,11 @@
       
       
 
-      <a href="https://arxiv.org/abs/2602.13235" class="citation-title">
-        Lang2Act: Fine-Grained Visual Reasoning through Self-Emergent Linguistic Toolchains
-      </a>
+      
+        <a href="https://arxiv.org/abs/2602.13235" class="citation-title">
+          Lang2Act: Fine-Grained Visual Reasoning through Self-Emergent Linguistic Toolchains
+        </a>
+      
 
       <div class="citation-authors" tabindex="0">
         Yuqi Xiong, Chunyi Peng, Zhipeng Xu, Zhenghao Liu, Zulong Chen, Yukun Yan, Shuo Wang, Yu Gu, Ge Yu
@@ -307,8 +331,9 @@
 <div class="citation-container">
   <div class="citation">
     
+    
     <div class="citation-image" data-lightbox="/images/projects/dai2026revealing.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/projects/dai2026revealing.webp" alt="Revealing the Attention Floating Mechanism in Masked Diffusion Models" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+      <img src="/images/projects/dai2026revealing.webp" alt="Revealing the Attention Floating Mechanism in Masked Diffusion Models" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
     </div>
     
 
@@ -316,9 +341,11 @@
       
       
 
-      <a href="https://arxiv.org/abs/2601.07894" class="citation-title">
-        Revealing the Attention Floating Mechanism in Masked Diffusion Models
-      </a>
+      
+        <a href="https://arxiv.org/abs/2601.07894" class="citation-title">
+          Revealing the Attention Floating Mechanism in Masked Diffusion Models
+        </a>
+      
 
       <div class="citation-authors" tabindex="0">
         Xin Dai, Pengcheng Huang, Zhenghao Liu, Shuo Wang, Yukun Yan, Chaojun Xiao, Yu Gu, Ge Yu, Maosong Sun
@@ -344,8 +371,9 @@
 <div class="citation-container">
   <div class="citation">
     
+    
     <div class="citation-image" data-lightbox="/images/projects/metamem.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/projects/metamem.webp" alt="MetaMem: Evolving Meta-Memory for Knowledge Utilization through Self-Reflective Symbolic Optimization" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+      <img src="/images/projects/metamem.webp" alt="MetaMem: Evolving Meta-Memory for Knowledge Utilization through Self-Reflective Symbolic Optimization" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
     </div>
     
 
@@ -353,9 +381,11 @@
       
       
 
-      <a href="https://arxiv.org/abs/2602.11182" class="citation-title">
-        MetaMem: Evolving Meta-Memory for Knowledge Utilization through Self-Reflective Symbolic Optimization
-      </a>
+      
+        <a href="https://arxiv.org/abs/2602.11182" class="citation-title">
+          MetaMem: Evolving Meta-Memory for Knowledge Utilization through Self-Reflective Symbolic Optimization
+        </a>
+      
 
       <div class="citation-authors" tabindex="0">
         Haidong Xin, Xinze Li, Zhenghao Liu, Yukun Yan, Shuo Wang, Cheng Yang, Yu Gu, Ge Yu, Maosong Sun
@@ -381,8 +411,9 @@
 <div class="citation-container">
   <div class="citation">
     
+    
     <div class="citation-image" data-lightbox="/images/projects/hqekv.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/projects/hqekv.webp" alt="HqeKV: Towards Hybrid Quantization and Eviction for KV Cache in Long-Context LLM Inference" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+      <img src="/images/projects/hqekv.webp" alt="HqeKV: Towards Hybrid Quantization and Eviction for KV Cache in Long-Context LLM Inference" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
     </div>
     
 
@@ -390,9 +421,11 @@
       
       
 
-      <a class="citation-title">
-        HqeKV: Towards Hybrid Quantization and Eviction for KV Cache in Long-Context LLM Inference
-      </a>
+      
+        <span class="citation-title">
+          HqeKV: Towards Hybrid Quantization and Eviction for KV Cache in Long-Context LLM Inference
+        </span>
+      
 
       <div class="citation-authors" tabindex="0">
         He Wang, Yu Gu, Fangfang Li, Zhigang Wang, Zhenghao Liu, Ning Wang, Xiaohua Li, Ge Yu
@@ -418,8 +451,9 @@
 <div class="citation-container">
   <div class="citation">
     
+    
     <div class="citation-image" data-lightbox="/images/projects/orion.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/projects/orion.webp" alt="Enhancing Long-Chain Reasoning Distillation through Error-Aware Self-Reflection" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+      <img src="/images/projects/orion.webp" alt="Enhancing Long-Chain Reasoning Distillation through Error-Aware Self-Reflection" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
     </div>
     
 
@@ -427,9 +461,11 @@
       
       
 
-      <a href="https://arxiv.org/abs/2505.22131" class="citation-title">
-        Enhancing Long-Chain Reasoning Distillation through Error-Aware Self-Reflection
-      </a>
+      
+        <a href="https://arxiv.org/abs/2505.22131" class="citation-title">
+          Enhancing Long-Chain Reasoning Distillation through Error-Aware Self-Reflection
+        </a>
+      
 
       <div class="citation-authors" tabindex="0">
         Zhuoyang Wu, Xinze Li, Zhenghao Liu, Yukun Yan, Zhiyuan Liu, Minghe Yu, Cheng Yang, Yu Gu, Ge Yu, Maosong Sun
@@ -455,8 +491,9 @@
 <div class="citation-container">
   <div class="citation">
     
+    
     <div class="citation-image" data-lightbox="/images/projects/genii.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/projects/genii.webp" alt="Mitigating Judgment Preference Bias in Large Language Models through Group-Based Polling" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+      <img src="/images/projects/genii.webp" alt="Mitigating Judgment Preference Bias in Large Language Models through Group-Based Polling" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
     </div>
     
 
@@ -464,9 +501,11 @@
       
       
 
-      <a href="https://arxiv.org/abs/2510.08145" class="citation-title">
-        Mitigating Judgment Preference Bias in Large Language Models through Group-Based Polling
-      </a>
+      
+        <a href="https://arxiv.org/abs/2510.08145" class="citation-title">
+          Mitigating Judgment Preference Bias in Large Language Models through Group-Based Polling
+        </a>
+      
 
       <div class="citation-authors" tabindex="0">
         Shuliang Liu, Zhipeng Xu, Zhenghao Liu, Yukun Yan, Minghe Yu, Yu Gu, Chong Chen, Huiyuan Xie, Ge Yu
@@ -487,7 +526,7 @@
       
     </div>
   </div>
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[We have 13 papers accepted by ACL 2026: The 64th Annual Meeting of the Association for Computational Linguistics]]></summary></entry><entry><title type="html">We have two papers accepted by SIGIR 2026</title><link href="https://neuir.github.io/2026/04/03/post.html" rel="alternate" type="text/html" title="We have two papers accepted by SIGIR 2026" /><published>2026-04-03T00:00:00+00:00</published><updated>2026-05-23T04:35:49+00:00</updated><id>https://neuir.github.io/2026/04/03/post</id><content type="html" xml:base="https://neuir.github.io/2026/04/03/post.html"><![CDATA[<p>We have two papers accepted by SIGIR 2026: The 49th International ACM SIGIR Conference on Research and Development in Information Retrieval</p>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[We have 13 papers accepted by ACL 2026: The 64th Annual Meeting of the Association for Computational Linguistics]]></summary></entry><entry><title type="html">We have two papers accepted by SIGIR 2026</title><link href="https://neuir.github.io/2026/04/03/post.html" rel="alternate" type="text/html" title="We have two papers accepted by SIGIR 2026" /><published>2026-04-03T00:00:00+00:00</published><updated>2026-05-23T07:30:37+00:00</updated><id>https://neuir.github.io/2026/04/03/post</id><content type="html" xml:base="https://neuir.github.io/2026/04/03/post.html"><![CDATA[<p>We have two papers accepted by SIGIR 2026: The 49th International ACM SIGIR Conference on Research and Development in Information Retrieval</p>
 
 <p>Melbourne, Australia</p>
 
@@ -496,8 +535,9 @@
 <div class="citation-container">
   <div class="citation">
     
+    
     <div class="citation-image" data-lightbox="/images/projects/more.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/projects/more.webp" alt="Mixture-of-Retrieval Experts for Reasoning-Guided Multimodal Knowledge Exploitation" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+      <img src="/images/projects/more.webp" alt="Mixture-of-Retrieval Experts for Reasoning-Guided Multimodal Knowledge Exploitation" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
     </div>
     
 
@@ -505,9 +545,11 @@
       
       
 
-      <a href="https://arxiv.org/abs/2505.22095" class="citation-title">
-        Mixture-of-Retrieval Experts for Reasoning-Guided Multimodal Knowledge Exploitation
-      </a>
+      
+        <a href="https://arxiv.org/abs/2505.22095" class="citation-title">
+          Mixture-of-Retrieval Experts for Reasoning-Guided Multimodal Knowledge Exploitation
+        </a>
+      
 
       <div class="citation-authors" tabindex="0">
         Chunyi Peng, Zhipeng Xu, Zhenghao Liu, Yishan Li, Yukun Yan, Shuo Wang, Yu Gu, Minghe Yu, Ge Yu, Maosong Sun
@@ -533,8 +575,9 @@
 <div class="citation-container">
   <div class="citation">
     
+    
     <div class="citation-image" data-lightbox="/images/projects/realign.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/projects/realign.webp" alt="ReAlign: Optimizing the Visual Document Retriever with Reasoning-Guided Fine-Grained Alignment" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+      <img src="/images/projects/realign.webp" alt="ReAlign: Optimizing the Visual Document Retriever with Reasoning-Guided Fine-Grained Alignment" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
     </div>
     
 
@@ -542,9 +585,11 @@
       
       
 
-      <a href="https://arxiv.org/abs/2604.07419" class="citation-title">
-        ReAlign: Optimizing the Visual Document Retriever with Reasoning-Guided Fine-Grained Alignment
-      </a>
+      
+        <a href="https://arxiv.org/abs/2604.07419" class="citation-title">
+          ReAlign: Optimizing the Visual Document Retriever with Reasoning-Guided Fine-Grained Alignment
+        </a>
+      
 
       <div class="citation-authors" tabindex="0">
         Hao Yang, Yifan Ji, Zhipeng Xu, Zhenghao Liu, Yukun Yan, Zulong Chen, Shuo Wang, Yu Gu, Ge Yu
@@ -565,7 +610,7 @@
       
     </div>
   </div>
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[We have two papers accepted by SIGIR 2026: The 49th International ACM SIGIR Conference on Research and Development in Information Retrieval]]></summary></entry><entry><title type="html">We have two papers accepted by ICASSP 2026</title><link href="https://neuir.github.io/2026/01/18/post.html" rel="alternate" type="text/html" title="We have two papers accepted by ICASSP 2026" /><published>2026-01-18T00:00:00+00:00</published><updated>2026-05-23T04:35:49+00:00</updated><id>https://neuir.github.io/2026/01/18/post</id><content type="html" xml:base="https://neuir.github.io/2026/01/18/post.html"><![CDATA[<p>We have two papers accepted by ICASSP 2026: The 2026 IEEE International Conference on Acoustics, Speech, and Signal Processing</p>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[We have two papers accepted by SIGIR 2026: The 49th International ACM SIGIR Conference on Research and Development in Information Retrieval]]></summary></entry><entry><title type="html">We have two papers accepted by ICASSP 2026</title><link href="https://neuir.github.io/2026/01/18/post.html" rel="alternate" type="text/html" title="We have two papers accepted by ICASSP 2026" /><published>2026-01-18T00:00:00+00:00</published><updated>2026-05-23T07:30:37+00:00</updated><id>https://neuir.github.io/2026/01/18/post</id><content type="html" xml:base="https://neuir.github.io/2026/01/18/post.html"><![CDATA[<p>We have two papers accepted by ICASSP 2026: The 2026 IEEE International Conference on Acoustics, Speech, and Signal Processing</p>
 
 <p>Barcelona, Spain</p>
 
@@ -574,8 +619,9 @@
 <div class="citation-container">
   <div class="citation">
     
+    
     <div class="citation-image" data-lightbox="/images/projects/legaldelta.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/projects/legaldelta.webp" alt="LegalΔ: Enhancing Legal Reasoning in LLMs via Reinforcement Learning with Chain-of-Thought Guided Information Gain" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+      <img src="/images/projects/legaldelta.webp" alt="LegalΔ: Enhancing Legal Reasoning in LLMs via Reinforcement Learning with Chain-of-Thought Guided Information Gain" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
     </div>
     
 
@@ -583,9 +629,11 @@
       
       
 
-      <a href="https://arxiv.org/abs/2508.12281" class="citation-title">
-        LegalΔ: Enhancing Legal Reasoning in LLMs via Reinforcement Learning with Chain-of-Thought Guided Information Gain
-      </a>
+      
+        <a href="https://arxiv.org/abs/2508.12281" class="citation-title">
+          LegalΔ: Enhancing Legal Reasoning in LLMs via Reinforcement Learning with Chain-of-Thought Guided Information Gain
+        </a>
+      
 
       <div class="citation-authors" tabindex="0">
         Xin Dai, Buqiang Xu, Zhenghao Liu, Yukun Yan, Huiyuan Xie, Xiaoyuan Yi, Shuo Wang, Ge Yu
@@ -611,8 +659,9 @@
 <div class="citation-container">
   <div class="citation">
     
+    
     <div class="citation-image" data-lightbox="/images/projects/editmem.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/projects/editmem.webp" alt="EditMem: Enhancing Multi-Hop Fact Verification via Editable Memory" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+      <img src="/images/projects/editmem.webp" alt="EditMem: Enhancing Multi-Hop Fact Verification via Editable Memory" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
     </div>
     
 
@@ -620,9 +669,11 @@
       
       
 
-      <a href="https://cmsworkshops.com/ICASSP2026/view_paper.php?PaperNum=1954" class="citation-title">
-        EditMem: Enhancing Multi-Hop Fact Verification via Editable Memory
-      </a>
+      
+        <a href="https://cmsworkshops.com/ICASSP2026/view_paper.php?PaperNum=1954" class="citation-title">
+          EditMem: Enhancing Multi-Hop Fact Verification via Editable Memory
+        </a>
+      
 
       <div class="citation-authors" tabindex="0">
         Yuqing Lan, Zhenghao Liu, Yu Gu, Ge Yu
@@ -643,15 +694,16 @@
       
     </div>
   </div>
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[We have two papers accepted by ICASSP 2026: The 2026 IEEE International Conference on Acoustics, Speech, and Signal Processing]]></summary></entry><entry><title type="html">We have one paper accepted by KDD 2026</title><link href="https://neuir.github.io/2025/11/24/post.html" rel="alternate" type="text/html" title="We have one paper accepted by KDD 2026" /><published>2025-11-24T00:00:00+00:00</published><updated>2026-05-23T04:35:49+00:00</updated><id>https://neuir.github.io/2025/11/24/post</id><content type="html" xml:base="https://neuir.github.io/2025/11/24/post.html"><![CDATA[<p>We have one paper accepted by KDD 2026: The 32nd SIGKDD Conference on Knowledge Discovery and Data Mining</p>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[We have two papers accepted by ICASSP 2026: The 2026 IEEE International Conference on Acoustics, Speech, and Signal Processing]]></summary></entry><entry><title type="html">We have one paper accepted by KDD 2026</title><link href="https://neuir.github.io/2025/11/24/post.html" rel="alternate" type="text/html" title="We have one paper accepted by KDD 2026" /><published>2025-11-24T00:00:00+00:00</published><updated>2026-05-23T07:30:37+00:00</updated><id>https://neuir.github.io/2025/11/24/post</id><content type="html" xml:base="https://neuir.github.io/2025/11/24/post.html"><![CDATA[<p>We have one paper accepted by KDD 2026: The 32nd SIGKDD Conference on Knowledge Discovery and Data Mining</p>
 
 <p>International Convention Center Jeju (ICC Jeju), August 9-13, 2026, Jeju, Korea</p>
 
 <div class="citation-container">
   <div class="citation">
     
+    
     <div class="citation-image" data-lightbox="/images/projects/lisrec.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/projects/lisrec.webp" alt="LISRec: Modeling User Preferences with Learned Item Shortcuts for Sequential Recommendation" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+      <img src="/images/projects/lisrec.webp" alt="LISRec: Modeling User Preferences with Learned Item Shortcuts for Sequential Recommendation" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
     </div>
     
 
@@ -659,9 +711,11 @@
       
       
 
-      <a href="https://arxiv.org/abs/2505.22130" class="citation-title">
-        LISRec: Modeling User Preferences with Learned Item Shortcuts for Sequential Recommendation
-      </a>
+      
+        <a href="https://arxiv.org/abs/2505.22130" class="citation-title">
+          LISRec: Modeling User Preferences with Learned Item Shortcuts for Sequential Recommendation
+        </a>
+      
 
       <div class="citation-authors" tabindex="0">
         Haidong Xin, Zhenghao Liu, Sen Mei, Yukun Yan, Shi Yu, Shuo Wang, Zulong Chen, Yu Gu, Ge Yu, Chenyan Xiong
@@ -682,15 +736,16 @@
       
     </div>
   </div>
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[We have one paper accepted by KDD 2026: The 32nd SIGKDD Conference on Knowledge Discovery and Data Mining]]></summary></entry><entry><title type="html">We have two papers accepted by NeurIPS 2025</title><link href="https://neuir.github.io/2025/09/18/post.html" rel="alternate" type="text/html" title="We have two papers accepted by NeurIPS 2025" /><published>2025-09-18T00:00:00+00:00</published><updated>2026-05-23T04:35:49+00:00</updated><id>https://neuir.github.io/2025/09/18/post</id><content type="html" xml:base="https://neuir.github.io/2025/09/18/post.html"><![CDATA[<p>We have two papers accepted by NeurIPS 2025: The Thirty-Ninth Annual Conference on Neural Information Processing Systems</p>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[We have one paper accepted by KDD 2026: The 32nd SIGKDD Conference on Knowledge Discovery and Data Mining]]></summary></entry><entry><title type="html">We have two papers accepted by NeurIPS 2025</title><link href="https://neuir.github.io/2025/09/18/post.html" rel="alternate" type="text/html" title="We have two papers accepted by NeurIPS 2025" /><published>2025-09-18T00:00:00+00:00</published><updated>2026-05-23T07:30:37+00:00</updated><id>https://neuir.github.io/2025/09/18/post</id><content type="html" xml:base="https://neuir.github.io/2025/09/18/post.html"><![CDATA[<p>We have two papers accepted by NeurIPS 2025: The Thirty-Ninth Annual Conference on Neural Information Processing Systems</p>
 
 <p>San Diego Convention Center, Dec. 2-7, US &amp; Mexico City, Nov. 30-Dec. 5, Mexico</p>
 
 <div class="citation-container">
   <div class="citation">
     
+    
     <div class="citation-image" data-lightbox="/images/projects/athought.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/projects/athought.webp" alt="A*-Thought: Efficient Reasoning via Bidirectional Compression for Low-Resource Settings" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+      <img src="/images/projects/athought.webp" alt="A*-Thought: Efficient Reasoning via Bidirectional Compression for Low-Resource Settings" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
     </div>
     
 
@@ -698,9 +753,11 @@
       
       
 
-      <a href="https://arxiv.org/abs/2505.24550" class="citation-title">
-        A*-Thought: Efficient Reasoning via Bidirectional Compression for Low-Resource Settings
-      </a>
+      
+        <a href="https://arxiv.org/abs/2505.24550" class="citation-title">
+          A*-Thought: Efficient Reasoning via Bidirectional Compression for Low-Resource Settings
+        </a>
+      
 
       <div class="citation-authors" tabindex="0">
         Xiaoang Xu, Shuo Wang, Xu Han, Zhenghao Liu, Huijia Wu, Peipei Li, Zhiyuan Liu, Maosong Sun, Zhaofeng He
@@ -726,8 +783,9 @@
 <div class="citation-container">
   <div class="citation">
     
+    
     <div class="citation-image" data-lightbox="/images/projects/parammute.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/projects/parammute.webp" alt="ParamMute: Suppressing Knowledge-Critical FFNs for Faithful Retrieval-Augmented Generation" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+      <img src="/images/projects/parammute.webp" alt="ParamMute: Suppressing Knowledge-Critical FFNs for Faithful Retrieval-Augmented Generation" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
     </div>
     
 
@@ -735,9 +793,11 @@
       
       
 
-      <a href="https://arxiv.org/abs/2502.15543" class="citation-title">
-        ParamMute: Suppressing Knowledge-Critical FFNs for Faithful Retrieval-Augmented Generation
-      </a>
+      
+        <a href="https://arxiv.org/abs/2502.15543" class="citation-title">
+          ParamMute: Suppressing Knowledge-Critical FFNs for Faithful Retrieval-Augmented Generation
+        </a>
+      
 
       <div class="citation-authors" tabindex="0">
         Pengcheng Huang, Zhenghao Liu, Yukun Yan, Haiyan Zhao, Xiaoyuan Yi, Hao Chen, Zhiyuan Liu, Maosong Sun, Tong Xiao, Ge Yu, Chenyan Xiong
@@ -758,7 +818,7 @@
       
     </div>
   </div>
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[We have two papers accepted by NeurIPS 2025: The Thirty-Ninth Annual Conference on Neural Information Processing Systems]]></summary></entry><entry><title type="html">We have six papers accepted by EMNLP 2025</title><link href="https://neuir.github.io/2025/08/20/post.html" rel="alternate" type="text/html" title="We have six papers accepted by EMNLP 2025" /><published>2025-08-20T00:00:00+00:00</published><updated>2026-05-23T04:35:49+00:00</updated><id>https://neuir.github.io/2025/08/20/post</id><content type="html" xml:base="https://neuir.github.io/2025/08/20/post.html"><![CDATA[<p>We have six papers accepted by EMNLP 2025: The 2025 Conference on Empirical Methods in Natural Language Processing</p>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[We have two papers accepted by NeurIPS 2025: The Thirty-Ninth Annual Conference on Neural Information Processing Systems]]></summary></entry><entry><title type="html">We have six papers accepted by EMNLP 2025</title><link href="https://neuir.github.io/2025/08/20/post.html" rel="alternate" type="text/html" title="We have six papers accepted by EMNLP 2025" /><published>2025-08-20T00:00:00+00:00</published><updated>2026-05-23T07:30:37+00:00</updated><id>https://neuir.github.io/2025/08/20/post</id><content type="html" xml:base="https://neuir.github.io/2025/08/20/post.html"><![CDATA[<p>We have six papers accepted by EMNLP 2025: The 2025 Conference on Empirical Methods in Natural Language Processing</p>
 
 <p>Suzhou, China</p>
 
@@ -767,8 +827,9 @@
 <div class="citation-container">
   <div class="citation">
     
+    
     <div class="citation-image" data-lightbox="/images/projects/expandr.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/projects/expandr.webp" alt="ExpandR: Teaching Dense Retrievers Beyond Queries with LLM Guidance" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+      <img src="/images/projects/expandr.webp" alt="ExpandR: Teaching Dense Retrievers Beyond Queries with LLM Guidance" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
     </div>
     
 
@@ -776,9 +837,11 @@
       
       
 
-      <a href="https://arxiv.org/abs/2502.17057" class="citation-title">
-        ExpandR: Teaching Dense Retrievers Beyond Queries with LLM Guidance
-      </a>
+      
+        <a href="https://arxiv.org/abs/2502.17057" class="citation-title">
+          ExpandR: Teaching Dense Retrievers Beyond Queries with LLM Guidance
+        </a>
+      
 
       <div class="citation-authors" tabindex="0">
         Sijia Yao, Pengcheng Huang, Zhenghao Liu, Yu Gu, Yukun Yan, Shi Yu, Ge Yu
@@ -804,8 +867,9 @@
 <div class="citation-container">
   <div class="citation">
     
+    
     <div class="citation-image" data-lightbox="/images/projects/deepnote.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/projects/deepnote.webp" alt="DeepNote: Note-Centric Deep Retrieval-Augmented Generation" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+      <img src="/images/projects/deepnote.webp" alt="DeepNote: Note-Centric Deep Retrieval-Augmented Generation" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
     </div>
     
 
@@ -813,9 +877,11 @@
       
       
 
-      <a href="https://arxiv.org/abs/2410.08821" class="citation-title">
-        DeepNote: Note-Centric Deep Retrieval-Augmented Generation
-      </a>
+      
+        <a href="https://arxiv.org/abs/2410.08821" class="citation-title">
+          DeepNote: Note-Centric Deep Retrieval-Augmented Generation
+        </a>
+      
 
       <div class="citation-authors" tabindex="0">
         Ruobing Wang, Qingfei Zhao, Yukun Yan, Daren Zha, Yuxuan Chen, Shi Yu, Zhenghao Liu, Yixuan Wang, Shuo Wang, Xu Han, Zhiyuan Liu, Maosong Sun
@@ -841,8 +907,9 @@
 <div class="citation-container">
   <div class="citation">
     
+    
     <div class="citation-image" data-lightbox="/images/projects/kbalign.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/projects/kbalign.webp" alt="KBAlign: Efficient Self Adaptation on Specific Knowledge Bases" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+      <img src="/images/projects/kbalign.webp" alt="KBAlign: Efficient Self Adaptation on Specific Knowledge Bases" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
     </div>
     
 
@@ -850,9 +917,11 @@
       
       
 
-      <a href="https://arxiv.org/abs/2411.14790" class="citation-title">
-        KBAlign: Efficient Self Adaptation on Specific Knowledge Bases
-      </a>
+      
+        <a href="https://arxiv.org/abs/2411.14790" class="citation-title">
+          KBAlign: Efficient Self Adaptation on Specific Knowledge Bases
+        </a>
+      
 
       <div class="citation-authors" tabindex="0">
         Zheni Zeng, Yuxuan Chen, Shi Yu, Ruobing Wang, Yukun Yan, Zhenghao Liu, Shuo Wang, Xu Han, Zhiyuan Liu, Maosong Sun
@@ -878,8 +947,9 @@
 <div class="citation-container">
   <div class="citation">
     
+    
     <div class="citation-image" data-lightbox="/images/projects/persllm.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/projects/persllm.webp" alt="PersLLM: A Personified Training Approach for Large Language Models" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+      <img src="/images/projects/persllm.webp" alt="PersLLM: A Personified Training Approach for Large Language Models" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
     </div>
     
 
@@ -887,9 +957,11 @@
       
       
 
-      <a href="https://arxiv.org/abs/2407.12393" class="citation-title">
-        PersLLM: A Personified Training Approach for Large Language Models
-      </a>
+      
+        <a href="https://arxiv.org/abs/2407.12393" class="citation-title">
+          PersLLM: A Personified Training Approach for Large Language Models
+        </a>
+      
 
       <div class="citation-authors" tabindex="0">
         Zheni Zeng, Jiayi Chen, Huimin Chen, Yukun Yan, Yuxuan Chen, Zhenghao Liu, Zhiyuan Liu, Maosong Sun
@@ -915,8 +987,9 @@
 <div class="citation-container">
   <div class="citation">
     
+    
     <div class="citation-image" data-lightbox="/images/projects/clueanchor.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/projects/clueanchor.webp" alt="ClueAnchor: Clue-Anchored Knowledge Reasoning Exploration and Optimization for Retrieval-Augmented Generation" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+      <img src="/images/projects/clueanchor.webp" alt="ClueAnchor: Clue-Anchored Knowledge Reasoning Exploration and Optimization for Retrieval-Augmented Generation" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
     </div>
     
 
@@ -924,9 +997,11 @@
       
       
 
-      <a href="https://arxiv.org/abs/2505.24388" class="citation-title">
-        ClueAnchor: Clue-Anchored Knowledge Reasoning Exploration and Optimization for Retrieval-Augmented Generation
-      </a>
+      
+        <a href="https://arxiv.org/abs/2505.24388" class="citation-title">
+          ClueAnchor: Clue-Anchored Knowledge Reasoning Exploration and Optimization for Retrieval-Augmented Generation
+        </a>
+      
 
       <div class="citation-authors" tabindex="0">
         Hao Chen, Yukun Yan, Sen Mei, Wanxiang Che, Zhenghao Liu, Qi Shi, Xinze Li, Yuchun Fan, Pengcheng Huang, Qiushi Xiong, Zhiyuan Liu, Maosong Sun
@@ -952,8 +1027,9 @@
 <div class="citation-container">
   <div class="citation">
     
+    
     <div class="citation-image" data-lightbox="/images/projects/recut.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/projects/recut.webp" alt="ReCUT: Balancing Reasoning Length and Accuracy in LLMs via Stepwise Trails and Preference Optimization" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+      <img src="/images/projects/recut.webp" alt="ReCUT: Balancing Reasoning Length and Accuracy in LLMs via Stepwise Trails and Preference Optimization" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
     </div>
     
 
@@ -961,9 +1037,11 @@
       
       
 
-      <a href="https://arxiv.org/abs/2506.10822" class="citation-title">
-        ReCUT: Balancing Reasoning Length and Accuracy in LLMs via Stepwise Trails and Preference Optimization
-      </a>
+      
+        <a href="https://arxiv.org/abs/2506.10822" class="citation-title">
+          ReCUT: Balancing Reasoning Length and Accuracy in LLMs via Stepwise Trails and Preference Optimization
+        </a>
+      
 
       <div class="citation-authors" tabindex="0">
         Zhensheng Jin, Xinze Li, Yifan Ji, Chunyi Peng, Zhenghao Liu, Qi Shi, Yukun Yan, Shuo Wang, Furong Peng, Ge Yu
@@ -984,7 +1062,7 @@
       
     </div>
   </div>
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[We have six papers accepted by EMNLP 2025: The 2025 Conference on Empirical Methods in Natural Language Processing]]></summary></entry><entry><title type="html">热烈祝贺东北大学信息检索实验室2025届本科、硕士研究生顺利毕业</title><link href="https://neuir.github.io/2025/06/19/post.html" rel="alternate" type="text/html" title="热烈祝贺东北大学信息检索实验室2025届本科、硕士研究生顺利毕业" /><published>2025-06-19T00:00:00+00:00</published><updated>2026-05-23T04:35:49+00:00</updated><id>https://neuir.github.io/2025/06/19/post</id><content type="html" xml:base="https://neuir.github.io/2025/06/19/post.html"><![CDATA[<p>热烈祝贺东北大学信息检索实验室2025届本科、硕士研究生顺利毕业！</p>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[We have six papers accepted by EMNLP 2025: The 2025 Conference on Empirical Methods in Natural Language Processing]]></summary></entry><entry><title type="html">热烈祝贺东北大学信息检索实验室2025届本科、硕士研究生顺利毕业</title><link href="https://neuir.github.io/2025/06/19/post.html" rel="alternate" type="text/html" title="热烈祝贺东北大学信息检索实验室2025届本科、硕士研究生顺利毕业" /><published>2025-06-19T00:00:00+00:00</published><updated>2026-05-23T07:30:37+00:00</updated><id>https://neuir.github.io/2025/06/19/post</id><content type="html" xml:base="https://neuir.github.io/2025/06/19/post.html"><![CDATA[<p>热烈祝贺东北大学信息检索实验室2025届本科、硕士研究生顺利毕业！</p>
 
 <p>祝各位同学前程似锦，在未来的学术道路或职业征程中乘风破浪，以实验室所学的专业知识为帆，在信息检索与科技发展的浪潮中勇立潮头。</p>
 
@@ -995,12 +1073,16 @@
     
     <div>
 <figure class="figure">
-  <a class="figure-image" aria-label="左起：导师刘正皓（副教授）、李欣泽（硕士）">
+  
+    <span class="figure-image">
+  
     <img src="/images/photos/graduate_20250619_06.webp" style="
         width: auto;
         max-height: unset;
-      " alt="左起：导师刘正皓（副教授）、李欣泽（硕士）" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
-  </a>
+      " alt="左起：导师刘正皓（副教授）、李欣泽（硕士）" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  
+    </span>
+  
   
     <figcaption class="figure-caption">
       左起：导师刘正皓（副教授）、李欣泽（硕士）
@@ -1014,12 +1096,16 @@
     
     <div>
 <figure class="figure">
-  <a class="figure-image" aria-label="左起：张馨艺（本科）、导师刘正皓（副教授）、戴鑫（本科）">
+  
+    <span class="figure-image">
+  
     <img src="/images/photos/graduate_20250619_02.webp" style="
         width: auto;
         max-height: unset;
-      " alt="左起：张馨艺（本科）、导师刘正皓（副教授）、戴鑫（本科）" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
-  </a>
+      " alt="左起：张馨艺（本科）、导师刘正皓（副教授）、戴鑫（本科）" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  
+    </span>
+  
   
     <figcaption class="figure-caption">
       左起：张馨艺（本科）、导师刘正皓（副教授）、戴鑫（本科）
@@ -1037,12 +1123,16 @@
     
     <div>
 <figure class="figure">
-  <a class="figure-image" aria-label="左起：周天硕（硕士）、导师刘正皓（副教授）、姚思佳（硕士）">
+  
+    <span class="figure-image">
+  
     <img src="/images/photos/graduate_20250619_03.webp" style="
         width: auto;
         max-height: unset;
-      " alt="左起：周天硕（硕士）、导师刘正皓（副教授）、姚思佳（硕士）" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
-  </a>
+      " alt="左起：周天硕（硕士）、导师刘正皓（副教授）、姚思佳（硕士）" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  
+    </span>
+  
   
     <figcaption class="figure-caption">
       左起：周天硕（硕士）、导师刘正皓（副教授）、姚思佳（硕士）
@@ -1056,12 +1146,16 @@
     
     <div>
 <figure class="figure">
-  <a class="figure-image" aria-label="左起：黄鹏程（硕士）、导师刘正皓（副教授）、姚思佳（硕士）">
+  
+    <span class="figure-image">
+  
     <img src="/images/photos/graduate_20250619_05.webp" style="
         width: auto;
         max-height: unset;
-      " alt="左起：黄鹏程（硕士）、导师刘正皓（副教授）、姚思佳（硕士）" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
-  </a>
+      " alt="左起：黄鹏程（硕士）、导师刘正皓（副教授）、姚思佳（硕士）" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  
+    </span>
+  
   
     <figcaption class="figure-caption">
       左起：黄鹏程（硕士）、导师刘正皓（副教授）、姚思佳（硕士）
@@ -1072,7 +1166,7 @@
 
 </div>
   
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[热烈祝贺东北大学信息检索实验室2025届本科、硕士研究生顺利毕业！]]></summary></entry><entry><title type="html">We have three papers accepted by ACL 2025</title><link href="https://neuir.github.io/2025/05/15/post.html" rel="alternate" type="text/html" title="We have three papers accepted by ACL 2025" /><published>2025-05-15T00:00:00+00:00</published><updated>2026-05-23T04:35:49+00:00</updated><id>https://neuir.github.io/2025/05/15/post</id><content type="html" xml:base="https://neuir.github.io/2025/05/15/post.html"><![CDATA[<p>We have three papers accepted by ACL 2025: The 63rd Annual Meeting of the Association for Computational Linguistics</p>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[热烈祝贺东北大学信息检索实验室2025届本科、硕士研究生顺利毕业！]]></summary></entry><entry><title type="html">We have three papers accepted by ACL 2025</title><link href="https://neuir.github.io/2025/05/15/post.html" rel="alternate" type="text/html" title="We have three papers accepted by ACL 2025" /><published>2025-05-15T00:00:00+00:00</published><updated>2026-05-23T07:30:37+00:00</updated><id>https://neuir.github.io/2025/05/15/post</id><content type="html" xml:base="https://neuir.github.io/2025/05/15/post.html"><![CDATA[<p>We have three papers accepted by ACL 2025: The 63rd Annual Meeting of the Association for Computational Linguistics</p>
 
 <p>Vienna, Austria</p>
 
@@ -1081,8 +1175,9 @@
 <div class="citation-container">
   <div class="citation">
     
+    
     <div class="citation-image" data-lightbox="/images/projects/rageval.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/projects/rageval.webp" alt="RAGEval: Scenario Specific RAG Evaluation Dataset Generation Framework" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+      <img src="/images/projects/rageval.webp" alt="RAGEval: Scenario Specific RAG Evaluation Dataset Generation Framework" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
     </div>
     
 
@@ -1090,9 +1185,11 @@
       
       
 
-      <a href="https://arxiv.org/abs/2408.01262" class="citation-title">
-        RAGEval: Scenario Specific RAG Evaluation Dataset Generation Framework
-      </a>
+      
+        <a href="https://arxiv.org/abs/2408.01262" class="citation-title">
+          RAGEval: Scenario Specific RAG Evaluation Dataset Generation Framework
+        </a>
+      
 
       <div class="citation-authors" tabindex="0">
         Kunlun Zhu, Yifan Luo, Dingling Xu, Yukun Yan, Zhenghao Liu, Shi Yu, Ruobing Wang, , Shuo Wang, Yishan Li, Nan Zhang, Xu Han, Zhiyuan Liu, Maosong Sun
@@ -1118,8 +1215,9 @@
 <div class="citation-container">
   <div class="citation">
     
+    
     <div class="citation-image" data-lightbox="/images/projects/rankcot.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/projects/rankcot.webp" alt="Rankcot: Refining knowledge for retrieval-augmented generation through ranking chain-of-thoughts" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+      <img src="/images/projects/rankcot.webp" alt="Rankcot: Refining knowledge for retrieval-augmented generation through ranking chain-of-thoughts" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
     </div>
     
 
@@ -1127,9 +1225,11 @@
       
       
 
-      <a href="https://arxiv.org/abs/2502.17888" class="citation-title">
-        Rankcot: Refining knowledge for retrieval-augmented generation through ranking chain-of-thoughts
-      </a>
+      
+        <a href="https://arxiv.org/abs/2502.17888" class="citation-title">
+          Rankcot: Refining knowledge for retrieval-augmented generation through ranking chain-of-thoughts
+        </a>
+      
 
       <div class="citation-authors" tabindex="0">
         Mingyan Wu, Zhenghao Liu, Yukun Yan, Xinze Li, Shi Yu, Zheni Zeng, Yu Gu, Ge Yu
@@ -1155,8 +1255,9 @@
 <div class="citation-container">
   <div class="citation">
     
+    
     <div class="citation-image" data-lightbox="/images/projects/consjudge.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/projects/consjudge.webp" alt="Judge as A Judge: Improving the Evaluation of Retrieval-Augmented Generation through the Judge-Consistency of Large Language Models" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+      <img src="/images/projects/consjudge.webp" alt="Judge as A Judge: Improving the Evaluation of Retrieval-Augmented Generation through the Judge-Consistency of Large Language Models" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
     </div>
     
 
@@ -1164,9 +1265,11 @@
       
       
 
-      <a href="https://arxiv.org/abs/2502.18817" class="citation-title">
-        Judge as A Judge: Improving the Evaluation of Retrieval-Augmented Generation through the Judge-Consistency of Large Language Models
-      </a>
+      
+        <a href="https://arxiv.org/abs/2502.18817" class="citation-title">
+          Judge as A Judge: Improving the Evaluation of Retrieval-Augmented Generation through the Judge-Consistency of Large Language Models
+        </a>
+      
 
       <div class="citation-authors" tabindex="0">
         Shuliang Liu, Xinze Li, Zhenghao Liu, Yukun Yan, Cheng Yang, Zheni Zeng, Zhiyuan Liu, Maosong Sun, Ge Yu
@@ -1187,7 +1290,7 @@
       
     </div>
   </div>
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[We have three papers accepted by ACL 2025: The 63rd Annual Meeting of the Association for Computational Linguistics]]></summary></entry><entry><title type="html">We have one paper accepted by SIGIR 2025</title><link href="https://neuir.github.io/2025/04/04/post.html" rel="alternate" type="text/html" title="We have one paper accepted by SIGIR 2025" /><published>2025-04-04T00:00:00+00:00</published><updated>2026-05-23T04:35:49+00:00</updated><id>https://neuir.github.io/2025/04/04/post</id><content type="html" xml:base="https://neuir.github.io/2025/04/04/post.html"><![CDATA[<p>We have one paper accepted by SIGIR 2025: The 48th International ACM SIGIR Conference on Research and Development in Information Retrieval</p>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[We have three papers accepted by ACL 2025: The 63rd Annual Meeting of the Association for Computational Linguistics]]></summary></entry><entry><title type="html">We have one paper accepted by SIGIR 2025</title><link href="https://neuir.github.io/2025/04/04/post.html" rel="alternate" type="text/html" title="We have one paper accepted by SIGIR 2025" /><published>2025-04-04T00:00:00+00:00</published><updated>2026-05-23T07:30:37+00:00</updated><id>https://neuir.github.io/2025/04/04/post</id><content type="html" xml:base="https://neuir.github.io/2025/04/04/post.html"><![CDATA[<p>We have one paper accepted by SIGIR 2025: The 48th International ACM SIGIR Conference on Research and Development in Information Retrieval</p>
 
 <p>Padova, Italy</p>
 
@@ -1201,9 +1304,11 @@
       
       
 
-      <a href="https://arxiv.org/abs/2504.14845" class="citation-title">
-        Enhancing the Patent Matching Capability of Large Language Models via the Memory Graph
-      </a>
+      
+        <a href="https://arxiv.org/abs/2504.14845" class="citation-title">
+          Enhancing the Patent Matching Capability of Large Language Models via the Memory Graph
+        </a>
+      
 
       <div class="citation-authors" tabindex="0">
         Qiushi Xiong, Zhipeng Xu, Zhenghao Liu, Mengjia Wang, Zulong Chen, Yue Sun, Yu Gu, Xiaohua Li, Ge Yu
@@ -1218,7 +1323,7 @@
       
     </div>
   </div>
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[We have one paper accepted by SIGIR 2025: The 48th International ACM SIGIR Conference on Research and Development in Information Retrieval]]></summary></entry><entry><title type="html">We have three papers accepted by ICLR 2025</title><link href="https://neuir.github.io/2025/01/22/post.html" rel="alternate" type="text/html" title="We have three papers accepted by ICLR 2025" /><published>2025-01-22T00:00:00+00:00</published><updated>2026-05-23T04:35:49+00:00</updated><id>https://neuir.github.io/2025/01/22/post</id><content type="html" xml:base="https://neuir.github.io/2025/01/22/post.html"><![CDATA[<p>We have three papers accepted by ICLR 2025: The Thirteenth International Conference on Learning Representations</p>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[We have one paper accepted by SIGIR 2025: The 48th International ACM SIGIR Conference on Research and Development in Information Retrieval]]></summary></entry><entry><title type="html">We have three papers accepted by ICLR 2025</title><link href="https://neuir.github.io/2025/01/22/post.html" rel="alternate" type="text/html" title="We have three papers accepted by ICLR 2025" /><published>2025-01-22T00:00:00+00:00</published><updated>2026-05-23T07:30:37+00:00</updated><id>https://neuir.github.io/2025/01/22/post</id><content type="html" xml:base="https://neuir.github.io/2025/01/22/post.html"><![CDATA[<p>We have three papers accepted by ICLR 2025: The Thirteenth International Conference on Learning Representations</p>
 
 <p>Singapore EXPO-1 Expo Drive, Singapore.</p>
 
@@ -1232,9 +1337,11 @@
       
       
 
-      <a href="https://arxiv.org/abs/2404.02078" class="citation-title">
-        Advancing llm reasoning generalists with preference trees
-      </a>
+      
+        <a href="https://arxiv.org/abs/2404.02078" class="citation-title">
+          Advancing llm reasoning generalists with preference trees
+        </a>
+      
 
       <div class="citation-authors" tabindex="0">
         Lifan Yuan, Ganqu Cui, Hanbin Wang, Ning Ding, Xingyao Wang, Jia Deng, Boji Shan, Huimin Chen, Ruobing Xie, Yankai Lin, Zhenghao Liu, Bowen Zhou, Hao Peng, Zhiyuan Liu, Maosong Sun
@@ -1259,9 +1366,11 @@
       
       
 
-      <a href="https://arxiv.org/abs/2410.10594" class="citation-title">
-        VisRAG: Vision-based retrieval-augmented generation on multi-modality documents
-      </a>
+      
+        <a href="https://arxiv.org/abs/2410.10594" class="citation-title">
+          VisRAG: Vision-based retrieval-augmented generation on multi-modality documents
+        </a>
+      
 
       <div class="citation-authors" tabindex="0">
         Shi Yu, Chaoyue Tang, Bokai Xu, Junbo Cui, Junhao Ran, Yukun Yan, Zhenghao Liu, Shuo Wang, Xu Han, Zhiyuan Liu, Maosong Sun
@@ -1286,9 +1395,11 @@
       
       
 
-      <a href="https://arxiv.org/abs/2410.13509" class="citation-title">
-        RAG-DDR: Optimizing Retrieval-Augmented Generation Using Differentiable Data Rewards
-      </a>
+      
+        <a href="https://arxiv.org/abs/2410.13509" class="citation-title">
+          RAG-DDR: Optimizing Retrieval-Augmented Generation Using Differentiable Data Rewards
+        </a>
+      
 
       <div class="citation-authors" tabindex="0">
         Xinze Li, Sen Mei, Zhenghao Liu, Yukun Yan, Shuo Wang, Shi Yu, Zheni Zeng, Hao Chen, Ge Yu, Zhiyuan Liu, Maosong Sun, Chenyan Xiong

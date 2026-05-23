@@ -1,11 +1,18 @@
 .dark-toggle {
   position: relative;
-  width: 40px;
-  height: 25px;
+  width: 44px;
+  height: 44px;
   margin: 0;
+  background: none;
+  appearance: none;
+}
+
+.dark-toggle:before {
+  content: "";
+  position: absolute;
+  inset: 8px 0;
   border-radius: 999px;
   background: var(--primary);
-  appearance: none;
   transition: background var(--transition);
 }
 
