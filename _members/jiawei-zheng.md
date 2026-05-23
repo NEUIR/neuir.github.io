@@ -2,8 +2,8 @@
 name: Jiawei Zheng
 name_cn: 郑佳玮
 image: images/headshots/jiawei_zheng.webp
-role: ex
-year: 2025
+role: phd
+year: 2027
 affiliation: zhengjiaweice@163.com
 description: PhD Student
 ---

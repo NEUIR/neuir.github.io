@@ -2,8 +2,8 @@
 name: Jiahao Wang
 name_cn: 王佳豪
 image: images/headshots/jiahao_wang.webp
-role: phd
-year: 2027
+role: ms
+year: 308
 affiliation: wangjh33@mails.neu.edu.cn
 ---
 

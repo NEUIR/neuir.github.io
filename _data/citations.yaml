@@ -232,6 +232,23 @@
   publisher: Proceedings of ACL
   title: 'RAGEval: Scenario Specific RAG Evaluation Dataset Generation Framework'
 - authors:
+  - Dingling Xu
+  - Ruobing Wang
+  - Qingfei Zhao
+  - Yukun Yan
+  - Zhichun Wang
+  - Daren Zha
+  - Shi Yu
+  - Zhenghao Liu
+  - Shuo Wang
+  - Xu Han
+  - Maosong Sun
+  date: '2026-01-01'
+  mark: acl2026-main
+  image: images/projects/checkrlm.webp
+  publisher: Proceedings of ACL
+  title: 'CheckRLM: Effective Knowledge-Thought Coherence Checking in Retrieval-Augmented Reasoning'
+- authors:
   - Shuliang Liu
   - Zhipeng Xu
   - Zhenghao Liu
@@ -324,6 +341,7 @@
   - Ge Yu
   date: '2026-01-01'
   mark: acl2026-findings
+  image: images/projects/hqekv.webp
   publisher: Proceedings of ACL (Findings)
   title: 'HqeKV: Towards Hybrid Quantization and Eviction for KV Cache in Long-Context LLM Inference'
 - authors:
@@ -709,8 +727,10 @@
   - Yu Gu
   - Ge Yu
   date: '2026-01-01'
+  link: 'https://arxiv.org/abs/2604.07419'
   publisher: Proceedings of SIGIR
   mark: sigir2026
+  image: images/projects/realign.webp
   title: 'ReAlign: Optimizing the Visual Document Retriever with Reasoning-Guided Fine-Grained Alignment'
 - authors:
   - Chunyi Peng

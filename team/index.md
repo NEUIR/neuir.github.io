@@ -21,8 +21,8 @@ nav:
 <!-- ## 本科生
 {% include list.html data="members" component="portrait" filters="role: bs" %} -->
 
-## 实习生
-{% include list.html data="members" component="portrait" filters="role: ex" %}
+<!-- ## 实习生
+{% include list.html data="members" component="portrait" filters="role: ex" %} -->
 
 ## 曾经在本组的同学
 {% comment %}
@@ -34,7 +34,9 @@ nav:
 - [梅　森](https://mssssss123.github.io/)，硕士，2022年入学。毕业后前往启元实验室工作。
 - [周天硕](https://whale-z.github.io/)，硕士，2022年入学。毕业后前往科大讯飞AI研究院工作。
 - [姚思佳](https://scholar.google.com/citations?user=oRxryGgAAAAJ)，硕士，2022年入学。毕业后前往北京中国移动在线营销服务中心工作。
-- 王灏岚，硕士，2023年入学。
+- [徐志鹏](https://scholar.google.com/citations?user=PGS_UbsAAAAJ)，硕士，2023年入学。毕业后前往阿里巴巴集团工作。
+- 杨伟庆，硕士，2023年入学。毕业后前往中国科学院工业人工智能研究所工作。
+- [王颢岚](https://scholar.google.com/citations?user=waEv6VIAAAAJ)，硕士，2023年入学。毕业后前往成都飞机工业集团工作。
 - [吕原汇一](https://qc-ly.github.io/)，本科，2019年入学。毕业后前往香港科技大学攻读博士学位。
 - [王汉彬](https://wanghanbinpanda.github.io/)，本科，2020年入学。毕业后前往北京大学攻读硕士学位。
 - [刘艺彬](https://10-oasis-01.github.io/)，本科，2022年入学。毕业后前往犹他大学攻读博士学位。
