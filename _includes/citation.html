@@ -11,9 +11,16 @@
 <div class="citation-container">
   <div class="citation">
     {% if include.style == "rich" %}
-    <div class="citation-image" data-lightbox="{{ citation.image | relative_url }}" role="button" tabindex="0"
+    {% assign citation_image = citation.image | default: "images/fallback.svg" %}
+    <div class="citation-image" data-lightbox="{{ citation_image | relative_url }}" role="button" tabindex="0"
       aria-label="点击放大图片">
-      <img src="{{ citation.image | relative_url }}" alt="{{ citation.title | default: "citation image" }}" loading="lazy" {% include fallback.html %}>
+      <img
+        src="{{ citation_image | relative_url }}"
+        alt="{{ citation.title | default: "citation image" }}"
+        loading="lazy"
+        decoding="async"
+        {% include fallback.html %}
+      >
     </div>
     {% endif %}
 
@@ -21,9 +28,15 @@
       {% assign type = site.data.types[citation.type] %}
       {% include icon.html icon=type.icon %}
 
-      <a {% if citation.link %} href="{{ citation.link | relative_url }}" {% endif %} class="citation-title">
-        {{ citation.title | default: "[no title info]" }}
-      </a>
+      {% if citation.link %}
+        <a href="{{ citation.link | relative_url }}" class="citation-title">
+          {{ citation.title | default: "[no title info]" }}
+        </a>
+      {% else %}
+        <span class="citation-title">
+          {{ citation.title | default: "[no title info]" }}
+        </span>
+      {% endif %}
 
       <div class="citation-authors" tabindex="0">
         {{

@@ -1,11 +1,13 @@
 <figure class="figure">
-  <a
-    {% if include.link %}
+  {% if include.link %}
+    <a
       href="{{ include.link | relative_url }}"
-    {% endif %}
-    class="figure-image"
-    aria-label="{{ include.caption | default: "figure link" }}"
-  >
+      class="figure-image"
+      aria-label="{{ include.caption | default: "figure link" }}"
+    >
+  {% else %}
+    <span class="figure-image">
+  {% endif %}
     <img
       src="{{ include.image | relative_url }}"
       style="
@@ -14,9 +16,14 @@
       "
       alt="{{ include.caption | default: "figure image" }}"
       loading="lazy"
+      decoding="async"
       {% include fallback.html %}
     >
-  </a>
+  {% if include.link %}
+    </a>
+  {% else %}
+    </span>
+  {% endif %}
   {% if include.caption %}
     <figcaption class="figure-caption">
       {{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}

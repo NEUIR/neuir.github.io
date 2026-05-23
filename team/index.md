@@ -39,6 +39,6 @@ nav:
 - [王颢岚](https://scholar.google.com/citations?user=waEv6VIAAAAJ)，硕士，2023年入学。毕业后前往成都飞机工业集团工作。
 - [吕原汇一](https://qc-ly.github.io/)，本科，2019年入学。毕业后前往香港科技大学攻读博士学位。
 - [王汉彬](https://wanghanbinpanda.github.io/)，本科，2020年入学。毕业后前往北京大学攻读硕士学位。
-- [刘艺彬](https://10-oasis-01.github.io/)，本科，2022年入学。毕业后前往犹他大学攻读博士学位。
+- [刘艺彬](https://10-oasis-01.github.io/)，本科，2022年入学。毕业后前往新加坡国立大学攻读博士学位。
 - 张馨艺，本科，2021年入学。毕业后前往上海交通大学攻读博士学位。
 - [徐步强](https://xubqpanda.github.io/)，本科，2022年入学。毕业后前往浙江大学攻读硕士学位。

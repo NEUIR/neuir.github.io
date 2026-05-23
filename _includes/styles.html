@@ -1,9 +1,12 @@
 <!-- third party styles -->
 <!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
-<link 
-  href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css"
-  rel="stylesheet"
-/>
+{% assign page_source = page.content | default: "" %}
+{% if page_source contains "```" or page_source contains "<pre" or page_source contains "<code" or page_source contains "~~~" %}
+  <link
+    href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css"
+    rel="stylesheet"
+  />
+{% endif %}
 
 <!-- include all sass in styles folder -->
 {% assign styles = site.pages

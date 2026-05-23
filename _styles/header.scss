@@ -39,11 +39,19 @@ header a {
 }
 
 .logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: $logo;
   height: $logo;
 }
 
 .logo > * {
+  display: block;
+  width: 100%;
   height: 100%;
+  object-fit: contain;
 }
 
 .title-text {
@@ -104,7 +112,10 @@ nav {
 }
 
 nav > a {
-  padding: 5px 8px;
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 8px;
   border-radius: var(--rounded);
   transition: color var(--transition), background var(--transition);
 }
@@ -150,6 +161,7 @@ header[data-big] {
   }
 
   .logo {
+    width: $logo-big;
     height: $logo-big;
   }
 

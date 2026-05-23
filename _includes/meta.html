@@ -1,20 +1,20 @@
 {% assign filename = page.path | split: "/" | last %}
 {% if page.name and page.name != filename %}
-  {% assign title = page.name %}
+  {% assign page_title = page.name %}
 {% elsif page.title %}
-  {% assign title = page.title %}
+  {% assign page_title = page.title %}
 {% else %}
-  {% assign title = nil %}
+  {% assign page_title = site.title %}
 {% endif %}
 
-{% assign fulltitle = "" | split: "," %}
-{% if title %}
-  {% assign fulltitle = fulltitle | push: title %}
+{% assign title_parts = "" | split: "," %}
+{% if page_title %}
+  {% assign title_parts = title_parts | push: page_title %}
 {% endif %}
-{% if site.title %}
-  {% assign fulltitle = fulltitle | push: site.title %}
+{% if site.title and site.title != page_title %}
+  {% assign title_parts = title_parts | push: site.title %}
 {% endif %}
-{% assign fulltitle = fulltitle | join: " | " %}
+{% assign fulltitle = title_parts | join: " | " %}
 
 {% assign subtitle = site.subtitle %}
 
@@ -24,9 +24,7 @@
     {{ site.subtitle }}. {{ description }}
   {%- endcapture %}
 {% endif %}
-{% capture url -%}
-  {{ site.url }}{{ site.baseurl }}
-{%- endcapture %}
+{% assign url = page.url | absolute_url %}
 
 {% assign png = "images/icon.png" | file_exists %}
 {% assign jpg = "images/icon.jpg" | file_exists %}
@@ -35,7 +33,8 @@
 
 {% assign jpg = "images/share.jpg" | file_exists %}
 {% assign png = "images/share.png" | file_exists %}
-{% assign share = jpg | default: png | relative_url %}
+{% assign share_source = jpg | default: png | default: site.header %}
+{% assign share = share_source | absolute_url %}
 
 {% assign published = page.date | date_to_xmlschema %}
 {% assign updated = page.last_modified_at | date_to_xmlschema %}
@@ -47,22 +46,23 @@
 <title>{{ fulltitle }}</title>
 
 <link rel="icon" href="{{ icon }}">
+<link rel="canonical" href="{{ url }}">
 
-<meta name="title" content="{{ title }}">
-<meta name="description" content="{{ description }}">
+<meta name="title" content="{{ fulltitle | escape }}">
+<meta name="description" content="{{ description | escape }}">
 
-<meta property="og:title" content="{{ title }}">
-<meta property="og:site_title" content="{{ site.title }}">
-<meta property="og:description" content="{{ description }}">
-<meta property="og:url" content="{{ url }}">
-<meta property="og:image" content="{{ share }}">
-<meta property="og:locale" content="en_US">
+<meta property="og:title" content="{{ fulltitle | escape }}">
+<meta property="og:site_name" content="{{ site.title | escape }}">
+<meta property="og:description" content="{{ description | escape }}">
+<meta property="og:url" content="{{ url | escape }}">
+<meta property="og:image" content="{{ share | escape }}">
+<meta property="og:locale" content="zh_CN">
 
-<meta property="twitter:title" content="{{ title }}">
-<meta property="twitter:description" content="{{ description }}">
-<meta property="twitter:url" content="{{ url }}">
-<meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:image" content="{{ share }}">
+<meta name="twitter:title" content="{{ fulltitle | escape }}">
+<meta name="twitter:description" content="{{ description | escape }}">
+<meta name="twitter:url" content="{{ url | escape }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{{ share | escape }}">
 
 {% if page.author %}
   <meta name="author" content="{{ page.author }}">
@@ -80,20 +80,20 @@
     "@context": "https://schema.org",
     {% if page.author %}
       "@type": "BlogPosting",
-      "author": { "@type": "Person", "name": "{{ title }}" },
+      "author": { "@type": "Person", "name": {{ page.author | default: page_title | jsonify }} },
       "datePublished": "{{ published }}",
       "dateModified": "{{ updated }}",
     {% else %}
       "@type": "WebSite",
     {% endif %}
-    "name": "{{ title }}",
-    "description": "{{ description }}",
-    "headline": "{{ title }}",
+    "name": {{ fulltitle | jsonify }},
+    "description": {{ description | jsonify }},
+    "headline": {{ fulltitle | jsonify }},
     "publisher": {
       "@type": "Organization",
-      "logo": { "@type": "ImageObject", "url": "{{ icon }}" }
+      "logo": { "@type": "ImageObject", "url": {{ icon | absolute_url | jsonify }} }
     },
-    "url": "{{ url }}"
+    "url": {{ url | jsonify }}
   }
 </script>
 

@@ -9,6 +9,7 @@
 
 {% assign type = site.data.types[member.role] %}
 {% assign homepage = member.link | default: "" | strip %}
+{% assign portrait_image = member.image | default: "images/fallback.svg" %}
 
 <div class="portrait-wrapper">
   {% if homepage != "" and homepage != "#" and homepage != "/team/#" and homepage != "/team/#/" %}
@@ -29,10 +30,11 @@
     {% endif %}
 
     <img
-      src="{{ member.image | relative_url }}"
+      src="{{ portrait_image | relative_url }}"
       class="portrait-image"
       alt="member portrait"
       loading="lazy"
+      decoding="async"
       {% include fallback.html %}
     >
 

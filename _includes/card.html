@@ -1,19 +1,26 @@
 {{ " " }}
 <div class="card" data-style="{{ include.style }}">
-  <a
-    {% if include.link %}
+  {% if include.link %}
+    <a
       href="{{ include.link | relative_url }}"
-    {% endif %}
-    aria-label="{{ include.title | default: "card link" }}"
-    class="card-image"
-  >
+      aria-label="{{ include.title | default: "card link" }}"
+      class="card-image"
+    >
+  {% else %}
+    <span class="card-image">
+  {% endif %}
     <img
       src="{{ include.image | relative_url }}"
       alt="{{ include.title | default: "card image" }}"
       loading="lazy"
+      decoding="async"
       {% include fallback.html %}
     >
-  </a>
+  {% if include.link %}
+    </a>
+  {% else %}
+    </span>
+  {% endif %}
 
   <div class="card-text">
     {% if include.title %}
@@ -34,9 +41,14 @@
       <span class="card-subtitle">{{ include.subtitle }}</span>
     {% endif %}
 
-    {% if include.link %}
+    {% if include.link and include.repo %}
       <a href="{{ include.link }}">
-        <img src="https://img.shields.io/github/stars/{{ include.repo }}?style=social&label=Code+Stars">
+        <img
+          src="https://img.shields.io/github/stars/{{ include.repo }}?style=social&label=Code+Stars"
+          alt="{{ include.title | default: include.repo }} GitHub stars"
+          loading="lazy"
+          decoding="async"
+        >
       </a>
     {% endif %}
 
