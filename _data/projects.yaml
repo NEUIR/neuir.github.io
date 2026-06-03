@@ -5,20 +5,6 @@
   repo: OpenBMB/UltraRAG
   date: 2025
 
-- title: EdgeClaw
-  subtitle: Edge-Cloud Collaborative AI Assistant
-  image: images/projects/edgeclaw.webp
-  link: https://github.com/OpenBMB/EdgeClaw
-  repo: OpenBMB/EdgeClaw
-  date: 2026
-
-- title: ClawXMemory
-  subtitle: Memory Plugin for OpenClaw
-  image: images/projects/clawxmemory.webp
-  link: https://github.com/OpenBMB/ClawXMemory
-  repo: OpenBMB/ClawXMemory
-  date: 2026
-
 - title: OpenMatch
   subtitle: Information Retrieval Toolkit
   image: images/projects/openmatch.webp
