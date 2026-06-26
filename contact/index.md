@@ -16,25 +16,63 @@ nav:
 
 {% include section.html %}
 
-## 研究方向
-
-- {% include icon.html icon="fa-solid fa-magnifying-glass" %} **信息检索**（Information Retrieval）
-- {% include icon.html icon="fa-solid fa-robot" %} **检索增强生成**（Retrieval-Augmented Generation）
-- {% include icon.html icon="fa-solid fa-brain" %} **大语言模型知识工程**（Knowledge Engineering for LLMs）
-
-{% include section.html %}
-
 ## 我们能提供
 
-- {% include icon.html icon="fa-solid fa-building-columns" %} **顶尖学术平台**：与清华大学孙茂松、刘洋、刘知远教授课题组紧密合作
-- {% include icon.html icon="fa-solid fa-industry" %} **产学研实践**：与面壁智能、启元实验室、阿里巴巴等企业深度合作
-- {% include icon.html icon="fa-solid fa-desktop" %} **充足算力资源**：充足的 GPU 集群支持大模型训练与实验
-- {% include icon.html icon="fa-solid fa-users" %} **友好团队氛围**：定期学术研讨、团队活动，师生关系融洽
+<div class="contact-cards" style="--cols: 2">
+  <div class="contact-card">
+    <span class="contact-card-icon">{% include icon.html icon="fa-solid fa-building-columns" %}</span>
+    <div class="contact-card-body">
+      <p class="contact-card-title">顶尖学术平台</p>
+      <p class="contact-card-text">与清华大学孙茂松、刘洋、刘知远教授课题组紧密合作</p>
+    </div>
+  </div>
+  <div class="contact-card">
+    <span class="contact-card-icon">{% include icon.html icon="fa-solid fa-industry" %}</span>
+    <div class="contact-card-body">
+      <p class="contact-card-title">产学研实践</p>
+      <p class="contact-card-text">与面壁智能、启元实验室、阿里巴巴等企业深度合作</p>
+    </div>
+  </div>
+  <div class="contact-card">
+    <span class="contact-card-icon">{% include icon.html icon="fa-solid fa-desktop" %}</span>
+    <div class="contact-card-body">
+      <p class="contact-card-title">充足算力资源</p>
+      <p class="contact-card-text">充足的 GPU 集群支持大模型训练与实验</p>
+    </div>
+  </div>
+  <div class="contact-card">
+    <span class="contact-card-icon">{% include icon.html icon="fa-solid fa-users" %}</span>
+    <div class="contact-card-body">
+      <p class="contact-card-title">友好团队氛围</p>
+      <p class="contact-card-text">定期学术研讨、团队活动，师生关系融洽</p>
+    </div>
+  </div>
+</div>
 
 {% include section.html %}
 
 ## 联系方式
 
-- {% include icon.html icon="fa-solid fa-envelope" %} **邮箱**：[liuzhenghao@mail.neu.edu.cn](mailto:liuzhenghao@mail.neu.edu.cn)
-- {% include icon.html icon="fa-brands fa-github" %} **GitHub**：[github.com/NEUIR](https://github.com/NEUIR)
-- {% include icon.html icon="fa-solid fa-location-dot" %} **地址**：辽宁省沈阳市浑南区创新路195号 东北大学
+<div class="contact-cards" style="--cols: 3">
+  <div class="contact-card" data-style="center">
+    <span class="contact-card-icon">{% include icon.html icon="fa-solid fa-envelope" %}</span>
+    <div class="contact-card-body">
+      <p class="contact-card-title">邮箱</p>
+      <p class="contact-card-text"><a href="mailto:liuzhenghao@mail.neu.edu.cn">liuzhenghao@mail.neu.edu.cn</a></p>
+    </div>
+  </div>
+  <div class="contact-card" data-style="center">
+    <span class="contact-card-icon">{% include icon.html icon="fa-brands fa-github" %}</span>
+    <div class="contact-card-body">
+      <p class="contact-card-title">GitHub</p>
+      <p class="contact-card-text"><a href="https://github.com/NEUIR">https://github.com/NEUIR</a></p>
+    </div>
+  </div>
+  <div class="contact-card" data-style="center">
+    <span class="contact-card-icon">{% include icon.html icon="fa-solid fa-location-dot" %}</span>
+    <div class="contact-card-body">
+      <p class="contact-card-title">地址</p>
+      <p class="contact-card-text">辽宁省沈阳市浑南区创新路195号 东北大学 信息学馆B233</p>
+    </div>
+  </div>
+</div>
