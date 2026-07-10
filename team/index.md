@@ -4,7 +4,7 @@ nav:
   order: 2
 ---
 
-# {% include icon.html icon="fa-solid fa-users" %}Team
+# {% include icon.html icon="fa-solid fa-users" %}研究队伍
 
 ## 指导教师
 {% include list.html data="members" component="portrait" filters="role: pi" %}

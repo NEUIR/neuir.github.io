@@ -4,7 +4,7 @@ nav:
   order: 2
 ---
 
-# {% include icon.html icon="fa-solid fa-wrench" %}Projects
+# {% include icon.html icon="fa-solid fa-wrench" %}开源项目
 
 {% include list.html component="card" data="projects" %}
 
@@ -64,13 +64,13 @@ nav:
 
 {% include section.html %}
 
-## TBD
+## 待分类
 
 {% include list.html component="card" data="projects" filters="group: TBD" %}
 
 {% include section.html %}
 
-## More
+## 更多项目
 
 {% include list.html component="card" data="projects" filters="group: " %}
 
