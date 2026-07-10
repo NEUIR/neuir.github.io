@@ -6,11 +6,11 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
-## 加入 NEUIR
+## 加入我们
 
-我们是一个由学生和教师组成的充满激情、兼容并蓄和富有创造力的团队。实验室致力于**信息检索**与**大语言模型**相关研究，与清华大学、面壁智能、阿里巴巴等保持长期紧密合作，在 NeurIPS、ICLR、ACL、EMNLP、SIGIR、KDD 等顶级会议及期刊发表 **70 余篇**论文。
+NEU-ModelBest 数据智能联合实验室是一个由学生和教师组成的充满激情、兼容并蓄和富有创造力的团队。实验室致力于**信息检索**与**大语言模型**相关研究，与清华大学、面壁智能、阿里巴巴等保持长期紧密合作，在 NeurIPS、ICLR、ACL、EMNLP、NAACL、SIGIR、KDD、WebConf、ICASSP 等顶级会议及期刊发表 **70 余篇**论文。
 
-如果您对我们的研究方向感兴趣，我们诚挚邀请您加入 NEUIR！
+如果您对我们的研究方向感兴趣，我们诚挚邀请您加入 NEU-ModelBest 数据智能联合实验室！
 
 {% include alert.html type="tip" content="请将您的简历发送至**刘正皓**老师：[liuzhenghao@mail.neu.edu.cn](mailto:liuzhenghao@mail.neu.edu.cn)" %}
 
