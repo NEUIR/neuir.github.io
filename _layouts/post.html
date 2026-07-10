@@ -4,13 +4,7 @@ layout: default
 
 {% include section.html background=page.image %}
 
-<nav class="post-breadcrumb" aria-label="面包屑导航">
-  <a href="{{ '/' | relative_url }}">首页</a>
-  {% include icon.html icon="fa-solid fa-angle-right" %}
-  <a href="{{ '/news/' | relative_url }}">最新动态</a>
-  {% include icon.html icon="fa-solid fa-angle-right" %}
-  <span aria-current="page">{{ page.title }}</span>
-</nav>
+{% include breadcrumb.html section="最新动态" section_url="/news/" current=page.title %}
 
 <h1 class="center">{{ page.title }}</h1>
 

@@ -1,0 +1,9 @@
+<nav class="post-breadcrumb" aria-label="面包屑导航">
+  <a href="{{ '/' | relative_url }}">首页</a>
+  {% include icon.html icon="fa-solid fa-angle-right" %}
+  {% if include.section and include.section_url %}
+    <a href="{{ include.section_url | relative_url }}">{{ include.section }}</a>
+    {% include icon.html icon="fa-solid fa-angle-right" %}
+  {% endif %}
+  <span aria-current="page">{{ include.current | default: page.title }}</span>
+</nav>
