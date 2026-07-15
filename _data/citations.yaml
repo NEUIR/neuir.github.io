@@ -887,6 +887,36 @@
   link: 'https://arxiv.org/abs/2505.22130'
   title: 'LISRec: Modeling User Preferences with Learned Item Shortcuts for Sequential Recommendation'
   publisher: Proceedings of KDD
+# ACM MM
+- authors:
+  - Yubo Sun
+  - Chunyi Peng
+  - Yukun Yan
+  - Shi Yu
+  - Zhenghao Liu
+  - Chi Chen
+  - Zhiyuan Liu
+  - Maosong Sun
+  date: '2026-01-01'
+  image: images/projects/visrag2.webp
+  link: 'https://arxiv.org/abs/2510.09733'
+  mark: acmmm2026
+  publisher: Proceedings of ACM MM
+  title: 'VisRAG 2.0: Evidence-Guided Multi-Image Reasoning in Visual Retrieval-Augmented Generation'
+- authors:
+  - Zhenghao Liu
+  - Xingsheng Zhu
+  - Tianshuo Zhou
+  - Xinyi Zhang
+  - Xiaoyuan Yi
+  - Yukun Yan
+  - Ge Yu
+  - Maosong Sun
+  date: '2025-01-01'
+  image: images/projects/mmrag.webp
+  link: 'https://dl.acm.org/doi/pdf/10.1145/3746027.3755625'
+  publisher: Proceedings of ACM MM
+  title: 'Benchmarking Retrieval-Augmented Generation in Multi-Modal Contexts'
 # CIKM
 - authors:
   - Zhenghao Liu
