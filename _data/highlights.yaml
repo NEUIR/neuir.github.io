@@ -10,7 +10,7 @@
   date: '2026-01-01'
   mark: acl2026-main
   image: images/projects/uncode.webp
-  link: 'https://arxiv.org/abs/2508.13021'
+  link: 'https://aclanthology.org/2026.acl-long.311/'
   publisher: Proceedings of ACL
   title: 'Empirical Analysis of Decoding Biases in Masked Diffusion Models'
 - authors:
@@ -27,7 +27,7 @@
   date: '2026-01-01'
   mark: acl2026-main
   image: images/projects/longmabpo.webp
-  link: 'https://arxiv.org/abs/2508.13993'
+  link: 'https://aclanthology.org/2026.acl-long.161/'
   publisher: Proceedings of ACL
   title: 'Chunks as Arms: Multi-Armed Bandit-Guided Sampling for Long-Context LLM Preference Optimization'
 - authors:
@@ -43,7 +43,7 @@
   date: '2026-01-01'
   mark: acl2026-main
   image: images/projects/palign.webp
-  link: 'https://arxiv.org/abs/2601.10064'
+  link: 'https://aclanthology.org/2026.acl-long.822/'
   publisher: Proceedings of ACL
   title: 'Long-Chain Reasoning Distillation via Adaptive Prefix Alignment'
 - authors:
@@ -60,6 +60,6 @@
   date: '2026-01-01'
   mark: acl2026-main
   image: images/projects/unikiebench.webp
-  link: 'https://arxiv.org/abs/2602.07038'
+  link: 'https://aclanthology.org/2026.acl-long.287/'
   publisher: Proceedings of ACL
   title: 'UNIKIE-BENCH: Benchmarking Large Multimodal Models for Key Information Extraction in Visual Documents'

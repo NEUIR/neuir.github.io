@@ -192,7 +192,7 @@
   date: '2025-01-01'
   mark: acl2025-main
   image: images/projects/rankcot.webp
-  link: 'https://arxiv.org/abs/2502.17888'
+  link: 'https://aclanthology.org/2025.acl-long.629/'
   publisher: Proceedings of ACL
   title: 'Rankcot: Refining knowledge for retrieval-augmented generation through ranking chain-of-thoughts'
 - authors:
@@ -208,7 +208,7 @@
   date: '2025-01-01'
   mark: acl2025-findings
   image: images/projects/consjudge.webp
-  link: 'https://arxiv.org/abs/2502.18817'
+  link: 'https://aclanthology.org/2025.findings-acl.301/'
   publisher: Proceedings of ACL (Findings)
   title: 'Judge as A Judge: Improving the Evaluation of Retrieval-Augmented Generation through the Judge-Consistency of Large Language Models'
 - authors:
@@ -228,7 +228,7 @@
   date: '2025-01-01'
   mark: acl2025-main
   image: images/projects/rageval.webp
-  link: 'https://arxiv.org/abs/2408.01262'
+  link: 'https://aclanthology.org/2025.acl-long.418/'
   publisher: Proceedings of ACL
   title: 'RAGEval: Scenario Specific RAG Evaluation Dataset Generation Framework'
 - authors:
@@ -246,6 +246,7 @@
   date: '2026-01-01'
   mark: acl2026-main
   image: images/projects/checkrlm.webp
+  link: 'https://aclanthology.org/2026.acl-long.1780/'
   publisher: Proceedings of ACL
   title: 'CheckRLM: Effective Knowledge-Thought Coherence Checking in Retrieval-Augmented Reasoning'
 - authors:
@@ -261,7 +262,7 @@
   date: '2026-01-01'
   mark: acl2026-findings
   image: images/projects/genii.webp
-  link: 'https://arxiv.org/abs/2510.08145'
+  link: 'https://aclanthology.org/2026.findings-acl.71/'
   publisher: Proceedings of ACL (Findings)
   title: 'Mitigating Judgment Preference Bias in Large Language Models through Group-Based Polling'
 - authors:
@@ -278,7 +279,7 @@
   date: '2026-01-01'
   mark: acl2026-main
   image: images/projects/longmabpo.webp
-  link: 'https://arxiv.org/abs/2508.13993'
+  link: 'https://aclanthology.org/2026.acl-long.161/'
   publisher: Proceedings of ACL
   title: 'Chunks as Arms: Multi-Armed Bandit-Guided Sampling for Long-Context LLM Preference Optimization'
 - authors:
@@ -295,7 +296,7 @@
   date: '2026-01-01'
   mark: acl2026-findings
   image: images/projects/orion.webp
-  link: 'https://arxiv.org/abs/2505.22131'
+  link: 'https://aclanthology.org/2026.findings-acl.72/'
   publisher: Proceedings of ACL (Findings)
   title: 'Enhancing Long-Chain Reasoning Distillation through Error-Aware Self-Reflection'
 - authors:
@@ -312,7 +313,7 @@
   date: '2026-01-01'
   mark: acl2026-main
   image: images/projects/unikiebench.webp
-  link: 'https://arxiv.org/abs/2602.07038'
+  link: 'https://aclanthology.org/2026.acl-long.287/'
   publisher: Proceedings of ACL
   title: 'UNIKIE-BENCH: Benchmarking Large Multimodal Models for Key Information Extraction in Visual Documents'
 - authors:
@@ -327,7 +328,7 @@
   date: '2026-01-01'
   mark: acl2026-main
   image: images/projects/uncode.webp
-  link: 'https://arxiv.org/abs/2508.13021'
+  link: 'https://aclanthology.org/2026.acl-long.311/'
   publisher: Proceedings of ACL
   title: 'Empirical Analysis of Decoding Biases in Masked Diffusion Models'
 - authors:
@@ -342,6 +343,7 @@
   date: '2026-01-01'
   mark: acl2026-findings
   image: images/projects/hqekv.webp
+  link: 'https://aclanthology.org/2026.findings-acl.201/'
   publisher: Proceedings of ACL (Findings)
   title: 'HqeKV: Towards Hybrid Quantization and Eviction for KV Cache in Long-Context LLM Inference'
 - authors:
@@ -357,7 +359,7 @@
   date: '2026-01-01'
   mark: acl2026-findings
   image: images/projects/metamem.webp
-  link: 'https://arxiv.org/abs/2602.11182'
+  link: 'https://aclanthology.org/2026.findings-acl.270/'
   publisher: Proceedings of ACL (Findings)
   title: 'MetaMem: Evolving Meta-Memory for Knowledge Utilization through Self-Reflective Symbolic Optimization'
 - authors:
@@ -373,7 +375,7 @@
   date: '2026-01-01'
   mark: acl2026-findings
   image: images/projects/dai2026revealing.webp
-  link: 'https://arxiv.org/abs/2601.07894'
+  link: 'https://aclanthology.org/2026.findings-acl.404/'
   publisher: Proceedings of ACL (Findings)
   title: 'Revealing the Attention Floating Mechanism in Masked Diffusion Models'
 - authors:
@@ -389,7 +391,7 @@
   date: '2026-01-01'
   mark: acl2026-findings
   image: images/projects/lang2act.webp
-  link: 'https://arxiv.org/abs/2602.13235'
+  link: 'https://aclanthology.org/2026.findings-acl.409/'
   publisher: Proceedings of ACL (Findings)
   title: 'Lang2Act: Fine-Grained Visual Reasoning through Self-Emergent Linguistic Toolchains'
 - authors:
@@ -401,6 +403,7 @@
   - Ge Yu
   date: '2026-01-01'
   mark: acl2026-main
+  link: 'https://aclanthology.org/2026.acl-long.819/'
   publisher: Proceedings of ACL
   title: 'Towards Efficient and Effective Diffusion Language Model Inference via Semantic-Aware Adaptive Denoising'
 - authors:
@@ -416,7 +419,7 @@
   date: '2026-01-01'
   mark: acl2026-main
   image: images/projects/palign.webp
-  link: 'https://arxiv.org/abs/2601.10064'
+  link: 'https://aclanthology.org/2026.acl-long.822/'
   publisher: Proceedings of ACL
   title: 'Long-Chain Reasoning Distillation via Adaptive Prefix Alignment'
 - authors:
@@ -432,7 +435,7 @@
   date: '2026-01-01'
   mark: acl2026-main
   image: images/projects/lexrel.webp
-  link: 'https://arxiv.org/abs/2512.12643'
+  link: 'https://aclanthology.org/2026.acl-long.980/'
   publisher: Proceedings of ACL
   title: 'LexRel: Benchmarking Legal Relation Extraction for Chinese Civil Cases'
 # CCL
@@ -494,7 +497,7 @@
   date: '2025-01-01'
   mark: emnlp2025-main
   image: images/projects/expandr.webp
-  link: 'https://arxiv.org/abs/2502.17057'
+  link: 'https://aclanthology.org/2025.emnlp-main.963/'
   publisher: Proceedings of EMNLP
   title: 'ExpandR: Teaching Dense Retrievers Beyond Queries with LLM Guidance'
 - authors:
@@ -533,7 +536,7 @@
   date: '2025-01-01'
   mark: emnlp2025-findings
   image: images/projects/recut.webp
-  link: 'https://arxiv.org/abs/2506.10822'
+  link: 'https://aclanthology.org/2025.findings-emnlp.770/'
   publisher: Proceedings of EMNLP (Findings)
   title: 'ReCUT: Balancing Reasoning Length and Accuracy in LLMs via Stepwise Trails and Preference Optimization'
 - authors:
@@ -552,7 +555,7 @@
   date: '2025-01-01'
   mark: emnlp2025-findings
   image: images/projects/clueanchor.webp
-  link: 'https://arxiv.org/abs/2505.24388'
+  link: 'https://aclanthology.org/2025.findings-emnlp.1049/'
   publisher: Proceedings of EMNLP (Findings)
   title: 'ClueAnchor: Clue-Anchored Knowledge Reasoning Exploration and Optimization for Retrieval-Augmented Generation'
 - authors:
@@ -567,7 +570,7 @@
   date: '2025-01-01'
   mark: emnlp2025-findings
   image: images/projects/persllm.webp
-  link: 'https://arxiv.org/abs/2407.12393'
+  link: 'https://aclanthology.org/2025.findings-emnlp.457/'
   publisher: Proceedings of EMNLP (Findings)
   title: 'PersLLM: A Personified Training Approach for Large Language Models'
 - authors:
@@ -584,7 +587,7 @@
   date: '2025-01-01'
   mark: emnlp2025-findings
   image: images/projects/kbalign.webp
-  link: 'https://arxiv.org/abs/2411.14790'
+  link: 'https://aclanthology.org/2025.findings-emnlp.728/'
   publisher: Proceedings of EMNLP (Findings)
   title: 'KBAlign: Efficient Self Adaptation on Specific Knowledge Bases'
 - authors:
@@ -603,7 +606,7 @@
   date: '2025-01-01'
   mark: emnlp2025-findings
   image: images/projects/deepnote.webp
-  link: 'https://arxiv.org/abs/2410.08821'
+  link: 'https://aclanthology.org/2025.findings-emnlp.1073/'
   publisher: Proceedings of EMNLP (Findings)
   title: 'DeepNote: Note-Centric Deep Retrieval-Augmented Generation'
 # WWW
@@ -712,7 +715,7 @@
   - Ge Yu
   date: '2025-01-01'
   image: images/projects/memgraph.webp
-  link: 'https://arxiv.org/abs/2504.14845'
+  link: 'https://dl.acm.org/doi/10.1145/3726302.3729970'
   publisher: Proceedings of SIGIR
   mark: sigir2025
   title: 'Enhancing the Patent Matching Capability of Large Language Models via the Memory Graph'
@@ -727,7 +730,7 @@
   - Yu Gu
   - Ge Yu
   date: '2026-01-01'
-  link: 'https://arxiv.org/abs/2604.07419'
+  link: 'https://dl.acm.org/doi/10.1145/3805712.3809602'
   publisher: Proceedings of SIGIR
   mark: sigir2026
   image: images/projects/realign.webp
@@ -744,7 +747,7 @@
   - Ge Yu
   - Maosong Sun
   date: '2026-01-01'
-  link: 'https://arxiv.org/abs/2505.22095'
+  link: 'https://dl.acm.org/doi/10.1145/3805712.3809588'
   image: images/projects/more.webp
   publisher: Proceedings of SIGIR
   mark: sigir2026
@@ -795,7 +798,7 @@
   - Ge Yu
   date: '2025-01-01'
   image: images/projects/coast.webp
-  link: 'https://arxiv.org/abs/2408.05006'
+  link: 'https://aclanthology.org/2025.findings-naacl.139/'
   title: 'COAST: Enhancing the Code Debugging Ability of LLMs through Communicative Agent Based Data Synthesis'
   publisher: Proceedings of NAACL (Findings)
 # ICLR
@@ -826,7 +829,7 @@
   date: '2025-01-01'
   mark: iclr2025
   image: images/projects/ragddr.webp
-  link: 'https://arxiv.org/abs/2410.13509'
+  link: 'https://openreview.net/forum?id=Pnktu2PBXD'
   title: 'RAG-DDR: Optimizing Retrieval-Augmented Generation Using Differentiable Data Rewards'
   publisher: Proceedings of ICLR
 - authors:
@@ -844,7 +847,7 @@
   date: '2025-01-01'
   mark: iclr2025
   image: images/projects/visrag.webp
-  link: 'https://arxiv.org/abs/2410.10594'
+  link: 'https://openreview.net/forum?id=zG459X3Xge'
   title: 'VisRAG: Vision-based retrieval-augmented generation on multi-modality documents'
   publisher: Proceedings of ICLR
 - authors:
@@ -866,7 +869,7 @@
   date: '2025-01-01'
   mark: iclr2025
   image: images/projects/ultrainteract.webp
-  link: 'https://arxiv.org/abs/2404.02078'
+  link: 'https://openreview.net/forum?id=2ea5TNVR0c'
   title: 'Advancing llm reasoning generalists with preference trees'
   publisher: Proceedings of ICLR
 # KDD
@@ -884,7 +887,7 @@
   date: '2026-01-01'
   mark: kdd2026
   image: images/projects/lisrec.webp
-  link: 'https://arxiv.org/abs/2505.22130'
+  link: 'https://dl.acm.org/doi/10.1145/3770854.3780337'
   title: 'LISRec: Modeling User Preferences with Learned Item Shortcuts for Sequential Recommendation'
   publisher: Proceedings of KDD
 # ACM MM
@@ -1059,7 +1062,7 @@
   date: '2025-01-01'
   mark: nips2025
   image: images/projects/parammute.webp
-  link: 'https://arxiv.org/abs/2502.15543'
+  link: 'https://proceedings.neurips.cc/paper_files/paper/2025/hash/90d1e515d74686ad148b469a3cecbbaa-Abstract-Conference.html'
   title: 'ParamMute: Suppressing Knowledge-Critical FFNs for Faithful Retrieval-Augmented Generation'
   publisher: Proceedings of NeurIPS
 - authors:
@@ -1075,7 +1078,7 @@
   date: '2025-01-01'
   mark: nips2025
   image: images/projects/athought.webp
-  link: 'https://arxiv.org/abs/2505.24550'
+  link: 'https://proceedings.neurips.cc/paper_files/paper/2025/hash/9ac5238b5c033fc49c2932a50df2bd47-Abstract-Conference.html'
   title: 'A*-Thought: Efficient Reasoning via Bidirectional Compression for Low-Resource Settings'
   publisher: Proceedings of NeurIPS
 # AI Open
@@ -1122,7 +1125,7 @@
   - Ge Yu
   date: '2026-01-01'
   image: images/projects/legaldelta.webp
-  link: 'https://arxiv.org/abs/2508.12281'
+  link: 'https://ieeexplore.ieee.org/document/11464256/'
   title: 'LegalΔ: Enhancing Legal Reasoning in LLMs via Reinforcement Learning with Chain-of-Thought Guided Information Gain'
   mark: icassp2026
   publisher: Proceedings of ICASSP
