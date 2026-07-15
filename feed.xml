@@ -1,4 +1,46 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://neuir.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://neuir.github.io/" rel="alternate" type="text/html" /><updated>2026-07-10T10:37:49+00:00</updated><id>https://neuir.github.io/feed.xml</id><title type="html">NEU-ModelBest数据智能联合实验室</title><subtitle>NEU-ModelBest数据智能联合实验室隶属东北大学计算机科学与工程学院计算机科学系，由刘正皓副教授、于戈教授和谷峪教授共同指导，致力于信息检索与大语言模型相关研究，承担多项国家级、省部级项目，在 NeurIPS、ICLR、ACL、EMNLP、NAACL、SIGIR、KDD、WebConf、ICASSP 等国际国内顶级会议及期刊发表 70 余篇论文。课题组曾在 TREC-COVID 文档级检索比赛中获第一名；联合研发的 MiniCPM 检索增强生成组件在 MTEB 榜单中文检索效果排名第一；开源的 UltraRAG 工具获超 5k 个星标。</subtitle><entry><title type="html">面壁智能联合东北大学：共建数据智能联合实验室</title><link href="https://neuir.github.io/2026/07/08/modelbest-neu-lab.html" rel="alternate" type="text/html" title="面壁智能联合东北大学：共建数据智能联合实验室" /><published>2026-07-08T00:00:00+00:00</published><updated>2026-07-10T10:24:15+00:00</updated><id>https://neuir.github.io/2026/07/08/modelbest-neu-lab</id><content type="html" xml:base="https://neuir.github.io/2026/07/08/modelbest-neu-lab.html"><![CDATA[<figure class="figure">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://neuir.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://neuir.github.io/" rel="alternate" type="text/html" /><updated>2026-07-15T04:46:31+00:00</updated><id>https://neuir.github.io/feed.xml</id><title type="html">NEU-ModelBest数据智能联合实验室</title><subtitle>NEU-ModelBest数据智能联合实验室隶属东北大学计算机科学与工程学院计算机科学系，由刘正皓副教授、于戈教授和谷峪教授共同指导，致力于信息检索与大语言模型相关研究，承担多项国家级、省部级项目，在 NeurIPS、ICLR、ACL、EMNLP、NAACL、SIGIR、KDD、WebConf、ICASSP 等国际国内顶级会议及期刊发表 70 余篇论文。课题组曾在 TREC-COVID 文档级检索比赛中获第一名；联合研发的 MiniCPM 检索增强生成组件在 MTEB 榜单中文检索效果排名第一；开源的 UltraRAG 工具获超 5k 个星标。</subtitle><entry><title type="html">实验室1篇论文被 ACM MM 2026 录用</title><link href="https://neuir.github.io/2026/07/10/post.html" rel="alternate" type="text/html" title="实验室1篇论文被 ACM MM 2026 录用" /><published>2026-07-10T00:00:00+00:00</published><updated>2026-07-15T04:46:08+00:00</updated><id>https://neuir.github.io/2026/07/10/post</id><content type="html" xml:base="https://neuir.github.io/2026/07/10/post.html"><![CDATA[<p>实验室共有1篇论文被第34届 ACM 国际多媒体会议（ACM MM 2026）录用。</p>
+
+<p>会议将于2026年11月10日至14日在巴西里约热内卢举行。</p>
+
+<div class="citation-container">
+  <div class="citation">
+    
+    
+    <div class="citation-image" data-lightbox="/images/projects/visrag2.webp" role="button" tabindex="0" aria-label="点击放大图片">
+      <img src="/images/projects/visrag2.webp" alt="VisRAG 2.0: Evidence-Guided Multi-Image Reasoning in Visual Retrieval-Augmented Generation" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+    </div>
+    
+
+    <div class="citation-text">
+      
+      
+
+      
+        <a href="https://arxiv.org/abs/2510.09733" class="citation-title">
+          VisRAG 2.0: Evidence-Guided Multi-Image Reasoning in Visual Retrieval-Augmented Generation
+        </a>
+      
+
+      <div class="citation-authors" tabindex="0">
+        Yubo Sun, Chunyi Peng, Yukun Yan, Shi Yu, Zhenghao Liu, Chi Chen, Zhiyuan Liu, Maosong Sun
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Proceedings of ACM MM</span>
+        &nbsp;·&nbsp;
+        <span class="citation-date">2026</span><span class="ccf-badge ccf-a">CCF-A</span></div>
+
+      
+      
+
+      
+
+      
+      
+    </div>
+  </div>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[实验室共有1篇论文被第34届 ACM 国际多媒体会议（ACM MM 2026）录用。]]></summary></entry><entry><title type="html">面壁智能联合东北大学：共建数据智能联合实验室</title><link href="https://neuir.github.io/2026/07/08/modelbest-neu-lab.html" rel="alternate" type="text/html" title="面壁智能联合东北大学：共建数据智能联合实验室" /><published>2026-07-08T00:00:00+00:00</published><updated>2026-07-15T04:46:08+00:00</updated><id>https://neuir.github.io/2026/07/08/modelbest-neu-lab</id><content type="html" xml:base="https://neuir.github.io/2026/07/08/modelbest-neu-lab.html"><![CDATA[<figure class="figure">
   
     <span class="figure-image">
   
@@ -88,7 +130,7 @@
   
 </figure>
 
-<p><strong>原文链接：</strong><a href="https://mp.weixin.qq.com/s/XipNMVNO3yo9aFjg3BxE8A">面壁智能联合东北大学：共建数据智能联合实验室</a></p>]]></content><author><name>面壁智能</name></author><summary type="html"><![CDATA[近日，面壁智能与东北大学计算机科学与工程学院在沈阳正式签署产学研战略合作框架协议，双方共建“数据智能联合实验室”。]]></summary></entry><entry><title type="html">实验室13篇论文被 ACL 2026 录用</title><link href="https://neuir.github.io/2026/04/06/post.html" rel="alternate" type="text/html" title="实验室13篇论文被 ACL 2026 录用" /><published>2026-04-06T00:00:00+00:00</published><updated>2026-07-10T10:24:15+00:00</updated><id>https://neuir.github.io/2026/04/06/post</id><content type="html" xml:base="https://neuir.github.io/2026/04/06/post.html"><![CDATA[<p>实验室共有13篇论文被第64届计算语言学协会年会（ACL 2026）录用。</p>
+<p><strong>原文链接：</strong><a href="https://mp.weixin.qq.com/s/XipNMVNO3yo9aFjg3BxE8A">面壁智能联合东北大学：共建数据智能联合实验室</a></p>]]></content><author><name>面壁智能</name></author><summary type="html"><![CDATA[近日，面壁智能与东北大学计算机科学与工程学院在沈阳正式签署产学研战略合作框架协议，双方共建“数据智能联合实验室”。]]></summary></entry><entry><title type="html">实验室13篇论文被 ACL 2026 录用</title><link href="https://neuir.github.io/2026/04/06/post.html" rel="alternate" type="text/html" title="实验室13篇论文被 ACL 2026 录用" /><published>2026-04-06T00:00:00+00:00</published><updated>2026-07-15T04:46:08+00:00</updated><id>https://neuir.github.io/2026/04/06/post</id><content type="html" xml:base="https://neuir.github.io/2026/04/06/post.html"><![CDATA[<p>实验室共有13篇论文被第64届计算语言学协会年会（ACL 2026）录用。</p>
 
 <p>会议将于2026年7月2日至7日在美国加利福尼亚州圣迭戈举行。</p>
 
@@ -108,7 +150,7 @@
       
 
       
-        <a href="https://arxiv.org/abs/2512.12643" class="citation-title">
+        <a href="https://aclanthology.org/2026.acl-long.980/" class="citation-title">
           LexRel: Benchmarking Legal Relation Extraction for Chinese Civil Cases
         </a>
       
@@ -148,7 +190,7 @@
       
 
       
-        <a href="https://arxiv.org/abs/2601.10064" class="citation-title">
+        <a href="https://aclanthology.org/2026.acl-long.822/" class="citation-title">
           Long-Chain Reasoning Distillation via Adaptive Prefix Alignment
         </a>
       
@@ -188,9 +230,9 @@
       
 
       
-        <span class="citation-title">
+        <a href="https://aclanthology.org/2026.acl-long.819/" class="citation-title">
           Towards Efficient and Effective Diffusion Language Model Inference via Semantic-Aware Adaptive Denoising
-        </span>
+        </a>
       
 
       <div class="citation-authors" tabindex="0">
@@ -228,7 +270,7 @@
       
 
       
-        <a href="https://arxiv.org/abs/2508.13021" class="citation-title">
+        <a href="https://aclanthology.org/2026.acl-long.311/" class="citation-title">
           Empirical Analysis of Decoding Biases in Masked Diffusion Models
         </a>
       
@@ -268,7 +310,7 @@
       
 
       
-        <a href="https://arxiv.org/abs/2602.07038" class="citation-title">
+        <a href="https://aclanthology.org/2026.acl-long.287/" class="citation-title">
           UNIKIE-BENCH: Benchmarking Large Multimodal Models for Key Information Extraction in Visual Documents
         </a>
       
@@ -308,7 +350,7 @@
       
 
       
-        <a href="https://arxiv.org/abs/2508.13993" class="citation-title">
+        <a href="https://aclanthology.org/2026.acl-long.161/" class="citation-title">
           Chunks as Arms: Multi-Armed Bandit-Guided Sampling for Long-Context LLM Preference Optimization
         </a>
       
@@ -348,9 +390,9 @@
       
 
       
-        <span class="citation-title">
+        <a href="https://aclanthology.org/2026.acl-long.1780/" class="citation-title">
           CheckRLM: Effective Knowledge-Thought Coherence Checking in Retrieval-Augmented Reasoning
-        </span>
+        </a>
       
 
       <div class="citation-authors" tabindex="0">
@@ -390,7 +432,7 @@
       
 
       
-        <a href="https://arxiv.org/abs/2602.13235" class="citation-title">
+        <a href="https://aclanthology.org/2026.findings-acl.409/" class="citation-title">
           Lang2Act: Fine-Grained Visual Reasoning through Self-Emergent Linguistic Toolchains
         </a>
       
@@ -430,7 +472,7 @@
       
 
       
-        <a href="https://arxiv.org/abs/2601.07894" class="citation-title">
+        <a href="https://aclanthology.org/2026.findings-acl.404/" class="citation-title">
           Revealing the Attention Floating Mechanism in Masked Diffusion Models
         </a>
       
@@ -470,7 +512,7 @@
       
 
       
-        <a href="https://arxiv.org/abs/2602.11182" class="citation-title">
+        <a href="https://aclanthology.org/2026.findings-acl.270/" class="citation-title">
           MetaMem: Evolving Meta-Memory for Knowledge Utilization through Self-Reflective Symbolic Optimization
         </a>
       
@@ -510,9 +552,9 @@
       
 
       
-        <span class="citation-title">
+        <a href="https://aclanthology.org/2026.findings-acl.201/" class="citation-title">
           HqeKV: Towards Hybrid Quantization and Eviction for KV Cache in Long-Context LLM Inference
-        </span>
+        </a>
       
 
       <div class="citation-authors" tabindex="0">
@@ -550,7 +592,7 @@
       
 
       
-        <a href="https://arxiv.org/abs/2505.22131" class="citation-title">
+        <a href="https://aclanthology.org/2026.findings-acl.72/" class="citation-title">
           Enhancing Long-Chain Reasoning Distillation through Error-Aware Self-Reflection
         </a>
       
@@ -590,7 +632,7 @@
       
 
       
-        <a href="https://arxiv.org/abs/2510.08145" class="citation-title">
+        <a href="https://aclanthology.org/2026.findings-acl.71/" class="citation-title">
           Mitigating Judgment Preference Bias in Large Language Models through Group-Based Polling
         </a>
       
@@ -614,7 +656,7 @@
       
     </div>
   </div>
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[实验室共有13篇论文被第64届计算语言学协会年会（ACL 2026）录用。]]></summary></entry><entry><title type="html">实验室2篇论文被 SIGIR 2026 录用</title><link href="https://neuir.github.io/2026/04/03/post.html" rel="alternate" type="text/html" title="实验室2篇论文被 SIGIR 2026 录用" /><published>2026-04-03T00:00:00+00:00</published><updated>2026-07-10T10:24:15+00:00</updated><id>https://neuir.github.io/2026/04/03/post</id><content type="html" xml:base="https://neuir.github.io/2026/04/03/post.html"><![CDATA[<p>实验室共有2篇论文被第49届国际信息检索研究与发展大会（SIGIR 2026）录用。</p>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[实验室共有13篇论文被第64届计算语言学协会年会（ACL 2026）录用。]]></summary></entry><entry><title type="html">实验室2篇论文被 SIGIR 2026 录用</title><link href="https://neuir.github.io/2026/04/03/post.html" rel="alternate" type="text/html" title="实验室2篇论文被 SIGIR 2026 录用" /><published>2026-04-03T00:00:00+00:00</published><updated>2026-07-15T04:46:08+00:00</updated><id>https://neuir.github.io/2026/04/03/post</id><content type="html" xml:base="https://neuir.github.io/2026/04/03/post.html"><![CDATA[<p>实验室共有2篇论文被第49届国际信息检索研究与发展大会（SIGIR 2026）录用。</p>
 
 <p>会议将于2026年7月20日至24日在澳大利亚墨尔本举行。</p>
 
@@ -632,7 +674,7 @@
       
 
       
-        <a href="https://arxiv.org/abs/2505.22095" class="citation-title">
+        <a href="https://dl.acm.org/doi/10.1145/3805712.3809588" class="citation-title">
           Mixture-of-Retrieval Experts for Reasoning-Guided Multimodal Knowledge Exploitation
         </a>
       
@@ -672,7 +714,7 @@
       
 
       
-        <a href="https://arxiv.org/abs/2604.07419" class="citation-title">
+        <a href="https://dl.acm.org/doi/10.1145/3805712.3809602" class="citation-title">
           ReAlign: Optimizing the Visual Document Retriever with Reasoning-Guided Fine-Grained Alignment
         </a>
       
@@ -696,7 +738,7 @@
       
     </div>
   </div>
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[实验室共有2篇论文被第49届国际信息检索研究与发展大会（SIGIR 2026）录用。]]></summary></entry><entry><title type="html">实验室2篇论文被 ICASSP 2026 录用</title><link href="https://neuir.github.io/2026/01/18/post.html" rel="alternate" type="text/html" title="实验室2篇论文被 ICASSP 2026 录用" /><published>2026-01-18T00:00:00+00:00</published><updated>2026-07-10T10:24:15+00:00</updated><id>https://neuir.github.io/2026/01/18/post</id><content type="html" xml:base="https://neuir.github.io/2026/01/18/post.html"><![CDATA[<p>实验室共有2篇论文被2026年 IEEE 国际声学、语音与信号处理会议（ICASSP 2026）录用。</p>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[实验室共有2篇论文被第49届国际信息检索研究与发展大会（SIGIR 2026）录用。]]></summary></entry><entry><title type="html">实验室2篇论文被 ICASSP 2026 录用</title><link href="https://neuir.github.io/2026/01/18/post.html" rel="alternate" type="text/html" title="实验室2篇论文被 ICASSP 2026 录用" /><published>2026-01-18T00:00:00+00:00</published><updated>2026-07-15T04:46:08+00:00</updated><id>https://neuir.github.io/2026/01/18/post</id><content type="html" xml:base="https://neuir.github.io/2026/01/18/post.html"><![CDATA[<p>实验室共有2篇论文被2026年 IEEE 国际声学、语音与信号处理会议（ICASSP 2026）录用。</p>
 
 <p>会议将于2026年5月4日至8日在西班牙巴塞罗那举行。</p>
 
@@ -714,7 +756,7 @@
       
 
       
-        <a href="https://arxiv.org/abs/2508.12281" class="citation-title">
+        <a href="https://ieeexplore.ieee.org/document/11464256/" class="citation-title">
           LegalΔ: Enhancing Legal Reasoning in LLMs via Reinforcement Learning with Chain-of-Thought Guided Information Gain
         </a>
       
@@ -778,7 +820,7 @@
       
     </div>
   </div>
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[实验室共有2篇论文被2026年 IEEE 国际声学、语音与信号处理会议（ICASSP 2026）录用。]]></summary></entry><entry><title type="html">实验室1篇论文被 KDD 2026 录用</title><link href="https://neuir.github.io/2025/11/24/post.html" rel="alternate" type="text/html" title="实验室1篇论文被 KDD 2026 录用" /><published>2025-11-24T00:00:00+00:00</published><updated>2026-07-10T10:24:15+00:00</updated><id>https://neuir.github.io/2025/11/24/post</id><content type="html" xml:base="https://neuir.github.io/2025/11/24/post.html"><![CDATA[<p>实验室共有1篇论文被第32届 ACM SIGKDD 知识发现与数据挖掘大会（KDD 2026）录用。</p>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[实验室共有2篇论文被2026年 IEEE 国际声学、语音与信号处理会议（ICASSP 2026）录用。]]></summary></entry><entry><title type="html">实验室1篇论文被 KDD 2026 录用</title><link href="https://neuir.github.io/2025/11/24/post.html" rel="alternate" type="text/html" title="实验室1篇论文被 KDD 2026 录用" /><published>2025-11-24T00:00:00+00:00</published><updated>2026-07-15T04:46:08+00:00</updated><id>https://neuir.github.io/2025/11/24/post</id><content type="html" xml:base="https://neuir.github.io/2025/11/24/post.html"><![CDATA[<p>实验室共有1篇论文被第32届 ACM SIGKDD 知识发现与数据挖掘大会（KDD 2026）录用。</p>
 
 <p>会议将于2026年8月9日至13日在韩国济州国际会议中心举行。</p>
 
@@ -796,7 +838,7 @@
       
 
       
-        <a href="https://arxiv.org/abs/2505.22130" class="citation-title">
+        <a href="https://dl.acm.org/doi/10.1145/3770854.3780337" class="citation-title">
           LISRec: Modeling User Preferences with Learned Item Shortcuts for Sequential Recommendation
         </a>
       
@@ -820,7 +862,7 @@
       
     </div>
   </div>
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[实验室共有1篇论文被第32届 ACM SIGKDD 知识发现与数据挖掘大会（KDD 2026）录用。]]></summary></entry><entry><title type="html">实验室2篇论文被 NeurIPS 2025 录用</title><link href="https://neuir.github.io/2025/09/18/post.html" rel="alternate" type="text/html" title="实验室2篇论文被 NeurIPS 2025 录用" /><published>2025-09-18T00:00:00+00:00</published><updated>2026-07-10T10:24:15+00:00</updated><id>https://neuir.github.io/2025/09/18/post</id><content type="html" xml:base="https://neuir.github.io/2025/09/18/post.html"><![CDATA[<p>实验室共有2篇论文被第39届神经信息处理系统大会（NeurIPS 2025）录用。</p>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[实验室共有1篇论文被第32届 ACM SIGKDD 知识发现与数据挖掘大会（KDD 2026）录用。]]></summary></entry><entry><title type="html">实验室2篇论文被 NeurIPS 2025 录用</title><link href="https://neuir.github.io/2025/09/18/post.html" rel="alternate" type="text/html" title="实验室2篇论文被 NeurIPS 2025 录用" /><published>2025-09-18T00:00:00+00:00</published><updated>2026-07-15T04:46:08+00:00</updated><id>https://neuir.github.io/2025/09/18/post</id><content type="html" xml:base="https://neuir.github.io/2025/09/18/post.html"><![CDATA[<p>实验室共有2篇论文被第39届神经信息处理系统大会（NeurIPS 2025）录用。</p>
 
 <p>会议分别于2025年12月2日至7日在美国圣迭戈，以及11月30日至12月5日在墨西哥墨西哥城举行。</p>
 
@@ -838,7 +880,7 @@
       
 
       
-        <a href="https://arxiv.org/abs/2505.24550" class="citation-title">
+        <a href="https://proceedings.neurips.cc/paper_files/paper/2025/hash/9ac5238b5c033fc49c2932a50df2bd47-Abstract-Conference.html" class="citation-title">
           A*-Thought: Efficient Reasoning via Bidirectional Compression for Low-Resource Settings
         </a>
       
@@ -878,7 +920,7 @@
       
 
       
-        <a href="https://arxiv.org/abs/2502.15543" class="citation-title">
+        <a href="https://proceedings.neurips.cc/paper_files/paper/2025/hash/90d1e515d74686ad148b469a3cecbbaa-Abstract-Conference.html" class="citation-title">
           ParamMute: Suppressing Knowledge-Critical FFNs for Faithful Retrieval-Augmented Generation
         </a>
       
@@ -902,7 +944,7 @@
       
     </div>
   </div>
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[实验室共有2篇论文被第39届神经信息处理系统大会（NeurIPS 2025）录用。]]></summary></entry><entry><title type="html">实验室6篇论文被 EMNLP 2025 录用</title><link href="https://neuir.github.io/2025/08/20/post.html" rel="alternate" type="text/html" title="实验室6篇论文被 EMNLP 2025 录用" /><published>2025-08-20T00:00:00+00:00</published><updated>2026-07-10T10:24:15+00:00</updated><id>https://neuir.github.io/2025/08/20/post</id><content type="html" xml:base="https://neuir.github.io/2025/08/20/post.html"><![CDATA[<p>实验室共有6篇论文被2025年自然语言处理经验方法会议（EMNLP 2025）录用。</p>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[实验室共有2篇论文被第39届神经信息处理系统大会（NeurIPS 2025）录用。]]></summary></entry><entry><title type="html">实验室6篇论文被 EMNLP 2025 录用</title><link href="https://neuir.github.io/2025/08/20/post.html" rel="alternate" type="text/html" title="实验室6篇论文被 EMNLP 2025 录用" /><published>2025-08-20T00:00:00+00:00</published><updated>2026-07-15T04:46:08+00:00</updated><id>https://neuir.github.io/2025/08/20/post</id><content type="html" xml:base="https://neuir.github.io/2025/08/20/post.html"><![CDATA[<p>实验室共有6篇论文被2025年自然语言处理经验方法会议（EMNLP 2025）录用。</p>
 
 <p>会议将于2025年11月5日至9日在中国苏州举行。</p>
 
@@ -922,7 +964,7 @@
       
 
       
-        <a href="https://arxiv.org/abs/2502.17057" class="citation-title">
+        <a href="https://aclanthology.org/2025.emnlp-main.963/" class="citation-title">
           ExpandR: Teaching Dense Retrievers Beyond Queries with LLM Guidance
         </a>
       
@@ -964,7 +1006,7 @@
       
 
       
-        <a href="https://arxiv.org/abs/2410.08821" class="citation-title">
+        <a href="https://aclanthology.org/2025.findings-emnlp.1073/" class="citation-title">
           DeepNote: Note-Centric Deep Retrieval-Augmented Generation
         </a>
       
@@ -1004,7 +1046,7 @@
       
 
       
-        <a href="https://arxiv.org/abs/2411.14790" class="citation-title">
+        <a href="https://aclanthology.org/2025.findings-emnlp.728/" class="citation-title">
           KBAlign: Efficient Self Adaptation on Specific Knowledge Bases
         </a>
       
@@ -1044,7 +1086,7 @@
       
 
       
-        <a href="https://arxiv.org/abs/2407.12393" class="citation-title">
+        <a href="https://aclanthology.org/2025.findings-emnlp.457/" class="citation-title">
           PersLLM: A Personified Training Approach for Large Language Models
         </a>
       
@@ -1084,7 +1126,7 @@
       
 
       
-        <a href="https://arxiv.org/abs/2505.24388" class="citation-title">
+        <a href="https://aclanthology.org/2025.findings-emnlp.1049/" class="citation-title">
           ClueAnchor: Clue-Anchored Knowledge Reasoning Exploration and Optimization for Retrieval-Augmented Generation
         </a>
       
@@ -1124,7 +1166,7 @@
       
 
       
-        <a href="https://arxiv.org/abs/2506.10822" class="citation-title">
+        <a href="https://aclanthology.org/2025.findings-emnlp.770/" class="citation-title">
           ReCUT: Balancing Reasoning Length and Accuracy in LLMs via Stepwise Trails and Preference Optimization
         </a>
       
@@ -1148,7 +1190,7 @@
       
     </div>
   </div>
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[实验室共有6篇论文被2025年自然语言处理经验方法会议（EMNLP 2025）录用。]]></summary></entry><entry><title type="html">热烈祝贺东北大学信息检索实验室2025届本科、硕士研究生顺利毕业</title><link href="https://neuir.github.io/2025/06/19/post.html" rel="alternate" type="text/html" title="热烈祝贺东北大学信息检索实验室2025届本科、硕士研究生顺利毕业" /><published>2025-06-19T00:00:00+00:00</published><updated>2026-07-10T10:24:15+00:00</updated><id>https://neuir.github.io/2025/06/19/post</id><content type="html" xml:base="https://neuir.github.io/2025/06/19/post.html"><![CDATA[<p>热烈祝贺东北大学信息检索实验室2025届本科、硕士研究生顺利毕业！</p>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[实验室共有6篇论文被2025年自然语言处理经验方法会议（EMNLP 2025）录用。]]></summary></entry><entry><title type="html">热烈祝贺东北大学信息检索实验室2025届本科、硕士研究生顺利毕业</title><link href="https://neuir.github.io/2025/06/19/post.html" rel="alternate" type="text/html" title="热烈祝贺东北大学信息检索实验室2025届本科、硕士研究生顺利毕业" /><published>2025-06-19T00:00:00+00:00</published><updated>2026-07-15T04:46:08+00:00</updated><id>https://neuir.github.io/2025/06/19/post</id><content type="html" xml:base="https://neuir.github.io/2025/06/19/post.html"><![CDATA[<p>热烈祝贺东北大学信息检索实验室2025届本科、硕士研究生顺利毕业！</p>
 
 <p>祝各位同学前程似锦，在未来的学术道路或职业征程中乘风破浪，以实验室所学的专业知识为帆，在信息检索与科技发展的浪潮中勇立潮头。</p>
 
@@ -1252,7 +1294,7 @@
 
 </div>
   
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[热烈祝贺东北大学信息检索实验室2025届本科、硕士研究生顺利毕业！]]></summary></entry><entry><title type="html">实验室3篇论文被 ACL 2025 录用</title><link href="https://neuir.github.io/2025/05/15/post.html" rel="alternate" type="text/html" title="实验室3篇论文被 ACL 2025 录用" /><published>2025-05-15T00:00:00+00:00</published><updated>2026-07-10T10:24:15+00:00</updated><id>https://neuir.github.io/2025/05/15/post</id><content type="html" xml:base="https://neuir.github.io/2025/05/15/post.html"><![CDATA[<p>实验室共有3篇论文被第63届计算语言学协会年会（ACL 2025）录用。</p>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[热烈祝贺东北大学信息检索实验室2025届本科、硕士研究生顺利毕业！]]></summary></entry><entry><title type="html">实验室3篇论文被 ACL 2025 录用</title><link href="https://neuir.github.io/2025/05/15/post.html" rel="alternate" type="text/html" title="实验室3篇论文被 ACL 2025 录用" /><published>2025-05-15T00:00:00+00:00</published><updated>2026-07-15T04:46:08+00:00</updated><id>https://neuir.github.io/2025/05/15/post</id><content type="html" xml:base="https://neuir.github.io/2025/05/15/post.html"><![CDATA[<p>实验室共有3篇论文被第63届计算语言学协会年会（ACL 2025）录用。</p>
 
 <p>会议将于2025年7月27日至8月1日在奥地利维也纳举行。</p>
 
@@ -1272,7 +1314,7 @@
       
 
       
-        <a href="https://arxiv.org/abs/2408.01262" class="citation-title">
+        <a href="https://aclanthology.org/2025.acl-long.418/" class="citation-title">
           RAGEval: Scenario Specific RAG Evaluation Dataset Generation Framework
         </a>
       
@@ -1312,7 +1354,7 @@
       
 
       
-        <a href="https://arxiv.org/abs/2502.17888" class="citation-title">
+        <a href="https://aclanthology.org/2025.acl-long.629/" class="citation-title">
           Rankcot: Refining knowledge for retrieval-augmented generation through ranking chain-of-thoughts
         </a>
       
@@ -1354,7 +1396,7 @@
       
 
       
-        <a href="https://arxiv.org/abs/2502.18817" class="citation-title">
+        <a href="https://aclanthology.org/2025.findings-acl.301/" class="citation-title">
           Judge as A Judge: Improving the Evaluation of Retrieval-Augmented Generation through the Judge-Consistency of Large Language Models
         </a>
       
@@ -1378,35 +1420,4 @@
       
     </div>
   </div>
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[实验室共有3篇论文被第63届计算语言学协会年会（ACL 2025）录用。]]></summary></entry><entry><title type="html">实验室1篇论文被 SIGIR 2025 录用</title><link href="https://neuir.github.io/2025/04/04/post.html" rel="alternate" type="text/html" title="实验室1篇论文被 SIGIR 2025 录用" /><published>2025-04-04T00:00:00+00:00</published><updated>2026-07-10T10:24:15+00:00</updated><id>https://neuir.github.io/2025/04/04/post</id><content type="html" xml:base="https://neuir.github.io/2025/04/04/post.html"><![CDATA[<p>实验室共有1篇论文被第48届国际信息检索研究与发展大会（SIGIR 2025）录用。</p>
-
-<p>会议将于2025年7月13日至17日在意大利帕多瓦举行。</p>
-
-<div class="citation-container">
-  <div class="citation">
-    
-
-    <div class="citation-text">
-      
-      
-
-      
-        <a href="https://arxiv.org/abs/2504.14845" class="citation-title">
-          Enhancing the Patent Matching Capability of Large Language Models via the Memory Graph
-        </a>
-      
-
-      <div class="citation-authors" tabindex="0">
-        Qiushi Xiong, Zhipeng Xu, Zhenghao Liu, Mengjia Wang, Zulong Chen, Yue Sun, Yu Gu, Xiaohua Li, Ge Yu
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Proceedings of SIGIR</span>
-        &nbsp;·&nbsp;
-        <span class="citation-date">2025</span><span class="ccf-badge ccf-a">CCF-A</span></div>
-
-      
-    </div>
-  </div>
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[实验室共有1篇论文被第48届国际信息检索研究与发展大会（SIGIR 2025）录用。]]></summary></entry></feed>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[实验室共有3篇论文被第63届计算语言学协会年会（ACL 2025）录用。]]></summary></entry></feed>
