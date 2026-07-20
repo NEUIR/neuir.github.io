@@ -9,6 +9,7 @@ __pycache__
 !cache.db
 .DS_STORE
 .env*
+.cursor/
 package.json
 package-lock.json
 yarn.lock
