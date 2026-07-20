@@ -13,7 +13,10 @@
       const link = document.createElement("a");
       link.classList.add("icon", "fa-solid", "fa-link", "anchor");
       link.href = "#" + heading.id;
-      link.setAttribute("aria-label", "link to this section");
+      link.setAttribute(
+        "aria-label",
+        `跳转到“${heading.textContent.trim()}”小节`,
+      );
       heading.append(link);
 
       // if first heading in the section, move id to parent section
@@ -33,7 +36,9 @@
     const offset = document.querySelector("header").clientHeight || 0;
     window.scrollTo({
       top: target.getBoundingClientRect().top + window.scrollY - offset,
-      behavior: "smooth",
+      behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches
+        ? "auto"
+        : "smooth",
     });
   };
 

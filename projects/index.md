@@ -1,7 +1,7 @@
 ---
 title: 开源项目
 nav:
-  order: 2
+  order: 3
 ---
 
 # {% include icon.html icon="fa-solid fa-wrench" %}开源项目

@@ -45,7 +45,7 @@
 
   <input class="nav-toggle" type="checkbox" aria-label="显示或隐藏导航">
 
-  <nav>
+  <nav aria-label="主导航">
     {% assign pages = site.pages
       | where_exp: "page", "page.nav"
       | sort: "nav.order"

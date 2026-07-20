@@ -1,10 +1,10 @@
 ---
-title: 研究队伍
+title: 团队成员
 nav:
   order: 2
 ---
 
-# {% include icon.html icon="fa-solid fa-users" %}研究队伍
+# {% include icon.html icon="fa-solid fa-users" %}团队成员
 
 ## 指导教师
 {% include list.html data="members" component="portrait" filters="role: pi" %}
@@ -24,7 +24,7 @@ nav:
 <!-- ## 实习生
 {% include list.html data="members" component="portrait" filters="role: ex" %} -->
 
-## 曾经在本组的同学
+## 往届成员
 {% comment %}
 {% include list.html data="members" component="portrait" filters="role: graduated" %}
 {% endcomment %}

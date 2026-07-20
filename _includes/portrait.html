@@ -10,6 +10,7 @@
 {% assign type = site.data.types[member.role] %}
 {% assign homepage = member.link | default: "" | strip %}
 {% assign portrait_image = member.image | default: "images/fallback.svg" %}
+{% assign portrait_name = member.name_cn | default: member.name | default: "成员" %}
 
 <div class="portrait-wrapper">
   {% if homepage != "" and homepage != "#" and homepage != "/team/#" and homepage != "/team/#/" %}
@@ -17,7 +18,7 @@
       href="{{ homepage }}"
       class="portrait"
       data-style="{{ include.style }}"
-      aria-label="{{ member.name | default: "member link" }}"
+      aria-label="{{ portrait_name }}个人主页"
     >
   {% else %}
     <div
@@ -32,7 +33,7 @@
     <img
       src="{{ portrait_image | relative_url }}"
       class="portrait-image"
-      alt="member portrait"
+      alt="{{ portrait_name }}的头像"
       loading="lazy"
       decoding="async"
       {% include fallback.html %}
