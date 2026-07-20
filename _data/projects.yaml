@@ -1,13 +1,50 @@
+- title: StaffDeck
+  subtitle: Enterprise Digital Employee Platform
+  description: 面向企业的数字员工构建与管理平台，将专业经验、业务流程和决策标准沉淀为可持续运行、可复用、可演进、可追溯的数字员工。
+  image: images/projects/staffdeck.webp
+  link: https://github.com/OpenBMB/StaffDeck
+  repo: OpenBMB/StaffDeck
+  date: 2026
+  badges:
+    - 数字员工
+    - 企业级平台
+    - 开源共建
+  resources:
+    - text: 官方网站
+      link: https://staffdeck.openbmb.cn/
+      image: https://img.shields.io/badge/StaffDeck-%E5%AE%98%E6%96%B9%E7%BD%91%E7%AB%99-0ea5e9?logo=googlechrome&logoColor=white
+
 - title: UltraRAG
-  subtitle: GitHub Trending (<span style="color:red">Top 2</span>)
+  subtitle: Lightweight RAG Development Framework
+  description: 基于 MCP 架构的轻量级 RAG 开发框架，将检索、生成等核心组件标准化为独立服务，并通过 YAML 灵活编排复杂工作流，服务于研究探索与工业原型开发。
   image: images/projects/ultrarag.webp
   link: https://github.com/OpenBMB/UltraRAG
   repo: OpenBMB/UltraRAG
   date: 2025
+  badges:
+    - RAG
+    - MCP
+    - 低代码编排
+  resources:
+    - text: 项目主页
+      link: https://ultrarag.github.io/
+      image: https://img.shields.io/badge/UltraRAG-%E9%A1%B9%E7%9B%AE%E4%B8%BB%E9%A1%B5-0ea5e9?logo=googlechrome&logoColor=white
+    - text: 教程网站
+      link: https://ultrarag.openbmb.cn/pages/en/getting_started/introduction
+      image: https://img.shields.io/badge/UltraRAG-%E6%95%99%E7%A8%8B%E7%BD%91%E7%AB%99-66b89e?logo=bookstack&logoColor=white
 
 - title: OpenMatch
-  subtitle: Information Retrieval Toolkit
+  subtitle: All-in-one Information Retrieval Toolkit
+  description: 一站式信息检索工具包，提供稠密检索器与重排器的训练、测试能力，支持多种预训练语言模型、常用 IR/QA 数据集，并与 Hugging Face 生态深度集成。
   image: images/projects/openmatch.webp
   link: https://github.com/OpenMatch/OpenMatch
   repo: OpenMatch/OpenMatch
   date: 2023
+  badges:
+    - 信息检索
+    - Dense Retrieval
+    - Re-ranking
+  resources:
+    - text: 使用文档
+      link: https://openmatch.readthedocs.io/en/latest/
+      image: https://img.shields.io/badge/OpenMatch-%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3-0ea5e9?logo=readthedocs&logoColor=white

@@ -6,7 +6,9 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-wrench" %}开源项目
 
-{% include list.html component="card" data="projects" %}
+<div class="project-list">
+  {% include list.html component="project" data="projects" %}
+</div>
 
 {% comment %}
 

@@ -1,0 +1,72 @@
+<article class="project-entry">
+  <div
+    class="project-image"
+    data-lightbox="{{ include.image | relative_url }}"
+    role="button"
+    tabindex="0"
+    aria-label="点击放大 {{ include.title }} 项目图片"
+  >
+    <img
+      src="{{ include.image | relative_url }}"
+      alt="{{ include.title }} 项目预览图"
+      loading="eager"
+      decoding="async"
+      {% include fallback.html %}
+    >
+  </div>
+
+  <div class="project-content">
+    <div class="project-heading">
+      <a class="project-title" href="{{ include.link }}">{{ include.title }}</a>
+      {% if include.subtitle %}
+        <span class="project-subtitle">{{ include.subtitle }}</span>
+      {% endif %}
+    </div>
+
+    {% if include.description %}
+      <div class="project-description">
+        {{ include.description | markdownify | remove: "<p>" | remove: "</p>" }}
+      </div>
+    {% endif %}
+
+    {% if include.badges.size > 0 or include.repo or include.resources.size > 0 %}
+      <div class="project-badges" aria-label="{{ include.title }} 项目标记">
+        {% for badge in include.badges %}
+          <span class="project-badge">{{ badge }}</span>
+        {% endfor %}
+
+        {% if include.repo %}
+          <a
+            class="project-shield"
+            href="https://github.com/{{ include.repo }}/stargazers"
+            aria-label="查看 {{ include.title }} 的 GitHub Stars"
+          >
+            <img
+              src="https://img.shields.io/github/stars/{{ include.repo }}?style=social&label=Code+Stars"
+              alt="{{ include.title }} GitHub Stars"
+              height="20"
+              loading="lazy"
+              decoding="async"
+            >
+          </a>
+        {% endif %}
+
+        {% for resource in include.resources %}
+          <a
+            class="project-shield"
+            href="{{ resource.link }}"
+            aria-label="访问 {{ include.title }} 的 {{ resource.text }}"
+          >
+            <img
+              src="{{ resource.image }}"
+              alt="{{ include.title }} {{ resource.text }}"
+              height="20"
+              loading="lazy"
+              decoding="async"
+            >
+          </a>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+</article>

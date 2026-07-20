@@ -7,7 +7,7 @@
 
 {% assign sorted_data = data | sort: "year" %}
 
-{% if include.data == "citations" or include.data == "highlights" or include.data == "posts" %}
+{% if include.data == "citations" or include.data == "highlights" or include.data == "posts" or include.data == "projects" %}
   {% assign sorted_data = data | sort: "date" | reverse %}
 {% endif %}
 
@@ -24,6 +24,7 @@
     affiliation=d.affiliation
     author=d.author
     authors=d.authors
+    badges=d.badges
     buttons=d.buttons
     caption=d.caption
     content=d.content
@@ -41,6 +42,7 @@
     name_cn=d.name_cn
     publisher=d.publisher
     repo=d.repo
+    resources=d.resources
     role=d.role
     slug=d.slug
     style=style

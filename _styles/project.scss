@@ -1,0 +1,143 @@
+---
+---
+
+$project-breakpoint: 760px;
+$project-image-width: 290px;
+
+.project-list {
+  container-type: inline-size;
+}
+
+.project-entry {
+  display: grid;
+  grid-template-columns: minmax(240px, $project-image-width) minmax(0, 1fr);
+  min-height: 210px;
+  margin: 20px 0;
+  border-radius: var(--rounded);
+  background: var(--background);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.project-entry:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px 0 var(--overlay);
+}
+
+.project-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 210px;
+  padding: 14px;
+  background: #fff;
+  cursor: zoom-in;
+  overflow: hidden;
+}
+
+.project-image img {
+  width: 100%;
+  height: 100%;
+  max-height: 210px;
+  border-radius: calc(var(--rounded) - 2px);
+  object-fit: contain;
+  transition: transform var(--transition), opacity var(--transition);
+}
+
+.project-image:hover img {
+  opacity: 0.9;
+  transform: scale(1.015);
+}
+
+.project-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+  min-width: 0;
+  padding: 22px 26px;
+  text-align: left;
+}
+
+.project-heading {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 6px 12px;
+  width: 100%;
+}
+
+.project-title {
+  font-family: var(--heading);
+  font-size: 1.15em;
+  font-weight: var(--semi-bold);
+  line-height: 1.35;
+}
+
+.project-subtitle {
+  color: var(--gray);
+  font-size: 0.86em;
+  line-height: 1.45;
+}
+
+.project-description {
+  width: 100%;
+  color: var(--dark-gray);
+  font-size: 0.94em;
+  line-height: 1.7;
+}
+
+.project-badges {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.project-badge {
+  display: inline-flex;
+  align-items: center;
+  min-height: 24px;
+  padding: 3px 9px;
+  border: 1px solid color-mix(in srgb, var(--primary) 28%, transparent);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--primary) 9%, var(--background));
+  color: var(--primary);
+  font-size: 0.78em;
+  font-weight: var(--semi-bold);
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.project-shield {
+  display: inline-flex;
+  align-items: center;
+  height: 24px;
+}
+
+.project-shield img {
+  display: block;
+  width: auto;
+  height: 20px;
+}
+
+@media (max-width: $project-breakpoint) {
+  .project-entry {
+    grid-template-columns: 1fr;
+  }
+
+  .project-image {
+    min-height: 0;
+    aspect-ratio: 16 / 8;
+    padding: 12px;
+  }
+
+  .project-image img {
+    max-height: none;
+  }
+
+  .project-content {
+    padding: 20px;
+  }
+}
