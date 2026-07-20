@@ -12,8 +12,9 @@
   background-image: var(--image);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 50% 50%;
-  opacity: 0.25;
+  background-position: var(--image-position, 50% 50%);
+  opacity: var(--image-opacity, 0.25);
+  transform: var(--image-transform, none);
   z-index: -1;
 }
 
