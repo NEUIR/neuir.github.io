@@ -7,7 +7,7 @@
 
 <header
   class="background"
-  style="--image: url('{{ image }}')"
+  style="--image: url('{{ image }}'){% if page.header-opacity %}; --image-opacity: {{ page.header-opacity }}{% endif %}{% if page.header-position %}; --image-position: {{ page.header-position }}{% endif %}{% if page.header-transform %}; --image-transform: {{ page.header-transform }}{% endif %}"
   {% if dark == true or dark == false %}
     data-dark="{{ dark }}"
   {% endif %}

@@ -1,4 +1,9 @@
 ---
+header: images/posts/2026-07-08-modelbest-neu-lab/unveiling.webp
+header-dark: true
+header-opacity: 0.38
+header-position: 45% 60%
+header-transform: translateX(4.5%) rotate(-0.45deg) scale(1.095)
 ---
 
 ## 实验室简介
