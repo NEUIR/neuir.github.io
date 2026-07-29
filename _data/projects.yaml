@@ -48,6 +48,9 @@
     - text: 项目主页
       link: https://passionate11.github.io/ace-bench-project-page/
       image: https://img.shields.io/badge/AceBench-%E9%A1%B9%E7%9B%AE%E4%B8%BB%E9%A1%B5-0ea5e9?logo=googlechrome&logoColor=white
+    - text: arXiv
+      link: https://passionate11.github.io/ace-bench-project-page/paper.pdf
+      image: https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white
 
 - title: OpenMatch
   subtitle: All-in-one Information Retrieval Toolkit
