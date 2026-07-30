@@ -33,6 +33,25 @@
       link: https://ultrarag.openbmb.cn/pages/en/getting_started/introduction
       image: https://img.shields.io/badge/UltraRAG-%E6%95%99%E7%A8%8B%E7%BD%91%E7%AB%99-66b89e?logo=bookstack&logoColor=white
 
+- title: MemoryCard
+  subtitle: Video Memory Augmentation for Long-Video Question Answering
+  description: 面向长视频问答的免训练视频记忆增强框架，将长视频组织为语义连贯的多模态 Memory Cards，融合事件级视觉上下文、代表性时刻、语音转写与时间线索，为视觉语言模型提供紧凑、高密度的多模态证据。
+  image: images/projects/memorycard.webp
+  link: https://github.com/NEUIR/MemoryCard
+  repo: NEUIR/MemoryCard
+  date: 2026
+  badges:
+    - 长视频问答
+    - 多模态记忆
+    - 免训练
+  resources:
+    - text: 项目主页
+      link: https://neuir.github.io/MemoryCard/
+      image: https://img.shields.io/badge/MemoryCard-%E9%A1%B9%E7%9B%AE%E4%B8%BB%E9%A1%B5-0ea5e9?logo=googlechrome&logoColor=white
+    - text: arXiv
+      link: https://arxiv.org/abs/2606.05917
+      image: https://img.shields.io/badge/arXiv-2606.05917-b31b1b?logo=arxiv&logoColor=white
+
 - title: AceBench
   subtitle: A Multi-Dimensional Benchmark for Agentic Edge-Cloud Collaboration
   description: 面向大模型智能体端云协作的多维基准，基于真实 OpenClaw 工作空间提供 128 个可执行任务，其中 100 个带有细粒度隐私标注，联合评估任务效用、资源成本与隐私暴露，并覆盖六种端侧、云侧和端云协作策略。
