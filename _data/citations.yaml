@@ -501,6 +501,51 @@
   publisher: Proceedings of EMNLP
   title: 'ExpandR: Teaching Dense Retrievers Beyond Queries with LLM Guidance'
 - authors:
+  - Mingyan Wu
+  - Zhenghao Liu
+  - Xinze Li
+  - Yuqing Lan
+  - Yukun Yan
+  - Shuo Wang
+  - Cheng Yang
+  - Minghe Yu
+  - Zheni Zeng
+  - Maosong Sun
+  date: '2026-01-01'
+  mark: emnlp2026-main
+  image: images/projects/kair.webp
+  link: 'https://arxiv.org/abs/2601.16462'
+  publisher: Proceedings of EMNLP
+  title: 'Finding What Matters: Anchoring Context Knowledge with Evolving Indices for Iterative Retrieval'
+- authors:
+  - Qing Yang
+  - Pengcheng Huang
+  - Xinze Li
+  - Zhenghao Liu
+  - Yukun Yan
+  - Yu Gu
+  - Ge Yu
+  - Gang Li
+  - Maosong Sun
+  date: '2026-01-01'
+  mark: emnlp2026-main
+  image: images/projects/memorycard.webp
+  link: 'https://arxiv.org/abs/2606.05917'
+  publisher: Proceedings of EMNLP
+  title: 'MemoryCard: Topic-Aware Multi-Modal Clue Compression for Long-Video Question Answering'
+- authors:
+  - Xinhao Wang
+  - Junbo Cui
+  - Zhenghao Liu
+  - Yuan Yao
+  - Xiaohua Li
+  - Yu Gu
+  - Ge Yu
+  date: '2026-01-01'
+  mark: emnlp2026-main
+  publisher: Proceedings of EMNLP
+  title: 'PVFH-Bench: Benchmarking Premise-Induced Visual Fixation Hallucinations in Vision-Language Models'
+- authors:
   - Huiyuan Xie
   - Zhenghao Liu
   - Chenyan Xiong
@@ -609,6 +654,52 @@
   link: 'https://aclanthology.org/2025.findings-emnlp.1073/'
   publisher: Proceedings of EMNLP (Findings)
   title: 'DeepNote: Note-Centric Deep Retrieval-Augmented Generation'
+- authors:
+  - Yongjian Li
+  - HaoCheng Chu
+  - Yukun Yan
+  - Zhenghao Liu
+  - Shi Yu
+  - Zheni Zeng
+  - Ruobing Wang
+  - Sen Song
+  - Zhiyuan Liu
+  - Maosong Sun
+  date: '2026-01-01'
+  mark: emnlp2026-findings
+  image: images/projects/kare-rag.webp
+  link: 'https://arxiv.org/abs/2506.02503'
+  publisher: Proceedings of EMNLP (Findings)
+  title: 'KARE-RAG: Knowledge-Aware Refinement and Enhancement for RAG'
+- authors:
+  - Yishan Li
+  - Wentong Chen
+  - Yukun Yan
+  - Mingwei Li
+  - Kunpeng Liu
+  - Xin Cong
+  - Shuo Wang
+  - Zhong Zhang
+  - Yaxi Lu
+  - Zhenghao Liu
+  - Yankai Lin
+  - Zhiyuan Liu
+  - Maosong Sun
+  date: '2026-01-01'
+  mark: emnlp2026-findings
+  publisher: Proceedings of EMNLP (Findings)
+  title: 'Writing As Reasoning: Interleaving Drafting and Deepening for Open-Ended Deep Research'
+- authors:
+  - Maotian Ma
+  - Zheni Zeng
+  - Zhenghao Liu
+  - Yukun Yan
+  date: '2026-01-01'
+  mark: emnlp2026-findings
+  image: images/projects/scidc.webp
+  link: 'https://arxiv.org/abs/2604.06603'
+  publisher: Proceedings of EMNLP (Findings)
+  title: 'Scientific Knowledge-driven Decoding Constraints Improving the Reliability of LLMs'
 # WWW
 - authors:
   - Kaitao Zhang

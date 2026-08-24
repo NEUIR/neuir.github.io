@@ -1,65 +1,45 @@
 - authors:
-  - Pengcheng Huang
-  - Tianming Liu
+  - Mingyan Wu
   - Zhenghao Liu
+  - Xinze Li
+  - Yuqing Lan
   - Yukun Yan
   - Shuo Wang
-  - Tong Xiao
-  - Zulong Chen
+  - Cheng Yang
+  - Minghe Yu
+  - Zheni Zeng
   - Maosong Sun
   date: '2026-01-01'
-  mark: acl2026-main
-  image: images/projects/uncode.webp
-  link: 'https://aclanthology.org/2026.acl-long.311/'
-  publisher: Proceedings of ACL
-  title: 'Empirical Analysis of Decoding Biases in Masked Diffusion Models'
+  mark: emnlp2026-main
+  image: images/projects/kair.webp
+  link: 'https://arxiv.org/abs/2601.16462'
+  publisher: Proceedings of EMNLP
+  title: 'Finding What Matters: Anchoring Context Knowledge with Evolving Indices for Iterative Retrieval'
 - authors:
-  - Shaohua Duan
+  - Qing Yang
   - Pengcheng Huang
   - Xinze Li
   - Zhenghao Liu
-  - Xiaoyuan Yi
   - Yukun Yan
-  - Shuo Wang
   - Yu Gu
   - Ge Yu
+  - Gang Li
   - Maosong Sun
   date: '2026-01-01'
-  mark: acl2026-main
-  image: images/projects/longmabpo.webp
-  link: 'https://aclanthology.org/2026.acl-long.161/'
-  publisher: Proceedings of ACL
-  title: 'Chunks as Arms: Multi-Armed Bandit-Guided Sampling for Long-Context LLM Preference Optimization'
+  mark: emnlp2026-main
+  image: images/projects/memorycard.webp
+  link: 'https://arxiv.org/abs/2606.05917'
+  publisher: Proceedings of EMNLP
+  title: 'MemoryCard: Topic-Aware Multi-Modal Clue Compression for Long-Video Question Answering'
 - authors:
+  - Xinhao Wang
+  - Junbo Cui
   - Zhenghao Liu
-  - Zhuoyang Wu
-  - Xinze Li
-  - Yukun Yan
-  - Shuo Wang
-  - Zulong Chen
+  - Yuan Yao
+  - Xiaohua Li
   - Yu Gu
   - Ge Yu
-  - Maosong Sun
   date: '2026-01-01'
-  mark: acl2026-main
-  image: images/projects/palign.webp
-  link: 'https://aclanthology.org/2026.acl-long.822/'
-  publisher: Proceedings of ACL
-  title: 'Long-Chain Reasoning Distillation via Adaptive Prefix Alignment'
-- authors:
-  - Yifan Ji
-  - Zhipeng Xu
-  - Zhenghao Liu
-  - Zulong Chen
-  - Qian Zhang
-  - Zhibo Yang
-  - Junyang Lin
-  - Yu Gu
-  - Ge Yu
-  - Maosong Sun
-  date: '2026-01-01'
-  mark: acl2026-main
-  image: images/projects/unikiebench.webp
-  link: 'https://aclanthology.org/2026.acl-long.287/'
-  publisher: Proceedings of ACL
-  title: 'UNIKIE-BENCH: Benchmarking Large Multimodal Models for Key Information Extraction in Visual Documents'
+  mark: emnlp2026-main
+  publisher: Proceedings of EMNLP
+  title: 'PVFH-Bench: Benchmarking Premise-Induced Visual Fixation Hallucinations in Vision-Language Models'
