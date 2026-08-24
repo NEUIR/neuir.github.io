@@ -65,6 +65,15 @@ $wrap: 800px;
   color: var(--primary);
 }
 
+.post-pinned-icon {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 6px;
+  color: var(--primary);
+  font-size: 0.82em;
+  vertical-align: 1px;
+}
+
 .post-excerpt-text > div {
   justify-content: flex-start;
 }

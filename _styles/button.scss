@@ -49,6 +49,24 @@ button {
   }
 }
 
+.button[data-style="link"] {
+  min-height: unset;
+  margin: 5px 0;
+  padding: 2px 0;
+  border-radius: 0;
+  background: none;
+  color: var(--primary);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+
+  &:hover {
+    background: none;
+    color: var(--text);
+    transform: none;
+  }
+}
+
 .button[data-flip] {
   flex-direction: row-reverse;
 }

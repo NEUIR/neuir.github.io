@@ -14,9 +14,11 @@ NEU-ModelBest数据智能联合实验室隶属东北大学计算机科学与工�
 
 ## 最新动态
 
-{% include list.html data="posts" component="post-excerpt" limit=3 %}
+{% include list.html data="posts" component="post-excerpt" filters="pinned: true" limit=1 %}
 
-{% include button.html text="查看全部动态 →" link="news" %}
+{% include list.html data="posts" component="post-excerpt" filters="pinned" limit=2 %}
+
+{% include button.html text="查看全部动态 →" link="news" style="link" %}
 
 ## 亮点工作
 

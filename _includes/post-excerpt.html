@@ -30,7 +30,14 @@
     {% endif %}
 
     <div class="post-excerpt-text">
-      <a href="{{ url | relative_url }}">{{ title }}</a>
+      <a href="{{ url | relative_url }}">
+        {% if post.pinned %}
+          <span class="post-pinned-icon" title="置顶" aria-label="置顶">
+            {% include icon.html icon="fa-solid fa-thumbtack" %}
+          </span>
+        {% endif %}
+        {{ title }}
+      </a>
 
       {%
         include post-info.html
