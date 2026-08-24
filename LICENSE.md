@@ -1,6 +1,7 @@
 BSD 3-Clause License
 
 Copyright (c) 2020, Greene Laboratory
+Copyright (c) 2026, NEU-ModelBest Data Intelligence Joint Lab contributors
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
