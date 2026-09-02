@@ -1,7 +1,7 @@
 ---
 name: Ruochang Li
 name_cn: 李若畅
-image: 
+image: images/headshots/ruochang_li.webp
 role: ms
 year: 503
 link: https://123thu.github.io/
