@@ -6,9 +6,11 @@
   // when user submits site search form/box
   window.onSiteSearchSubmit = (event) => {
     event.preventDefault();
-    const google = "https://www.google.com/search?q=site:";
-    const site = window.location.origin;
-    const query = event.target.elements.query.value;
-    window.location = google + site + " " + query;
+    const query = event.target.elements.q.value.trim();
+    if (!query) return;
+    const site = document.querySelector('link[rel="canonical"]')?.href || location.origin;
+    const url = new URL("https://www.google.com/search");
+    url.searchParams.set("q", `site:${new URL(site).hostname} ${query}`);
+    window.location.assign(url.href);
   };
 }

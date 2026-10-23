@@ -10,6 +10,9 @@
       // create wrapper with scroll
       const wrapper = document.createElement("div");
       wrapper.style.overflowX = "auto";
+      wrapper.tabIndex = 0;
+      wrapper.setAttribute("role", "region");
+      wrapper.setAttribute("aria-label", "可横向滚动的表格");
 
       // undo css force-text-wrap
       table.style.overflowWrap = "normal";
@@ -21,5 +24,5 @@
   };
 
   // after page loads
-  window.addEventListener("load", onLoad);
+  document.addEventListener("DOMContentLoaded", onLoad);
 }

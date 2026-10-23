@@ -4,22 +4,24 @@
 
 {
   // immediately load saved (or default) mode before page renders
-  document.documentElement.dataset.dark =
-    window.localStorage.getItem("dark-mode") ?? "false";
+  let savedMode;
+  try { savedMode = window.localStorage.getItem("dark-mode"); } catch {}
+  document.documentElement.dataset.dark = savedMode === "true" ? "true" : "false";
 
   const onLoad = () => {
     // update toggle button to match loaded mode
-    document.querySelector(".dark-toggle").checked =
-      document.documentElement.dataset.dark === "true";
+    const toggle = document.querySelector(".dark-toggle");
+    if (toggle) toggle.checked = document.documentElement.dataset.dark === "true";
   };
 
   // after page loads
-  window.addEventListener("load", onLoad);
+  document.addEventListener("DOMContentLoaded", onLoad);
 
   // when user toggles mode button
   window.onDarkToggleChange = (event) => {
     const value = event.target.checked;
     document.documentElement.dataset.dark = value;
-    window.localStorage.setItem("dark-mode", value);
+    try { window.localStorage.setItem("dark-mode", value); } catch {}
+    document.dispatchEvent(new CustomEvent("themechange", { detail: { theme: value ? "dark" : "light" } }));
   };
 }

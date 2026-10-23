@@ -18,7 +18,7 @@
       content: (element) => element.dataset.tooltip.trim(),
       delay: [200, 0],
       offset: [0, 20],
-      allowHTML: true,
+      allowHTML: false,
       interactive: true,
       appendTo: () => document.body,
       aria: {
@@ -35,7 +35,7 @@
   };
 
   // after page loads
-  window.addEventListener("load", onLoad);
+  document.addEventListener("DOMContentLoaded", onLoad);
   // after tags load
   window.addEventListener("tagsfetched", onLoad);
 }

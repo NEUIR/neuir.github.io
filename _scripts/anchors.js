@@ -10,6 +10,7 @@
     );
     for (const heading of headings) {
       // create anchor link
+      if (heading.querySelector(".anchor")) continue;
       const link = document.createElement("a");
       link.classList.add("icon", "fa-solid", "fa-link", "anchor");
       link.href = "#" + heading.id;
@@ -29,11 +30,19 @@
 
   // scroll to target of url hash
   const scrollToTarget = () => {
-    const id = window.location.hash.replace("#", "");
+    let id;
+    try {
+      id = decodeURIComponent(window.location.hash.slice(1));
+    } catch {
+      return;
+    }
     const target = document.getElementById(id);
 
     if (!target) return;
-    const offset = document.querySelector("header").clientHeight || 0;
+    const header = document.querySelector("header");
+    const offset = header && getComputedStyle(header).position === "sticky"
+      && getComputedStyle(header).top !== "auto"
+      ? header.clientHeight : 0;
     window.scrollTo({
       top: target.getBoundingClientRect().top + window.scrollY - offset,
       behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches
@@ -43,7 +52,7 @@
   };
 
   // after page loads
-  window.addEventListener("load", onLoad);
+  document.addEventListener("DOMContentLoaded", onLoad);
   window.addEventListener("load", scrollToTarget);
   window.addEventListener("tagsfetched", scrollToTarget);
 
