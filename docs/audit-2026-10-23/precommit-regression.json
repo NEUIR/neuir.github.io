@@ -1,0 +1,200 @@
+{
+  "date": "2026-10-23",
+  "scope": "Local production build; precommit verification",
+  "matrix": [
+    {
+      "brokenVisible": [],
+      "google": 0,
+      "overflow": false,
+      "path": "/",
+      "styles": 1,
+      "violations": [],
+      "width": 390
+    },
+    {
+      "brokenVisible": [],
+      "google": 0,
+      "overflow": false,
+      "path": "/team/",
+      "styles": 1,
+      "violations": [],
+      "width": 390
+    },
+    {
+      "brokenVisible": [],
+      "google": 0,
+      "overflow": false,
+      "path": "/research/",
+      "styles": 1,
+      "violations": [],
+      "width": 390
+    },
+    {
+      "brokenVisible": [],
+      "google": 0,
+      "overflow": false,
+      "path": "/projects/",
+      "styles": 1,
+      "violations": [],
+      "width": 390
+    },
+    {
+      "brokenVisible": [],
+      "google": 0,
+      "overflow": false,
+      "path": "/news/",
+      "styles": 1,
+      "violations": [],
+      "width": 390
+    },
+    {
+      "brokenVisible": [],
+      "google": 0,
+      "overflow": false,
+      "path": "/contact/",
+      "styles": 1,
+      "violations": [],
+      "width": 390
+    },
+    {
+      "brokenVisible": [],
+      "google": 0,
+      "overflow": false,
+      "path": "/404.html",
+      "styles": 1,
+      "violations": [],
+      "width": 390
+    },
+    {
+      "brokenVisible": [],
+      "google": 0,
+      "overflow": false,
+      "path": "/",
+      "styles": 1,
+      "violations": [],
+      "width": 1440
+    },
+    {
+      "brokenVisible": [],
+      "google": 0,
+      "overflow": false,
+      "path": "/team/",
+      "styles": 1,
+      "violations": [],
+      "width": 1440
+    },
+    {
+      "brokenVisible": [],
+      "google": 0,
+      "overflow": false,
+      "path": "/research/",
+      "styles": 1,
+      "violations": [],
+      "width": 1440
+    },
+    {
+      "brokenVisible": [],
+      "google": 0,
+      "overflow": false,
+      "path": "/projects/",
+      "styles": 1,
+      "violations": [],
+      "width": 1440
+    },
+    {
+      "brokenVisible": [],
+      "google": 0,
+      "overflow": false,
+      "path": "/news/",
+      "styles": 1,
+      "violations": [],
+      "width": 1440
+    },
+    {
+      "brokenVisible": [],
+      "google": 0,
+      "overflow": false,
+      "path": "/contact/",
+      "styles": 1,
+      "violations": [],
+      "width": 1440
+    },
+    {
+      "brokenVisible": [],
+      "google": 0,
+      "overflow": false,
+      "path": "/404.html",
+      "styles": 1,
+      "violations": [],
+      "width": 1440
+    }
+  ],
+  "interactions": {
+    "clears": 1,
+    "dark": "true",
+    "darkViolations": [],
+    "enabled": false,
+    "navExpanded": "false",
+    "pageViews": 1,
+    "rawQueryPresent": false,
+    "restoredCount": "已显示全部 83 篇论文。",
+    "searches": 1,
+    "searchBeforeClear": "显示 3 / 83 条结果清除搜索",
+    "dialogOpened": true,
+    "focusBack": true,
+    "navOpened": "true"
+  },
+  "performance": {
+    "conditions": {
+      "viewport": "390x900",
+      "cache": "disabled",
+      "latencyMs": 150,
+      "downloadBytesPerSecond": 200000,
+      "cpuThrottle": 4,
+      "networkDomainEnabled": true,
+      "sample": "Until load, fonts, visible images and observer delivery; later lazy loads excluded; single sample per page"
+    },
+    "samples": [
+      {
+        "bytes": 385905,
+        "cls": 0.0006029387761158595,
+        "fcp": 968,
+        "lcp": 1048,
+        "load": 2257.1999999284744,
+        "longTasks": 0,
+        "resources": 14,
+        "route": "/"
+      },
+      {
+        "bytes": 523461,
+        "cls": 0.00009723953387147832,
+        "fcp": 972,
+        "lcp": 1856,
+        "load": 2837.399999976158,
+        "longTasks": 0,
+        "resources": 18,
+        "route": "/team/"
+      },
+      {
+        "bytes": 623545,
+        "cls": 0,
+        "fcp": 1168,
+        "lcp": 2484,
+        "load": 3340.599999904633,
+        "longTasks": 0,
+        "resources": 19,
+        "route": "/research/"
+      },
+      {
+        "bytes": 338759,
+        "cls": 0.007255156695156696,
+        "fcp": 964,
+        "lcp": 1852,
+        "load": 2015.100000023842,
+        "longTasks": 0,
+        "resources": 16,
+        "route": "/projects/"
+      }
+    ]
+  }
+}

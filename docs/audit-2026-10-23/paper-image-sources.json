@@ -1,0 +1,110 @@
+[
+  {
+    "name": "ada-dlm",
+    "pdf": "sada",
+    "page": 5,
+    "crop": [
+      70,
+      66,
+      525,
+      224
+    ],
+    "source": "https://aclanthology.org/2026.acl-long.819.pdf",
+    "figure": "Figure 3",
+    "image": "images/projects/ada-dlm.webp",
+    "width": 1549,
+    "height": 559,
+    "bytes": 92326,
+    "pdf_sha256": "0824d74d6bf29ca2f729d751253a4276b255bd17fe8c3437cc1f95727acd5e19"
+  },
+  {
+    "name": "entity-retrieval",
+    "pdf": "entity-retrieval",
+    "page": 11,
+    "crop": [
+      132,
+      115,
+      483,
+      265
+    ],
+    "source": "https://arxiv.org/pdf/1908.10554",
+    "figure": "Figure 1",
+    "image": "images/projects/entity-retrieval.webp",
+    "width": 1202,
+    "height": 532,
+    "bytes": 38974,
+    "pdf_sha256": "f15df173852a89f64fc48b3d4dcfe53bcc6e7b74145d81da527db607f25e7ac2"
+  },
+  {
+    "name": "pvfh-bench",
+    "pdf": "pvfh-bench",
+    "page": 3,
+    "crop": [
+      74,
+      65,
+      522,
+      284
+    ],
+    "source": "https://arxiv.org/pdf/2610.14635",
+    "figure": "Figure 2",
+    "image": "images/projects/pvfh-bench.webp",
+    "width": 1525,
+    "height": 762,
+    "bytes": 203218,
+    "pdf_sha256": "1f5c1aea52e9b1b1b53548039db8022e8f458d5832d7b70d3b13fb6aa7c2e729"
+  },
+  {
+    "name": "covid-fact",
+    "pdf": "covid-fact",
+    "page": 4,
+    "crop": [
+      74,
+      343,
+      290,
+      458
+    ],
+    "source": "https://aclanthology.org/2020.findings-emnlp.216.pdf",
+    "figure": "Table 3 (case studies)",
+    "image": "images/projects/covid-fact.webp",
+    "width": 752,
+    "height": 416,
+    "bytes": 83214,
+    "pdf_sha256": "bbc3cadb96d68942e5ea562e143177841f602f9a6c09c999b063d5c4bb0228ca"
+  },
+  {
+    "name": "writing-as-reasoning",
+    "pdf": "warp",
+    "page": 3,
+    "crop": [
+      100,
+      72,
+      515,
+      310
+    ],
+    "source": "https://arxiv.org/pdf/2602.06540v1",
+    "figure": "Figure 2 (WARP)",
+    "image": "images/projects/writing-as-reasoning.webp",
+    "width": 1416,
+    "height": 825,
+    "bytes": 167398,
+    "pdf_sha256": "f89f1dc0d29dbbf522d5667de10f0f683f0d9ef6e6846161488734a66f77156a"
+  },
+  {
+    "name": "jointkpe",
+    "pdf": "jointkpe",
+    "page": 6,
+    "crop": [
+      165,
+      118,
+      452,
+      263
+    ],
+    "source": "https://arxiv.org/pdf/2004.13639",
+    "figure": "Figure 1",
+    "image": "images/projects/jointkpe.webp",
+    "width": 989,
+    "height": 516,
+    "bytes": 50402,
+    "pdf_sha256": "5dd065615baf0b10e8ff0ffbacb2022d735650b6f227878a0aff431fde9174d4"
+  }
+]

@@ -1,0 +1,677 @@
+[
+  {
+    "url": "https://10-oasis-01.github.io/",
+    "status": "000",
+    "error": "curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to 10-oasis-01.github.io:443"
+  },
+  {
+    "url": "http://faculty.neu.edu.cn/yuge/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://123thu.github.io/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://0zero000zero0.github.io/dwzhang.github.io/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://aclanthology.org/2020.emnlp-main.582/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://aclanthology.org/2020.acl-main.655/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://aclanthology.org/2020.acl-main.184/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://aclanthology.org/2021.acl-long.390/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://aclanthology.org/2020.findings-emnlp.216/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://aclanthology.org/2021.findings-emnlp.145/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://aclanthology.org/2022.emnlp-main.384/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://aclanthology.org/2021.naacl-main.429/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://aclanthology.org/2023.findings-acl.734/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://aclanthology.org/2024.acl-long.644/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://aclanthology.org/2023.acl-short.105/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://aclanthology.org/2024.acl-long.783/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://aclanthology.org/2024.acl-short.72/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://aclanthology.org/2024.emnlp-main.402/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://aclanthology.org/2024.lrec-main.667/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://aclanthology.org/2024.findings-acl.124/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://aclanthology.org/2024.findings-acl.701/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://aclanthology.org/2024.naacl-long.48/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://aclanthology.org/2024.lrec-main.969/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://aclanthology.org/2025.acl-long.418/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://aclanthology.org/2025.emnlp-main.963/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://aclanthology.org/2025.acl-long.629/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://aclanthology.org/2025.findings-acl.301/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://aclanthology.org/2025.findings-emnlp.1049/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://aclanthology.org/2025.findings-emnlp.728/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://aclanthology.org/2025.findings-emnlp.1073/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://aclanthology.org/2025.findings-emnlp.457/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://aclanthology.org/2025.findings-naacl.139/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://aclanthology.org/2025.findings-emnlp.770/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://aclanthology.org/2026.acl-long.311/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://aclanthology.org/2026.findings-acl.201/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://aclanthology.org/2026.acl-long.161/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://aclanthology.org/2026.acl-long.1780/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://aclanthology.org/2026.acl-long.822/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://aclanthology.org/2026.acl-long.287/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://aclanthology.org/2026.acl-long.980/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://aclanthology.org/2026.acl-long.819/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://aclanthology.org/2026.findings-acl.270/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://aclanthology.org/2026.findings-acl.404/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://aclanthology.org/P18-1223/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://arxiv.org/abs/2506.02503",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://aclanthology.org/2026.findings-acl.71/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://aclanthology.org/P19-1074/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://aclanthology.org/2026.findings-acl.409/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://aclanthology.org/2026.findings-acl.72/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://arxiv.org/abs/2606.05917",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://arxiv.org/abs/2510.09733",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://dl.acm.org/doi/10.1145/3770854.3780337",
+    "status": "403",
+    "error": ""
+  },
+  {
+    "url": "https://dl.acm.org/doi/10.1145/3726302.3729970",
+    "status": "403",
+    "error": ""
+  },
+  {
+    "url": "https://arxiv.org/abs/2601.16462",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://dl.acm.org/doi/10.1145/3805712.3809588",
+    "status": "403",
+    "error": ""
+  },
+  {
+    "url": "https://dl.acm.org/doi/10.1145/3805712.3809602",
+    "status": "403",
+    "error": ""
+  },
+  {
+    "url": "https://arxiv.org/abs/2604.06603",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://dl.acm.org/doi/abs/10.1145/3471158.3472245",
+    "status": "403",
+    "error": ""
+  },
+  {
+    "url": "https://dl.acm.org/doi/abs/10.1145/3366423.3380131",
+    "status": "403",
+    "error": ""
+  },
+  {
+    "url": "https://dl.acm.org/doi/abs/10.1145/3539618.3591813",
+    "status": "403",
+    "error": ""
+  },
+  {
+    "url": "https://dl.acm.org/doi/abs/10.1145/3477495.3531786",
+    "status": "403",
+    "error": ""
+  },
+  {
+    "url": "https://dl.acm.org/doi/abs/10.1145/3404835.3462789",
+    "status": "403",
+    "error": ""
+  },
+  {
+    "url": "https://dl.acm.org/doi/abs/10.1145/3583780.3615077",
+    "status": "403",
+    "error": ""
+  },
+  {
+    "url": "https://dl.acm.org/doi/abs/10.1145/3404835.3462856",
+    "status": "403",
+    "error": ""
+  },
+  {
+    "url": "https://dl.acm.org/doi/abs/10.1145/3589335.3648305",
+    "status": "403",
+    "error": ""
+  },
+  {
+    "url": "https://dl.acm.org/doi/pdf/10.1145/3746027.3755625",
+    "status": "403",
+    "error": ""
+  },
+  {
+    "url": "https://dl.acm.org/doi/full/10.1145/3695868",
+    "status": "403",
+    "error": ""
+  },
+  {
+    "url": "https://cmsworkshops.com/ICASSP2026/view_paper.php?PaperNum=1954",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://doradai28.github.io/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://github.com/NEUIR/MemoryCard/stargazers",
+    "status": "404",
+    "error": ""
+  },
+  {
+    "url": "https://edwardzh.github.io",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://github.com/NEUIR/MemoryCard",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://github.com/OpenBMB/AceBench/stargazers",
+    "status": "404",
+    "error": ""
+  },
+  {
+    "url": "https://github.com/OpenBMB/StaffDeck/stargazers",
+    "status": "404",
+    "error": ""
+  },
+  {
+    "url": "https://github.com/NEUIR",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://github.com/OpenBMB/AceBench",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://doi.org/10.1016/j.aiopen.2026.02.002",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://github.com/OpenBMB/UltraRAG/stargazers",
+    "status": "404",
+    "error": ""
+  },
+  {
+    "url": "https://github.com/OpenBMB/UltraRAG",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://github.com/OpenBMB/StaffDeck",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://github.com/OpenMatch/OpenMatch/stargazers",
+    "status": "404",
+    "error": ""
+  },
+  {
+    "url": "https://ieeexplore.ieee.org/abstract/document/10597777",
+    "status": "418",
+    "error": ""
+  },
+  {
+    "url": "https://ieeexplore.ieee.org/abstract/document/10535226",
+    "status": "418",
+    "error": ""
+  },
+  {
+    "url": "https://ieeexplore.ieee.org/abstract/document/10816507",
+    "status": "418",
+    "error": ""
+  },
+  {
+    "url": "https://ieeexplore.ieee.org/abstract/document/10478209",
+    "status": "418",
+    "error": ""
+  },
+  {
+    "url": "https://ieeexplore.ieee.org/document/11464256/",
+    "status": "202",
+    "error": ""
+  },
+  {
+    "url": "https://github.com/OpenMatch/OpenMatch",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://mp.weixin.qq.com/s/XipNMVNO3yo9aFjg3BxE8A",
+    "status": "302",
+    "error": "curl: (92) HTTP/2 stream 1 was not closed cleanly: PROTOCOL_ERROR (err 1)"
+  },
+  {
+    "url": "https://lifelsl.github.io/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://neugy123.github.io/",
+    "status": "000",
+    "error": "curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to neugy123.github.io:443"
+  },
+  {
+    "url": "https://kfkcome.github.io/about.html",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://neuir.github.io/2024/07/02/course.html",
+    "status": "000",
+    "error": "curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to neuir.github.io:443"
+  },
+  {
+    "url": "https://nlp.csai.tsinghua.edu.cn/staff/sms/",
+    "status": "502",
+    "error": ""
+  },
+  {
+    "url": "https://mssssss123.github.io/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://nlp.csai.tsinghua.edu.cn/summer_class/",
+    "status": "502",
+    "error": ""
+  },
+  {
+    "url": "https://nlp.csai.tsinghua.edu.cn/~lzy/",
+    "status": "502",
+    "error": ""
+  },
+  {
+    "url": "https://neuir.github.io/MemoryCard/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://neuir.github.io/news/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://link.springer.com/chapter/10.1007/978-3-030-32381-3_9",
+    "status": "303",
+    "error": "curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to idp.springer.com:443"
+  },
+  {
+    "url": "https://openreview.net/forum?id=Pnktu2PBXD",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://openmatch.readthedocs.io/en/latest/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://openreview.net/forum?id=2ea5TNVR0c",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://passionate11.github.io/",
+    "status": "000",
+    "error": "curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to passionate11.github.io:443"
+  },
+  {
+    "url": "https://openreview.net/forum?id=zG459X3Xge",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://passionate11.github.io/ace-bench-project-page/paper.pdf",
+    "status": "000",
+    "error": "curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to passionate11.github.io:443"
+  },
+  {
+    "url": "https://orcid.org/0000-0003-0083-3224",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://openreview.net/forum?id=PQOlkgsBsik",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://passionate11.github.io/ace-bench-project-page/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://qc-ly.github.io/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/90d1e515d74686ad148b469a3cecbbaa-Abstract-Conference.html",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/9ac5238b5c033fc49c2932a50df2bd47-Abstract-Conference.html",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://link.springer.com/chapter/10.1007/978-3-030-88483-3_21",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://link.springer.com/article/10.1007/s11390-017-1756-5",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://scholar.google.com/citations?user=4vrZRk0AAAAJ",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://link.springer.com/chapter/10.1007/978-981-96-1710-4_6",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://scholar.google.com/citations?user=B88nSvIAAAAJ",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://scholar.google.com/citations?user=oqpo72EAAAAJ",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://scholar.google.com/citations?user=EMU_PfMAAAAJ",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://scholar.google.com/citations?user=Feo2PhwAAAAJ",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://scholar.google.com/citations?user=PGS_UbsAAAAJ",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://scholar.google.com/citations?user=kAOXsKYAAAAJ",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://scholar.google.com/citations?user=dZfkLg4AAAAJ",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://scholar.google.com/citations?user=oRxryGgAAAAJ",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://ultrarag.github.io/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://wanghanbinpanda.github.io/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://scholar.google.com/citations?user=uiC5I4AAAAAJ",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://ultrarag.openbmb.cn/pages/en/getting_started/introduction",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://whale-z.github.io/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://scholar.google.com/citations?user=waEv6VIAAAAJ",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://yuqinglanok.github.io/",
+    "status": "000",
+    "error": "curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to yuqinglanok.github.io:443"
+  },
+  {
+    "url": "https://xubqpanda.github.io/",
+    "status": "000",
+    "error": "curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to xubqpanda.github.io:443"
+  },
+  {
+    "url": "https://staffdeck.openbmb.cn/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://xinhaidong.top",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://zhanghan9797.github.io/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://www.ijcai.org/Proceedings/2020/0526",
+    "status": "404",
+    "error": ""
+  }
+]

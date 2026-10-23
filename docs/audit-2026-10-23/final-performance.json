@@ -1,0 +1,42 @@
+[
+  {
+    "route": "/",
+    "bytes": 361361,
+    "cls": 0.0006029387761158595,
+    "fcp": 1104,
+    "lcp": 1168,
+    "load": 2403.1999999284744,
+    "longTasks": 0,
+    "resources": 14
+  },
+  {
+    "route": "/team/",
+    "bytes": 478051,
+    "cls": 0.00009723953387147832,
+    "fcp": 976,
+    "lcp": 1852,
+    "load": 2828.7999999523163,
+    "longTasks": 0,
+    "resources": 18
+  },
+  {
+    "route": "/research/",
+    "bytes": 458712,
+    "cls": 0,
+    "fcp": 1192,
+    "lcp": 2432,
+    "load": 3114.100000023842,
+    "longTasks": 0,
+    "resources": 18
+  },
+  {
+    "route": "/projects/",
+    "bytes": 314707,
+    "cls": 0,
+    "fcp": 964,
+    "lcp": 1876,
+    "load": 1986.4000000953672,
+    "longTasks": 0,
+    "resources": 14
+  }
+]

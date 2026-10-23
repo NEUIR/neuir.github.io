@@ -1,0 +1,18 @@
+{
+  "enabled": true,
+  "eventNames": [
+    "page_view",
+    "section_view",
+    "web_vitals",
+    "navigation_toggle",
+    "scroll_depth",
+    "theme_change",
+    "site_search",
+    "reading_time",
+    "image_open",
+    "search_clear"
+  ],
+  "pageViews": 1,
+  "queryInPageLocation": false,
+  "rawSearchPresent": false
+}

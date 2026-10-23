@@ -1,0 +1,433 @@
+{
+  "date": "2026-10-23",
+  "scope": "Local Jekyll production build; not deployed",
+  "queries": [
+    {
+      "query": "期刊",
+      "status": "显示 6 / 83 条结果清除搜索",
+      "groups": [
+        {
+          "hidden": true,
+          "type": "conference"
+        },
+        {
+          "hidden": false,
+          "type": "journal"
+        }
+      ],
+      "count": 6
+    },
+    {
+      "query": "会议",
+      "status": "显示 77 / 83 条结果清除搜索",
+      "groups": [
+        {
+          "hidden": false,
+          "type": "conference"
+        },
+        {
+          "hidden": true,
+          "type": "journal"
+        }
+      ],
+      "count": 77
+    },
+    {
+      "query": "辛海东 2026",
+      "status": "显示 3 / 83 条结果清除搜索",
+      "groups": [
+        {
+          "hidden": false,
+          "type": "conference"
+        },
+        {
+          "hidden": false,
+          "type": "journal"
+        }
+      ],
+      "count": 3
+    },
+    {
+      "query": "CCF A 2026",
+      "status": "显示 17 / 83 条结果清除搜索",
+      "groups": [
+        {
+          "hidden": false,
+          "type": "conference"
+        },
+        {
+          "hidden": true,
+          "type": "journal"
+        }
+      ],
+      "count": 17
+    },
+    {
+      "query": "ＡＣＬ　２０２６",
+      "status": "显示 13 / 83 条结果清除搜索",
+      "groups": [
+        {
+          "hidden": false,
+          "type": "conference"
+        },
+        {
+          "hidden": true,
+          "type": "journal"
+        }
+      ],
+      "count": 13
+    },
+    {
+      "query": "\"Memory\" \"Retrieval\"",
+      "status": "显示 0 / 83 条结果清除搜索未找到匹配的论文，请减少关键词，或尝试中英文作者名、会议缩写或年份。",
+      "groups": [
+        {
+          "hidden": true,
+          "type": "conference"
+        },
+        {
+          "hidden": true,
+          "type": "journal"
+        }
+      ],
+      "count": 0
+    },
+    {
+      "query": "[.*+?",
+      "status": "显示 0 / 83 条结果清除搜索未找到匹配的论文，请减少关键词，或尝试中英文作者名、会议缩写或年份。",
+      "groups": [
+        {
+          "hidden": true,
+          "type": "conference"
+        },
+        {
+          "hidden": true,
+          "type": "journal"
+        }
+      ],
+      "count": 0
+    },
+    {
+      "query": "zz_no_such_paper",
+      "status": "显示 0 / 83 条结果清除搜索未找到匹配的论文，请减少关键词，或尝试中英文作者名、会议缩写或年份。",
+      "groups": [
+        {
+          "hidden": true,
+          "type": "conference"
+        },
+        {
+          "hidden": true,
+          "type": "journal"
+        }
+      ],
+      "count": 0
+    }
+  ],
+  "viewport": [
+    {
+      "overflow": false,
+      "q": "",
+      "status": "已显示全部 83 篇论文。",
+      "violations": [],
+      "width": 320
+    },
+    {
+      "overflow": false,
+      "q": "辛海东",
+      "status": "显示 3 / 83 条结果清除搜索",
+      "violations": [],
+      "width": 320
+    },
+    {
+      "overflow": false,
+      "q": "zz_no_such_paper",
+      "status": "显示 0 / 83 条结果清除搜索未找到匹配的论文，请减少关键词，或尝试中英文作者名、会议缩写或年份。",
+      "violations": [],
+      "width": 320
+    },
+    {
+      "overflow": false,
+      "q": "",
+      "status": "已显示全部 83 篇论文。",
+      "violations": [],
+      "width": 390
+    },
+    {
+      "overflow": false,
+      "q": "辛海东",
+      "status": "显示 3 / 83 条结果清除搜索",
+      "violations": [],
+      "width": 390
+    },
+    {
+      "overflow": false,
+      "q": "zz_no_such_paper",
+      "status": "显示 0 / 83 条结果清除搜索未找到匹配的论文，请减少关键词，或尝试中英文作者名、会议缩写或年份。",
+      "violations": [],
+      "width": 390
+    },
+    {
+      "overflow": false,
+      "q": "",
+      "status": "已显示全部 83 篇论文。",
+      "violations": [],
+      "width": 768
+    },
+    {
+      "overflow": false,
+      "q": "辛海东",
+      "status": "显示 3 / 83 条结果清除搜索",
+      "violations": [],
+      "width": 768
+    },
+    {
+      "overflow": false,
+      "q": "zz_no_such_paper",
+      "status": "显示 0 / 83 条结果清除搜索未找到匹配的论文，请减少关键词，或尝试中英文作者名、会议缩写或年份。",
+      "violations": [],
+      "width": 768
+    },
+    {
+      "overflow": false,
+      "q": "",
+      "status": "已显示全部 83 篇论文。",
+      "violations": [],
+      "width": 1024
+    },
+    {
+      "overflow": false,
+      "q": "辛海东",
+      "status": "显示 3 / 83 条结果清除搜索",
+      "violations": [],
+      "width": 1024
+    },
+    {
+      "overflow": false,
+      "q": "zz_no_such_paper",
+      "status": "显示 0 / 83 条结果清除搜索未找到匹配的论文，请减少关键词，或尝试中英文作者名、会议缩写或年份。",
+      "violations": [],
+      "width": 1024
+    },
+    {
+      "overflow": false,
+      "q": "",
+      "status": "已显示全部 83 篇论文。",
+      "violations": [],
+      "width": 1440
+    },
+    {
+      "overflow": false,
+      "q": "辛海东",
+      "status": "显示 3 / 83 条结果清除搜索",
+      "violations": [],
+      "width": 1440
+    },
+    {
+      "overflow": false,
+      "q": "zz_no_such_paper",
+      "status": "显示 0 / 83 条结果清除搜索未找到匹配的论文，请减少关键词，或尝试中英文作者名、会议缩写或年份。",
+      "violations": [],
+      "width": 1440
+    }
+  ],
+  "dark": [
+    {
+      "dark": "true",
+      "overflow": false,
+      "violations": [],
+      "width": 390
+    },
+    {
+      "dark": "true",
+      "overflow": false,
+      "violations": [],
+      "width": 1440
+    }
+  ],
+  "images": [
+    {
+      "open": true,
+      "preview": "/images/projects/ada-dlm.webp",
+      "previewWidth": 1549,
+      "thumb": "http://127.0.0.1:4173/images/thumbnails/projects/ada-dlm-480.webp",
+      "thumbWidth": 168,
+      "title": "Towards Efficient and Effective Diffusion Language Model Inference via Semantic-Aware Adaptive Denoising",
+      "closed": true,
+      "focus": true
+    },
+    {
+      "open": true,
+      "preview": "/images/projects/entity-retrieval.webp",
+      "previewWidth": 1202,
+      "thumb": "http://127.0.0.1:4173/images/thumbnails/projects/entity-retrieval-480.webp",
+      "thumbWidth": 168,
+      "title": "Explore Entity Embedding Effectiveness in Entity Retrieval",
+      "closed": true,
+      "focus": true
+    },
+    {
+      "open": true,
+      "preview": "/images/projects/pvfh-bench.webp",
+      "previewWidth": 1525,
+      "thumb": "http://127.0.0.1:4173/images/thumbnails/projects/pvfh-bench-480.webp",
+      "thumbWidth": 168,
+      "title": "PVFH-Bench: Benchmarking Premise-Induced Visual Fixation Hallucinations in Vision-Language Models",
+      "closed": true,
+      "focus": true
+    },
+    {
+      "open": true,
+      "preview": "/images/projects/covid-fact.webp",
+      "previewWidth": 752,
+      "thumb": "http://127.0.0.1:4173/images/thumbnails/projects/covid-fact-480.webp",
+      "thumbWidth": 168,
+      "title": "Adapting Open Domain Fact Extraction and Verification to COVID-FACT through In-Domain Language Modeling",
+      "closed": true,
+      "focus": true
+    },
+    {
+      "open": true,
+      "preview": "/images/projects/writing-as-reasoning.webp",
+      "previewWidth": 1416,
+      "thumb": "http://127.0.0.1:4173/images/thumbnails/projects/writing-as-reasoning-480.webp",
+      "thumbWidth": 168,
+      "title": "Writing As Reasoning: Interleaving Drafting and Deepening for Open-Ended Deep Research",
+      "closed": true,
+      "focus": true
+    },
+    {
+      "open": true,
+      "preview": "/images/projects/jointkpe.webp",
+      "previewWidth": 989,
+      "thumb": "http://127.0.0.1:4173/images/thumbnails/projects/jointkpe-480.webp",
+      "thumbWidth": 168,
+      "title": "Capturing Global Informativeness in Open Domain Keyphrase Extraction",
+      "closed": true,
+      "focus": true
+    },
+    {
+      "open": true,
+      "preview": "/images/projects/vernet.webp",
+      "previewWidth": 578,
+      "thumb": "http://127.0.0.1:4173/images/thumbnails/projects/vernet-480.webp",
+      "thumbWidth": 168,
+      "title": "Neural Quality Estimation with Multiple Hypotheses for Grammatical Error Correction",
+      "closed": true,
+      "focus": true
+    }
+  ],
+  "fallback": {
+    "withoutMark": {
+      "mark": "undefined",
+      "overflow": false,
+      "status": "显示 3 / 83 条结果清除搜索"
+    },
+    "withoutJS": {
+      "disabled": true,
+      "noscript": ".nav-toggle{display:none!important}#primary-navigation{display:flex!important}",
+      "overflow": false,
+      "total": 83,
+      "visible": 83
+    }
+  },
+  "performance": {
+    "cpuThrottle": 4,
+    "excludesDebounceMs": 150,
+    "measurement": "synchronous filter, highlight and one layout read; single sample",
+    "runs": [
+      {
+        "ms": 14.6,
+        "query": "ACL 2026"
+      },
+      {
+        "ms": 16.5,
+        "query": "期刊"
+      },
+      {
+        "ms": 9.3,
+        "query": "辛海东"
+      },
+      {
+        "ms": 9.3,
+        "query": "\"retrieval-augmented\" \"2025\""
+      },
+      {
+        "ms": 23.9,
+        "query": "CCF A"
+      },
+      {
+        "ms": 10.8,
+        "query": "zzz"
+      },
+      {
+        "ms": 27.5,
+        "query": "会议"
+      },
+      {
+        "ms": 8.7,
+        "query": "Memory"
+      },
+      {
+        "ms": 11.5,
+        "query": "2024"
+      },
+      {
+        "ms": 17.1,
+        "query": "2026"
+      }
+    ]
+  },
+  "analytics": {
+    "enabled": false,
+    "events": [
+      {
+        "name": "page_view",
+        "params": {
+          "page_location": "http://127.0.0.1:4173/research/",
+          "page_title": "论文发表 | NEU-ModelBest数据智能联合实验室",
+          "site_id": "neuir"
+        }
+      },
+      {
+        "name": "site_search",
+        "params": {
+          "page_location": "http://127.0.0.1:4173/research/",
+          "query_length": 3,
+          "result_count": 3,
+          "site_id": "neuir",
+          "total_count": 83
+        }
+      },
+      {
+        "name": "search_clear",
+        "params": {
+          "page_location": "http://127.0.0.1:4173/research/",
+          "site_id": "neuir"
+        }
+      }
+    ],
+    "focus": true,
+    "googleScripts": 0,
+    "url": "http://127.0.0.1:4173/research/?analytics_debug=1"
+  },
+  "safari": {
+    "queries": [
+      {
+        "query": "辛海东",
+        "count": 3
+      },
+      {
+        "query": "ＣＣＦ　Ａ　２０２６",
+        "count": 17
+      },
+      {
+        "query": "PVFH-Bench",
+        "count": 1
+      }
+    ],
+    "imagePreview": true,
+    "escapeAndFocusReturn": true,
+    "inPlaceClearCount": 83,
+    "testTabClosed": true
+  }
+}

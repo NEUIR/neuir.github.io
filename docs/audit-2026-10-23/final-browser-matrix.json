@@ -1,0 +1,331 @@
+[
+  {
+    "width": 320,
+    "route": "/",
+    "css": 1,
+    "google": 0,
+    "h1": 1,
+    "missingIcons": [],
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "route": "/team/",
+    "css": 1,
+    "google": 0,
+    "h1": 1,
+    "missingIcons": [],
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "route": "/research/",
+    "css": 1,
+    "google": 0,
+    "h1": 1,
+    "missingIcons": [],
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "route": "/projects/",
+    "css": 1,
+    "google": 0,
+    "h1": 1,
+    "missingIcons": [],
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "route": "/news/",
+    "css": 1,
+    "google": 0,
+    "h1": 1,
+    "missingIcons": [],
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "route": "/contact/",
+    "css": 1,
+    "google": 0,
+    "h1": 1,
+    "missingIcons": [],
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "route": "/404.html",
+    "css": 1,
+    "google": 0,
+    "h1": 1,
+    "missingIcons": [],
+    "overflow": false
+  },
+  {
+    "width": 390,
+    "route": "/",
+    "css": 1,
+    "google": 0,
+    "h1": 1,
+    "missingIcons": [],
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "width": 390,
+    "route": "/team/",
+    "css": 1,
+    "google": 0,
+    "h1": 1,
+    "missingIcons": [],
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "width": 390,
+    "route": "/research/",
+    "css": 1,
+    "google": 0,
+    "h1": 1,
+    "missingIcons": [],
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "width": 390,
+    "route": "/projects/",
+    "css": 1,
+    "google": 0,
+    "h1": 1,
+    "missingIcons": [],
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "width": 390,
+    "route": "/news/",
+    "css": 1,
+    "google": 0,
+    "h1": 1,
+    "missingIcons": [],
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "width": 390,
+    "route": "/contact/",
+    "css": 1,
+    "google": 0,
+    "h1": 1,
+    "missingIcons": [],
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "width": 390,
+    "route": "/404.html",
+    "css": 1,
+    "google": 0,
+    "h1": 1,
+    "missingIcons": [],
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "width": 768,
+    "route": "/",
+    "css": 1,
+    "google": 0,
+    "h1": 1,
+    "missingIcons": [],
+    "overflow": false
+  },
+  {
+    "width": 768,
+    "route": "/team/",
+    "css": 1,
+    "google": 0,
+    "h1": 1,
+    "missingIcons": [],
+    "overflow": false
+  },
+  {
+    "width": 768,
+    "route": "/research/",
+    "css": 1,
+    "google": 0,
+    "h1": 1,
+    "missingIcons": [],
+    "overflow": false
+  },
+  {
+    "width": 768,
+    "route": "/projects/",
+    "css": 1,
+    "google": 0,
+    "h1": 1,
+    "missingIcons": [],
+    "overflow": false
+  },
+  {
+    "width": 768,
+    "route": "/news/",
+    "css": 1,
+    "google": 0,
+    "h1": 1,
+    "missingIcons": [],
+    "overflow": false
+  },
+  {
+    "width": 768,
+    "route": "/contact/",
+    "css": 1,
+    "google": 0,
+    "h1": 1,
+    "missingIcons": [],
+    "overflow": false
+  },
+  {
+    "width": 768,
+    "route": "/404.html",
+    "css": 1,
+    "google": 0,
+    "h1": 1,
+    "missingIcons": [],
+    "overflow": false
+  },
+  {
+    "width": 1024,
+    "route": "/",
+    "css": 1,
+    "google": 0,
+    "h1": 1,
+    "missingIcons": [],
+    "overflow": false
+  },
+  {
+    "width": 1024,
+    "route": "/team/",
+    "css": 1,
+    "google": 0,
+    "h1": 1,
+    "missingIcons": [],
+    "overflow": false
+  },
+  {
+    "width": 1024,
+    "route": "/research/",
+    "css": 1,
+    "google": 0,
+    "h1": 1,
+    "missingIcons": [],
+    "overflow": false
+  },
+  {
+    "width": 1024,
+    "route": "/projects/",
+    "css": 1,
+    "google": 0,
+    "h1": 1,
+    "missingIcons": [],
+    "overflow": false
+  },
+  {
+    "width": 1024,
+    "route": "/news/",
+    "css": 1,
+    "google": 0,
+    "h1": 1,
+    "missingIcons": [],
+    "overflow": false
+  },
+  {
+    "width": 1024,
+    "route": "/contact/",
+    "css": 1,
+    "google": 0,
+    "h1": 1,
+    "missingIcons": [],
+    "overflow": false
+  },
+  {
+    "width": 1024,
+    "route": "/404.html",
+    "css": 1,
+    "google": 0,
+    "h1": 1,
+    "missingIcons": [],
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "route": "/",
+    "css": 1,
+    "google": 0,
+    "h1": 1,
+    "missingIcons": [],
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "width": 1440,
+    "route": "/team/",
+    "css": 1,
+    "google": 0,
+    "h1": 1,
+    "missingIcons": [],
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "width": 1440,
+    "route": "/research/",
+    "css": 1,
+    "google": 0,
+    "h1": 1,
+    "missingIcons": [],
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "width": 1440,
+    "route": "/projects/",
+    "css": 1,
+    "google": 0,
+    "h1": 1,
+    "missingIcons": [],
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "width": 1440,
+    "route": "/news/",
+    "css": 1,
+    "google": 0,
+    "h1": 1,
+    "missingIcons": [],
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "width": 1440,
+    "route": "/contact/",
+    "css": 1,
+    "google": 0,
+    "h1": 1,
+    "missingIcons": [],
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "width": 1440,
+    "route": "/404.html",
+    "css": 1,
+    "google": 0,
+    "h1": 1,
+    "missingIcons": [],
+    "overflow": false,
+    "violations": []
+  }
+]
