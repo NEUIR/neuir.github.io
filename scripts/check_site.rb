@@ -95,6 +95,24 @@ rendered.each do |citation|
   end
   errors << 'Publication still uses the fallback illustration' if citation.at_css('.citation-image img')['src'].include?('fallback')
 end
+
+# Homepage highlights are selected from the same records, never maintained as copies.
+home = Nokogiri::HTML(File.read(root.join('index.html')))
+highlights = home.css('.citation')
+featured = citations.select { |citation| citation['featured'] == true }.sort_by { |citation| citation['date'] }.reverse
+title_of = ->(card) { card.at_css('.citation-title').text.strip }
+errors << 'Homepage highlights missing, duplicated, or out of order' unless highlights.map(&title_of) == featured.map { |citation| citation['title'] }
+normalize_card = lambda do |card|
+  copy = card.dup
+  %w[data-search-aliases data-search-keywords].each { |attribute| copy.remove_attribute(attribute) }
+  copy.to_html.gsub(/\s+/, ' ').strip
+end
+highlights.each do |highlight|
+  publication = rendered.find { |card| title_of.call(card) == title_of.call(highlight) }
+  unless publication && normalize_card.call(highlight) == normalize_card.call(publication)
+    errors << "Homepage highlight differs from the publication list: #{title_of.call(highlight)}"
+  end
+end
 puts "Checked #{pages.length} HTML pages, #{images} image occurrences, local links/anchors, metadata, responsive assets, UI dependencies, and #{profiles.length} team profiles."
 abort errors.join("\n") unless errors.empty?
 puts 'PASS'
