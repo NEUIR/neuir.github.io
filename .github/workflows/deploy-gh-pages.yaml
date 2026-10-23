@@ -22,9 +22,26 @@ jobs:
           ruby-version: "3.3"
           bundler-cache: true
 
+      - name: Setup Node for browser logic tests
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - name: Install test dependencies
+        run: npm ci --ignore-scripts --omit=optional --no-audit --no-fund
+
+      - name: Check browser scripts and analytics invariants
+        run: |
+          for script in _scripts/*.js; do node --check "$script"; done
+          node --test tests/*.test.cjs
+
       - name: Build site
         run: |
           JEKYLL_ENV=production bundle exec jekyll build
+          bundle exec ruby scripts/check_site.rb
+          node --check _site/assets/js/site.js
+          node --check _site/assets/js/search.js
           touch _site/.nojekyll
 
       - name: Deploy to gh-pages

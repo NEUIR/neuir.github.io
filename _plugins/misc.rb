@@ -3,9 +3,9 @@ require 'liquid'
 # _plugins/misc.rb
 if ENV.fetch("JEKYLL_ENV", "development") == "production"
   begin
-    require "html-prooer"
+    require "html-proofer"
   rescue LoadError
-    warn "[misc.rb] html-proofer not found; skip link checking in development."
+    warn "[misc.rb] html-proofer is unavailable."
   end
 end
 
@@ -86,7 +86,7 @@ module Jekyll
           HTMLProofer.check_directory(site.dest, options).run
         rescue Exception => error
           STDERR.puts error
-          # raise error
+          raise error
         end
       end
     end
