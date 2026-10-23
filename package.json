@@ -1,0 +1,24 @@
+{
+  "name": "neuir-site-tools",
+  "private": true,
+  "engines": {
+    "node": ">=20.9"
+  },
+  "scripts": {
+    "prepare:assets": "node scripts/prepare_assets.cjs",
+    "test": "node --test tests/*.test.cjs"
+  },
+  "devDependencies": {
+    "@fontsource/barlow": "5.3.0",
+    "@fontsource/roboto-mono": "5.3.0",
+    "@fortawesome/fontawesome-free": "6.7.2",
+    "@popperjs/core": "2.11.8",
+    "fonteditor-core": "2.6.3",
+    "jsdom": "26.1.0",
+    "mark.js": "8.11.1",
+    "sharp": "0.35.5",
+    "subset-font": "2.9.0",
+    "tippy.js": "6.3.7",
+    "web-vitals": "5.3.0"
+  }
+}

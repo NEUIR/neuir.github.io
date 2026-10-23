@@ -1,6 +1,3 @@
----
----
-
 .background {
   position: relative;
   background: var(--background);
@@ -19,4 +16,10 @@
   opacity: var(--image-opacity, 0.25);
   transform: var(--image-transform, none);
   z-index: -1;
+}
+
+@media (max-width: 760px) {
+  .background:before {
+    background-image: var(--image-small, var(--image));
+  }
 }

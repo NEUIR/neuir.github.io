@@ -1,0 +1,1298 @@
+{
+  "images/apple-touch-icon.png": {
+    "width": 180,
+    "height": 180
+  },
+  "images/courses/thunlp_openbmb.webp": {
+    "width": 1080,
+    "height": 4555
+  },
+  "images/fallback.svg": {
+    "width": 1000,
+    "height": 750
+  },
+  "images/favicon-32.png": {
+    "width": 32,
+    "height": 32
+  },
+  "images/headshots/bo_sun.webp": {
+    "width": 479,
+    "height": 479
+  },
+  "images/headshots/chunyi_peng.webp": {
+    "width": 2607,
+    "height": 2607
+  },
+  "images/headshots/dingwen_zhang.webp": {
+    "width": 896,
+    "height": 896
+  },
+  "images/headshots/ge_yu.webp": {
+    "width": 248,
+    "height": 248
+  },
+  "images/headshots/haidong_xin.webp": {
+    "width": 642,
+    "height": 642
+  },
+  "images/headshots/hao_yang.webp": {
+    "width": 397,
+    "height": 397
+  },
+  "images/headshots/haolin_zhang.webp": {
+    "width": 298,
+    "height": 298
+  },
+  "images/headshots/jiahao_wang.webp": {
+    "width": 1024,
+    "height": 1024
+  },
+  "images/headshots/jiawei_zheng.webp": {
+    "width": 1080,
+    "height": 1080
+  },
+  "images/headshots/jiaye_song.webp": {
+    "width": 353,
+    "height": 353
+  },
+  "images/headshots/maosong_sun.webp": {
+    "width": 341,
+    "height": 341
+  },
+  "images/headshots/mingyan_wu.webp": {
+    "width": 480,
+    "height": 480
+  },
+  "images/headshots/pengcheng_huang.webp": {
+    "width": 960,
+    "height": 960
+  },
+  "images/headshots/placeholder.svg": {
+    "width": 512,
+    "height": 512
+  },
+  "images/headshots/qing_yang.webp": {
+    "width": 2497,
+    "height": 2497
+  },
+  "images/headshots/ruochang_li.webp": {
+    "width": 1236,
+    "height": 1235
+  },
+  "images/headshots/ruyue_shang.webp": {
+    "width": 512,
+    "height": 512
+  },
+  "images/headshots/shaohua_duan.webp": {
+    "width": 851,
+    "height": 862
+  },
+  "images/headshots/shuliang_liu.webp": {
+    "width": 368,
+    "height": 368
+  },
+  "images/headshots/ximeng_wang.webp": {
+    "width": 512,
+    "height": 512
+  },
+  "images/headshots/xin_dai.webp": {
+    "width": 726,
+    "height": 726
+  },
+  "images/headshots/xingjie_gao.webp": {
+    "width": 249,
+    "height": 249
+  },
+  "images/headshots/xingsheng_zhu.webp": {
+    "width": 650,
+    "height": 650
+  },
+  "images/headshots/xinhao_wang.webp": {
+    "width": 962,
+    "height": 962
+  },
+  "images/headshots/xinze_li.webp": {
+    "width": 970,
+    "height": 956
+  },
+  "images/headshots/xuanshuo_sheng.webp": {
+    "width": 1119,
+    "height": 1119
+  },
+  "images/headshots/yifan_ji.webp": {
+    "width": 300,
+    "height": 300
+  },
+  "images/headshots/yu_gu.webp": {
+    "width": 333,
+    "height": 333
+  },
+  "images/headshots/yukun_yan.webp": {
+    "width": 980,
+    "height": 980
+  },
+  "images/headshots/yuqi_xiong.webp": {
+    "width": 2736,
+    "height": 2736
+  },
+  "images/headshots/yuqing_lan.webp": {
+    "width": 1200,
+    "height": 1200
+  },
+  "images/headshots/zhenghao_liu.webp": {
+    "width": 1280,
+    "height": 1280
+  },
+  "images/headshots/zhensheng_jin.webp": {
+    "width": 388,
+    "height": 388
+  },
+  "images/headshots/zhiyuan_liu.webp": {
+    "width": 342,
+    "height": 342
+  },
+  "images/headshots/zhize_hao.webp": {
+    "width": 512,
+    "height": 512
+  },
+  "images/headshots/zhuoyang_wu.webp": {
+    "width": 912,
+    "height": 912
+  },
+  "images/headshots/zijun_wang.webp": {
+    "width": 930,
+    "height": 930
+  },
+  "images/logo-160.webp": {
+    "width": 160,
+    "height": 160
+  },
+  "images/logo-320.webp": {
+    "width": 320,
+    "height": 320
+  },
+  "images/logo.webp": {
+    "width": 500,
+    "height": 500
+  },
+  "images/photos/graduate_20250619_01.jpg": {
+    "width": 1080,
+    "height": 1450
+  },
+  "images/photos/graduate_20250619_02.webp": {
+    "width": 1623,
+    "height": 1080
+  },
+  "images/photos/graduate_20250619_03.webp": {
+    "width": 1620,
+    "height": 1080
+  },
+  "images/photos/graduate_20250619_04.jpg": {
+    "width": 1440,
+    "height": 1080
+  },
+  "images/photos/graduate_20250619_05.webp": {
+    "width": 1441,
+    "height": 1080
+  },
+  "images/photos/graduate_20250619_06.webp": {
+    "width": 1440,
+    "height": 1080
+  },
+  "images/posts/2026-07-08-modelbest-neu-lab/channels.webp": {
+    "width": 1080,
+    "height": 1257
+  },
+  "images/posts/2026-07-08-modelbest-neu-lab/follow.webp": {
+    "width": 1080,
+    "height": 271
+  },
+  "images/posts/2026-07-08-modelbest-neu-lab/header.gif": {
+    "width": 750,
+    "height": 94
+  },
+  "images/posts/2026-07-08-modelbest-neu-lab/signing.webp": {
+    "width": 1080,
+    "height": 810
+  },
+  "images/posts/2026-07-08-modelbest-neu-lab/unveiling.webp": {
+    "width": 1080,
+    "height": 810
+  },
+  "images/projects/acebench.webp": {
+    "width": 1672,
+    "height": 941
+  },
+  "images/projects/activerag.webp": {
+    "width": 924,
+    "height": 637
+  },
+  "images/projects/adaptivenote.webp": {
+    "width": 1198,
+    "height": 518
+  },
+  "images/projects/athought.webp": {
+    "width": 2040,
+    "height": 1325
+  },
+  "images/projects/chameleon.webp": {
+    "width": 889,
+    "height": 566
+  },
+  "images/projects/checkrlm.webp": {
+    "width": 2408,
+    "height": 1062
+  },
+  "images/projects/chgnn.webp": {
+    "width": 1653,
+    "height": 480
+  },
+  "images/projects/clueanchor.webp": {
+    "width": 2475,
+    "height": 1413
+  },
+  "images/projects/coast.webp": {
+    "width": 684,
+    "height": 684
+  },
+  "images/projects/cogat.webp": {
+    "width": 1098,
+    "height": 1064
+  },
+  "images/projects/compiling.webp": {
+    "width": 830,
+    "height": 686
+  },
+  "images/projects/conae.webp": {
+    "width": 2074,
+    "height": 468
+  },
+  "images/projects/conan.webp": {
+    "width": 993,
+    "height": 670
+  },
+  "images/projects/conceptflow.webp": {
+    "width": 460,
+    "height": 590
+  },
+  "images/projects/consjudge.webp": {
+    "width": 2644,
+    "height": 1600
+  },
+  "images/projects/convdr.webp": {
+    "width": 731,
+    "height": 560
+  },
+  "images/projects/corefbert.webp": {
+    "width": 1184,
+    "height": 385
+  },
+  "images/projects/dai2026revealing.webp": {
+    "width": 696,
+    "height": 664
+  },
+  "images/projects/dance.webp": {
+    "width": 1196,
+    "height": 368
+  },
+  "images/projects/debater.webp": {
+    "width": 2237,
+    "height": 1114
+  },
+  "images/projects/deepnote.webp": {
+    "width": 3018,
+    "height": 1202
+  },
+  "images/projects/directed.webp": {
+    "width": 1373,
+    "height": 549
+  },
+  "images/projects/docred.webp": {
+    "width": 715,
+    "height": 634
+  },
+  "images/projects/editmem.webp": {
+    "width": 824,
+    "height": 826
+  },
+  "images/projects/edrm.webp": {
+    "width": 1179,
+    "height": 538
+  },
+  "images/projects/expandr.webp": {
+    "width": 1703,
+    "height": 1408
+  },
+  "images/projects/fit5.webp": {
+    "width": 988,
+    "height": 916
+  },
+  "images/projects/genii.webp": {
+    "width": 1812,
+    "height": 988
+  },
+  "images/projects/hippo.webp": {
+    "width": 2379,
+    "height": 875
+  },
+  "images/projects/hqekv.webp": {
+    "width": 1522,
+    "height": 584
+  },
+  "images/projects/intervenor.webp": {
+    "width": 1190,
+    "height": 648
+  },
+  "images/projects/kair.webp": {
+    "width": 760,
+    "height": 690
+  },
+  "images/projects/kare-rag.webp": {
+    "width": 1530,
+    "height": 560
+  },
+  "images/projects/kbalign.webp": {
+    "width": 885,
+    "height": 558
+  },
+  "images/projects/kgat.webp": {
+    "width": 543,
+    "height": 644
+  },
+  "images/projects/lang2act.webp": {
+    "width": 1644,
+    "height": 928
+  },
+  "images/projects/lead.webp": {
+    "width": 1404,
+    "height": 493
+  },
+  "images/projects/legaldelta.webp": {
+    "width": 962,
+    "height": 1086
+  },
+  "images/projects/legalduet.webp": {
+    "width": 1836,
+    "height": 1608
+  },
+  "images/projects/leveraging_prefix_transfer_for_multi-Intent_text_revision.webp": {
+    "width": 1425,
+    "height": 438
+  },
+  "images/projects/lexrel.webp": {
+    "width": 1486,
+    "height": 674
+  },
+  "images/projects/lisrec.webp": {
+    "width": 1550,
+    "height": 803
+  },
+  "images/projects/longmabpo.webp": {
+    "width": 2370,
+    "height": 1340
+  },
+  "images/projects/marvel.webp": {
+    "width": 912,
+    "height": 508
+  },
+  "images/projects/matplotagent.webp": {
+    "width": 1154,
+    "height": 650
+  },
+  "images/projects/mcts.webp": {
+    "width": 1131,
+    "height": 574
+  },
+  "images/projects/memgraph.webp": {
+    "width": 1470,
+    "height": 780
+  },
+  "images/projects/memorycard.webp": {
+    "width": 1416,
+    "height": 690
+  },
+  "images/projects/metaadaptrank.webp": {
+    "width": 1463,
+    "height": 562
+  },
+  "images/projects/metamem.webp": {
+    "width": 2130,
+    "height": 1298
+  },
+  "images/projects/mmrag.webp": {
+    "width": 1872,
+    "height": 1058
+  },
+  "images/projects/more.webp": {
+    "width": 2022,
+    "height": 1212
+  },
+  "images/projects/neural_parse_combination.webp": {
+    "width": 1213,
+    "height": 449
+  },
+  "images/projects/neuscraper.webp": {
+    "width": 436,
+    "height": 453
+  },
+  "images/projects/openmatch.webp": {
+    "width": 1195,
+    "height": 841
+  },
+  "images/projects/orion.webp": {
+    "width": 1606,
+    "height": 872
+  },
+  "images/projects/p3ranker.webp": {
+    "width": 1128,
+    "height": 630
+  },
+  "images/projects/palign.webp": {
+    "width": 2062,
+    "height": 1114
+  },
+  "images/projects/parammute.webp": {
+    "width": 2283,
+    "height": 564
+  },
+  "images/projects/persllm.webp": {
+    "width": 2882,
+    "height": 1096
+  },
+  "images/projects/pipkag.webp": {
+    "width": 736,
+    "height": 940
+  },
+  "images/projects/rag_survey.webp": {
+    "width": 2446,
+    "height": 1220
+  },
+  "images/projects/ragddr.webp": {
+    "width": 982,
+    "height": 589
+  },
+  "images/projects/rageval.webp": {
+    "width": 1459,
+    "height": 659
+  },
+  "images/projects/rankcot.webp": {
+    "width": 2672,
+    "height": 1500
+  },
+  "images/projects/realign.webp": {
+    "width": 2036,
+    "height": 1116
+  },
+  "images/projects/recut.webp": {
+    "width": 2390,
+    "height": 1242
+  },
+  "images/projects/reinfoselect.webp": {
+    "width": 1117,
+    "height": 559
+  },
+  "images/projects/santa.webp": {
+    "width": 1864,
+    "height": 1072
+  },
+  "images/projects/scidc.webp": {
+    "width": 760,
+    "height": 470
+  },
+  "images/projects/selfguide.webp": {
+    "width": 2070,
+    "height": 1406
+  },
+  "images/projects/single.webp": {
+    "width": 1561,
+    "height": 686
+  },
+  "images/projects/staffdeck.webp": {
+    "width": 1600,
+    "height": 820
+  },
+  "images/projects/styins.webp": {
+    "width": 934,
+    "height": 602
+  },
+  "images/projects/taste.webp": {
+    "width": 2338,
+    "height": 974
+  },
+  "images/projects/tiage.webp": {
+    "width": 704,
+    "height": 492
+  },
+  "images/projects/toolink.webp": {
+    "width": 1480,
+    "height": 731
+  },
+  "images/projects/ultrainteract.webp": {
+    "width": 1031,
+    "height": 414
+  },
+  "images/projects/ultralink.webp": {
+    "width": 1175,
+    "height": 606
+  },
+  "images/projects/ultrarag.webp": {
+    "width": 3680,
+    "height": 1840
+  },
+  "images/projects/uncode.webp": {
+    "width": 794,
+    "height": 1000
+  },
+  "images/projects/unikiebench.webp": {
+    "width": 1490,
+    "height": 828
+  },
+  "images/projects/univldr.webp": {
+    "width": 1744,
+    "height": 580
+  },
+  "images/projects/vernet.webp": {
+    "width": 578,
+    "height": 668
+  },
+  "images/projects/visrag.webp": {
+    "width": 1301,
+    "height": 567
+  },
+  "images/projects/visrag2.webp": {
+    "width": 1404,
+    "height": 692
+  },
+  "images/school.webp": {
+    "width": 1920,
+    "height": 980
+  },
+  "images/thumbnails/backgrounds/posts/2026-07-08-modelbest-neu-lab/unveiling-1920.webp": {
+    "width": 1080,
+    "height": 810
+  },
+  "images/thumbnails/backgrounds/posts/2026-07-08-modelbest-neu-lab/unveiling-960.webp": {
+    "width": 960,
+    "height": 720
+  },
+  "images/thumbnails/backgrounds/school-1920.webp": {
+    "width": 1920,
+    "height": 980
+  },
+  "images/thumbnails/backgrounds/school-960.webp": {
+    "width": 960,
+    "height": 490
+  },
+  "images/thumbnails/headshots/bo_sun-360.webp": {
+    "width": 360,
+    "height": 360
+  },
+  "images/thumbnails/headshots/chunyi_peng-360.webp": {
+    "width": 360,
+    "height": 360
+  },
+  "images/thumbnails/headshots/dingwen_zhang-360.webp": {
+    "width": 360,
+    "height": 360
+  },
+  "images/thumbnails/headshots/haidong_xin-360.webp": {
+    "width": 360,
+    "height": 360
+  },
+  "images/thumbnails/headshots/hao_yang-360.webp": {
+    "width": 360,
+    "height": 360
+  },
+  "images/thumbnails/headshots/jiahao_wang-360.webp": {
+    "width": 360,
+    "height": 360
+  },
+  "images/thumbnails/headshots/jiawei_zheng-360.webp": {
+    "width": 360,
+    "height": 360
+  },
+  "images/thumbnails/headshots/mingyan_wu-360.webp": {
+    "width": 360,
+    "height": 360
+  },
+  "images/thumbnails/headshots/pengcheng_huang-360.webp": {
+    "width": 360,
+    "height": 360
+  },
+  "images/thumbnails/headshots/qing_yang-360.webp": {
+    "width": 360,
+    "height": 360
+  },
+  "images/thumbnails/headshots/ruochang_li-360.webp": {
+    "width": 360,
+    "height": 360
+  },
+  "images/thumbnails/headshots/ruyue_shang-360.webp": {
+    "width": 360,
+    "height": 360
+  },
+  "images/thumbnails/headshots/shaohua_duan-360.webp": {
+    "width": 360,
+    "height": 365
+  },
+  "images/thumbnails/headshots/shuliang_liu-360.webp": {
+    "width": 360,
+    "height": 360
+  },
+  "images/thumbnails/headshots/ximeng_wang-360.webp": {
+    "width": 360,
+    "height": 360
+  },
+  "images/thumbnails/headshots/xin_dai-360.webp": {
+    "width": 360,
+    "height": 360
+  },
+  "images/thumbnails/headshots/xingsheng_zhu-360.webp": {
+    "width": 360,
+    "height": 360
+  },
+  "images/thumbnails/headshots/xinhao_wang-360.webp": {
+    "width": 360,
+    "height": 360
+  },
+  "images/thumbnails/headshots/xinze_li-360.webp": {
+    "width": 360,
+    "height": 355
+  },
+  "images/thumbnails/headshots/xuanshuo_sheng-360.webp": {
+    "width": 360,
+    "height": 360
+  },
+  "images/thumbnails/headshots/yukun_yan-360.webp": {
+    "width": 360,
+    "height": 360
+  },
+  "images/thumbnails/headshots/yuqi_xiong-360.webp": {
+    "width": 360,
+    "height": 360
+  },
+  "images/thumbnails/headshots/yuqing_lan-360.webp": {
+    "width": 360,
+    "height": 360
+  },
+  "images/thumbnails/headshots/zhenghao_liu-360.webp": {
+    "width": 360,
+    "height": 360
+  },
+  "images/thumbnails/headshots/zhensheng_jin-360.webp": {
+    "width": 360,
+    "height": 360
+  },
+  "images/thumbnails/headshots/zhize_hao-360.webp": {
+    "width": 360,
+    "height": 360
+  },
+  "images/thumbnails/headshots/zhuoyang_wu-360.webp": {
+    "width": 360,
+    "height": 360
+  },
+  "images/thumbnails/headshots/zijun_wang-360.webp": {
+    "width": 360,
+    "height": 360
+  },
+  "images/thumbnails/projects/acebench-480.webp": {
+    "width": 480,
+    "height": 270
+  },
+  "images/thumbnails/projects/acebench-960.webp": {
+    "width": 960,
+    "height": 540
+  },
+  "images/thumbnails/projects/activerag-480.webp": {
+    "width": 480,
+    "height": 331
+  },
+  "images/thumbnails/projects/adaptivenote-480.webp": {
+    "width": 480,
+    "height": 208
+  },
+  "images/thumbnails/projects/adaptivenote-960.webp": {
+    "width": 960,
+    "height": 415
+  },
+  "images/thumbnails/projects/athought-480.webp": {
+    "width": 480,
+    "height": 312
+  },
+  "images/thumbnails/projects/athought-960.webp": {
+    "width": 960,
+    "height": 624
+  },
+  "images/thumbnails/projects/chameleon-480.webp": {
+    "width": 480,
+    "height": 306
+  },
+  "images/thumbnails/projects/checkrlm-480.webp": {
+    "width": 480,
+    "height": 212
+  },
+  "images/thumbnails/projects/checkrlm-960.webp": {
+    "width": 960,
+    "height": 423
+  },
+  "images/thumbnails/projects/chgnn-480.webp": {
+    "width": 480,
+    "height": 139
+  },
+  "images/thumbnails/projects/chgnn-960.webp": {
+    "width": 960,
+    "height": 279
+  },
+  "images/thumbnails/projects/clueanchor-480.webp": {
+    "width": 480,
+    "height": 274
+  },
+  "images/thumbnails/projects/clueanchor-960.webp": {
+    "width": 960,
+    "height": 548
+  },
+  "images/thumbnails/projects/coast-480.webp": {
+    "width": 480,
+    "height": 480
+  },
+  "images/thumbnails/projects/cogat-480.webp": {
+    "width": 480,
+    "height": 465
+  },
+  "images/thumbnails/projects/cogat-960.webp": {
+    "width": 960,
+    "height": 930
+  },
+  "images/thumbnails/projects/compiling-480.webp": {
+    "width": 480,
+    "height": 397
+  },
+  "images/thumbnails/projects/conae-480.webp": {
+    "width": 480,
+    "height": 108
+  },
+  "images/thumbnails/projects/conae-960.webp": {
+    "width": 960,
+    "height": 217
+  },
+  "images/thumbnails/projects/conan-480.webp": {
+    "width": 480,
+    "height": 324
+  },
+  "images/thumbnails/projects/conan-960.webp": {
+    "width": 960,
+    "height": 648
+  },
+  "images/thumbnails/projects/consjudge-480.webp": {
+    "width": 480,
+    "height": 290
+  },
+  "images/thumbnails/projects/consjudge-960.webp": {
+    "width": 960,
+    "height": 581
+  },
+  "images/thumbnails/projects/convdr-480.webp": {
+    "width": 480,
+    "height": 368
+  },
+  "images/thumbnails/projects/corefbert-480.webp": {
+    "width": 480,
+    "height": 156
+  },
+  "images/thumbnails/projects/corefbert-960.webp": {
+    "width": 960,
+    "height": 312
+  },
+  "images/thumbnails/projects/dai2026revealing-480.webp": {
+    "width": 480,
+    "height": 458
+  },
+  "images/thumbnails/projects/dance-480.webp": {
+    "width": 480,
+    "height": 148
+  },
+  "images/thumbnails/projects/dance-960.webp": {
+    "width": 960,
+    "height": 295
+  },
+  "images/thumbnails/projects/debater-480.webp": {
+    "width": 480,
+    "height": 239
+  },
+  "images/thumbnails/projects/debater-960.webp": {
+    "width": 960,
+    "height": 478
+  },
+  "images/thumbnails/projects/deepnote-480.webp": {
+    "width": 480,
+    "height": 191
+  },
+  "images/thumbnails/projects/deepnote-960.webp": {
+    "width": 960,
+    "height": 382
+  },
+  "images/thumbnails/projects/directed-480.webp": {
+    "width": 480,
+    "height": 192
+  },
+  "images/thumbnails/projects/directed-960.webp": {
+    "width": 960,
+    "height": 384
+  },
+  "images/thumbnails/projects/docred-480.webp": {
+    "width": 480,
+    "height": 426
+  },
+  "images/thumbnails/projects/editmem-480.webp": {
+    "width": 480,
+    "height": 481
+  },
+  "images/thumbnails/projects/edrm-480.webp": {
+    "width": 480,
+    "height": 219
+  },
+  "images/thumbnails/projects/edrm-960.webp": {
+    "width": 960,
+    "height": 438
+  },
+  "images/thumbnails/projects/expandr-480.webp": {
+    "width": 480,
+    "height": 397
+  },
+  "images/thumbnails/projects/expandr-960.webp": {
+    "width": 960,
+    "height": 794
+  },
+  "images/thumbnails/projects/fit5-480.webp": {
+    "width": 480,
+    "height": 445
+  },
+  "images/thumbnails/projects/fit5-960.webp": {
+    "width": 960,
+    "height": 890
+  },
+  "images/thumbnails/projects/genii-480.webp": {
+    "width": 480,
+    "height": 262
+  },
+  "images/thumbnails/projects/genii-960.webp": {
+    "width": 960,
+    "height": 523
+  },
+  "images/thumbnails/projects/hippo-480.webp": {
+    "width": 480,
+    "height": 177
+  },
+  "images/thumbnails/projects/hippo-960.webp": {
+    "width": 960,
+    "height": 353
+  },
+  "images/thumbnails/projects/hqekv-480.webp": {
+    "width": 480,
+    "height": 184
+  },
+  "images/thumbnails/projects/hqekv-960.webp": {
+    "width": 960,
+    "height": 368
+  },
+  "images/thumbnails/projects/intervenor-480.webp": {
+    "width": 480,
+    "height": 261
+  },
+  "images/thumbnails/projects/intervenor-960.webp": {
+    "width": 960,
+    "height": 523
+  },
+  "images/thumbnails/projects/kair-480.webp": {
+    "width": 480,
+    "height": 436
+  },
+  "images/thumbnails/projects/kare-rag-480.webp": {
+    "width": 480,
+    "height": 176
+  },
+  "images/thumbnails/projects/kare-rag-960.webp": {
+    "width": 960,
+    "height": 351
+  },
+  "images/thumbnails/projects/kbalign-480.webp": {
+    "width": 480,
+    "height": 303
+  },
+  "images/thumbnails/projects/kgat-480.webp": {
+    "width": 480,
+    "height": 569
+  },
+  "images/thumbnails/projects/lang2act-480.webp": {
+    "width": 480,
+    "height": 271
+  },
+  "images/thumbnails/projects/lang2act-960.webp": {
+    "width": 960,
+    "height": 542
+  },
+  "images/thumbnails/projects/lead-480.webp": {
+    "width": 480,
+    "height": 169
+  },
+  "images/thumbnails/projects/lead-960.webp": {
+    "width": 960,
+    "height": 337
+  },
+  "images/thumbnails/projects/legaldelta-480.webp": {
+    "width": 480,
+    "height": 542
+  },
+  "images/thumbnails/projects/legaldelta-960.webp": {
+    "width": 960,
+    "height": 1084
+  },
+  "images/thumbnails/projects/legalduet-480.webp": {
+    "width": 480,
+    "height": 420
+  },
+  "images/thumbnails/projects/legalduet-960.webp": {
+    "width": 960,
+    "height": 841
+  },
+  "images/thumbnails/projects/leveraging_prefix_transfer_for_multi-Intent_text_revision-480.webp": {
+    "width": 480,
+    "height": 148
+  },
+  "images/thumbnails/projects/leveraging_prefix_transfer_for_multi-Intent_text_revision-960.webp": {
+    "width": 960,
+    "height": 295
+  },
+  "images/thumbnails/projects/lexrel-480.webp": {
+    "width": 480,
+    "height": 218
+  },
+  "images/thumbnails/projects/lexrel-960.webp": {
+    "width": 960,
+    "height": 435
+  },
+  "images/thumbnails/projects/lisrec-480.webp": {
+    "width": 480,
+    "height": 249
+  },
+  "images/thumbnails/projects/lisrec-960.webp": {
+    "width": 960,
+    "height": 497
+  },
+  "images/thumbnails/projects/longmabpo-480.webp": {
+    "width": 480,
+    "height": 271
+  },
+  "images/thumbnails/projects/longmabpo-960.webp": {
+    "width": 960,
+    "height": 543
+  },
+  "images/thumbnails/projects/marvel-480.webp": {
+    "width": 480,
+    "height": 267
+  },
+  "images/thumbnails/projects/matplotagent-480.webp": {
+    "width": 480,
+    "height": 270
+  },
+  "images/thumbnails/projects/matplotagent-960.webp": {
+    "width": 960,
+    "height": 541
+  },
+  "images/thumbnails/projects/mcts-480.webp": {
+    "width": 480,
+    "height": 244
+  },
+  "images/thumbnails/projects/mcts-960.webp": {
+    "width": 960,
+    "height": 487
+  },
+  "images/thumbnails/projects/memgraph-480.webp": {
+    "width": 480,
+    "height": 255
+  },
+  "images/thumbnails/projects/memgraph-960.webp": {
+    "width": 960,
+    "height": 509
+  },
+  "images/thumbnails/projects/memorycard-480.webp": {
+    "width": 480,
+    "height": 234
+  },
+  "images/thumbnails/projects/memorycard-960.webp": {
+    "width": 960,
+    "height": 468
+  },
+  "images/thumbnails/projects/metaadaptrank-480.webp": {
+    "width": 480,
+    "height": 184
+  },
+  "images/thumbnails/projects/metaadaptrank-960.webp": {
+    "width": 960,
+    "height": 369
+  },
+  "images/thumbnails/projects/metamem-480.webp": {
+    "width": 480,
+    "height": 293
+  },
+  "images/thumbnails/projects/metamem-960.webp": {
+    "width": 960,
+    "height": 585
+  },
+  "images/thumbnails/projects/mmrag-480.webp": {
+    "width": 480,
+    "height": 271
+  },
+  "images/thumbnails/projects/mmrag-960.webp": {
+    "width": 960,
+    "height": 543
+  },
+  "images/thumbnails/projects/more-480.webp": {
+    "width": 480,
+    "height": 288
+  },
+  "images/thumbnails/projects/more-960.webp": {
+    "width": 960,
+    "height": 575
+  },
+  "images/thumbnails/projects/neural_parse_combination-480.webp": {
+    "width": 480,
+    "height": 178
+  },
+  "images/thumbnails/projects/neural_parse_combination-960.webp": {
+    "width": 960,
+    "height": 355
+  },
+  "images/thumbnails/projects/openmatch-480.webp": {
+    "width": 480,
+    "height": 338
+  },
+  "images/thumbnails/projects/openmatch-960.webp": {
+    "width": 960,
+    "height": 676
+  },
+  "images/thumbnails/projects/orion-480.webp": {
+    "width": 480,
+    "height": 261
+  },
+  "images/thumbnails/projects/orion-960.webp": {
+    "width": 960,
+    "height": 521
+  },
+  "images/thumbnails/projects/p3ranker-480.webp": {
+    "width": 480,
+    "height": 268
+  },
+  "images/thumbnails/projects/p3ranker-960.webp": {
+    "width": 960,
+    "height": 536
+  },
+  "images/thumbnails/projects/palign-480.webp": {
+    "width": 480,
+    "height": 259
+  },
+  "images/thumbnails/projects/palign-960.webp": {
+    "width": 960,
+    "height": 519
+  },
+  "images/thumbnails/projects/parammute-480.webp": {
+    "width": 480,
+    "height": 119
+  },
+  "images/thumbnails/projects/parammute-960.webp": {
+    "width": 960,
+    "height": 237
+  },
+  "images/thumbnails/projects/persllm-480.webp": {
+    "width": 480,
+    "height": 183
+  },
+  "images/thumbnails/projects/persllm-960.webp": {
+    "width": 960,
+    "height": 365
+  },
+  "images/thumbnails/projects/pipkag-480.webp": {
+    "width": 480,
+    "height": 613
+  },
+  "images/thumbnails/projects/rag_survey-480.webp": {
+    "width": 480,
+    "height": 239
+  },
+  "images/thumbnails/projects/rag_survey-960.webp": {
+    "width": 960,
+    "height": 479
+  },
+  "images/thumbnails/projects/ragddr-480.webp": {
+    "width": 480,
+    "height": 288
+  },
+  "images/thumbnails/projects/ragddr-960.webp": {
+    "width": 960,
+    "height": 576
+  },
+  "images/thumbnails/projects/rageval-480.webp": {
+    "width": 480,
+    "height": 217
+  },
+  "images/thumbnails/projects/rageval-960.webp": {
+    "width": 960,
+    "height": 434
+  },
+  "images/thumbnails/projects/rankcot-480.webp": {
+    "width": 480,
+    "height": 269
+  },
+  "images/thumbnails/projects/rankcot-960.webp": {
+    "width": 960,
+    "height": 539
+  },
+  "images/thumbnails/projects/realign-480.webp": {
+    "width": 480,
+    "height": 263
+  },
+  "images/thumbnails/projects/realign-960.webp": {
+    "width": 960,
+    "height": 526
+  },
+  "images/thumbnails/projects/recut-480.webp": {
+    "width": 480,
+    "height": 249
+  },
+  "images/thumbnails/projects/recut-960.webp": {
+    "width": 960,
+    "height": 499
+  },
+  "images/thumbnails/projects/reinfoselect-480.webp": {
+    "width": 480,
+    "height": 240
+  },
+  "images/thumbnails/projects/reinfoselect-960.webp": {
+    "width": 960,
+    "height": 480
+  },
+  "images/thumbnails/projects/santa-480.webp": {
+    "width": 480,
+    "height": 276
+  },
+  "images/thumbnails/projects/santa-960.webp": {
+    "width": 960,
+    "height": 552
+  },
+  "images/thumbnails/projects/scidc-480.webp": {
+    "width": 480,
+    "height": 297
+  },
+  "images/thumbnails/projects/selfguide-480.webp": {
+    "width": 480,
+    "height": 326
+  },
+  "images/thumbnails/projects/selfguide-960.webp": {
+    "width": 960,
+    "height": 652
+  },
+  "images/thumbnails/projects/single-480.webp": {
+    "width": 480,
+    "height": 211
+  },
+  "images/thumbnails/projects/single-960.webp": {
+    "width": 960,
+    "height": 422
+  },
+  "images/thumbnails/projects/staffdeck-480.webp": {
+    "width": 480,
+    "height": 246
+  },
+  "images/thumbnails/projects/staffdeck-960.webp": {
+    "width": 960,
+    "height": 492
+  },
+  "images/thumbnails/projects/styins-480.webp": {
+    "width": 480,
+    "height": 309
+  },
+  "images/thumbnails/projects/taste-480.webp": {
+    "width": 480,
+    "height": 200
+  },
+  "images/thumbnails/projects/taste-960.webp": {
+    "width": 960,
+    "height": 400
+  },
+  "images/thumbnails/projects/tiage-480.webp": {
+    "width": 480,
+    "height": 335
+  },
+  "images/thumbnails/projects/toolink-480.webp": {
+    "width": 480,
+    "height": 237
+  },
+  "images/thumbnails/projects/toolink-960.webp": {
+    "width": 960,
+    "height": 474
+  },
+  "images/thumbnails/projects/ultrainteract-480.webp": {
+    "width": 480,
+    "height": 193
+  },
+  "images/thumbnails/projects/ultrainteract-960.webp": {
+    "width": 960,
+    "height": 385
+  },
+  "images/thumbnails/projects/ultralink-480.webp": {
+    "width": 480,
+    "height": 248
+  },
+  "images/thumbnails/projects/ultralink-960.webp": {
+    "width": 960,
+    "height": 495
+  },
+  "images/thumbnails/projects/ultrarag-480.webp": {
+    "width": 480,
+    "height": 240
+  },
+  "images/thumbnails/projects/ultrarag-960.webp": {
+    "width": 960,
+    "height": 480
+  },
+  "images/thumbnails/projects/uncode-480.webp": {
+    "width": 480,
+    "height": 605
+  },
+  "images/thumbnails/projects/unikiebench-480.webp": {
+    "width": 480,
+    "height": 267
+  },
+  "images/thumbnails/projects/unikiebench-960.webp": {
+    "width": 960,
+    "height": 533
+  },
+  "images/thumbnails/projects/univldr-480.webp": {
+    "width": 480,
+    "height": 160
+  },
+  "images/thumbnails/projects/univldr-960.webp": {
+    "width": 960,
+    "height": 319
+  },
+  "images/thumbnails/projects/vernet-480.webp": {
+    "width": 480,
+    "height": 555
+  },
+  "images/thumbnails/projects/visrag-480.webp": {
+    "width": 480,
+    "height": 209
+  },
+  "images/thumbnails/projects/visrag-960.webp": {
+    "width": 960,
+    "height": 418
+  },
+  "images/thumbnails/projects/visrag2-480.webp": {
+    "width": 480,
+    "height": 237
+  },
+  "images/thumbnails/projects/visrag2-960.webp": {
+    "width": 960,
+    "height": 473
+  }
+}

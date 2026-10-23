@@ -26,10 +26,7 @@
 {% endif %}
 {% assign url = page.url | absolute_url %}
 
-{% assign png = "images/icon.png" | file_exists %}
-{% assign jpg = "images/icon.jpg" | file_exists %}
-{% assign ico = "images/favicon.ico" | file_exists %}
-{% assign icon = ico | default: jpg | relative_url %}
+{% assign icon = "images/favicon-32.png" | relative_url %}
 
 {% assign jpg = "images/share.jpg" | file_exists %}
 {% assign png = "images/share.png" | file_exists %}
@@ -46,6 +43,7 @@
 <title>{{ fulltitle }}</title>
 
 <link rel="icon" href="{{ icon }}">
+<link rel="apple-touch-icon" href="{{ "/images/apple-touch-icon.png" | relative_url }}">
 <link rel="canonical" href="{{ url }}">
 
 <meta name="title" content="{{ fulltitle | escape }}">

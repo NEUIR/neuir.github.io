@@ -59,10 +59,10 @@ theme: null
 # sass settings
 sass:
   sass_dir: _styles
+  style: compressed
 
 # force jekyll to include certain files/folders
 include:
-  - _styles
   - _scripts
 
 # force jekyll to exclude certain files/folders
@@ -70,3 +70,11 @@ exclude:
   - README.md
   - LICENSE.md
   - CITATION.cff
+  - scripts
+  - tests
+  - docs
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - package-lock.json
+  - node_modules

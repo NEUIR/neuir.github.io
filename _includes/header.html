@@ -1,4 +1,6 @@
-{% assign image = page.header | default: site.header | relative_url %}
+{% assign background = page.header | default: site.header %}
+{% assign image = background | background_image: 1920 | relative_url %}
+{% assign small_image = background | background_image: 960 | relative_url %}
 {% assign dark = page.header-dark | is_nil: site.header-dark | is_nil: true %}
 
 {% assign svg = "images/logo.svg" | file_exists %}
@@ -7,7 +9,7 @@
 
 <header
   class="background"
-  style="--image: url('{{ image }}'){% if page.header-opacity %}; --image-opacity: {{ page.header-opacity }}{% endif %}{% if page.header-position %}; --image-position: {{ page.header-position }}{% endif %}{% if page.header-transform %}; --image-transform: {{ page.header-transform }}{% endif %}"
+  style="--image: url('{{ image }}'); --image-small: url('{{ small_image }}'){% if page.header-opacity %}; --image-opacity: {{ page.header-opacity }}{% endif %}{% if page.header-position %}; --image-position: {{ page.header-position }}{% endif %}{% if page.header-transform %}; --image-transform: {{ page.header-transform }}{% endif %}"
   {% if dark == true or dark == false %}
     data-dark="{{ dark }}"
   {% endif %}

@@ -2,7 +2,7 @@ _site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
-vendor
+/vendor/
 debug.log
 __pycache__
 .cache
@@ -10,7 +10,5 @@ __pycache__
 .DS_STORE
 .env*
 .cursor/
-package.json
-package-lock.json
 yarn.lock
 node_modules
