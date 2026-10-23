@@ -1,215 +1,164 @@
-/*
-  filters elements on page based on url or search box.
-  syntax: term1 term2 "full phrase 1" "full phrase 2" "tag: tag 1"
-  match if: all terms AND at least one phrase AND at least one tag
-*/
 {
-  // elements to filter
-  const elementSelector = ".card, .citation, .post-excerpt";
-  // search box element
-  const searchBoxSelector = ".search-box";
-  // results info box element
-  const infoBoxSelector = ".search-info";
-  // tags element
-  const tagSelector = ".tag";
+  const initializeSearch = () => {
+    const core = window.PaperSearch;
+    const root = document.getElementById("paper-results");
+    const box = document.querySelector(".search-box");
+    const info = document.querySelector(".search-info");
+    const input = box?.querySelector(".search-input");
+    const clearButton = box?.querySelector("button");
+    if (!core || !root || !input || !clearButton || !info) return;
 
-  // split search query into terms, phrases, and tags
-  const splitQuery = (query) => {
-    // split into parts, preserve quotes
-    const parts = query.match(/"[^"]*"|\S+/g) || [];
-
-    // bins
-    const terms = [];
-    const phrases = [];
-    const tags = [];
-
-    // put parts into bins
-    for (let part of parts) {
-      if (part.startsWith('"')) {
-        part = part.replaceAll('"', "").trim();
-        if (part.startsWith("tag:"))
-          tags.push(normalizeTag(part.replace(/tag:\s*/, "")));
-        else phrases.push(part.toLowerCase());
-      } else terms.push(part.toLowerCase());
-    }
-
-    return { terms, phrases, tags };
-  };
-
-  // normalize tag string for comparison
-  window.normalizeTag = (tag) =>
-    tag.trim().toLowerCase().replaceAll(/\s+/g, "-");
-
-  // get data attribute contents of element and children
-  const getAttr = (element, attr) =>
-    [element, ...element.querySelectorAll(`[data-${attr}]`)]
-      .map((element) => element.dataset[attr])
-      .join(" ");
-
-  // determine if element should show up in results based on query
-  const elementMatches = (element, { terms, phrases, tags }) => {
-    // tag elements within element
-    const tagElements = [...element.querySelectorAll(".tag")];
-
-    // check if text content exists in element
-    const hasText = (string) =>
-      (
-        element.innerText +
-        getAttr(element, "tooltip") +
-        getAttr(element, "search")
-      )
-        .toLowerCase()
-        .includes(string);
-    // check if text matches a tag in element
-    const hasTag = (string) =>
-      tagElements.some((tag) => normalizeTag(tag.innerText) === string);
-
-    // match logic
-    return (
-      (terms.every(hasText) || !terms.length) &&
-      (phrases.some(hasText) || !phrases.length) &&
-      (tags.some(hasTag) || !tags.length)
-    );
-  };
-
-  // loop through elements, hide/show based on query, and return results info
-  const filterElements = (parts) => {
-    let elements = document.querySelectorAll(elementSelector);
-
-    // results info
-    let x = 0;
-    let n = elements.length;
-    let tags = parts.tags;
-
-    // filter elements
-    for (const element of elements) {
-      if (elementMatches(element, parts)) {
-        element.style.display = "";
-        x++;
-      } else element.style.display = "none";
-    }
-
-    return [x, n, tags];
-  };
-
-  // highlight search terms
-  const highlightMatches = async ({ terms, phrases }) => {
-    // make sure Mark library available
-    if (typeof Mark === "undefined") return;
-
-    // reset
-    new Mark(document.body).unmark();
-
-    // limit number of highlights to avoid slowdown
-    let counter = 0;
-    const filter = () => counter++ < 100;
-
-    // highlight terms and phrases
-    new Mark(elementSelector)
-      .mark(terms, { separateWordSearch: true, filter })
-      .mark(phrases, { separateWordSearch: false, filter });
-  };
-
-  // update search box based on query
-  const updateSearchBox = (query = "") => {
-    const boxes = document.querySelectorAll(searchBoxSelector);
-
-    for (const box of boxes) {
-      const input = box.querySelector("input");
-      const button = box.querySelector("button");
-      const icon = box.querySelector("button i");
-      input.value = query;
-      icon.className = input.value.length
-        ? "icon fa-solid fa-xmark"
-        : "icon fa-solid fa-magnifying-glass";
-      button.disabled = input.value.length ? false : true;
-    }
-  };
-
-  // update info box based on query and results
-  const updateInfoBox = (query, x, n) => {
-    const boxes = document.querySelectorAll(infoBoxSelector);
-
-    if (query.trim()) {
-      // show all info boxes
-      boxes.forEach((info) => (info.style.display = ""));
-
-      // info template
-      let info = "";
-      info += `显示 ${x.toLocaleString()} / ${n.toLocaleString()} 条结果<br>`;
-      info += "<a href='./'>清除搜索</a>";
-
-      // set info HTML string
-      boxes.forEach((el) => (el.innerHTML = info));
-    }
-    // if nothing searched
-    else {
-      // hide all info boxes
-      boxes.forEach((info) => (info.style.display = "none"));
-    }
-  };
-
-  // update tags based on query
-  const updateTags = (query) => {
-    const { tags } = splitQuery(query);
-    document.querySelectorAll(tagSelector).forEach((tag) => {
-      // set active if tag is in query
-      if (tags.includes(normalizeTag(tag.innerText)))
-        tag.setAttribute("data-active", "");
-      else tag.removeAttribute("data-active");
-    });
-  };
-
-  // run search with query
-  const runSearch = (query = "") => {
-    const parts = splitQuery(query);
-    const [x, n] = filterElements(parts);
-    updateSearchBox(query);
-    updateInfoBox(query, x, n);
-    updateTags(query);
-    highlightMatches(parts);
-  };
-
-  // update url based on query
-  const updateUrl = (query = "") => {
-    const url = new URL(window.location);
-    let params = new URLSearchParams(url.search);
-    params.set("search", query);
-    url.search = params.toString();
-    window.history.replaceState(null, null, url);
-  };
-
-  // search based on url param
-  const searchFromUrl = () => {
-    const query =
-      new URLSearchParams(window.location.search).get("search") || "";
-    runSearch(query);
-  };
-
-  // return func that runs after delay
-  const debounce = (callback, delay = 250) => {
-    let timeout;
-    return (...args) => {
-      window.clearTimeout(timeout);
-      timeout = window.setTimeout(() => callback(...args), delay);
+    window.normalizeTag = core.normalizeTag;
+    const groups = [...root.querySelectorAll("[data-search-group]")];
+    let items = [];
+    const index = () => {
+      items = [...root.querySelectorAll(".citation")].map(element => {
+        let aliases = {};
+        try { aliases = JSON.parse(element.dataset.searchAliases || "{}"); } catch {}
+        const group = element.closest("[data-search-group]");
+        const category = group?.dataset.searchGroup === "journal" ? "期刊 期刊论文 journal" : "会议 会议论文 conference";
+        const text = [...element.querySelectorAll(".citation-title,.citation-authors,.citation-details,.citation-description")]
+          .map(part => part.textContent).join(" ");
+        const authors = element.querySelector(".citation-authors")?.textContent || "";
+        const record = core.createRecord({
+          text, aliases,
+          extra: [category, element.dataset.searchKeywords || "", ...authors.split(",").map(name => name.replace(/\s+/g, ""))].join(" "),
+          tags: [...element.querySelectorAll(".tag")].map(tag => tag.textContent)
+        });
+        return {element, group, record};
+      });
     };
-  };
+    index();
 
-  // when user types into search box
-  const debouncedRunSearch = debounce(runSearch, 1000);
-  window.onSearchInput = (target) => {
-    debouncedRunSearch(target.value);
-    updateUrl(target.value);
+    let timer;
+    let composing = false;
+    let lastSignature;
+    let revision = 0;
+    const updateButton = () => {
+      clearButton.disabled = !input.value.length;
+      const icon = clearButton.querySelector(".icon");
+      if (icon) icon.className = input.value.length ? "icon fa-solid fa-xmark" : "icon fa-solid fa-magnifying-glass";
+    };
+    const cancel = () => {
+      clearTimeout(timer);
+      root.setAttribute("aria-busy", "false");
+    };
+    const updateURL = raw => {
+      const url = new URL(location.href);
+      if (raw.trim()) url.searchParams.set("search", raw);
+      else url.searchParams.delete("search");
+      if (url.href !== location.href) {
+        try { history.replaceState(history.state, "", url); } catch {}
+      }
+    };
+    const updateInfo = (query, count) => {
+      info.dataset.empty = String(!query.active);
+      if (!query.active) {
+        const status = document.createElement("span");
+        status.className = "sr-only";
+        status.textContent = `已显示全部 ${items.length} 篇论文。`;
+        info.replaceChildren(status);
+        return;
+      }
+      const summary = document.createElement("span");
+      summary.textContent = `显示 ${count} / ${items.length} 条结果`;
+      const reset = document.createElement("a");
+      reset.href = "./";
+      reset.dataset.searchClear = "";
+      reset.textContent = "清除搜索";
+      info.replaceChildren(summary, document.createElement("br"), reset);
+      if (!count) {
+        const tip = document.createElement("span");
+        tip.className = "search-empty-tip";
+        tip.textContent = "未找到匹配的论文，请减少关键词，或尝试中英文作者名、会议缩写或年份。";
+        info.append(document.createElement("br"), tip);
+      }
+    };
+    const highlight = (query, visible) => {
+      const current = ++revision;
+      if (typeof Mark !== "function") return;
+      new Mark(root).unmark({done: () => {
+        if (current !== revision || !query.active || !visible.length) return;
+        const terms = [...new Set(visible.flatMap(item => core.highlightTerms(item.record, query)))];
+        if (!terms.length) return;
+        let count = 0;
+        new Mark(visible.map(item => item.element.querySelector(".citation-text") || item.element)).mark(terms, {
+          separateWordSearch: false,
+          acrossElements: true,
+          filter: () => count++ < 100
+        });
+      }});
+    };
+    const apply = (raw, {fromURL = false, force = false} = {}) => {
+      cancel();
+      const query = core.parse(raw);
+      // Avoid assigning during normal typing: doing so disturbs caret/IME state.
+      if ((fromURL || raw !== query.raw) && input.value !== query.raw) input.value = query.raw;
+      updateButton();
+      if (!fromURL || raw !== query.raw) updateURL(query.raw);
+      const signature = JSON.stringify([query.terms, query.tags, query.active]);
+      if (!force && signature === lastSignature) return;
+      lastSignature = signature;
+      const visible = [];
+      const groupCounts = new Map(groups.map(group => [group, 0]));
+      for (const item of items) {
+        const matched = core.matches(item.record, query);
+        item.element.style.display = matched ? "" : "none";
+        if (matched) {
+          visible.push(item);
+          groupCounts.set(item.group, (groupCounts.get(item.group) || 0) + 1);
+        }
+      }
+      groups.forEach(group => { group.hidden = !groupCounts.get(group); });
+      root.hidden = !visible.length;
+      updateInfo(query, visible.length);
+      root.querySelectorAll(".tag").forEach(tag => {
+        tag.toggleAttribute("data-active", query.tags.includes(core.normalizeTag(tag.textContent)));
+      });
+      highlight(query, visible);
+      document.dispatchEvent(new CustomEvent("sitesearch", {detail: {
+        queryLength: query.raw.trim().length, results: visible.length, total: items.length
+      }}));
+    };
+    const queue = () => {
+      cancel();
+      root.setAttribute("aria-busy", "true");
+      timer = setTimeout(() => apply(input.value), 150);
+    };
+    const clear = () => {
+      composing = false;
+      input.value = "";
+      apply("");
+      input.focus({preventScroll:true});
+    };
+    input.addEventListener("input", event => {
+      updateButton();
+      if (!composing && !event.isComposing) queue();
+    });
+    input.addEventListener("compositionstart", () => { composing = true; cancel(); });
+    input.addEventListener("compositionend", () => { composing = false; updateButton(); queue(); });
+    input.addEventListener("keydown", event => {
+      if (composing || event.isComposing || event.keyCode === 229) return;
+      if (event.key === "Enter") { event.preventDefault(); apply(input.value); }
+      else if (event.key === "Escape") { event.preventDefault(); clear(); }
+    });
+    input.addEventListener("search", () => { if (!composing) apply(input.value); });
+    clearButton.addEventListener("click", clear);
+    info.addEventListener("click", event => {
+      if (!event.target.closest("[data-search-clear]")) return;
+      event.preventDefault();
+      clear();
+    });
+    const fromURL = () => {
+      composing = false;
+      apply(new URLSearchParams(location.search).get("search") || "", {fromURL:true});
+    };
+    window.addEventListener("popstate", fromURL);
+    window.addEventListener("pageshow", event => { if (event.persisted) fromURL(); });
+    window.addEventListener("tagsfetched", () => { index(); lastSignature = null; fromURL(); });
+    input.disabled = false;
+    fromURL();
   };
-
-  // when user clears search box with button
-  window.onSearchClear = () => {
-    runSearch();
-    updateUrl();
-  };
-
-  // after page loads
-  window.addEventListener("load", searchFromUrl);
-  // after tags load
-  window.addEventListener("tagsfetched", searchFromUrl);
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", initializeSearch, {once:true});
+  else initializeSearch();
 }

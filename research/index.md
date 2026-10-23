@@ -12,8 +12,20 @@ nav:
 
 {% include search-info.html %}
 
+<div id="paper-results" markdown="1">
+
+<div data-search-group="conference" markdown="1">
+
 ## 会议论文
 {% include list.html data="citations" component="citation" filters="publisher: .*Proceedings.*" style="rich" %}
 
+</div>
+
+<div data-search-group="journal" markdown="1">
+
 ## 期刊论文
 {% include list.html data="citations" component="citation" filters="publisher: .*Journal.*" style="rich" %}
+
+</div>
+
+</div>

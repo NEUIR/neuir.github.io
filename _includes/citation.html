@@ -9,7 +9,9 @@
 {% endif %}
 
 <div class="citation-container">
-  <div class="citation">
+  <div class="citation"{% if page.url == "/research/" %}
+    data-search-aliases="{{ citation.authors | search_author_aliases | jsonify | escape }}"
+    data-search-keywords="{{ citation.keywords | join: ' ' | escape }}"{% endif %}>
     {% if include.style == "rich" %}
     {% assign citation_image = citation.image | default: "images/fallback.svg" %}
     <div class="citation-image" data-lightbox="{{ citation_image | relative_url }}" role="button" tabindex="0"

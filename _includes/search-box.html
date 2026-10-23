@@ -1,16 +1,26 @@
-<div class="search-box">
+<div class="search-box" role="search" aria-label="论文搜索">
   <input
-    type="text"
+    type="search"
     class="search-input"
-    oninput="onSearchInput(this)"
-    placeholder="搜索本页内容"
+    placeholder="标题、作者、会议、年份；空格组合搜索"
+    aria-label="搜索论文标题、中英文作者、会议和年份"
+    aria-describedby="paper-search-help"
+    aria-controls="paper-results"
+    autocomplete="off"
+    autocapitalize="none"
+    spellcheck="false"
+    enterkeyhint="search"
+    maxlength="256"
+    disabled
   />
   <button
     disabled
     data-tooltip="清除搜索"
     aria-label="清除搜索"
-    onclick="onSearchClear()"
+    type="button"
   >
     {% include icon.html icon="fa-solid fa-magnifying-glass" %}
   </button>
 </div>
+<span id="paper-search-help" class="sr-only">支持标题、中英文作者、会议或期刊、年份和 CCF 等级。空格表示同时包含，双引号匹配完整短语。Enter 立即搜索，Esc 清除。中文姓名限本站已建档成员。</span>
+<noscript><p>搜索需要启用 JavaScript；也可使用浏览器的页面查找功能。</p></noscript>

@@ -4,3 +4,7 @@
   font-style: italic;
   line-height: var(--spacing);
 }
+
+.search-info:empty,
+.search-info[data-empty="true"] { margin: 0; }
+.search-empty-tip { color: var(--gray); font-style: normal; }

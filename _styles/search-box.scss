@@ -18,6 +18,11 @@
   padding: 0;
   aspect-ratio: 1 / 1;
   background: none;
-  color: var(--black);
+  color: var(--text);
   border: none;
+  cursor: pointer;
 }
+
+.search-box button:disabled { opacity: 0.5; cursor: default; }
+.search-input::-webkit-search-cancel-button,
+.search-input::-webkit-search-decoration { appearance: none; }
