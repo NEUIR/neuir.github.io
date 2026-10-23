@@ -3,7 +3,7 @@ name: Haolin Zhang
 name_cn: 张昊林
 image: images/headshots/haolin_zhang.webp
 role: ms
-year: 406
+joined_year: 2025
 affiliation: Zhl2147483647@outlook.com
 ---
 

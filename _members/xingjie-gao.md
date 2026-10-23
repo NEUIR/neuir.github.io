@@ -3,7 +3,7 @@ name: Xingjie Gao
 name_cn: 高星杰
 image: images/headshots/xingjie_gao.webp
 role: ms
-year: 404
+joined_year: 2025
 link: https://kfkcome.github.io/about.html
 affiliation: xingjie-gao@outlook.com
 ---

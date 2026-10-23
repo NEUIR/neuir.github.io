@@ -3,7 +3,7 @@ name: Bo Sun
 name_cn: 孙博
 image: images/headshots/bo_sun.webp
 role: ms
-year: 409
+joined_year: 2025
 affiliation: lonelyspark@outlook.com
 ---
 

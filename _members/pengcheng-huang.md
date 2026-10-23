@@ -3,7 +3,7 @@ name: Pengcheng Huang
 name_cn: 黄鹏程
 image: images/headshots/pengcheng_huang.webp
 role: phd
-year: 2025
+enrollment_year: 2025
 link: https://passionate11.github.io/
 affiliation: hpc1449181552@outlook.com
 ---

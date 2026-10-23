@@ -3,7 +3,7 @@ name: Xuanshuo Sheng
 name_cn: 盛轩硕
 image: images/headshots/xuanshuo_sheng.webp
 role: ms
-year: 502
+joined_year: 2026
 affiliation: 335255450@qq.com
 ---
 

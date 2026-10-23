@@ -9,6 +9,8 @@
 
 {% if include.data == "projects" %}
   {% assign sorted_data = data %}
+{% elsif include.data == "members" %}
+  {% assign sorted_data = data | sort_team: site.data.team %}
 {% elsif include.data == "citations" or include.data == "highlights" or include.data == "posts" %}
   {% assign sorted_data = data | sort: "date" | reverse %}
 {% endif %}

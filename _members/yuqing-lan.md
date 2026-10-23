@@ -3,7 +3,7 @@ name: Yuqing Lan
 name_cn: 兰宇晴
 image: images/headshots/yuqing_lan.webp
 role: phd
-year: 2020
+enrollment_year: 2020
 link: https://yuqinglanok.github.io/
 affiliation: lanyuqing@stumail.neu.edu.cn
 ---

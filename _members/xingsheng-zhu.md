@@ -3,7 +3,7 @@ name: Xingsheng Zhu
 name_cn: 朱兴盛
 image: images/headshots/xingsheng_zhu.webp
 role: ms
-year: 301
+joined_year: 2024
 affiliation: zhuxingsheng@stumail.neu.edu.cn
 ---
 

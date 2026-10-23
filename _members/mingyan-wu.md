@@ -3,7 +3,7 @@ name: Mingyan Wu
 name_cn: 伍铭妍
 image: images/headshots/mingyan_wu.webp
 role: ms
-year: 302
+joined_year: 2024
 affiliation: mignonmiyoung@gmail.com
 ---
 

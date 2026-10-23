@@ -3,7 +3,7 @@ name: Jiawei Zheng
 name_cn: 郑佳玮
 image: images/headshots/jiawei_zheng.webp
 role: phd
-year: 2027
+enrollment_year: 2024
 affiliation: zhengjiaweice@163.com
 description: PhD Student
 ---

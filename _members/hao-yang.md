@@ -3,7 +3,7 @@ name: Hao Yang
 name_cn: 杨昊
 image: images/headshots/hao_yang.webp
 role: ms
-year: 410
+joined_year: 2025
 affiliation: nkcsyh@163.com
 ---
 
