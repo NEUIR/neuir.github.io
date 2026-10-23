@@ -9,6 +9,11 @@ footer: images/school.webp
 proofer: false
 future: true
 
+analytics:
+  measurement_id: G-MSPTXQ8JYC
+  hosts:
+    - neuir.github.io
+
 # site social media and other links
 links:
   email: liuzhenghao@mail.neu.edu.cn
