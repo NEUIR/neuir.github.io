@@ -404,6 +404,7 @@
   date: '2026-01-01'
   mark: acl2026-main
   link: 'https://aclanthology.org/2026.acl-long.819/'
+  image: images/projects/ada-dlm.webp
   publisher: Proceedings of ACL
   title: 'Towards Efficient and Effective Diffusion Language Model Inference via Semantic-Aware Adaptive Denoising'
 - authors:
@@ -446,6 +447,7 @@
   - Zhiyuan Liu
   date: '2019-01-01'
   link: 'https://link.springer.com/chapter/10.1007/978-3-030-32381-3_9'
+  image: images/projects/entity-retrieval.webp
   publisher: Proceedings of CCL
   title: 'Explore Entity Embedding Effectiveness in Entity Retrieval'
 # EMNLP
@@ -545,6 +547,8 @@
   mark: emnlp2026-main
   publisher: Proceedings of EMNLP
   title: 'PVFH-Bench: Benchmarking Premise-Induced Visual Fixation Hallucinations in Vision-Language Models'
+  image: images/projects/pvfh-bench.webp
+  link: 'https://arxiv.org/abs/2610.14635'
 - authors:
   - Huiyuan Xie
   - Zhenghao Liu
@@ -565,6 +569,7 @@
   - Zhiyuan Liu
   date: '2020-01-01'
   link: 'https://aclanthology.org/2020.findings-emnlp.216/'
+  image: images/projects/covid-fact.webp
   publisher: Proceedings of EMNLP (Findings)
   title: 'Adapting Open Domain Fact Extraction and Verification to COVID-FACT through In-Domain Language Modeling'
 - authors:
@@ -689,6 +694,7 @@
   mark: emnlp2026-findings
   publisher: Proceedings of EMNLP (Findings)
   title: 'Writing As Reasoning: Interleaving Drafting and Deepening for Open-Ended Deep Research'
+  image: images/projects/writing-as-reasoning.webp
 - authors:
   - Maotian Ma
   - Zheni Zeng
@@ -729,13 +735,13 @@
   title: Modeling User Viewing Flow Using Large Language Models for Article Recommendation
 # IJCAI
 - authors:
-  - Kaitao Zhang
-  - Chenyan Xiong
+  - Xiaoyuan Yi
   - Zhenghao Liu
-  - Zhiyuan Liu
+  - Wenhao Li
+  - Maosong Sun
   date: '2020-01-01'
   image: images/projects/styins.webp
-  link: 'https://www.ijcai.org/Proceedings/2020/0526'
+  link: 'https://www.ijcai.org/proceedings/2020/526'
   publisher: Proceedings of IJCAI
   title: 'Text Style Transfer via Learning Style Instance Supported Latent Space'
 # NLPCC
@@ -747,6 +753,7 @@
   - Jie Bao
   date: '2021-01-01'
   link: 'https://link.springer.com/chapter/10.1007/978-3-030-88483-3_21'
+  image: images/projects/jointkpe.webp
   publisher: Proceedings of NLPCC
   title: 'Capturing Global Informativeness in Open Domain Keyphrase Extraction'
 # SIGIR
@@ -862,7 +869,7 @@
   - Liner Yang
   - Tat-Seng Chua
   date: '2021-01-01'
-  iamge: images/projects/vernet.webp
+  image: images/projects/vernet.webp
   link: 'https://aclanthology.org/2021.naacl-main.429/'
   publisher: Proceedings of NAACL
   title: Neural Quality Estimation with Multiple Hypotheses for Grammatical Error Correction

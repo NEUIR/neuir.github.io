@@ -227,6 +227,10 @@
     "width": 924,
     "height": 637
   },
+  "images/projects/ada-dlm.webp": {
+    "width": 1549,
+    "height": 559
+  },
   "images/projects/adaptivenote.webp": {
     "width": 1198,
     "height": 518
@@ -287,6 +291,10 @@
     "width": 1184,
     "height": 385
   },
+  "images/projects/covid-fact.webp": {
+    "width": 752,
+    "height": 416
+  },
   "images/projects/dai2026revealing.webp": {
     "width": 696,
     "height": 664
@@ -319,6 +327,10 @@
     "width": 1179,
     "height": 538
   },
+  "images/projects/entity-retrieval.webp": {
+    "width": 1202,
+    "height": 532
+  },
   "images/projects/expandr.webp": {
     "width": 1703,
     "height": 1408
@@ -342,6 +354,10 @@
   "images/projects/intervenor.webp": {
     "width": 1190,
     "height": 648
+  },
+  "images/projects/jointkpe.webp": {
+    "width": 989,
+    "height": 516
   },
   "images/projects/kair.webp": {
     "width": 760,
@@ -463,6 +479,10 @@
     "width": 736,
     "height": 940
   },
+  "images/projects/pvfh-bench.webp": {
+    "width": 1525,
+    "height": 762
+  },
   "images/projects/rag_survey.webp": {
     "width": 2446,
     "height": 1220
@@ -562,6 +582,10 @@
   "images/projects/visrag2.webp": {
     "width": 1404,
     "height": 692
+  },
+  "images/projects/writing-as-reasoning.webp": {
+    "width": 1416,
+    "height": 825
   },
   "images/school.webp": {
     "width": 1920,
@@ -707,6 +731,14 @@
     "width": 480,
     "height": 331
   },
+  "images/thumbnails/projects/ada-dlm-480.webp": {
+    "width": 480,
+    "height": 173
+  },
+  "images/thumbnails/projects/ada-dlm-960.webp": {
+    "width": 960,
+    "height": 346
+  },
   "images/thumbnails/projects/adaptivenote-480.webp": {
     "width": 480,
     "height": 208
@@ -803,6 +835,10 @@
     "width": 960,
     "height": 312
   },
+  "images/thumbnails/projects/covid-fact-480.webp": {
+    "width": 480,
+    "height": 266
+  },
   "images/thumbnails/projects/dai2026revealing-480.webp": {
     "width": 480,
     "height": 458
@@ -855,6 +891,14 @@
     "width": 960,
     "height": 438
   },
+  "images/thumbnails/projects/entity-retrieval-480.webp": {
+    "width": 480,
+    "height": 212
+  },
+  "images/thumbnails/projects/entity-retrieval-960.webp": {
+    "width": 960,
+    "height": 425
+  },
   "images/thumbnails/projects/expandr-480.webp": {
     "width": 480,
     "height": 397
@@ -902,6 +946,14 @@
   "images/thumbnails/projects/intervenor-960.webp": {
     "width": 960,
     "height": 523
+  },
+  "images/thumbnails/projects/jointkpe-480.webp": {
+    "width": 480,
+    "height": 250
+  },
+  "images/thumbnails/projects/jointkpe-960.webp": {
+    "width": 960,
+    "height": 501
   },
   "images/thumbnails/projects/kair-480.webp": {
     "width": 480,
@@ -1115,6 +1167,14 @@
     "width": 480,
     "height": 613
   },
+  "images/thumbnails/projects/pvfh-bench-480.webp": {
+    "width": 480,
+    "height": 240
+  },
+  "images/thumbnails/projects/pvfh-bench-960.webp": {
+    "width": 960,
+    "height": 480
+  },
   "images/thumbnails/projects/rag_survey-480.webp": {
     "width": 480,
     "height": 239
@@ -1294,5 +1354,13 @@
   "images/thumbnails/projects/visrag2-960.webp": {
     "width": 960,
     "height": 473
+  },
+  "images/thumbnails/projects/writing-as-reasoning-480.webp": {
+    "width": 480,
+    "height": 280
+  },
+  "images/thumbnails/projects/writing-as-reasoning-960.webp": {
+    "width": 960,
+    "height": 559
   }
 }
