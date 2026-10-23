@@ -39,6 +39,7 @@
 {% assign feed = "feed.xml" | absolute_url %}
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
+{% if page.noindex %}<meta name="robots" content="noindex,follow">{% endif %}
 
 <title>{{ fulltitle }}</title>
 

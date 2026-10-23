@@ -1,5 +1,6 @@
-<form onsubmit="onSiteSearchSubmit(event)">
-  <input type="text" name="query" placeholder="使用 Google 搜索本站" />
+<form action="https://www.google.com/search" method="get" onsubmit="onSiteSearchSubmit(event)">
+  <input type="hidden" name="as_sitesearch" value="{{ site.url | split: '//' | last | split: '/' | first }}">
+  <input type="search" name="q" placeholder="使用 Google 搜索本站" aria-label="使用 Google 搜索本站" required />
   <button type="submit" class="button" aria-label="搜索本站">
     {% include icon.html icon="fa-solid fa-magnifying-glass" %}
   </button>
