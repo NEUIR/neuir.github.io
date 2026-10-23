@@ -2,8 +2,9 @@
 <html lang="zh-CN" data-dark="false">
   {% include head.html %}
   <body>
+    <a class="skip-link" href="#main-content">跳转到主要内容</a>
     {% include header.html %}
-    <main>
+    <main id="main-content" tabindex="-1">
       {% include content.html content=content %}
     </main>
     {% include footer.html %}

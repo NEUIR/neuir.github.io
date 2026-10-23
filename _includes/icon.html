@@ -2,9 +2,9 @@
   {%- capture inline -%}
     {%- include {{ include.icon }} -%}
   {%- endcapture -%}
-  <span class="icon">
+  <span class="icon" aria-hidden="true">
     {{- inline | strip_newlines -}}
   </span>
 {%- elsif include.icon and include.icon != "" -%}
-  <i class="icon {{ include.icon }}"></i>
+  <i class="icon {{ include.icon }}" aria-hidden="true"></i>
 {%- endif -%}

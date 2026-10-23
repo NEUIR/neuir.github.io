@@ -6,6 +6,8 @@ header-position: 45% 60%
 header-transform: translateX(4.5%) rotate(-0.45deg) scale(1.095)
 ---
 
+<h1 class="sr-only">{{ site.title }}</h1>
+
 ## 实验室简介
 
 NEU-ModelBest数据智能联合实验室隶属东北大学计算机科学与工程学院计算机科学系，由刘正皓副教授、于戈教授和谷峪教授共同指导。实验室致力于信息检索与大语言模型相关研究，承担多项国家级、省部级项目，已在 NeurIPS、ICLR、ACL、EMNLP、NAACL、SIGIR、KDD、WebConf、ICASSP 等国内外顶级会议及期刊发表 80 余篇论文。

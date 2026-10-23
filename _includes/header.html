@@ -45,9 +45,10 @@
     {% endif %}
   </a>
 
-  <input class="nav-toggle" type="checkbox" aria-label="显示或隐藏导航">
+  <button class="nav-toggle" type="button" aria-label="显示或隐藏导航" aria-expanded="false" aria-controls="primary-navigation"></button>
 
-  <nav aria-label="主导航">
+  <nav id="primary-navigation" aria-label="主导航">
+    {% assign current_url = page.url %}
     {% assign pages = site.pages
       | where_exp: "page", "page.nav"
       | sort: "nav.order"
@@ -57,10 +58,12 @@
         <a
           href="{{ page.dir | relative_url }}"
           data-tooltip="{{ page.nav.tooltip }}"
+          {% if current_url == page.url %}aria-current="page"{% endif %}
         >
           {{ page.title }}
         </a>
       {% endif %}
     {% endfor %}
   </nav>
+  <noscript><style>.nav-toggle{display:none!important}#primary-navigation{display:flex!important}</style></noscript>
 </header>

@@ -100,7 +100,7 @@ $project-image-width: 290px;
   border: 1px solid color-mix(in srgb, var(--primary) 28%, transparent);
   border-radius: 999px;
   background: color-mix(in srgb, var(--primary) 9%, var(--background));
-  color: var(--primary);
+  color: color-mix(in srgb, var(--primary) 85%, var(--text));
   font-size: 0.78em;
   font-weight: var(--semi-bold);
   line-height: 1.2;
@@ -117,6 +117,21 @@ $project-image-width: 290px;
   display: block;
   width: auto;
   height: 20px;
+}
+
+.project-shield-fallback {
+  display: none;
+  padding: 2px 7px;
+  border: 1px solid var(--gray);
+  border-radius: 3px;
+  color: var(--text);
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.project-shield.is-unavailable {
+  img { display: none; }
+  .project-shield-fallback { display: inline-block; }
 }
 
 @media (max-width: $project-breakpoint) {

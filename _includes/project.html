@@ -9,7 +9,7 @@
     <img
       src="{{ include.image | relative_url }}"
       alt="{{ include.title }} 项目预览图"
-      loading="eager"
+      loading="lazy"
       decoding="async"
       {% include fallback.html %}
     >
@@ -38,8 +38,8 @@
         {% if include.repo %}
           <a
             class="project-shield"
-            href="https://github.com/{{ include.repo }}/stargazers"
-            aria-label="查看 {{ include.title }} 的 GitHub Stars"
+            href="https://github.com/{{ include.repo }}"
+            aria-label="查看 {{ include.title }} 的 GitHub 仓库和 Stars"
           >
             <img
               src="https://img.shields.io/github/stars/{{ include.repo }}?style=social&label=Code+Stars"
@@ -48,6 +48,7 @@
               loading="lazy"
               decoding="async"
             >
+            <span class="project-shield-fallback" aria-hidden="true">GitHub Stars</span>
           </a>
         {% endif %}
 
@@ -64,6 +65,7 @@
               loading="lazy"
               decoding="async"
             >
+            <span class="project-shield-fallback" aria-hidden="true">{{ resource.text }}</span>
           </a>
         {% endfor %}
       </div>

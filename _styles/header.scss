@@ -79,6 +79,9 @@ header a {
   margin: 0;
   color: var(--text);
   appearance: none;
+  padding: 0;
+  border: 0;
+  background: none;
   transition: background var(--transition);
 }
 
@@ -94,7 +97,7 @@ header a {
   transform: translate(-50%, -50%);
 }
 
-.nav-toggle:checked:after {
+.nav-toggle[aria-expanded="true"]:after {
   content: "\f00d";
 }
 
@@ -130,7 +133,7 @@ header:not([data-big]) {
       display: flex;
     }
 
-    .nav-toggle:not(:checked) + nav {
+    .nav-toggle[aria-expanded="false"] + nav {
       display: none;
     }
 
