@@ -36,7 +36,7 @@ Jekyll::Hooks.register :site, :post_render do |site|
       logo = parent.include?('logo')
       next unless portrait || project || citation || logo
       stem = key.sub(/\.[^.]+\z/, '')
-      widths = logo ? [160, 320] : portrait ? [360] : [480, 960]
+      widths = logo ? [160, 320] : portrait ? [360] : [320, 480, 640, 960]
       variants = widths.filter_map do |width|
         path = logo ? "images/logo-#{width}.webp" : "#{stem.sub('images/', 'images/thumbnails/')}-#{width}.webp"
         [path, metadata[path]['width']] if metadata[path]
@@ -53,7 +53,10 @@ Jekyll::Hooks.register :site, :post_render do |site|
       elsif project
         '(max-width: 760px) calc(100vw - 108px), 262px'
       else
-        '(max-width: 880px) calc(100vw - 120px), 168px'
+        # Mobile cards have a 140px-high image area. Tall figures draw narrower
+        # than their box with object-fit: contain, so don't download a wide image.
+        mobile_width = (140.0 * size['width'] / size['height']).round(2)
+        "(max-width: 880px) min(calc(100vw - 120px), #{mobile_width}px), 168px"
       end
     end
     page.output = document.to_html

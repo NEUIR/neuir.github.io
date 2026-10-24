@@ -114,7 +114,7 @@ const copy = async (source, target) => {
       const source = path.join(imageRoot,folder,file);
       const meta = await sharp(source).metadata();
       if (meta.pages && meta.pages > 1) continue;
-      const sizes = folder==='headshots' ? [360] : [480,960];
+      const sizes = folder==='headshots' ? [360] : [320,480,640,960];
       for (const width of sizes) {
         if (meta.width <= width) continue;
         const target = path.join(imageRoot,'thumbnails',folder,`${path.parse(file).name}-${width}.webp`);
@@ -131,7 +131,7 @@ const copy = async (source, target) => {
     for (const width of [960,1920]) {
       const target = path.join(root,source.replace('images/','images/thumbnails/backgrounds/').replace(/\.[^.]+$/,`-${width}.webp`));
       await fs.mkdir(path.dirname(target),{recursive:true});
-      await sharp(path.join(root,source)).resize({width,withoutEnlargement:true}).webp({quality:84,effort:6}).toFile(target);
+      await sharp(path.join(root,source)).resize({width,withoutEnlargement:true}).webp({quality:70,effort:6}).toFile(target);
     }
   }
   const metadata = {};

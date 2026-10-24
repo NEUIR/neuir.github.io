@@ -731,645 +731,1365 @@
     "width": 360,
     "height": 360
   },
+  "images/thumbnails/projects/acebench-320.webp": {
+    "width": 320,
+    "height": 180
+  },
   "images/thumbnails/projects/acebench-480.webp": {
     "width": 480,
     "height": 270
+  },
+  "images/thumbnails/projects/acebench-640.webp": {
+    "width": 640,
+    "height": 360
   },
   "images/thumbnails/projects/acebench-960.webp": {
     "width": 960,
     "height": 540
   },
+  "images/thumbnails/projects/activerag-320.webp": {
+    "width": 320,
+    "height": 221
+  },
   "images/thumbnails/projects/activerag-480.webp": {
     "width": 480,
     "height": 331
+  },
+  "images/thumbnails/projects/activerag-640.webp": {
+    "width": 640,
+    "height": 441
+  },
+  "images/thumbnails/projects/ada-dlm-320.webp": {
+    "width": 320,
+    "height": 115
   },
   "images/thumbnails/projects/ada-dlm-480.webp": {
     "width": 480,
     "height": 173
   },
+  "images/thumbnails/projects/ada-dlm-640.webp": {
+    "width": 640,
+    "height": 231
+  },
   "images/thumbnails/projects/ada-dlm-960.webp": {
     "width": 960,
     "height": 346
+  },
+  "images/thumbnails/projects/adaptivenote-320.webp": {
+    "width": 320,
+    "height": 138
   },
   "images/thumbnails/projects/adaptivenote-480.webp": {
     "width": 480,
     "height": 208
   },
+  "images/thumbnails/projects/adaptivenote-640.webp": {
+    "width": 640,
+    "height": 277
+  },
   "images/thumbnails/projects/adaptivenote-960.webp": {
     "width": 960,
     "height": 415
+  },
+  "images/thumbnails/projects/athought-320.webp": {
+    "width": 320,
+    "height": 208
   },
   "images/thumbnails/projects/athought-480.webp": {
     "width": 480,
     "height": 312
   },
+  "images/thumbnails/projects/athought-640.webp": {
+    "width": 640,
+    "height": 416
+  },
   "images/thumbnails/projects/athought-960.webp": {
     "width": 960,
     "height": 624
+  },
+  "images/thumbnails/projects/chameleon-320.webp": {
+    "width": 320,
+    "height": 204
   },
   "images/thumbnails/projects/chameleon-480.webp": {
     "width": 480,
     "height": 306
   },
+  "images/thumbnails/projects/chameleon-640.webp": {
+    "width": 640,
+    "height": 407
+  },
+  "images/thumbnails/projects/checkrlm-320.webp": {
+    "width": 320,
+    "height": 141
+  },
   "images/thumbnails/projects/checkrlm-480.webp": {
     "width": 480,
     "height": 212
+  },
+  "images/thumbnails/projects/checkrlm-640.webp": {
+    "width": 640,
+    "height": 282
   },
   "images/thumbnails/projects/checkrlm-960.webp": {
     "width": 960,
     "height": 423
   },
+  "images/thumbnails/projects/chgnn-320.webp": {
+    "width": 320,
+    "height": 93
+  },
   "images/thumbnails/projects/chgnn-480.webp": {
     "width": 480,
     "height": 139
+  },
+  "images/thumbnails/projects/chgnn-640.webp": {
+    "width": 640,
+    "height": 186
   },
   "images/thumbnails/projects/chgnn-960.webp": {
     "width": 960,
     "height": 279
   },
+  "images/thumbnails/projects/clueanchor-320.webp": {
+    "width": 320,
+    "height": 183
+  },
   "images/thumbnails/projects/clueanchor-480.webp": {
     "width": 480,
     "height": 274
+  },
+  "images/thumbnails/projects/clueanchor-640.webp": {
+    "width": 640,
+    "height": 365
   },
   "images/thumbnails/projects/clueanchor-960.webp": {
     "width": 960,
     "height": 548
   },
+  "images/thumbnails/projects/coast-320.webp": {
+    "width": 320,
+    "height": 320
+  },
   "images/thumbnails/projects/coast-480.webp": {
     "width": 480,
     "height": 480
+  },
+  "images/thumbnails/projects/coast-640.webp": {
+    "width": 640,
+    "height": 640
+  },
+  "images/thumbnails/projects/cogat-320.webp": {
+    "width": 320,
+    "height": 310
   },
   "images/thumbnails/projects/cogat-480.webp": {
     "width": 480,
     "height": 465
   },
+  "images/thumbnails/projects/cogat-640.webp": {
+    "width": 640,
+    "height": 620
+  },
   "images/thumbnails/projects/cogat-960.webp": {
     "width": 960,
     "height": 930
+  },
+  "images/thumbnails/projects/compiling-320.webp": {
+    "width": 320,
+    "height": 264
   },
   "images/thumbnails/projects/compiling-480.webp": {
     "width": 480,
     "height": 397
   },
+  "images/thumbnails/projects/compiling-640.webp": {
+    "width": 640,
+    "height": 529
+  },
+  "images/thumbnails/projects/conae-320.webp": {
+    "width": 320,
+    "height": 72
+  },
   "images/thumbnails/projects/conae-480.webp": {
     "width": 480,
     "height": 108
+  },
+  "images/thumbnails/projects/conae-640.webp": {
+    "width": 640,
+    "height": 144
   },
   "images/thumbnails/projects/conae-960.webp": {
     "width": 960,
     "height": 217
   },
+  "images/thumbnails/projects/conan-320.webp": {
+    "width": 320,
+    "height": 216
+  },
   "images/thumbnails/projects/conan-480.webp": {
     "width": 480,
     "height": 324
+  },
+  "images/thumbnails/projects/conan-640.webp": {
+    "width": 640,
+    "height": 432
   },
   "images/thumbnails/projects/conan-960.webp": {
     "width": 960,
     "height": 648
   },
+  "images/thumbnails/projects/conceptflow-320.webp": {
+    "width": 320,
+    "height": 410
+  },
+  "images/thumbnails/projects/consjudge-320.webp": {
+    "width": 320,
+    "height": 194
+  },
   "images/thumbnails/projects/consjudge-480.webp": {
     "width": 480,
     "height": 290
+  },
+  "images/thumbnails/projects/consjudge-640.webp": {
+    "width": 640,
+    "height": 387
   },
   "images/thumbnails/projects/consjudge-960.webp": {
     "width": 960,
     "height": 581
   },
+  "images/thumbnails/projects/convdr-320.webp": {
+    "width": 320,
+    "height": 245
+  },
   "images/thumbnails/projects/convdr-480.webp": {
     "width": 480,
     "height": 368
+  },
+  "images/thumbnails/projects/convdr-640.webp": {
+    "width": 640,
+    "height": 490
+  },
+  "images/thumbnails/projects/corefbert-320.webp": {
+    "width": 320,
+    "height": 104
   },
   "images/thumbnails/projects/corefbert-480.webp": {
     "width": 480,
     "height": 156
   },
+  "images/thumbnails/projects/corefbert-640.webp": {
+    "width": 640,
+    "height": 208
+  },
   "images/thumbnails/projects/corefbert-960.webp": {
     "width": 960,
     "height": 312
+  },
+  "images/thumbnails/projects/covid-fact-320.webp": {
+    "width": 320,
+    "height": 177
   },
   "images/thumbnails/projects/covid-fact-480.webp": {
     "width": 480,
     "height": 266
   },
+  "images/thumbnails/projects/covid-fact-640.webp": {
+    "width": 640,
+    "height": 354
+  },
+  "images/thumbnails/projects/dai2026revealing-320.webp": {
+    "width": 320,
+    "height": 305
+  },
   "images/thumbnails/projects/dai2026revealing-480.webp": {
     "width": 480,
     "height": 458
+  },
+  "images/thumbnails/projects/dai2026revealing-640.webp": {
+    "width": 640,
+    "height": 611
+  },
+  "images/thumbnails/projects/dance-320.webp": {
+    "width": 320,
+    "height": 98
   },
   "images/thumbnails/projects/dance-480.webp": {
     "width": 480,
     "height": 148
   },
+  "images/thumbnails/projects/dance-640.webp": {
+    "width": 640,
+    "height": 197
+  },
   "images/thumbnails/projects/dance-960.webp": {
     "width": 960,
     "height": 295
+  },
+  "images/thumbnails/projects/debater-320.webp": {
+    "width": 320,
+    "height": 159
   },
   "images/thumbnails/projects/debater-480.webp": {
     "width": 480,
     "height": 239
   },
+  "images/thumbnails/projects/debater-640.webp": {
+    "width": 640,
+    "height": 319
+  },
   "images/thumbnails/projects/debater-960.webp": {
     "width": 960,
     "height": 478
+  },
+  "images/thumbnails/projects/deepnote-320.webp": {
+    "width": 320,
+    "height": 127
   },
   "images/thumbnails/projects/deepnote-480.webp": {
     "width": 480,
     "height": 191
   },
+  "images/thumbnails/projects/deepnote-640.webp": {
+    "width": 640,
+    "height": 255
+  },
   "images/thumbnails/projects/deepnote-960.webp": {
     "width": 960,
     "height": 382
+  },
+  "images/thumbnails/projects/directed-320.webp": {
+    "width": 320,
+    "height": 128
   },
   "images/thumbnails/projects/directed-480.webp": {
     "width": 480,
     "height": 192
   },
+  "images/thumbnails/projects/directed-640.webp": {
+    "width": 640,
+    "height": 256
+  },
   "images/thumbnails/projects/directed-960.webp": {
     "width": 960,
     "height": 384
+  },
+  "images/thumbnails/projects/docred-320.webp": {
+    "width": 320,
+    "height": 284
   },
   "images/thumbnails/projects/docred-480.webp": {
     "width": 480,
     "height": 426
   },
+  "images/thumbnails/projects/docred-640.webp": {
+    "width": 640,
+    "height": 567
+  },
+  "images/thumbnails/projects/editmem-320.webp": {
+    "width": 320,
+    "height": 321
+  },
   "images/thumbnails/projects/editmem-480.webp": {
     "width": 480,
     "height": 481
+  },
+  "images/thumbnails/projects/editmem-640.webp": {
+    "width": 640,
+    "height": 642
+  },
+  "images/thumbnails/projects/edrm-320.webp": {
+    "width": 320,
+    "height": 146
   },
   "images/thumbnails/projects/edrm-480.webp": {
     "width": 480,
     "height": 219
   },
+  "images/thumbnails/projects/edrm-640.webp": {
+    "width": 640,
+    "height": 292
+  },
   "images/thumbnails/projects/edrm-960.webp": {
     "width": 960,
     "height": 438
+  },
+  "images/thumbnails/projects/entity-retrieval-320.webp": {
+    "width": 320,
+    "height": 142
   },
   "images/thumbnails/projects/entity-retrieval-480.webp": {
     "width": 480,
     "height": 212
   },
+  "images/thumbnails/projects/entity-retrieval-640.webp": {
+    "width": 640,
+    "height": 283
+  },
   "images/thumbnails/projects/entity-retrieval-960.webp": {
     "width": 960,
     "height": 425
+  },
+  "images/thumbnails/projects/expandr-320.webp": {
+    "width": 320,
+    "height": 265
   },
   "images/thumbnails/projects/expandr-480.webp": {
     "width": 480,
     "height": 397
   },
+  "images/thumbnails/projects/expandr-640.webp": {
+    "width": 640,
+    "height": 529
+  },
   "images/thumbnails/projects/expandr-960.webp": {
     "width": 960,
     "height": 794
+  },
+  "images/thumbnails/projects/fit5-320.webp": {
+    "width": 320,
+    "height": 297
   },
   "images/thumbnails/projects/fit5-480.webp": {
     "width": 480,
     "height": 445
   },
+  "images/thumbnails/projects/fit5-640.webp": {
+    "width": 640,
+    "height": 593
+  },
   "images/thumbnails/projects/fit5-960.webp": {
     "width": 960,
     "height": 890
+  },
+  "images/thumbnails/projects/genii-320.webp": {
+    "width": 320,
+    "height": 174
   },
   "images/thumbnails/projects/genii-480.webp": {
     "width": 480,
     "height": 262
   },
+  "images/thumbnails/projects/genii-640.webp": {
+    "width": 640,
+    "height": 349
+  },
   "images/thumbnails/projects/genii-960.webp": {
     "width": 960,
     "height": 523
+  },
+  "images/thumbnails/projects/hippo-320.webp": {
+    "width": 320,
+    "height": 118
   },
   "images/thumbnails/projects/hippo-480.webp": {
     "width": 480,
     "height": 177
   },
+  "images/thumbnails/projects/hippo-640.webp": {
+    "width": 640,
+    "height": 235
+  },
   "images/thumbnails/projects/hippo-960.webp": {
     "width": 960,
     "height": 353
+  },
+  "images/thumbnails/projects/hqekv-320.webp": {
+    "width": 320,
+    "height": 123
   },
   "images/thumbnails/projects/hqekv-480.webp": {
     "width": 480,
     "height": 184
   },
+  "images/thumbnails/projects/hqekv-640.webp": {
+    "width": 640,
+    "height": 246
+  },
   "images/thumbnails/projects/hqekv-960.webp": {
     "width": 960,
     "height": 368
+  },
+  "images/thumbnails/projects/intervenor-320.webp": {
+    "width": 320,
+    "height": 174
   },
   "images/thumbnails/projects/intervenor-480.webp": {
     "width": 480,
     "height": 261
   },
+  "images/thumbnails/projects/intervenor-640.webp": {
+    "width": 640,
+    "height": 349
+  },
   "images/thumbnails/projects/intervenor-960.webp": {
     "width": 960,
     "height": 523
+  },
+  "images/thumbnails/projects/jointkpe-320.webp": {
+    "width": 320,
+    "height": 167
   },
   "images/thumbnails/projects/jointkpe-480.webp": {
     "width": 480,
     "height": 250
   },
+  "images/thumbnails/projects/jointkpe-640.webp": {
+    "width": 640,
+    "height": 334
+  },
   "images/thumbnails/projects/jointkpe-960.webp": {
     "width": 960,
     "height": 501
+  },
+  "images/thumbnails/projects/kair-320.webp": {
+    "width": 320,
+    "height": 291
   },
   "images/thumbnails/projects/kair-480.webp": {
     "width": 480,
     "height": 436
   },
+  "images/thumbnails/projects/kair-640.webp": {
+    "width": 640,
+    "height": 581
+  },
+  "images/thumbnails/projects/kare-rag-320.webp": {
+    "width": 320,
+    "height": 117
+  },
   "images/thumbnails/projects/kare-rag-480.webp": {
     "width": 480,
     "height": 176
+  },
+  "images/thumbnails/projects/kare-rag-640.webp": {
+    "width": 640,
+    "height": 234
   },
   "images/thumbnails/projects/kare-rag-960.webp": {
     "width": 960,
     "height": 351
   },
+  "images/thumbnails/projects/kbalign-320.webp": {
+    "width": 320,
+    "height": 202
+  },
   "images/thumbnails/projects/kbalign-480.webp": {
     "width": 480,
     "height": 303
+  },
+  "images/thumbnails/projects/kbalign-640.webp": {
+    "width": 640,
+    "height": 404
+  },
+  "images/thumbnails/projects/kgat-320.webp": {
+    "width": 320,
+    "height": 380
   },
   "images/thumbnails/projects/kgat-480.webp": {
     "width": 480,
     "height": 569
   },
+  "images/thumbnails/projects/lang2act-320.webp": {
+    "width": 320,
+    "height": 181
+  },
   "images/thumbnails/projects/lang2act-480.webp": {
     "width": 480,
     "height": 271
+  },
+  "images/thumbnails/projects/lang2act-640.webp": {
+    "width": 640,
+    "height": 361
   },
   "images/thumbnails/projects/lang2act-960.webp": {
     "width": 960,
     "height": 542
   },
+  "images/thumbnails/projects/lead-320.webp": {
+    "width": 320,
+    "height": 112
+  },
   "images/thumbnails/projects/lead-480.webp": {
     "width": 480,
     "height": 169
+  },
+  "images/thumbnails/projects/lead-640.webp": {
+    "width": 640,
+    "height": 225
   },
   "images/thumbnails/projects/lead-960.webp": {
     "width": 960,
     "height": 337
   },
+  "images/thumbnails/projects/legaldelta-320.webp": {
+    "width": 320,
+    "height": 361
+  },
   "images/thumbnails/projects/legaldelta-480.webp": {
     "width": 480,
     "height": 542
+  },
+  "images/thumbnails/projects/legaldelta-640.webp": {
+    "width": 640,
+    "height": 722
   },
   "images/thumbnails/projects/legaldelta-960.webp": {
     "width": 960,
     "height": 1084
   },
+  "images/thumbnails/projects/legalduet-320.webp": {
+    "width": 320,
+    "height": 280
+  },
   "images/thumbnails/projects/legalduet-480.webp": {
     "width": 480,
     "height": 420
+  },
+  "images/thumbnails/projects/legalduet-640.webp": {
+    "width": 640,
+    "height": 561
   },
   "images/thumbnails/projects/legalduet-960.webp": {
     "width": 960,
     "height": 841
   },
+  "images/thumbnails/projects/leveraging_prefix_transfer_for_multi-Intent_text_revision-320.webp": {
+    "width": 320,
+    "height": 98
+  },
   "images/thumbnails/projects/leveraging_prefix_transfer_for_multi-Intent_text_revision-480.webp": {
     "width": 480,
     "height": 148
+  },
+  "images/thumbnails/projects/leveraging_prefix_transfer_for_multi-Intent_text_revision-640.webp": {
+    "width": 640,
+    "height": 197
   },
   "images/thumbnails/projects/leveraging_prefix_transfer_for_multi-Intent_text_revision-960.webp": {
     "width": 960,
     "height": 295
   },
+  "images/thumbnails/projects/lexrel-320.webp": {
+    "width": 320,
+    "height": 145
+  },
   "images/thumbnails/projects/lexrel-480.webp": {
     "width": 480,
     "height": 218
+  },
+  "images/thumbnails/projects/lexrel-640.webp": {
+    "width": 640,
+    "height": 290
   },
   "images/thumbnails/projects/lexrel-960.webp": {
     "width": 960,
     "height": 435
   },
+  "images/thumbnails/projects/lisrec-320.webp": {
+    "width": 320,
+    "height": 166
+  },
   "images/thumbnails/projects/lisrec-480.webp": {
     "width": 480,
     "height": 249
+  },
+  "images/thumbnails/projects/lisrec-640.webp": {
+    "width": 640,
+    "height": 332
   },
   "images/thumbnails/projects/lisrec-960.webp": {
     "width": 960,
     "height": 497
   },
+  "images/thumbnails/projects/longmabpo-320.webp": {
+    "width": 320,
+    "height": 181
+  },
   "images/thumbnails/projects/longmabpo-480.webp": {
     "width": 480,
     "height": 271
+  },
+  "images/thumbnails/projects/longmabpo-640.webp": {
+    "width": 640,
+    "height": 362
   },
   "images/thumbnails/projects/longmabpo-960.webp": {
     "width": 960,
     "height": 543
   },
+  "images/thumbnails/projects/marvel-320.webp": {
+    "width": 320,
+    "height": 178
+  },
   "images/thumbnails/projects/marvel-480.webp": {
     "width": 480,
     "height": 267
+  },
+  "images/thumbnails/projects/marvel-640.webp": {
+    "width": 640,
+    "height": 356
+  },
+  "images/thumbnails/projects/matplotagent-320.webp": {
+    "width": 320,
+    "height": 180
   },
   "images/thumbnails/projects/matplotagent-480.webp": {
     "width": 480,
     "height": 270
   },
+  "images/thumbnails/projects/matplotagent-640.webp": {
+    "width": 640,
+    "height": 360
+  },
   "images/thumbnails/projects/matplotagent-960.webp": {
     "width": 960,
     "height": 541
+  },
+  "images/thumbnails/projects/mcts-320.webp": {
+    "width": 320,
+    "height": 162
   },
   "images/thumbnails/projects/mcts-480.webp": {
     "width": 480,
     "height": 244
   },
+  "images/thumbnails/projects/mcts-640.webp": {
+    "width": 640,
+    "height": 325
+  },
   "images/thumbnails/projects/mcts-960.webp": {
     "width": 960,
     "height": 487
+  },
+  "images/thumbnails/projects/memgraph-320.webp": {
+    "width": 320,
+    "height": 170
   },
   "images/thumbnails/projects/memgraph-480.webp": {
     "width": 480,
     "height": 255
   },
+  "images/thumbnails/projects/memgraph-640.webp": {
+    "width": 640,
+    "height": 340
+  },
   "images/thumbnails/projects/memgraph-960.webp": {
     "width": 960,
     "height": 509
+  },
+  "images/thumbnails/projects/memorycard-320.webp": {
+    "width": 320,
+    "height": 156
   },
   "images/thumbnails/projects/memorycard-480.webp": {
     "width": 480,
     "height": 234
   },
+  "images/thumbnails/projects/memorycard-640.webp": {
+    "width": 640,
+    "height": 312
+  },
   "images/thumbnails/projects/memorycard-960.webp": {
     "width": 960,
     "height": 468
+  },
+  "images/thumbnails/projects/metaadaptrank-320.webp": {
+    "width": 320,
+    "height": 123
   },
   "images/thumbnails/projects/metaadaptrank-480.webp": {
     "width": 480,
     "height": 184
   },
+  "images/thumbnails/projects/metaadaptrank-640.webp": {
+    "width": 640,
+    "height": 246
+  },
   "images/thumbnails/projects/metaadaptrank-960.webp": {
     "width": 960,
     "height": 369
+  },
+  "images/thumbnails/projects/metamem-320.webp": {
+    "width": 320,
+    "height": 195
   },
   "images/thumbnails/projects/metamem-480.webp": {
     "width": 480,
     "height": 293
   },
+  "images/thumbnails/projects/metamem-640.webp": {
+    "width": 640,
+    "height": 390
+  },
   "images/thumbnails/projects/metamem-960.webp": {
     "width": 960,
     "height": 585
+  },
+  "images/thumbnails/projects/mmrag-320.webp": {
+    "width": 320,
+    "height": 181
   },
   "images/thumbnails/projects/mmrag-480.webp": {
     "width": 480,
     "height": 271
   },
+  "images/thumbnails/projects/mmrag-640.webp": {
+    "width": 640,
+    "height": 362
+  },
   "images/thumbnails/projects/mmrag-960.webp": {
     "width": 960,
     "height": 543
+  },
+  "images/thumbnails/projects/more-320.webp": {
+    "width": 320,
+    "height": 192
   },
   "images/thumbnails/projects/more-480.webp": {
     "width": 480,
     "height": 288
   },
+  "images/thumbnails/projects/more-640.webp": {
+    "width": 640,
+    "height": 384
+  },
   "images/thumbnails/projects/more-960.webp": {
     "width": 960,
     "height": 575
+  },
+  "images/thumbnails/projects/neural_parse_combination-320.webp": {
+    "width": 320,
+    "height": 118
   },
   "images/thumbnails/projects/neural_parse_combination-480.webp": {
     "width": 480,
     "height": 178
   },
+  "images/thumbnails/projects/neural_parse_combination-640.webp": {
+    "width": 640,
+    "height": 237
+  },
   "images/thumbnails/projects/neural_parse_combination-960.webp": {
     "width": 960,
     "height": 355
+  },
+  "images/thumbnails/projects/neuscraper-320.webp": {
+    "width": 320,
+    "height": 332
+  },
+  "images/thumbnails/projects/openmatch-320.webp": {
+    "width": 320,
+    "height": 225
   },
   "images/thumbnails/projects/openmatch-480.webp": {
     "width": 480,
     "height": 338
   },
+  "images/thumbnails/projects/openmatch-640.webp": {
+    "width": 640,
+    "height": 450
+  },
   "images/thumbnails/projects/openmatch-960.webp": {
     "width": 960,
     "height": 676
+  },
+  "images/thumbnails/projects/orion-320.webp": {
+    "width": 320,
+    "height": 174
   },
   "images/thumbnails/projects/orion-480.webp": {
     "width": 480,
     "height": 261
   },
+  "images/thumbnails/projects/orion-640.webp": {
+    "width": 640,
+    "height": 347
+  },
   "images/thumbnails/projects/orion-960.webp": {
     "width": 960,
     "height": 521
+  },
+  "images/thumbnails/projects/p3ranker-320.webp": {
+    "width": 320,
+    "height": 179
   },
   "images/thumbnails/projects/p3ranker-480.webp": {
     "width": 480,
     "height": 268
   },
+  "images/thumbnails/projects/p3ranker-640.webp": {
+    "width": 640,
+    "height": 357
+  },
   "images/thumbnails/projects/p3ranker-960.webp": {
     "width": 960,
     "height": 536
+  },
+  "images/thumbnails/projects/palign-320.webp": {
+    "width": 320,
+    "height": 173
   },
   "images/thumbnails/projects/palign-480.webp": {
     "width": 480,
     "height": 259
   },
+  "images/thumbnails/projects/palign-640.webp": {
+    "width": 640,
+    "height": 346
+  },
   "images/thumbnails/projects/palign-960.webp": {
     "width": 960,
     "height": 519
+  },
+  "images/thumbnails/projects/parammute-320.webp": {
+    "width": 320,
+    "height": 79
   },
   "images/thumbnails/projects/parammute-480.webp": {
     "width": 480,
     "height": 119
   },
+  "images/thumbnails/projects/parammute-640.webp": {
+    "width": 640,
+    "height": 158
+  },
   "images/thumbnails/projects/parammute-960.webp": {
     "width": 960,
     "height": 237
+  },
+  "images/thumbnails/projects/persllm-320.webp": {
+    "width": 320,
+    "height": 122
   },
   "images/thumbnails/projects/persllm-480.webp": {
     "width": 480,
     "height": 183
   },
+  "images/thumbnails/projects/persllm-640.webp": {
+    "width": 640,
+    "height": 243
+  },
   "images/thumbnails/projects/persllm-960.webp": {
     "width": 960,
     "height": 365
+  },
+  "images/thumbnails/projects/pipkag-320.webp": {
+    "width": 320,
+    "height": 409
   },
   "images/thumbnails/projects/pipkag-480.webp": {
     "width": 480,
     "height": 613
   },
+  "images/thumbnails/projects/pipkag-640.webp": {
+    "width": 640,
+    "height": 817
+  },
+  "images/thumbnails/projects/pvfh-bench-320.webp": {
+    "width": 320,
+    "height": 160
+  },
   "images/thumbnails/projects/pvfh-bench-480.webp": {
     "width": 480,
     "height": 240
+  },
+  "images/thumbnails/projects/pvfh-bench-640.webp": {
+    "width": 640,
+    "height": 320
   },
   "images/thumbnails/projects/pvfh-bench-960.webp": {
     "width": 960,
     "height": 480
   },
+  "images/thumbnails/projects/rag_survey-320.webp": {
+    "width": 320,
+    "height": 160
+  },
   "images/thumbnails/projects/rag_survey-480.webp": {
     "width": 480,
     "height": 239
+  },
+  "images/thumbnails/projects/rag_survey-640.webp": {
+    "width": 640,
+    "height": 319
   },
   "images/thumbnails/projects/rag_survey-960.webp": {
     "width": 960,
     "height": 479
   },
+  "images/thumbnails/projects/ragddr-320.webp": {
+    "width": 320,
+    "height": 192
+  },
   "images/thumbnails/projects/ragddr-480.webp": {
     "width": 480,
     "height": 288
+  },
+  "images/thumbnails/projects/ragddr-640.webp": {
+    "width": 640,
+    "height": 384
   },
   "images/thumbnails/projects/ragddr-960.webp": {
     "width": 960,
     "height": 576
   },
+  "images/thumbnails/projects/rageval-320.webp": {
+    "width": 320,
+    "height": 145
+  },
   "images/thumbnails/projects/rageval-480.webp": {
     "width": 480,
     "height": 217
+  },
+  "images/thumbnails/projects/rageval-640.webp": {
+    "width": 640,
+    "height": 289
   },
   "images/thumbnails/projects/rageval-960.webp": {
     "width": 960,
     "height": 434
   },
+  "images/thumbnails/projects/rankcot-320.webp": {
+    "width": 320,
+    "height": 180
+  },
   "images/thumbnails/projects/rankcot-480.webp": {
     "width": 480,
     "height": 269
+  },
+  "images/thumbnails/projects/rankcot-640.webp": {
+    "width": 640,
+    "height": 359
   },
   "images/thumbnails/projects/rankcot-960.webp": {
     "width": 960,
     "height": 539
   },
+  "images/thumbnails/projects/realign-320.webp": {
+    "width": 320,
+    "height": 175
+  },
   "images/thumbnails/projects/realign-480.webp": {
     "width": 480,
     "height": 263
+  },
+  "images/thumbnails/projects/realign-640.webp": {
+    "width": 640,
+    "height": 351
   },
   "images/thumbnails/projects/realign-960.webp": {
     "width": 960,
     "height": 526
   },
+  "images/thumbnails/projects/recut-320.webp": {
+    "width": 320,
+    "height": 166
+  },
   "images/thumbnails/projects/recut-480.webp": {
     "width": 480,
     "height": 249
+  },
+  "images/thumbnails/projects/recut-640.webp": {
+    "width": 640,
+    "height": 333
   },
   "images/thumbnails/projects/recut-960.webp": {
     "width": 960,
     "height": 499
   },
+  "images/thumbnails/projects/reinfoselect-320.webp": {
+    "width": 320,
+    "height": 160
+  },
   "images/thumbnails/projects/reinfoselect-480.webp": {
     "width": 480,
     "height": 240
+  },
+  "images/thumbnails/projects/reinfoselect-640.webp": {
+    "width": 640,
+    "height": 320
   },
   "images/thumbnails/projects/reinfoselect-960.webp": {
     "width": 960,
     "height": 480
   },
+  "images/thumbnails/projects/santa-320.webp": {
+    "width": 320,
+    "height": 184
+  },
   "images/thumbnails/projects/santa-480.webp": {
     "width": 480,
     "height": 276
+  },
+  "images/thumbnails/projects/santa-640.webp": {
+    "width": 640,
+    "height": 368
   },
   "images/thumbnails/projects/santa-960.webp": {
     "width": 960,
     "height": 552
   },
+  "images/thumbnails/projects/scidc-320.webp": {
+    "width": 320,
+    "height": 198
+  },
   "images/thumbnails/projects/scidc-480.webp": {
     "width": 480,
     "height": 297
+  },
+  "images/thumbnails/projects/scidc-640.webp": {
+    "width": 640,
+    "height": 396
+  },
+  "images/thumbnails/projects/selfguide-320.webp": {
+    "width": 320,
+    "height": 217
   },
   "images/thumbnails/projects/selfguide-480.webp": {
     "width": 480,
     "height": 326
   },
+  "images/thumbnails/projects/selfguide-640.webp": {
+    "width": 640,
+    "height": 435
+  },
   "images/thumbnails/projects/selfguide-960.webp": {
     "width": 960,
     "height": 652
+  },
+  "images/thumbnails/projects/single-320.webp": {
+    "width": 320,
+    "height": 141
   },
   "images/thumbnails/projects/single-480.webp": {
     "width": 480,
     "height": 211
   },
+  "images/thumbnails/projects/single-640.webp": {
+    "width": 640,
+    "height": 281
+  },
   "images/thumbnails/projects/single-960.webp": {
     "width": 960,
     "height": 422
+  },
+  "images/thumbnails/projects/staffdeck-320.webp": {
+    "width": 320,
+    "height": 164
   },
   "images/thumbnails/projects/staffdeck-480.webp": {
     "width": 480,
     "height": 246
   },
+  "images/thumbnails/projects/staffdeck-640.webp": {
+    "width": 640,
+    "height": 328
+  },
   "images/thumbnails/projects/staffdeck-960.webp": {
     "width": 960,
     "height": 492
+  },
+  "images/thumbnails/projects/styins-320.webp": {
+    "width": 320,
+    "height": 206
   },
   "images/thumbnails/projects/styins-480.webp": {
     "width": 480,
     "height": 309
   },
+  "images/thumbnails/projects/styins-640.webp": {
+    "width": 640,
+    "height": 413
+  },
+  "images/thumbnails/projects/taste-320.webp": {
+    "width": 320,
+    "height": 133
+  },
   "images/thumbnails/projects/taste-480.webp": {
     "width": 480,
     "height": 200
+  },
+  "images/thumbnails/projects/taste-640.webp": {
+    "width": 640,
+    "height": 267
   },
   "images/thumbnails/projects/taste-960.webp": {
     "width": 960,
     "height": 400
   },
+  "images/thumbnails/projects/tiage-320.webp": {
+    "width": 320,
+    "height": 224
+  },
   "images/thumbnails/projects/tiage-480.webp": {
     "width": 480,
     "height": 335
+  },
+  "images/thumbnails/projects/tiage-640.webp": {
+    "width": 640,
+    "height": 447
+  },
+  "images/thumbnails/projects/toolink-320.webp": {
+    "width": 320,
+    "height": 158
   },
   "images/thumbnails/projects/toolink-480.webp": {
     "width": 480,
     "height": 237
   },
+  "images/thumbnails/projects/toolink-640.webp": {
+    "width": 640,
+    "height": 316
+  },
   "images/thumbnails/projects/toolink-960.webp": {
     "width": 960,
     "height": 474
+  },
+  "images/thumbnails/projects/ultrainteract-320.webp": {
+    "width": 320,
+    "height": 128
   },
   "images/thumbnails/projects/ultrainteract-480.webp": {
     "width": 480,
     "height": 193
   },
+  "images/thumbnails/projects/ultrainteract-640.webp": {
+    "width": 640,
+    "height": 257
+  },
   "images/thumbnails/projects/ultrainteract-960.webp": {
     "width": 960,
     "height": 385
+  },
+  "images/thumbnails/projects/ultralink-320.webp": {
+    "width": 320,
+    "height": 165
   },
   "images/thumbnails/projects/ultralink-480.webp": {
     "width": 480,
     "height": 248
   },
+  "images/thumbnails/projects/ultralink-640.webp": {
+    "width": 640,
+    "height": 330
+  },
   "images/thumbnails/projects/ultralink-960.webp": {
     "width": 960,
     "height": 495
+  },
+  "images/thumbnails/projects/ultrarag-320.webp": {
+    "width": 320,
+    "height": 160
   },
   "images/thumbnails/projects/ultrarag-480.webp": {
     "width": 480,
     "height": 240
   },
+  "images/thumbnails/projects/ultrarag-640.webp": {
+    "width": 640,
+    "height": 320
+  },
   "images/thumbnails/projects/ultrarag-960.webp": {
     "width": 960,
     "height": 480
+  },
+  "images/thumbnails/projects/uncode-320.webp": {
+    "width": 320,
+    "height": 403
   },
   "images/thumbnails/projects/uncode-480.webp": {
     "width": 480,
     "height": 605
   },
+  "images/thumbnails/projects/uncode-640.webp": {
+    "width": 640,
+    "height": 806
+  },
+  "images/thumbnails/projects/unikiebench-320.webp": {
+    "width": 320,
+    "height": 178
+  },
   "images/thumbnails/projects/unikiebench-480.webp": {
     "width": 480,
     "height": 267
+  },
+  "images/thumbnails/projects/unikiebench-640.webp": {
+    "width": 640,
+    "height": 356
   },
   "images/thumbnails/projects/unikiebench-960.webp": {
     "width": 960,
     "height": 533
   },
+  "images/thumbnails/projects/univldr-320.webp": {
+    "width": 320,
+    "height": 106
+  },
   "images/thumbnails/projects/univldr-480.webp": {
     "width": 480,
     "height": 160
+  },
+  "images/thumbnails/projects/univldr-640.webp": {
+    "width": 640,
+    "height": 213
   },
   "images/thumbnails/projects/univldr-960.webp": {
     "width": 960,
     "height": 319
   },
+  "images/thumbnails/projects/vernet-320.webp": {
+    "width": 320,
+    "height": 370
+  },
   "images/thumbnails/projects/vernet-480.webp": {
     "width": 480,
     "height": 555
+  },
+  "images/thumbnails/projects/visrag-320.webp": {
+    "width": 320,
+    "height": 139
   },
   "images/thumbnails/projects/visrag-480.webp": {
     "width": 480,
     "height": 209
   },
+  "images/thumbnails/projects/visrag-640.webp": {
+    "width": 640,
+    "height": 279
+  },
   "images/thumbnails/projects/visrag-960.webp": {
     "width": 960,
     "height": 418
+  },
+  "images/thumbnails/projects/visrag2-320.webp": {
+    "width": 320,
+    "height": 158
   },
   "images/thumbnails/projects/visrag2-480.webp": {
     "width": 480,
     "height": 237
   },
+  "images/thumbnails/projects/visrag2-640.webp": {
+    "width": 640,
+    "height": 315
+  },
   "images/thumbnails/projects/visrag2-960.webp": {
     "width": 960,
     "height": 473
   },
+  "images/thumbnails/projects/writing-as-reasoning-320.webp": {
+    "width": 320,
+    "height": 186
+  },
   "images/thumbnails/projects/writing-as-reasoning-480.webp": {
     "width": 480,
     "height": 280
+  },
+  "images/thumbnails/projects/writing-as-reasoning-640.webp": {
+    "width": 640,
+    "height": 373
   },
   "images/thumbnails/projects/writing-as-reasoning-960.webp": {
     "width": 960,
