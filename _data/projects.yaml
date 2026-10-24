@@ -4,6 +4,7 @@
   image: images/projects/staffdeck.webp
   link: https://github.com/OpenBMB/StaffDeck
   repo: OpenBMB/StaffDeck
+  stars_width: 114
   date: 2026
   badges:
     - 数字员工
@@ -13,6 +14,7 @@
     - text: 官方网站
       link: https://staffdeck.openbmb.cn/
       image: https://img.shields.io/badge/StaffDeck-%E5%AE%98%E6%96%B9%E7%BD%91%E7%AB%99-0ea5e9?logo=googlechrome&logoColor=white
+      width: 135
 
 - title: UltraRAG
   subtitle: Lightweight RAG Development Framework
@@ -20,6 +22,7 @@
   image: images/projects/ultrarag.webp
   link: https://github.com/OpenBMB/UltraRAG
   repo: OpenBMB/UltraRAG
+  stars_width: 122
   date: 2025
   badges:
     - RAG
@@ -29,9 +32,11 @@
     - text: 项目主页
       link: https://ultrarag.github.io/
       image: https://img.shields.io/badge/UltraRAG-%E9%A1%B9%E7%9B%AE%E4%B8%BB%E9%A1%B5-0ea5e9?logo=googlechrome&logoColor=white
+      width: 133
     - text: 教程网站
       link: https://ultrarag.openbmb.cn/pages/en/getting_started/introduction
       image: https://img.shields.io/badge/UltraRAG-%E6%95%99%E7%A8%8B%E7%BD%91%E7%AB%99-66b89e?logo=bookstack&logoColor=white
+      width: 133
 
 - title: MemoryCard
   subtitle: Video Memory Augmentation for Long-Video Question Answering
@@ -39,6 +44,7 @@
   image: images/projects/memorycard.webp
   link: https://github.com/NEUIR/MemoryCard
   repo: NEUIR/MemoryCard
+  stars_width: 108
   date: 2026
   badges:
     - 长视频问答
@@ -48,9 +54,11 @@
     - text: 项目主页
       link: https://neuir.github.io/MemoryCard/
       image: https://img.shields.io/badge/MemoryCard-%E9%A1%B9%E7%9B%AE%E4%B8%BB%E9%A1%B5-0ea5e9?logo=googlechrome&logoColor=white
+      width: 153
     - text: arXiv
       link: https://arxiv.org/abs/2606.05917
       image: https://img.shields.io/badge/arXiv-2606.05917-b31b1b?logo=arxiv&logoColor=white
+      width: 133
 
 - title: AceBench
   subtitle: A Multi-Dimensional Benchmark for Agentic Edge-Cloud Collaboration
@@ -58,6 +66,7 @@
   image: images/projects/acebench.webp
   link: https://github.com/OpenBMB/AceBench
   repo: OpenBMB/AceBench
+  stars_width: 114
   date: 2025
   badges:
     - 智能体评测
@@ -67,9 +76,11 @@
     - text: 项目主页
       link: https://passionate11.github.io/ace-bench-project-page/
       image: https://img.shields.io/badge/AceBench-%E9%A1%B9%E7%9B%AE%E4%B8%BB%E9%A1%B5-0ea5e9?logo=googlechrome&logoColor=white
+      width: 135
     - text: arXiv
       link: https://passionate11.github.io/ace-bench-project-page/paper.pdf
       image: https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white
+      width: 97
 
 - title: OpenMatch
   subtitle: All-in-one Information Retrieval Toolkit
@@ -77,6 +88,7 @@
   image: images/projects/openmatch.webp
   link: https://github.com/OpenMatch/OpenMatch
   repo: OpenMatch/OpenMatch
+  stars_width: 120
   date: 2023
   badges:
     - 信息检索
@@ -86,3 +98,4 @@
     - text: 使用文档
       link: https://openmatch.readthedocs.io/en/latest/
       image: https://img.shields.io/badge/OpenMatch-%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3-0ea5e9?logo=readthedocs&logoColor=white
+      width: 143

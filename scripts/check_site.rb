@@ -56,8 +56,8 @@ pages.each do |file|
   document.css('img').each do |image|
     images += 1
     errors << "#{page}: image without alternative text" if image['alt'].nil?
-    next if image['src'].to_s.start_with?('https:', 'http:', 'data:')
     errors << "#{page}: unsized image #{image['src']}" unless image['width'].to_i.positive? && image['height'].to_i.positive?
+    next if image['src'].to_s.start_with?('https:', 'http:', 'data:')
     image['srcset'].to_s.split(',').each do |candidate|
       source = candidate.strip.split.first
       errors << "#{page}: missing responsive image #{source}" unless root.join(source.delete_prefix('/')).file?

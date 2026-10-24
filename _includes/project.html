@@ -44,6 +44,7 @@
             <img
               src="https://img.shields.io/github/stars/{{ include.repo }}?style=social&label=Code+Stars"
               alt="{{ include.title }} GitHub Stars"
+              width="{{ include.item.stars_width | default: 128 }}"
               height="20"
               loading="lazy"
               decoding="async"
@@ -61,6 +62,7 @@
             <img
               src="{{ resource.image }}"
               alt="{{ include.title }} {{ resource.text }}"
+              width="{{ resource.width }}"
               height="20"
               loading="lazy"
               decoding="async"
