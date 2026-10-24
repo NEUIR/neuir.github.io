@@ -1,0 +1,3065 @@
+{
+  "metadata": {
+    "date": "2026-10-24",
+    "timezone": "Asia/Shanghai",
+    "lighthouse": "13.5.0",
+    "chrome": "155.0.8059.86",
+    "node": "22.23.2",
+    "hardware": "Apple M3",
+    "os": "macOS 27.0.1",
+    "localSource": "7bc24beec55a53c8693a03b52292c1b17dd44606",
+    "liveSource": "b4c6788c5af4e496066aa271094f7db1749c85d3",
+    "validRuns": 48,
+    "discardedRuns": 14,
+    "local": {
+      "origin": "http://127.0.0.1:4184",
+      "protocol": "HTTP/1.1",
+      "gzip": true,
+      "cacheSeconds": 600,
+      "analytics": false
+    },
+    "live": {
+      "origin": "https://neuir.github.io",
+      "protocol": "HTTP/2",
+      "cacheSeconds": 600,
+      "analytics": "G-MSPTXQ8JYC"
+    },
+    "mobile": {
+      "width": 412,
+      "height": 823,
+      "dpr": 1.75,
+      "rttMs": 150,
+      "throughputKbps": 1638.4,
+      "cpuSlowdown": 4,
+      "method": "simulate"
+    },
+    "desktop": {
+      "width": 1350,
+      "height": 940,
+      "dpr": 1,
+      "rttMs": 40,
+      "throughputKbps": 10240,
+      "cpuSlowdown": 1,
+      "method": "simulate"
+    },
+    "crosscheck": {
+      "page": "/research/",
+      "mode": "desktop",
+      "method": "devtools",
+      "requestLatencyMs": 40,
+      "downloadThroughputKbps": 10240,
+      "uploadThroughputKbps": 10240,
+      "cpuSlowdown": 1
+    },
+    "rawDirectory": "/private/tmp/neuir-lighthouse-20261024/reports"
+  },
+  "groups": [
+    {
+      "target": "live",
+      "mode": "mobile",
+      "page": "home",
+      "n": 5,
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "performanceRange": [
+        75,
+        100
+      ],
+      "lcpMedian": 1768.1105,
+      "lcpRange": [
+        1641.3265000000001,
+        4800.390000000001
+      ],
+      "fcpMedian": 1317.2735,
+      "tbtMedian": 9.5,
+      "clsMedian": 0.01964250140081213,
+      "observedLCPMedian": 1212
+    },
+    {
+      "target": "live",
+      "mode": "mobile",
+      "page": "research",
+      "n": 5,
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "performanceRange": [
+        79,
+        99
+      ],
+      "lcpMedian": 2004.1889999999999,
+      "lcpRange": [
+        1908.5475000000001,
+        4375.938
+      ],
+      "fcpMedian": 1289.629,
+      "tbtMedian": 11.5,
+      "clsMedian": 0,
+      "observedLCPMedian": 1103
+    },
+    {
+      "target": "live",
+      "mode": "mobile",
+      "page": "team",
+      "n": 5,
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "performanceRange": [
+        79,
+        100
+      ],
+      "lcpMedian": 1729.6030000000003,
+      "lcpRange": [
+        1708.8255000000001,
+        4373.772
+      ],
+      "fcpMedian": 1129.2350000000001,
+      "tbtMedian": 11.5,
+      "clsMedian": 0.0001196266853768429,
+      "observedLCPMedian": 1174
+    },
+    {
+      "target": "live",
+      "mode": "mobile",
+      "page": "projects",
+      "n": 1,
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "performanceRange": [
+        99,
+        99
+      ],
+      "lcpMedian": 1945.2040000000002,
+      "lcpRange": [
+        1945.2040000000002,
+        1945.2040000000002
+      ],
+      "fcpMedian": 1193.6290000000001,
+      "tbtMedian": 6.5,
+      "clsMedian": 0.005021666558422147,
+      "observedLCPMedian": 1558
+    },
+    {
+      "target": "live",
+      "mode": "mobile",
+      "page": "news",
+      "n": 1,
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "performanceRange": [
+        99,
+        99
+      ],
+      "lcpMedian": 1734.6574999999998,
+      "lcpRange": [
+        1734.6574999999998,
+        1734.6574999999998
+      ],
+      "fcpMedian": 1134.5375,
+      "tbtMedian": 6.5,
+      "clsMedian": 0.026079893237517894,
+      "observedLCPMedian": 1538
+    },
+    {
+      "target": "live",
+      "mode": "mobile",
+      "page": "contact",
+      "n": 1,
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "performanceRange": [
+        100,
+        100
+      ],
+      "lcpMedian": 1102.098,
+      "lcpRange": [
+        1102.098,
+        1102.098
+      ],
+      "fcpMedian": 982.089,
+      "tbtMedian": 7,
+      "clsMedian": 0,
+      "observedLCPMedian": 1237
+    },
+    {
+      "target": "live",
+      "mode": "desktop",
+      "page": "home",
+      "n": 1,
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "performanceRange": [
+        99,
+        99
+      ],
+      "lcpMedian": 657.7629999999998,
+      "lcpRange": [
+        657.7629999999998,
+        657.7629999999998
+      ],
+      "fcpMedian": 454.74799999999993,
+      "tbtMedian": 0,
+      "clsMedian": 0.00007858451536643026,
+      "observedLCPMedian": 1376
+    },
+    {
+      "target": "live",
+      "mode": "desktop",
+      "page": "research",
+      "n": 5,
+      "scores": {
+        "performance": 70,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "performanceRange": [
+        61,
+        99
+      ],
+      "lcpMedian": 3406.3,
+      "lcpRange": [
+        822.178,
+        5256.768
+      ],
+      "fcpMedian": 2004.6,
+      "tbtMedian": 0,
+      "clsMedian": 0,
+      "observedLCPMedian": 1307
+    },
+    {
+      "target": "live",
+      "mode": "desktop",
+      "page": "team",
+      "n": 1,
+      "scores": {
+        "performance": 98,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "performanceRange": [
+        98,
+        98
+      ],
+      "lcpMedian": 942.9190000000001,
+      "lcpRange": [
+        942.9190000000001,
+        942.9190000000001
+      ],
+      "fcpMedian": 620.9190000000001,
+      "tbtMedian": 0,
+      "clsMedian": 0.00005820464130403058,
+      "observedLCPMedian": 1486
+    },
+    {
+      "target": "local",
+      "mode": "mobile",
+      "page": "home",
+      "n": 3,
+      "scores": {
+        "performance": 97,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "performanceRange": [
+        97,
+        97
+      ],
+      "lcpMedian": 2553.0732,
+      "lcpRange": [
+        2552.4634,
+        2553.3145999999997
+      ],
+      "fcpMedian": 1504.6098,
+      "tbtMedian": 0,
+      "clsMedian": 0.01964250140081213,
+      "observedLCPMedian": 54
+    },
+    {
+      "target": "local",
+      "mode": "mobile",
+      "page": "research",
+      "n": 3,
+      "scores": {
+        "performance": 87,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "performanceRange": [
+        87,
+        87
+      ],
+      "lcpMedian": 3903.7892,
+      "lcpRange": [
+        3903.7767000000003,
+        3904.3064000000004
+      ],
+      "fcpMedian": 1655.6838,
+      "tbtMedian": 0,
+      "clsMedian": 0,
+      "observedLCPMedian": 65
+    },
+    {
+      "target": "local",
+      "mode": "mobile",
+      "page": "team",
+      "n": 3,
+      "scores": {
+        "performance": 92,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "performanceRange": [
+        92,
+        93
+      ],
+      "lcpMedian": 3377.9294999999997,
+      "lcpRange": [
+        3152.8626000000004,
+        3377.9598000000005
+      ],
+      "fcpMedian": 1354.3942499999998,
+      "tbtMedian": 0,
+      "clsMedian": 0.0001196266853768429,
+      "observedLCPMedian": 52
+    },
+    {
+      "target": "local",
+      "mode": "mobile",
+      "page": "projects",
+      "n": 1,
+      "scores": {
+        "performance": 93,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "performanceRange": [
+        93,
+        93
+      ],
+      "lcpMedian": 3228.1838,
+      "lcpRange": [
+        3228.1838,
+        3228.1838
+      ],
+      "fcpMedian": 1354.7757000000001,
+      "tbtMedian": 0,
+      "clsMedian": 0,
+      "observedLCPMedian": 64
+    },
+    {
+      "target": "local",
+      "mode": "mobile",
+      "page": "news",
+      "n": 1,
+      "scores": {
+        "performance": 97,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "performanceRange": [
+        97,
+        97
+      ],
+      "lcpMedian": 2402.7747,
+      "lcpRange": [
+        2402.7747,
+        2402.7747
+      ],
+      "fcpMedian": 1504.16205,
+      "tbtMedian": 0,
+      "clsMedian": 0.005275813927714095,
+      "observedLCPMedian": 55
+    },
+    {
+      "target": "local",
+      "mode": "mobile",
+      "page": "contact",
+      "n": 1,
+      "scores": {
+        "performance": 97,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "performanceRange": [
+        97,
+        97
+      ],
+      "lcpMedian": 2402.8331000000003,
+      "lcpRange": [
+        2402.8331000000003,
+        2402.8331000000003
+      ],
+      "fcpMedian": 1504.24965,
+      "tbtMedian": 0,
+      "clsMedian": 0,
+      "observedLCPMedian": 49
+    },
+    {
+      "target": "local",
+      "mode": "mobile",
+      "page": "new-post",
+      "n": 1,
+      "scores": {
+        "performance": 97,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "performanceRange": [
+        97,
+        97
+      ],
+      "lcpMedian": 2404.5064,
+      "lcpRange": [
+        2404.5064,
+        2404.5064
+      ],
+      "fcpMedian": 1506.7595999999999,
+      "tbtMedian": 0,
+      "clsMedian": 0.00006039033647399158,
+      "observedLCPMedian": 46
+    },
+    {
+      "target": "local",
+      "mode": "desktop",
+      "page": "home",
+      "n": 1,
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "performanceRange": [
+        100,
+        100
+      ],
+      "lcpMedian": 563.0603,
+      "lcpRange": [
+        563.0603,
+        563.0603
+      ],
+      "fcpMedian": 364.59045,
+      "tbtMedian": 0,
+      "clsMedian": 0.00007858451536643026,
+      "observedLCPMedian": 52
+    },
+    {
+      "target": "local",
+      "mode": "desktop",
+      "page": "research",
+      "n": 1,
+      "scores": {
+        "performance": 98,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "performanceRange": [
+        98,
+        98
+      ],
+      "lcpMedian": 1183.0122000000001,
+      "lcpRange": [
+        1183.0122000000001,
+        1183.0122000000001
+      ],
+      "fcpMedian": 404.5183,
+      "tbtMedian": 0,
+      "clsMedian": 0.01172955170300324,
+      "observedLCPMedian": 85
+    },
+    {
+      "target": "local",
+      "mode": "desktop",
+      "page": "team",
+      "n": 1,
+      "scores": {
+        "performance": 98,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "performanceRange": [
+        98,
+        98
+      ],
+      "lcpMedian": 1102.8997,
+      "lcpRange": [
+        1102.8997,
+        1102.8997
+      ],
+      "fcpMedian": 364.34955,
+      "tbtMedian": 0,
+      "clsMedian": 0.00005820464130403058,
+      "observedLCPMedian": 69
+    },
+    {
+      "target": "local",
+      "mode": "desktop",
+      "page": "projects",
+      "n": 1,
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "performanceRange": [
+        99,
+        99
+      ],
+      "lcpMedian": 843.3043,
+      "lcpRange": [
+        843.3043,
+        843.3043
+      ],
+      "fcpMedian": 364.95645,
+      "tbtMedian": 0,
+      "clsMedian": 0.0001327973688818842,
+      "observedLCPMedian": 72
+    },
+    {
+      "target": "local",
+      "mode": "desktop",
+      "page": "news",
+      "n": 1,
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "performanceRange": [
+        100,
+        100
+      ],
+      "lcpMedian": 722.4529,
+      "lcpRange": [
+        722.4529,
+        722.4529
+      ],
+      "fcpMedian": 363.67935,
+      "tbtMedian": 0,
+      "clsMedian": 0.00004212322695035461,
+      "observedLCPMedian": 65
+    },
+    {
+      "target": "local",
+      "mode": "desktop",
+      "page": "contact",
+      "n": 1,
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "performanceRange": [
+        100,
+        100
+      ],
+      "lcpMedian": 744.0343,
+      "lcpRange": [
+        744.0343,
+        744.0343
+      ],
+      "fcpMedian": 366.05145,
+      "tbtMedian": 0,
+      "clsMedian": 0.00004049966436097248,
+      "observedLCPMedian": 62
+    },
+    {
+      "target": "local",
+      "mode": "desktop",
+      "page": "new-post",
+      "n": 1,
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "performanceRange": [
+        100,
+        100
+      ],
+      "lcpMedian": 743.6579000000002,
+      "lcpRange": [
+        743.6579000000002,
+        743.6579000000002
+      ],
+      "fcpMedian": 365.48685,
+      "tbtMedian": 0,
+      "clsMedian": 0.00009358550039401104,
+      "observedLCPMedian": 61
+    },
+    {
+      "target": "live-devtools",
+      "mode": "desktop",
+      "page": "research",
+      "n": 3,
+      "scores": {
+        "performance": 91,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "performanceRange": [
+        83,
+        92
+      ],
+      "lcpMedian": 1678.976,
+      "lcpRange": [
+        1587.01,
+        2212.026
+      ],
+      "fcpMedian": 1042.442,
+      "tbtMedian": 0,
+      "clsMedian": 0,
+      "observedLCPMedian": 1679
+    }
+  ],
+  "runs": [
+    {
+      "id": "local-home-mobile",
+      "target": "local",
+      "page": "home",
+      "mode": "mobile",
+      "run": 1,
+      "fetchTime": "2026-10-24T05:12:16.318Z",
+      "scores": {
+        "performance": 97,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 1504.6098,
+        "largest-contentful-paint": 2553.0732,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0.01964250140081213,
+        "speed-index": 1504.6098
+      },
+      "observedLCP": 61,
+      "protocol": "http/1.1",
+      "bytes": 532915,
+      "requestCount": 19,
+      "imageSavings": 217691,
+      "consoleErrors": 0,
+      "ga": [],
+      "warnings": [],
+      "html": "local-home-mobile.report.html",
+      "json": "local-home-mobile.report.json"
+    },
+    {
+      "id": "local-research-mobile",
+      "target": "local",
+      "page": "research",
+      "mode": "mobile",
+      "run": 1,
+      "fetchTime": "2026-10-24T05:12:26.394Z",
+      "scores": {
+        "performance": 87,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 1656.4596,
+        "largest-contentful-paint": 3904.3064000000004,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0,
+        "speed-index": 1656.4596
+      },
+      "observedLCP": 76,
+      "protocol": "http/1.1",
+      "bytes": 976348,
+      "requestCount": 25,
+      "imageSavings": 606323,
+      "consoleErrors": 0,
+      "ga": [],
+      "warnings": [],
+      "html": "local-research-mobile.report.html",
+      "json": "local-research-mobile.report.json"
+    },
+    {
+      "id": "local-team-mobile",
+      "target": "local",
+      "page": "team",
+      "mode": "mobile",
+      "run": 1,
+      "fetchTime": "2026-10-24T05:12:37.110Z",
+      "scores": {
+        "performance": 92,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 1354.3942499999998,
+        "largest-contentful-paint": 3377.9294999999997,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0.0001196266853768429,
+        "speed-index": 1354.3942499999998
+      },
+      "observedLCP": 54,
+      "protocol": "http/1.1",
+      "bytes": 460155,
+      "requestCount": 25,
+      "imageSavings": 142632,
+      "consoleErrors": 0,
+      "ga": [],
+      "warnings": [],
+      "html": "local-team-mobile.report.html",
+      "json": "local-team-mobile.report.json"
+    },
+    {
+      "id": "local-projects-mobile",
+      "target": "local",
+      "page": "projects",
+      "mode": "mobile",
+      "run": 1,
+      "fetchTime": "2026-10-24T05:12:47.301Z",
+      "scores": {
+        "performance": 93,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 1354.7757000000001,
+        "largest-contentful-paint": 3228.1838,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0,
+        "speed-index": 1354.7757000000001
+      },
+      "observedLCP": 64,
+      "protocol": "http/1.1",
+      "bytes": 572111,
+      "requestCount": 32,
+      "imageSavings": 287968,
+      "consoleErrors": 0,
+      "ga": [],
+      "warnings": [],
+      "html": "local-projects-mobile.report.html",
+      "json": "local-projects-mobile.report.json"
+    },
+    {
+      "id": "local-news-mobile",
+      "target": "local",
+      "page": "news",
+      "mode": "mobile",
+      "run": 1,
+      "fetchTime": "2026-10-24T05:12:58.061Z",
+      "scores": {
+        "performance": 97,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 1504.16205,
+        "largest-contentful-paint": 2402.7747,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0.005275813927714095,
+        "speed-index": 1504.16205
+      },
+      "observedLCP": 55,
+      "protocol": "http/1.1",
+      "bytes": 237310,
+      "requestCount": 15,
+      "imageSavings": 32973,
+      "consoleErrors": 0,
+      "ga": [],
+      "warnings": [],
+      "html": "local-news-mobile.report.html",
+      "json": "local-news-mobile.report.json"
+    },
+    {
+      "id": "local-contact-mobile",
+      "target": "local",
+      "page": "contact",
+      "mode": "mobile",
+      "run": 1,
+      "fetchTime": "2026-10-24T05:13:08.078Z",
+      "scores": {
+        "performance": 97,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 1504.24965,
+        "largest-contentful-paint": 2402.8331000000003,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0,
+        "speed-index": 1504.24965
+      },
+      "observedLCP": 49,
+      "protocol": "http/1.1",
+      "bytes": 231851,
+      "requestCount": 15,
+      "imageSavings": 32973,
+      "consoleErrors": 0,
+      "ga": [],
+      "warnings": [],
+      "html": "local-contact-mobile.report.html",
+      "json": "local-contact-mobile.report.json"
+    },
+    {
+      "id": "local-new-post-mobile",
+      "target": "local",
+      "page": "new-post",
+      "mode": "mobile",
+      "run": 1,
+      "fetchTime": "2026-10-24T05:13:18.069Z",
+      "scores": {
+        "performance": 97,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 1506.7595999999999,
+        "largest-contentful-paint": 2404.5064,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0.00006039033647399158,
+        "speed-index": 1506.7595999999999
+      },
+      "observedLCP": 46,
+      "protocol": "http/1.1",
+      "bytes": 231342,
+      "requestCount": 15,
+      "imageSavings": 32973,
+      "consoleErrors": 0,
+      "ga": [],
+      "warnings": [],
+      "html": "local-new-post-mobile.report.html",
+      "json": "local-new-post-mobile.report.json"
+    },
+    {
+      "id": "local-home-desktop",
+      "target": "local",
+      "page": "home",
+      "mode": "desktop",
+      "run": 1,
+      "fetchTime": "2026-10-24T05:13:28.063Z",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 364.59045,
+        "largest-contentful-paint": 563.0603,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0.00007858451536643026,
+        "speed-index": 364.59045
+      },
+      "observedLCP": 52,
+      "protocol": "http/1.1",
+      "bytes": 670165,
+      "requestCount": 19,
+      "imageSavings": 142879,
+      "consoleErrors": 0,
+      "ga": [],
+      "warnings": [],
+      "html": "local-home-desktop.report.html",
+      "json": "local-home-desktop.report.json"
+    },
+    {
+      "id": "local-research-desktop",
+      "target": "local",
+      "page": "research",
+      "mode": "desktop",
+      "run": 1,
+      "fetchTime": "2026-10-24T05:13:38.101Z",
+      "scores": {
+        "performance": 98,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 404.5183,
+        "largest-contentful-paint": 1183.0122000000001,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0.01172955170300324,
+        "speed-index": 404.5183
+      },
+      "observedLCP": 85,
+      "protocol": "http/1.1",
+      "bytes": 1160583,
+      "requestCount": 36,
+      "imageSavings": 625247,
+      "consoleErrors": 0,
+      "ga": [],
+      "warnings": [],
+      "html": "local-research-desktop.report.html",
+      "json": "local-research-desktop.report.json"
+    },
+    {
+      "id": "local-team-desktop",
+      "target": "local",
+      "page": "team",
+      "mode": "desktop",
+      "run": 1,
+      "fetchTime": "2026-10-24T05:13:48.651Z",
+      "scores": {
+        "performance": 98,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 364.34955,
+        "largest-contentful-paint": 1102.8997,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0.00005820464130403058,
+        "speed-index": 364.34955
+      },
+      "observedLCP": 69,
+      "protocol": "http/1.1",
+      "bytes": 947091,
+      "requestCount": 53,
+      "imageSavings": 209718,
+      "consoleErrors": 0,
+      "ga": [],
+      "warnings": [],
+      "html": "local-team-desktop.report.html",
+      "json": "local-team-desktop.report.json"
+    },
+    {
+      "id": "local-projects-desktop",
+      "target": "local",
+      "page": "projects",
+      "mode": "desktop",
+      "run": 1,
+      "fetchTime": "2026-10-24T05:13:58.862Z",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 364.95645,
+        "largest-contentful-paint": 843.3043,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0.0001327973688818842,
+        "speed-index": 364.95645
+      },
+      "observedLCP": 72,
+      "protocol": "http/1.1",
+      "bytes": 633381,
+      "requestCount": 32,
+      "imageSavings": 135779,
+      "consoleErrors": 0,
+      "ga": [],
+      "warnings": [],
+      "html": "local-projects-desktop.report.html",
+      "json": "local-projects-desktop.report.json"
+    },
+    {
+      "id": "local-news-desktop",
+      "target": "local",
+      "page": "news",
+      "mode": "desktop",
+      "run": 1,
+      "fetchTime": "2026-10-24T05:14:09.586Z",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 363.67935,
+        "largest-contentful-paint": 722.4529,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0.00004212322695035461,
+        "speed-index": 363.67935
+      },
+      "observedLCP": 65,
+      "protocol": "http/1.1",
+      "bytes": 496844,
+      "requestCount": 15,
+      "imageSavings": 57307,
+      "consoleErrors": 0,
+      "ga": [],
+      "warnings": [],
+      "html": "local-news-desktop.report.html",
+      "json": "local-news-desktop.report.json"
+    },
+    {
+      "id": "local-contact-desktop",
+      "target": "local",
+      "page": "contact",
+      "mode": "desktop",
+      "run": 1,
+      "fetchTime": "2026-10-24T05:14:19.585Z",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 366.05145,
+        "largest-contentful-paint": 744.0343,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0.00004049966436097248,
+        "speed-index": 366.05145
+      },
+      "observedLCP": 62,
+      "protocol": "http/1.1",
+      "bytes": 491385,
+      "requestCount": 15,
+      "imageSavings": 57307,
+      "consoleErrors": 0,
+      "ga": [],
+      "warnings": [],
+      "html": "local-contact-desktop.report.html",
+      "json": "local-contact-desktop.report.json"
+    },
+    {
+      "id": "local-new-post-desktop",
+      "target": "local",
+      "page": "new-post",
+      "mode": "desktop",
+      "run": 1,
+      "fetchTime": "2026-10-24T05:14:29.605Z",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 365.48685,
+        "largest-contentful-paint": 743.6579000000002,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0.00009358550039401104,
+        "speed-index": 365.48685
+      },
+      "observedLCP": 61,
+      "protocol": "http/1.1",
+      "bytes": 490876,
+      "requestCount": 15,
+      "imageSavings": 57307,
+      "consoleErrors": 0,
+      "ga": [],
+      "warnings": [],
+      "html": "local-new-post-desktop.report.html",
+      "json": "local-new-post-desktop.report.json"
+    },
+    {
+      "id": "local-home-mobile-2",
+      "target": "local",
+      "page": "home",
+      "mode": "mobile",
+      "run": 2,
+      "fetchTime": "2026-10-24T05:14:39.618Z",
+      "scores": {
+        "performance": 97,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 1503.6951000000001,
+        "largest-contentful-paint": 2552.4634,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0.01964250140081213,
+        "speed-index": 1503.6951000000001
+      },
+      "observedLCP": 54,
+      "protocol": "http/1.1",
+      "bytes": 532915,
+      "requestCount": 19,
+      "imageSavings": 217691,
+      "consoleErrors": 0,
+      "ga": [],
+      "warnings": [],
+      "html": "local-home-mobile-2.report.html",
+      "json": "local-home-mobile-2.report.json"
+    },
+    {
+      "id": "local-research-mobile-2",
+      "target": "local",
+      "page": "research",
+      "mode": "mobile",
+      "run": 2,
+      "fetchTime": "2026-10-24T05:14:49.692Z",
+      "scores": {
+        "performance": 87,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 1655.6838,
+        "largest-contentful-paint": 3903.7892,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0,
+        "speed-index": 1655.6838
+      },
+      "observedLCP": 64,
+      "protocol": "http/1.1",
+      "bytes": 976348,
+      "requestCount": 25,
+      "imageSavings": 606323,
+      "consoleErrors": 0,
+      "ga": [],
+      "warnings": [],
+      "html": "local-research-mobile-2.report.html",
+      "json": "local-research-mobile-2.report.json"
+    },
+    {
+      "id": "local-team-mobile-2",
+      "target": "local",
+      "page": "team",
+      "mode": "mobile",
+      "run": 2,
+      "fetchTime": "2026-10-24T05:15:00.267Z",
+      "scores": {
+        "performance": 93,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 1354.2939,
+        "largest-contentful-paint": 3152.8626000000004,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0.0001196266853768429,
+        "speed-index": 1354.2939
+      },
+      "observedLCP": 50,
+      "protocol": "http/1.1",
+      "bytes": 460155,
+      "requestCount": 25,
+      "imageSavings": 142632,
+      "consoleErrors": 0,
+      "ga": [],
+      "warnings": [],
+      "html": "local-team-mobile-2.report.html",
+      "json": "local-team-mobile-2.report.json"
+    },
+    {
+      "id": "local-home-mobile-3",
+      "target": "local",
+      "page": "home",
+      "mode": "mobile",
+      "run": 3,
+      "fetchTime": "2026-10-24T05:15:10.501Z",
+      "scores": {
+        "performance": 97,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 1504.9719,
+        "largest-contentful-paint": 2553.3145999999997,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0.01964250140081213,
+        "speed-index": 1504.9719
+      },
+      "observedLCP": 53,
+      "protocol": "http/1.1",
+      "bytes": 532915,
+      "requestCount": 19,
+      "imageSavings": 217691,
+      "consoleErrors": 0,
+      "ga": [],
+      "warnings": [],
+      "html": "local-home-mobile-3.report.html",
+      "json": "local-home-mobile-3.report.json"
+    },
+    {
+      "id": "local-research-mobile-3",
+      "target": "local",
+      "page": "research",
+      "mode": "mobile",
+      "run": 3,
+      "fetchTime": "2026-10-24T05:15:20.518Z",
+      "scores": {
+        "performance": 87,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 1655.6650499999998,
+        "largest-contentful-paint": 3903.7767000000003,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0,
+        "speed-index": 1655.6650499999998
+      },
+      "observedLCP": 65,
+      "protocol": "http/1.1",
+      "bytes": 976348,
+      "requestCount": 25,
+      "imageSavings": 606323,
+      "consoleErrors": 0,
+      "ga": [],
+      "warnings": [],
+      "html": "local-research-mobile-3.report.html",
+      "json": "local-research-mobile-3.report.json"
+    },
+    {
+      "id": "local-team-mobile-3",
+      "target": "local",
+      "page": "team",
+      "mode": "mobile",
+      "run": 3,
+      "fetchTime": "2026-10-24T05:15:31.047Z",
+      "scores": {
+        "performance": 92,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 1354.4397000000001,
+        "largest-contentful-paint": 3377.9598000000005,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0.0001196266853768429,
+        "speed-index": 1354.4397000000001
+      },
+      "observedLCP": 52,
+      "protocol": "http/1.1",
+      "bytes": 460155,
+      "requestCount": 25,
+      "imageSavings": 142632,
+      "consoleErrors": 0,
+      "ga": [],
+      "warnings": [],
+      "html": "local-team-mobile-3.report.html",
+      "json": "local-team-mobile-3.report.json"
+    },
+    {
+      "id": "live-home-mobile",
+      "target": "live",
+      "page": "home",
+      "mode": "mobile",
+      "run": 1,
+      "fetchTime": "2026-10-24T05:15:41.212Z",
+      "scores": {
+        "performance": 82,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 2789.548,
+        "largest-contentful-paint": 4019.321999999999,
+        "total-blocking-time": 14,
+        "cumulative-layout-shift": 0.01964250140081213,
+        "speed-index": 3578.9919404342354
+      },
+      "observedLCP": 1643,
+      "protocol": "h2",
+      "bytes": 716873,
+      "requestCount": 22,
+      "imageSavings": 250873,
+      "consoleErrors": 0,
+      "ga": [
+        {
+          "status": 204,
+          "measurement": "G-MSPTXQ8JYC",
+          "event": "page_view"
+        }
+      ],
+      "warnings": [],
+      "html": "live-home-mobile.report.html",
+      "json": "live-home-mobile.report.json"
+    },
+    {
+      "id": "live-research-mobile",
+      "target": "live",
+      "page": "research",
+      "mode": "mobile",
+      "run": 1,
+      "fetchTime": "2026-10-24T05:15:55.372Z",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 1200.5475000000001,
+        "largest-contentful-paint": 1908.5475000000001,
+        "total-blocking-time": 13,
+        "cumulative-layout-shift": 0,
+        "speed-index": 2701.986758986154
+      },
+      "observedLCP": 1389,
+      "protocol": "h2",
+      "bytes": 1146456,
+      "requestCount": 28,
+      "imageSavings": 682113,
+      "consoleErrors": 0,
+      "ga": [
+        {
+          "status": 204,
+          "measurement": "G-MSPTXQ8JYC",
+          "event": "page_view"
+        }
+      ],
+      "warnings": [],
+      "html": "live-research-mobile.report.html",
+      "json": "live-research-mobile.report.json"
+    },
+    {
+      "id": "live-team-mobile",
+      "target": "live",
+      "page": "team",
+      "mode": "mobile",
+      "run": 1,
+      "fetchTime": "2026-10-24T05:16:10.318Z",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 1107.9175,
+        "largest-contentful-paint": 1708.8255000000001,
+        "total-blocking-time": 11.5,
+        "cumulative-layout-shift": 0.0001196266853768429,
+        "speed-index": 2258.832629435577
+      },
+      "observedLCP": 1112,
+      "protocol": "h2",
+      "bytes": 643288,
+      "requestCount": 28,
+      "imageSavings": 175347,
+      "consoleErrors": 0,
+      "ga": [
+        {
+          "status": 204,
+          "measurement": "G-MSPTXQ8JYC",
+          "event": "page_view"
+        }
+      ],
+      "warnings": [],
+      "html": "live-team-mobile.report.html",
+      "json": "live-team-mobile.report.json"
+    },
+    {
+      "id": "live-home-mobile-2",
+      "target": "live",
+      "page": "home",
+      "mode": "mobile",
+      "run": 2,
+      "fetchTime": "2026-10-24T05:17:28.762Z",
+      "scores": {
+        "performance": 75,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 3310.2600000000007,
+        "largest-contentful-paint": 4800.390000000001,
+        "total-blocking-time": 9.5,
+        "cumulative-layout-shift": 0.01964250140081213,
+        "speed-index": 3664.103461151587
+      },
+      "observedLCP": 1468,
+      "protocol": "h2",
+      "bytes": 715869,
+      "requestCount": 22,
+      "imageSavings": 250873,
+      "consoleErrors": 0,
+      "ga": [
+        {
+          "status": 204,
+          "measurement": "G-MSPTXQ8JYC",
+          "event": "page_view"
+        }
+      ],
+      "warnings": [],
+      "html": "live-home-mobile-2.report.html",
+      "json": "live-home-mobile-2.report.json"
+    },
+    {
+      "id": "live-research-mobile-2",
+      "target": "live",
+      "page": "research",
+      "mode": "mobile",
+      "run": 2,
+      "fetchTime": "2026-10-24T05:17:42.582Z",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 1248.26,
+        "largest-contentful-paint": 1958.71,
+        "total-blocking-time": 11.5,
+        "cumulative-layout-shift": 0,
+        "speed-index": 2417.6368360574243
+      },
+      "observedLCP": 1347,
+      "protocol": "h2",
+      "bytes": 1146441,
+      "requestCount": 28,
+      "imageSavings": 682113,
+      "consoleErrors": 0,
+      "ga": [
+        {
+          "status": 204,
+          "measurement": "G-MSPTXQ8JYC",
+          "event": "page_view"
+        }
+      ],
+      "warnings": [],
+      "html": "live-research-mobile-2.report.html",
+      "json": "live-research-mobile-2.report.json"
+    },
+    {
+      "id": "live-team-mobile-2",
+      "target": "live",
+      "page": "team",
+      "mode": "mobile",
+      "run": 2,
+      "fetchTime": "2026-10-24T05:17:56.664Z",
+      "scores": {
+        "performance": 80,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 2987.928,
+        "largest-contentful-paint": 4316.892,
+        "total-blocking-time": 11.5,
+        "cumulative-layout-shift": 0.00025023993714058467,
+        "speed-index": 2987.928
+      },
+      "observedLCP": 1174,
+      "protocol": "h2",
+      "bytes": 643397,
+      "requestCount": 28,
+      "imageSavings": 175347,
+      "consoleErrors": 0,
+      "ga": [
+        {
+          "status": 204,
+          "measurement": "G-MSPTXQ8JYC",
+          "event": "page_view"
+        }
+      ],
+      "warnings": [],
+      "html": "live-team-mobile-2.report.html",
+      "json": "live-team-mobile-2.report.json"
+    },
+    {
+      "id": "live-home-mobile-3",
+      "target": "live",
+      "page": "home",
+      "mode": "mobile",
+      "run": 3,
+      "fetchTime": "2026-10-24T05:18:09.845Z",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 1227.6875,
+        "largest-contentful-paint": 1677.9275,
+        "total-blocking-time": 9.5,
+        "cumulative-layout-shift": 0.01964250140081213,
+        "speed-index": 2107.62018758569
+      },
+      "observedLCP": 1013,
+      "protocol": "h2",
+      "bytes": 716043,
+      "requestCount": 22,
+      "imageSavings": 250873,
+      "consoleErrors": 0,
+      "ga": [
+        {
+          "status": 204,
+          "measurement": "G-MSPTXQ8JYC",
+          "event": "page_view"
+        }
+      ],
+      "warnings": [],
+      "html": "live-home-mobile-3.report.html",
+      "json": "live-home-mobile-3.report.json"
+    },
+    {
+      "id": "live-research-mobile-3",
+      "target": "live",
+      "page": "research",
+      "mode": "mobile",
+      "run": 3,
+      "fetchTime": "2026-10-24T05:18:22.839Z",
+      "scores": {
+        "performance": 79,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 3067.292,
+        "largest-contentful-paint": 4375.938,
+        "total-blocking-time": 11.5,
+        "cumulative-layout-shift": 0,
+        "speed-index": 3067.292
+      },
+      "observedLCP": 1057,
+      "protocol": "h2",
+      "bytes": 1146451,
+      "requestCount": 28,
+      "imageSavings": 682113,
+      "consoleErrors": 0,
+      "ga": [
+        {
+          "status": 204,
+          "measurement": "G-MSPTXQ8JYC",
+          "event": "page_view"
+        }
+      ],
+      "warnings": [],
+      "html": "live-research-mobile-3.report.html",
+      "json": "live-research-mobile-3.report.json"
+    },
+    {
+      "id": "live-team-mobile-3",
+      "target": "live",
+      "page": "team",
+      "mode": "mobile",
+      "run": 3,
+      "fetchTime": "2026-10-24T05:18:36.663Z",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 1113.159,
+        "largest-contentful-paint": 1713.159,
+        "total-blocking-time": 11.5,
+        "cumulative-layout-shift": 0.0001196266853768429,
+        "speed-index": 1907.9878559819224
+      },
+      "observedLCP": 1008,
+      "protocol": "h2",
+      "bytes": 643336,
+      "requestCount": 28,
+      "imageSavings": 175347,
+      "consoleErrors": 0,
+      "ga": [
+        {
+          "status": 204,
+          "measurement": "G-MSPTXQ8JYC",
+          "event": "page_view"
+        }
+      ],
+      "warnings": [],
+      "html": "live-team-mobile-3.report.html",
+      "json": "live-team-mobile-3.report.json"
+    },
+    {
+      "id": "live-home-mobile-4",
+      "target": "live",
+      "page": "home",
+      "mode": "mobile",
+      "run": 4,
+      "fetchTime": "2026-10-24T05:20:51.412Z",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 1317.2735,
+        "largest-contentful-paint": 1768.1105,
+        "total-blocking-time": 9,
+        "cumulative-layout-shift": 0.01964250140081213,
+        "speed-index": 2402.174005297596
+      },
+      "observedLCP": 1212,
+      "protocol": "h2",
+      "bytes": 715894,
+      "requestCount": 22,
+      "imageSavings": 250873,
+      "consoleErrors": 0,
+      "ga": [
+        {
+          "status": 204,
+          "measurement": "G-MSPTXQ8JYC",
+          "event": "page_view"
+        }
+      ],
+      "warnings": [],
+      "html": "live-home-mobile-4.report.html",
+      "json": "live-home-mobile-4.report.json"
+    },
+    {
+      "id": "live-research-mobile-4",
+      "target": "live",
+      "page": "research",
+      "mode": "mobile",
+      "run": 4,
+      "fetchTime": "2026-10-24T05:21:05.032Z",
+      "scores": {
+        "performance": 84,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 2727,
+        "largest-contentful-paint": 3822,
+        "total-blocking-time": 13.5,
+        "cumulative-layout-shift": 0,
+        "speed-index": 2727
+      },
+      "observedLCP": 998,
+      "protocol": "h2",
+      "bytes": 1146419,
+      "requestCount": 28,
+      "imageSavings": 682113,
+      "consoleErrors": 0,
+      "ga": [
+        {
+          "status": 204,
+          "measurement": "G-MSPTXQ8JYC",
+          "event": "page_view"
+        }
+      ],
+      "warnings": [],
+      "html": "live-research-mobile-4.report.html",
+      "json": "live-research-mobile-4.report.json"
+    },
+    {
+      "id": "live-team-mobile-4",
+      "target": "live",
+      "page": "team",
+      "mode": "mobile",
+      "run": 4,
+      "fetchTime": "2026-10-24T05:21:19.532Z",
+      "scores": {
+        "performance": 79,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 3025.848,
+        "largest-contentful-paint": 4373.772,
+        "total-blocking-time": 13.5,
+        "cumulative-layout-shift": 0.0001196266853768429,
+        "speed-index": 3660.160532533664
+      },
+      "observedLCP": 1486,
+      "protocol": "h2",
+      "bytes": 643150,
+      "requestCount": 28,
+      "imageSavings": 175347,
+      "consoleErrors": 0,
+      "ga": [
+        {
+          "status": 204,
+          "measurement": "G-MSPTXQ8JYC",
+          "event": "page_view"
+        }
+      ],
+      "warnings": [],
+      "html": "live-team-mobile-4.report.html",
+      "json": "live-team-mobile-4.report.json"
+    },
+    {
+      "id": "live-home-mobile-5",
+      "target": "live",
+      "page": "home",
+      "mode": "mobile",
+      "run": 5,
+      "fetchTime": "2026-10-24T05:21:33.277Z",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 1190.9605000000001,
+        "largest-contentful-paint": 1641.3265000000001,
+        "total-blocking-time": 13,
+        "cumulative-layout-shift": 0.01964250140081213,
+        "speed-index": 2157.79550454517
+      },
+      "observedLCP": 1072,
+      "protocol": "h2",
+      "bytes": 715941,
+      "requestCount": 22,
+      "imageSavings": 250873,
+      "consoleErrors": 0,
+      "ga": [
+        {
+          "status": 204,
+          "measurement": "G-MSPTXQ8JYC",
+          "event": "page_view"
+        }
+      ],
+      "warnings": [],
+      "html": "live-home-mobile-5.report.html",
+      "json": "live-home-mobile-5.report.json"
+    },
+    {
+      "id": "live-research-mobile-5",
+      "target": "live",
+      "page": "research",
+      "mode": "mobile",
+      "run": 5,
+      "fetchTime": "2026-10-24T05:21:46.881Z",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 1289.629,
+        "largest-contentful-paint": 2004.1889999999999,
+        "total-blocking-time": 10.5,
+        "cumulative-layout-shift": 0,
+        "speed-index": 2096.926130038118
+      },
+      "observedLCP": 1103,
+      "protocol": "h2",
+      "bytes": 1146266,
+      "requestCount": 28,
+      "imageSavings": 682113,
+      "consoleErrors": 0,
+      "ga": [
+        {
+          "status": 204,
+          "measurement": "G-MSPTXQ8JYC",
+          "event": "page_view"
+        }
+      ],
+      "warnings": [],
+      "html": "live-research-mobile-5.report.html",
+      "json": "live-research-mobile-5.report.json"
+    },
+    {
+      "id": "live-team-mobile-5",
+      "target": "live",
+      "page": "team",
+      "mode": "mobile",
+      "run": 5,
+      "fetchTime": "2026-10-24T05:22:00.882Z",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 1129.2350000000001,
+        "largest-contentful-paint": 1729.6030000000003,
+        "total-blocking-time": 12.5,
+        "cumulative-layout-shift": 0.0001196266853768429,
+        "speed-index": 2094.229636049748
+      },
+      "observedLCP": 1184,
+      "protocol": "h2",
+      "bytes": 643434,
+      "requestCount": 28,
+      "imageSavings": 175347,
+      "consoleErrors": 0,
+      "ga": [
+        {
+          "status": 204,
+          "measurement": "G-MSPTXQ8JYC",
+          "event": "page_view"
+        }
+      ],
+      "warnings": [],
+      "html": "live-team-mobile-5.report.html",
+      "json": "live-team-mobile-5.report.json"
+    },
+    {
+      "id": "live-home-desktop",
+      "target": "live",
+      "page": "home",
+      "mode": "desktop",
+      "run": 1,
+      "fetchTime": "2026-10-24T05:22:14.151Z",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 454.74799999999993,
+        "largest-contentful-paint": 657.7629999999998,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0.00007858451536643026,
+        "speed-index": 977.4667557603038
+      },
+      "observedLCP": 1376,
+      "protocol": "h2",
+      "bytes": 853142,
+      "requestCount": 22,
+      "imageSavings": 142879,
+      "consoleErrors": 0,
+      "ga": [
+        {
+          "status": 204,
+          "measurement": "G-MSPTXQ8JYC",
+          "event": "page_view"
+        }
+      ],
+      "warnings": [],
+      "html": "live-home-desktop.report.html",
+      "json": "live-home-desktop.report.json"
+    },
+    {
+      "id": "live-research-desktop",
+      "target": "live",
+      "page": "research",
+      "mode": "desktop",
+      "run": 1,
+      "fetchTime": "2026-10-24T05:22:27.039Z",
+      "scores": {
+        "performance": 66,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 2215.216,
+        "largest-contentful-paint": 4290.432,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0,
+        "speed-index": 2215.216
+      },
+      "observedLCP": 1307,
+      "protocol": "h2",
+      "bytes": 1295653,
+      "requestCount": 40,
+      "imageSavings": 578316,
+      "consoleErrors": 0,
+      "ga": [
+        {
+          "status": 204,
+          "measurement": "G-MSPTXQ8JYC",
+          "event": "page_view"
+        }
+      ],
+      "warnings": [],
+      "html": "live-research-desktop.report.html",
+      "json": "live-research-desktop.report.json"
+    },
+    {
+      "id": "live-team-desktop",
+      "target": "live",
+      "page": "team",
+      "mode": "desktop",
+      "run": 1,
+      "fetchTime": "2026-10-24T05:22:41.039Z",
+      "scores": {
+        "performance": 98,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 620.9190000000001,
+        "largest-contentful-paint": 942.9190000000001,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0.00005820464130403058,
+        "speed-index": 1201.768665969275
+      },
+      "observedLCP": 1486,
+      "protocol": "h2",
+      "bytes": 1122638,
+      "requestCount": 55,
+      "imageSavings": 205118,
+      "consoleErrors": 0,
+      "ga": [
+        {
+          "status": 204,
+          "measurement": "G-MSPTXQ8JYC",
+          "event": "page_view"
+        }
+      ],
+      "warnings": [],
+      "html": "live-team-desktop.report.html",
+      "json": "live-team-desktop.report.json"
+    },
+    {
+      "id": "live-projects-mobile",
+      "target": "live",
+      "page": "projects",
+      "mode": "mobile",
+      "run": 1,
+      "fetchTime": "2026-10-24T05:22:54.750Z",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 1193.6290000000001,
+        "largest-contentful-paint": 1945.2040000000002,
+        "total-blocking-time": 6.5,
+        "cumulative-layout-shift": 0.005021666558422147,
+        "speed-index": 2648.1072199038026
+      },
+      "observedLCP": 1558,
+      "protocol": "h2",
+      "bytes": 755265,
+      "requestCount": 35,
+      "imageSavings": 328674,
+      "consoleErrors": 0,
+      "ga": [
+        {
+          "status": 204,
+          "measurement": "G-MSPTXQ8JYC",
+          "event": "page_view"
+        }
+      ],
+      "warnings": [],
+      "html": "live-projects-mobile.report.html",
+      "json": "live-projects-mobile.report.json"
+    },
+    {
+      "id": "live-news-mobile",
+      "target": "live",
+      "page": "news",
+      "mode": "mobile",
+      "run": 1,
+      "fetchTime": "2026-10-24T05:23:08.696Z",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 1134.5375,
+        "largest-contentful-paint": 1734.6574999999998,
+        "total-blocking-time": 6.5,
+        "cumulative-layout-shift": 0.026079893237517894,
+        "speed-index": 2645.6562460985306
+      },
+      "observedLCP": 1538,
+      "protocol": "h2",
+      "bytes": 420010,
+      "requestCount": 18,
+      "imageSavings": 32973,
+      "consoleErrors": 0,
+      "ga": [
+        {
+          "status": 204,
+          "measurement": "G-MSPTXQ8JYC",
+          "event": "page_view"
+        }
+      ],
+      "warnings": [],
+      "html": "live-news-mobile.report.html",
+      "json": "live-news-mobile.report.json"
+    },
+    {
+      "id": "live-contact-mobile",
+      "target": "live",
+      "page": "contact",
+      "mode": "mobile",
+      "run": 1,
+      "fetchTime": "2026-10-24T05:23:21.974Z",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 982.089,
+        "largest-contentful-paint": 1102.098,
+        "total-blocking-time": 7,
+        "cumulative-layout-shift": 0,
+        "speed-index": 2222.568386038399
+      },
+      "observedLCP": 1237,
+      "protocol": "h2",
+      "bytes": 414823,
+      "requestCount": 18,
+      "imageSavings": 32973,
+      "consoleErrors": 0,
+      "ga": [
+        {
+          "status": 204,
+          "measurement": "G-MSPTXQ8JYC",
+          "event": "page_view"
+        }
+      ],
+      "warnings": [],
+      "html": "live-contact-mobile.report.html",
+      "json": "live-contact-mobile.report.json"
+    },
+    {
+      "id": "live-research-desktop-2",
+      "target": "live",
+      "page": "research",
+      "mode": "desktop",
+      "run": 2,
+      "fetchTime": "2026-10-24T05:24:13.811Z",
+      "scores": {
+        "performance": 61,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 2694.884,
+        "largest-contentful-paint": 5256.768,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0.0001926918614832327,
+        "speed-index": 2694.884
+      },
+      "observedLCP": 1304,
+      "protocol": "h2",
+      "bytes": 1295238,
+      "requestCount": 39,
+      "imageSavings": 578316,
+      "consoleErrors": 0,
+      "ga": [
+        {
+          "status": 204,
+          "measurement": "G-MSPTXQ8JYC",
+          "event": "page_view"
+        }
+      ],
+      "warnings": [],
+      "html": "live-research-desktop-2.report.html",
+      "json": "live-research-desktop-2.report.json"
+    },
+    {
+      "id": "live-research-desktop-3",
+      "target": "live",
+      "page": "research",
+      "mode": "desktop",
+      "run": 3,
+      "fetchTime": "2026-10-24T05:24:27.513Z",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 561.387,
+        "largest-contentful-paint": 873.307,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0,
+        "speed-index": 1001.7884457294582
+      },
+      "observedLCP": 1375,
+      "protocol": "h2",
+      "bytes": 1295400,
+      "requestCount": 39,
+      "imageSavings": 578316,
+      "consoleErrors": 0,
+      "ga": [
+        {
+          "status": 204,
+          "measurement": "G-MSPTXQ8JYC",
+          "event": "page_view"
+        }
+      ],
+      "warnings": [],
+      "html": "live-research-desktop-3.report.html",
+      "json": "live-research-desktop-3.report.json"
+    },
+    {
+      "id": "live-research-desktop-4",
+      "target": "live",
+      "page": "research",
+      "mode": "desktop",
+      "run": 4,
+      "fetchTime": "2026-10-24T05:24:41.524Z",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 509.514,
+        "largest-contentful-paint": 822.178,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0,
+        "speed-index": 1030.1958240095855
+      },
+      "observedLCP": 1432,
+      "protocol": "h2",
+      "bytes": 1295251,
+      "requestCount": 39,
+      "imageSavings": 578316,
+      "consoleErrors": 0,
+      "ga": [
+        {
+          "status": 204,
+          "measurement": "G-MSPTXQ8JYC",
+          "event": "page_view"
+        }
+      ],
+      "warnings": [],
+      "html": "live-research-desktop-4.report.html",
+      "json": "live-research-desktop-4.report.json"
+    },
+    {
+      "id": "live-research-desktop-5",
+      "target": "live",
+      "page": "research",
+      "mode": "desktop",
+      "run": 5,
+      "fetchTime": "2026-10-24T05:24:55.910Z",
+      "scores": {
+        "performance": 70,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 2004.6,
+        "largest-contentful-paint": 3406.3,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0,
+        "speed-index": 2004.6
+      },
+      "observedLCP": 1091,
+      "protocol": "h2",
+      "bytes": 1295274,
+      "requestCount": 39,
+      "imageSavings": 578316,
+      "consoleErrors": 0,
+      "ga": [
+        {
+          "status": 204,
+          "measurement": "G-MSPTXQ8JYC",
+          "event": "page_view"
+        }
+      ],
+      "warnings": [],
+      "html": "live-research-desktop-5.report.html",
+      "json": "live-research-desktop-5.report.json"
+    },
+    {
+      "id": "live-devtools-research-desktop",
+      "target": "live-devtools",
+      "page": "research",
+      "mode": "desktop",
+      "run": 1,
+      "fetchTime": "2026-10-24T05:28:26.377Z",
+      "scores": {
+        "performance": 83,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 1327.254,
+        "largest-contentful-paint": 2212.026,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0,
+        "speed-index": 1702
+      },
+      "observedLCP": 2212,
+      "protocol": "h2",
+      "bytes": 1046069,
+      "requestCount": 31,
+      "imageSavings": 353618,
+      "consoleErrors": 0,
+      "ga": [
+        {
+          "status": 204,
+          "measurement": "G-MSPTXQ8JYC",
+          "event": "page_view"
+        },
+        {
+          "status": 204,
+          "measurement": "G-MSPTXQ8JYC",
+          "event": null
+        }
+      ],
+      "warnings": [],
+      "html": "live-devtools-research-desktop.report.html",
+      "json": "live-devtools-research-desktop.report.json"
+    },
+    {
+      "id": "live-devtools-research-desktop-2",
+      "target": "live-devtools",
+      "page": "research",
+      "mode": "desktop",
+      "run": 2,
+      "fetchTime": "2026-10-24T05:28:54.969Z",
+      "scores": {
+        "performance": 92,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 1042.442,
+        "largest-contentful-paint": 1587.01,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0,
+        "speed-index": 1294
+      },
+      "observedLCP": 1587,
+      "protocol": "h2",
+      "bytes": 1045840,
+      "requestCount": 31,
+      "imageSavings": 353618,
+      "consoleErrors": 0,
+      "ga": [
+        {
+          "status": 204,
+          "measurement": "G-MSPTXQ8JYC",
+          "event": "page_view"
+        },
+        {
+          "status": 204,
+          "measurement": "G-MSPTXQ8JYC",
+          "event": null
+        }
+      ],
+      "warnings": [],
+      "html": "live-devtools-research-desktop-2.report.html",
+      "json": "live-devtools-research-desktop-2.report.json"
+    },
+    {
+      "id": "live-devtools-research-desktop-3",
+      "target": "live-devtools",
+      "page": "research",
+      "mode": "desktop",
+      "run": 3,
+      "fetchTime": "2026-10-24T05:29:22.035Z",
+      "scores": {
+        "performance": 91,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 996.298,
+        "largest-contentful-paint": 1678.976,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0,
+        "speed-index": 1293
+      },
+      "observedLCP": 1679,
+      "protocol": "h2",
+      "bytes": 1046007,
+      "requestCount": 31,
+      "imageSavings": 353618,
+      "consoleErrors": 0,
+      "ga": [
+        {
+          "status": 204,
+          "measurement": "G-MSPTXQ8JYC",
+          "event": "page_view"
+        },
+        {
+          "status": 204,
+          "measurement": "G-MSPTXQ8JYC",
+          "event": null
+        }
+      ],
+      "warnings": [],
+      "html": "live-devtools-research-desktop-3.report.html",
+      "json": "live-devtools-research-desktop-3.report.json"
+    }
+  ],
+  "issues": [
+    {
+      "priority": "P1",
+      "title": "论文页桌面模拟性能与加载稳定性需要继续优化",
+      "evidence": "线上论文页桌面 5 次默认模拟测试，性能中位数 70，范围 61–99；模拟 LCP 中位数 3.41 s，范围 0.82 s–5.26 s。同一批 Chrome trace 的观察 LCP 中位数 1.31 s。这是两种指标，不能混为真实用户加载时长。",
+      "recommendation": "优先减少首屏图片传输和同步请求；以固定网络条件的重复实验和 GA4 真实用户 p75 继续验证稳定性，不能只取最高分。",
+      "files": "_plugins/images.rb:39–56；_includes/scripts.html:2；_includes/fonts.html:3–5"
+    },
+    {
+      "priority": "P1",
+      "title": "缩略图与页头背景仍有明显传输冗余",
+      "evidence": "论文页移动端本地冷启动加载约 954 KiB，Lighthouse 估算图片可减少约 592 KiB；首页约 213 KiB，项目页约 281 KiB。school-1920.webp 约 356 KiB，用于桌面内页约 84px 高的页头。部分手机论文图实际绘制宽约 270–510 个物理像素，却下载 760/960px 图。",
+      "recommendation": "增加中间尺寸（例如 640px），按图片纵横比和 contain 后实际绘制面积修正 sizes；为内页页头提供更轻的背景版本。保留图片放大时的原图，压缩科研图时检查文字清晰度。上述 savings 是工具估算，不能当成已实现的收益。",
+      "files": "_plugins/images.rb:39–56；scripts/prepare_assets.cjs；_styles/citation.scss:34–39"
+    },
+    {
+      "priority": "P2",
+      "title": "首屏深色模式脚本仍阻塞 HTML 解析",
+      "evidence": "_includes/scripts.html 的 dark-mode.js 没有 defer，是约 0.7 KiB 的同步请求；CSS 约 9 KiB gzip。Lighthouse 的渲染阻塞提示在多页重复出现。",
+      "recommendation": "只将读取主题并设置 data-dark 的小段代码内联，其余事件绑定延后执行，保留首次渲染正确主题的行为。不要直接 defer 整个脚本而引入深色模式闪烁。工具的时长估算不可与图片 savings 相加当成总收益。",
+      "files": "_includes/scripts.html:2；_scripts/dark-mode.js"
+    },
+    {
+      "priority": "P2",
+      "title": "外部项目徽章缺少宽度占位",
+      "evidence": "项目页 13 个 shields.io 徽章仅声明 height=20，Lighthouse 的 unsized-images 诊断提示未设置完整尺寸。当前观测 CLS 仍较低，未发现严重页面跳动。",
+      "recommendation": "给徽章提供稳定尺寸/比例占位；静态资源链接徽章可本地化，动态 Stars 保留网络失败时的文字后备。",
+      "files": "_includes/project.html:44–50、61–67；_styles/project.scss"
+    },
+    {
+      "priority": "P3",
+      "title": "缓存期限短，且 CSS/JS 每次构建都会更换地址",
+      "evidence": "线上实测 Cache-Control 为 max-age=600，Lighthouse 多页提示缓存生命周期短。site.css、site.js 等 URL 采用 site.time，即使仅新增新闻也会更换版本参数。",
+      "recommendation": "后续可将构建时间版本改为内容哈希。延长 HTTP 缓存需要在可配置的 CDN/托管层处理，当前未改托管服务；改 URL 本身不会延长这 10 分钟 TTL。",
+      "files": "_includes/styles.html:1；_includes/scripts.html:1–2"
+    },
+    {
+      "priority": "人工复核",
+      "title": "成员卡片的扩展可访问性提示",
+      "evidence": "Lighthouse 的不计分检查 label-content-name-mismatch 提示 20 个成员主页链接：aria-label 只有“姓名个人主页”，但整个链接还包含职称、邮箱等可见文本。自动无障碍计分仍为 100。",
+      "recommendation": "用屏幕阅读器/语音控制确认实际体验后，考虑用姓名作为 aria-labelledby、职位与邮箱作为描述关联。现有主姓名可访问，不能仅凭该提示断定全部链接不可用。",
+      "files": "_includes/portrait.html:17–21、42–61"
+    }
+  ],
+  "manualChecks": {
+    "source": "7bc24be",
+    "browser": "IAB Chromium",
+    "checks": {
+      "publicationCount": 83,
+      "chineseAuthorQueryResults": 3,
+      "pvfhQueryResults": 1,
+      "clearRestoresAll": 83,
+      "imageDialogOpen": true,
+      "imageDialogEscapeClose": true,
+      "mobile390NoOverflow": true,
+      "mobileMenuOpen": true,
+      "mobileMenuEscapeClose": true
+    }
+  },
+  "checks": {
+    "allOtherCategories100": true,
+    "allConsoleClean": true,
+    "maxCLS": 0.026079893237517894,
+    "maxTBT": 14,
+    "googleCollectRequests": 25,
+    "googleCollectStatuses": [
+      204
+    ],
+    "measurementIds": [
+      "G-MSPTXQ8JYC"
+    ]
+  },
+  "optimization": {
+    "source": "ac65dd9",
+    "baseline": "7bc24be",
+    "date": "2026-10-24",
+    "phase": "local-production-build-follow-up",
+    "description": "Responsive 320/640px previews, aspect-aware citation sizes, lighter background previews, inline theme restoration with deferred controls, explicit badge dimensions. Original images and layout preserved.",
+    "conditions": {
+      "lighthouse": "13.5.0",
+      "chrome": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "mobile": {
+        "output": [
+          "json",
+          "html"
+        ],
+        "maxWaitForFcp": 30000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "mobile",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638.4,
+          "requestLatencyMs": 562.5,
+          "downloadThroughputKbps": 1474.5600000000002,
+          "uploadThroughputKbps": 675,
+          "cpuSlowdownMultiplier": 4
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": true,
+          "width": 412,
+          "height": 823,
+          "deviceScaleFactor": 1.75,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "cli",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": false,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance",
+          "accessibility",
+          "best-practices",
+          "seo"
+        ],
+        "skipAudits": null
+      },
+      "desktop": {
+        "output": [
+          "json",
+          "html"
+        ],
+        "maxWaitForFcp": 30000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "desktop",
+        "throttling": {
+          "rttMs": 40,
+          "throughputKbps": 10240,
+          "requestLatencyMs": 0,
+          "downloadThroughputKbps": 0,
+          "uploadThroughputKbps": 0,
+          "cpuSlowdownMultiplier": 1
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": false,
+          "width": 1350,
+          "height": 940,
+          "deviceScaleFactor": 1,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "cli",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": false,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance",
+          "accessibility",
+          "best-practices",
+          "seo"
+        ],
+        "skipAudits": null
+      },
+      "server": "Same HTTP/1.1, gzip, max-age=600 preview; analytics disabled on localhost."
+    },
+    "comparisons": [
+      {
+        "page": "home",
+        "mode": "mobile",
+        "before": {
+          "n": 3,
+          "performance": 97,
+          "range": [
+            97,
+            97
+          ],
+          "lcpMs": 2553.0732,
+          "totalBytes": 532915
+        },
+        "after": {
+          "n": 3,
+          "performance": 99,
+          "range": [
+            99,
+            99
+          ],
+          "lcpMs": 2179.4384,
+          "totalBytes": 356102
+        }
+      },
+      {
+        "page": "home",
+        "mode": "desktop",
+        "before": {
+          "n": 1,
+          "performance": 100,
+          "range": [
+            100,
+            100
+          ],
+          "lcpMs": 563.0603,
+          "totalBytes": 670165
+        },
+        "after": {
+          "n": 1,
+          "performance": 100,
+          "range": [
+            100,
+            100
+          ],
+          "lcpMs": 505.6748,
+          "totalBytes": 472085
+        }
+      },
+      {
+        "page": "research",
+        "mode": "mobile",
+        "before": {
+          "n": 3,
+          "performance": 87,
+          "range": [
+            87,
+            87
+          ],
+          "lcpMs": 3903.7892,
+          "totalBytes": 976348
+        },
+        "after": {
+          "n": 3,
+          "performance": 93,
+          "range": [
+            93,
+            93
+          ],
+          "lcpMs": 3079.7345,
+          "totalBytes": 537946
+        }
+      },
+      {
+        "page": "research",
+        "mode": "desktop",
+        "before": {
+          "n": 1,
+          "performance": 98,
+          "range": [
+            98,
+            98
+          ],
+          "lcpMs": 1183.0122000000001,
+          "totalBytes": 1160583
+        },
+        "after": {
+          "n": 1,
+          "performance": 99,
+          "range": [
+            99,
+            99
+          ],
+          "lcpMs": 925.1821,
+          "totalBytes": 741771
+        }
+      },
+      {
+        "page": "team",
+        "mode": "mobile",
+        "before": {
+          "n": 3,
+          "performance": 92,
+          "range": [
+            92,
+            93
+          ],
+          "lcpMs": 3377.9294999999997,
+          "totalBytes": 460155
+        },
+        "after": {
+          "n": 3,
+          "performance": 95,
+          "range": [
+            95,
+            96
+          ],
+          "lcpMs": 2854.2475,
+          "totalBytes": 423727
+        }
+      },
+      {
+        "page": "team",
+        "mode": "desktop",
+        "before": {
+          "n": 1,
+          "performance": 98,
+          "range": [
+            98,
+            98
+          ],
+          "lcpMs": 1102.8997,
+          "totalBytes": 947091
+        },
+        "after": {
+          "n": 1,
+          "performance": 99,
+          "range": [
+            99,
+            99
+          ],
+          "lcpMs": 944.5536999999998,
+          "totalBytes": 815258
+        }
+      },
+      {
+        "page": "projects",
+        "mode": "mobile",
+        "before": {
+          "n": 1,
+          "performance": 93,
+          "range": [
+            93,
+            93
+          ],
+          "lcpMs": 3228.1838,
+          "totalBytes": 572111
+        },
+        "after": {
+          "n": 1,
+          "performance": 97,
+          "range": [
+            97,
+            97
+          ],
+          "lcpMs": 2629.4037000000003,
+          "totalBytes": 400581
+        }
+      },
+      {
+        "page": "projects",
+        "mode": "desktop",
+        "before": {
+          "n": 1,
+          "performance": 99,
+          "range": [
+            99,
+            99
+          ],
+          "lcpMs": 843.3043,
+          "totalBytes": 633381
+        },
+        "after": {
+          "n": 1,
+          "performance": 100,
+          "range": [
+            100,
+            100
+          ],
+          "lcpMs": 684.7673,
+          "totalBytes": 446065
+        }
+      }
+    ],
+    "runs": [
+      {
+        "id": "local-home-mobile",
+        "fetchTime": "2026-10-24T05:58:05.135Z",
+        "scores": {
+          "performance": 99,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "metrics": {
+          "first-contentful-paint": 1357.18995,
+          "largest-contentful-paint": 2179.7933,
+          "total-blocking-time": 0,
+          "cumulative-layout-shift": 0.01964250140081213,
+          "speed-index": 1357.18995
+        },
+        "totalBytes": 356102,
+        "unsizedImages": 1,
+        "consoleErrors": 0,
+        "warnings": [],
+        "html": "local-home-mobile.report.html"
+      },
+      {
+        "id": "local-research-mobile",
+        "fetchTime": "2026-10-24T05:58:15.334Z",
+        "scores": {
+          "performance": 93,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "metrics": {
+          "first-contentful-paint": 1657.10175,
+          "largest-contentful-paint": 3079.7345,
+          "total-blocking-time": 0,
+          "cumulative-layout-shift": 0,
+          "speed-index": 1657.10175
+        },
+        "totalBytes": 537946,
+        "unsizedImages": 1,
+        "consoleErrors": 0,
+        "warnings": [],
+        "html": "local-research-mobile.report.html"
+      },
+      {
+        "id": "local-team-mobile",
+        "fetchTime": "2026-10-24T05:58:26.010Z",
+        "scores": {
+          "performance": 96,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "metrics": {
+          "first-contentful-paint": 1356.6104999999998,
+          "largest-contentful-paint": 2704.407,
+          "total-blocking-time": 0,
+          "cumulative-layout-shift": 0.0001196266853768429,
+          "speed-index": 1356.6104999999998
+        },
+        "totalBytes": 423727,
+        "unsizedImages": 1,
+        "consoleErrors": 0,
+        "warnings": [],
+        "html": "local-team-mobile.report.html"
+      },
+      {
+        "id": "local-home-mobile-2",
+        "fetchTime": "2026-10-24T05:58:36.304Z",
+        "scores": {
+          "performance": 99,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "metrics": {
+          "first-contentful-paint": 1356.6576,
+          "largest-contentful-paint": 2179.4384,
+          "total-blocking-time": 0,
+          "cumulative-layout-shift": 0.01964250140081213,
+          "speed-index": 1356.6576
+        },
+        "totalBytes": 356102,
+        "unsizedImages": 1,
+        "consoleErrors": 0,
+        "warnings": [],
+        "html": "local-home-mobile-2.report.html"
+      },
+      {
+        "id": "local-research-mobile-2",
+        "fetchTime": "2026-10-24T05:58:46.604Z",
+        "scores": {
+          "performance": 93,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "metrics": {
+          "first-contentful-paint": 1656.0561,
+          "largest-contentful-paint": 3079.0374,
+          "total-blocking-time": 3,
+          "cumulative-layout-shift": 0,
+          "speed-index": 1656.0561
+        },
+        "totalBytes": 537946,
+        "unsizedImages": 1,
+        "consoleErrors": 0,
+        "warnings": [],
+        "html": "local-research-mobile-2.report.html"
+      },
+      {
+        "id": "local-team-mobile-2",
+        "fetchTime": "2026-10-24T05:58:57.483Z",
+        "scores": {
+          "performance": 95,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "metrics": {
+          "first-contentful-paint": 1356.37125,
+          "largest-contentful-paint": 2854.2475,
+          "total-blocking-time": 0,
+          "cumulative-layout-shift": 0.0001196266853768429,
+          "speed-index": 1356.37125
+        },
+        "totalBytes": 423727,
+        "unsizedImages": 1,
+        "consoleErrors": 0,
+        "warnings": [],
+        "html": "local-team-mobile-2.report.html"
+      },
+      {
+        "id": "local-home-mobile-3",
+        "fetchTime": "2026-10-24T05:59:07.912Z",
+        "scores": {
+          "performance": 99,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "metrics": {
+          "first-contentful-paint": 1354.6192500000002,
+          "largest-contentful-paint": 2178.0795,
+          "total-blocking-time": 0,
+          "cumulative-layout-shift": 0.01964250140081213,
+          "speed-index": 1354.6192500000002
+        },
+        "totalBytes": 356102,
+        "unsizedImages": 1,
+        "consoleErrors": 0,
+        "warnings": [],
+        "html": "local-home-mobile-3.report.html"
+      },
+      {
+        "id": "local-research-mobile-3",
+        "fetchTime": "2026-10-24T05:59:18.233Z",
+        "scores": {
+          "performance": 93,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "metrics": {
+          "first-contentful-paint": 1661.3313,
+          "largest-contentful-paint": 3082.5542,
+          "total-blocking-time": 0,
+          "cumulative-layout-shift": 0,
+          "speed-index": 1661.3313
+        },
+        "totalBytes": 537946,
+        "unsizedImages": 1,
+        "consoleErrors": 0,
+        "warnings": [],
+        "html": "local-research-mobile-3.report.html"
+      },
+      {
+        "id": "local-team-mobile-3",
+        "fetchTime": "2026-10-24T05:59:29.116Z",
+        "scores": {
+          "performance": 95,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "metrics": {
+          "first-contentful-paint": 1356.9492,
+          "largest-contentful-paint": 2854.6328000000003,
+          "total-blocking-time": 0,
+          "cumulative-layout-shift": 0.0001196266853768429,
+          "speed-index": 1356.9492
+        },
+        "totalBytes": 423727,
+        "unsizedImages": 1,
+        "consoleErrors": 0,
+        "warnings": [],
+        "html": "local-team-mobile-3.report.html"
+      },
+      {
+        "id": "local-home-desktop",
+        "fetchTime": "2026-10-24T05:59:39.578Z",
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "metrics": {
+          "first-contentful-paint": 368.5122,
+          "largest-contentful-paint": 505.6748,
+          "total-blocking-time": 0,
+          "cumulative-layout-shift": 0.00007858451536643026,
+          "speed-index": 368.5122
+        },
+        "totalBytes": 472085,
+        "unsizedImages": 1,
+        "consoleErrors": 0,
+        "warnings": [],
+        "html": "local-home-desktop.report.html"
+      },
+      {
+        "id": "local-research-desktop",
+        "fetchTime": "2026-10-24T05:59:49.845Z",
+        "scores": {
+          "performance": 99,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "metrics": {
+          "first-contentful-paint": 407.77315,
+          "largest-contentful-paint": 925.1821,
+          "total-blocking-time": 0,
+          "cumulative-layout-shift": 0.01175827043749818,
+          "speed-index": 407.77315
+        },
+        "totalBytes": 741771,
+        "unsizedImages": 1,
+        "consoleErrors": 0,
+        "warnings": [],
+        "html": "local-research-desktop.report.html"
+      },
+      {
+        "id": "local-team-desktop",
+        "fetchTime": "2026-10-24T06:00:00.776Z",
+        "scores": {
+          "performance": 99,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "metrics": {
+          "first-contentful-paint": 326.83055,
+          "largest-contentful-paint": 944.5536999999998,
+          "total-blocking-time": 0,
+          "cumulative-layout-shift": 0.00005820464130403058,
+          "speed-index": 326.83055
+        },
+        "totalBytes": 815258,
+        "unsizedImages": 1,
+        "consoleErrors": 0,
+        "warnings": [],
+        "html": "local-team-desktop.report.html"
+      },
+      {
+        "id": "local-projects-mobile-2",
+        "fetchTime": "2026-10-24T06:06:02.071Z",
+        "scores": {
+          "performance": 97,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "metrics": {
+          "first-contentful-paint": 1356.60555,
+          "largest-contentful-paint": 2629.4037000000003,
+          "total-blocking-time": 0,
+          "cumulative-layout-shift": 0,
+          "speed-index": 1356.60555
+        },
+        "totalBytes": 400581,
+        "unsizedImages": 1,
+        "consoleErrors": 0,
+        "warnings": [],
+        "html": "local-projects-mobile-2.report.html"
+      },
+      {
+        "id": "local-projects-desktop-2",
+        "fetchTime": "2026-10-24T06:06:13.218Z",
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "metrics": {
+          "first-contentful-paint": 327.15094999999997,
+          "largest-contentful-paint": 684.7673,
+          "total-blocking-time": 0,
+          "cumulative-layout-shift": 0.0001926916425882147,
+          "speed-index": 327.15094999999997
+        },
+        "totalBytes": 446065,
+        "unsizedImages": 1,
+        "consoleErrors": 0,
+        "warnings": [],
+        "html": "local-projects-desktop-2.report.html"
+      }
+    ],
+    "interimProjectRuns": [
+      "local-projects-mobile",
+      "local-projects-desktop"
+    ],
+    "notes": [
+      "14 final comparisons; 2 earlier project checks used the fallback badge-width hint and were superseded after correcting the data binding. Raw reports are retained.",
+      "Mobile core pages repeated three times each; desktop and projects are single checks. These local measurements do not establish real-user p75 or deployment success."
+    ],
+    "manualChecks": {
+      "paperCount": 83,
+      "chineseAuthorResults": 3,
+      "pvfhResults": 1,
+      "clearResults": 83,
+      "lightboxOriginal": "images/projects/pvfh-bench.webp (1525x762)",
+      "lightboxEscape": true,
+      "mobileMenuEscape": true,
+      "mobileOverflow": false,
+      "themePersisted": true,
+      "blockedStorageTestsPassed": true,
+      "badgeFallback": true,
+      "layoutMaxDeltaCssPx": {
+        "desktop": 0.3,
+        "mobile": 0.41
+      },
+      "nodeTests": 17,
+      "staticHtmlPages": 25,
+      "teamProfiles": 39
+    }
+  }
+}
