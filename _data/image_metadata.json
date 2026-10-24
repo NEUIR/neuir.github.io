@@ -55,6 +55,10 @@
     "width": 353,
     "height": 353
   },
+  "images/headshots/lisa_wang.webp": {
+    "width": 512,
+    "height": 512
+  },
   "images/headshots/maosong_sun.webp": {
     "width": 341,
     "height": 341
@@ -632,6 +636,10 @@
     "height": 360
   },
   "images/thumbnails/headshots/jiawei_zheng-360.webp": {
+    "width": 360,
+    "height": 360
+  },
+  "images/thumbnails/headshots/lisa_wang-360.webp": {
     "width": 360,
     "height": 360
   },
