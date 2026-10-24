@@ -119,6 +119,10 @@
     "width": 962,
     "height": 962
   },
+  "images/headshots/xinliang_wang.webp": {
+    "width": 480,
+    "height": 480
+  },
   "images/headshots/xinze_li.webp": {
     "width": 970,
     "height": 956
@@ -688,6 +692,10 @@
     "height": 360
   },
   "images/thumbnails/headshots/xinhao_wang-360.webp": {
+    "width": 360,
+    "height": 360
+  },
+  "images/thumbnails/headshots/xinliang_wang-360.webp": {
     "width": 360,
     "height": 360
   },
