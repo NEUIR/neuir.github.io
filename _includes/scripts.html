@@ -1,5 +1,12 @@
 {% assign asset_version = site.time | date: "%s" %}
-<script src="{{ "/_scripts/dark-mode.js" | relative_url }}?v={{ asset_version }}"></script>
+<script>
+  // Restore the theme before painting without a blocking network request.
+  try {
+    document.documentElement.dataset.dark = window.localStorage.getItem("dark-mode") === "true" ? "true" : "false";
+  } catch {
+    document.documentElement.dataset.dark = "false";
+  }
+</script>
 <script src="{{ "/assets/vendor/popper.min.js" | relative_url }}?v={{ site.data.asset_hashes['assets/vendor/popper.min.js'] }}" defer></script>
 <script src="{{ "/assets/vendor/tippy.min.js" | relative_url }}?v={{ site.data.asset_hashes['assets/vendor/tippy.min.js'] }}" defer></script>
 {% if page.url == "/research/" %}
