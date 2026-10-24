@@ -96,14 +96,21 @@
 <link rel="preload" href="/images/thumbnails/backgrounds/school-1920.webp" as="image" media="(min-width: 761px)" fetchpriority="high">
 
 
-  <link href="/assets/css/site.css?v=1792815960" rel="stylesheet">
+  <link href="/assets/css/site.css?v=1792822069" rel="stylesheet">
 
   
-<script src="/_scripts/dark-mode.js?v=1792815960"></script>
+<script>
+  // Restore the theme before painting without a blocking network request.
+  try {
+    document.documentElement.dataset.dark = window.localStorage.getItem("dark-mode") === "true" ? "true" : "false";
+  } catch {
+    document.documentElement.dataset.dark = "false";
+  }
+</script>
 <script src="/assets/vendor/popper.min.js?v=c212f4b505a8" defer></script>
 <script src="/assets/vendor/tippy.min.js?v=3f0fe70eb26c" defer></script>
 
-<script src="/assets/js/site.js?v=1792815960" defer></script>
+<script src="/assets/js/site.js?v=1792822069" defer></script>
 
 
 
@@ -201,6 +208,59 @@
   <section class="background" data-size="page">
     <h1 id="最新动态">
 <i class="icon fa-solid fa-feather-pointed" aria-hidden="true"></i>最新动态</h1>
+
+<div class="post-excerpt-container">
+  <div class="post-excerpt">
+    
+    
+    
+
+    
+
+    <div class="post-excerpt-text">
+      <a href="/2026/10/23/pengcheng-huang-cast.html">
+        
+        祝贺黄鹏程入选中国科协青年科技人才培育工程博士生专项计划
+      </a>
+
+      <div class="post-info">
+  
+
+  
+  
+
+  
+    <span data-tooltip="发布日期">
+      <i class="icon fa-regular fa-calendar" aria-hidden="true"></i>
+      <span>2026年10月23日</span>
+    </span>
+  
+
+  <!-- 
+    <span data-tooltip="更新日期">
+      <i class="icon fa-solid fa-clock-rotate-left" aria-hidden="true"></i>
+      <span>2026年10月24日</span>
+    </span>
+   -->
+</div>
+
+
+  
+
+
+
+
+
+
+      
+      
+      <p data-search="近日 实验室博士研究生黄鹏程入选中国科协青年科技人才培育工程博士生专项计划 热烈祝贺 该计划面向在读博士研究生 围绕 2035 年建成科技强国的目标 创新青年科技人才发现 选拔与培养机制 依托科协组织帮助博士研究生增长才干 拓宽眼界 提升能力 助力创新型青年科技人才成长 项目介绍参见中国科协相关通知 ">
+        近日，实验室博士研究生黄鹏程入选中国科协青年科技人才培育工程博士生专项计划。热烈祝贺！
+
+      </p>
+    </div>
+  </div>
+</div>
 
 <div class="post-excerpt-container">
   <div class="post-excerpt">

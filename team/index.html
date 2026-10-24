@@ -96,14 +96,21 @@
 <link rel="preload" href="/images/thumbnails/backgrounds/school-1920.webp" as="image" media="(min-width: 761px)" fetchpriority="high">
 
 
-  <link href="/assets/css/site.css?v=1792815960" rel="stylesheet">
+  <link href="/assets/css/site.css?v=1792822069" rel="stylesheet">
 
   
-<script src="/_scripts/dark-mode.js?v=1792815960"></script>
+<script>
+  // Restore the theme before painting without a blocking network request.
+  try {
+    document.documentElement.dataset.dark = window.localStorage.getItem("dark-mode") === "true" ? "true" : "false";
+  } catch {
+    document.documentElement.dataset.dark = "false";
+  }
+</script>
 <script src="/assets/vendor/popper.min.js?v=c212f4b505a8" defer></script>
 <script src="/assets/vendor/tippy.min.js?v=3f0fe70eb26c" defer></script>
 
-<script src="/assets/js/site.js?v=1792815960" defer></script>
+<script src="/assets/js/site.js?v=1792822069" defer></script>
 
 
 
@@ -1472,7 +1479,7 @@
       <i class="icon fa-solid fa-user-graduate" aria-hidden="true"></i>
     
 
-    <img src="/images/headshots/placeholder.svg" class="portrait-image" alt="张家瑞的头像" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="512" height="512">
+    <img src="/images/headshots/jiarui_zhang.webp" class="portrait-image" alt="张家瑞的头像" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="295" height="295">
 
     
       <span class="portrait-name">
@@ -1487,6 +1494,10 @@
       </span>
     
 
+    
+      <span class="portrait-affiliation" style="font-size: x-small;">
+        touristlap@gmail.com
+      </span>
     
 
   

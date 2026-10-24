@@ -96,14 +96,21 @@
 <link rel="preload" href="/images/thumbnails/backgrounds/school-1920.webp" as="image" media="(min-width: 761px)" fetchpriority="high">
 
 
-  <link href="/assets/css/site.css?v=1792815960" rel="stylesheet">
+  <link href="/assets/css/site.css?v=1792822069" rel="stylesheet">
 
   
-<script src="/_scripts/dark-mode.js?v=1792815960"></script>
+<script>
+  // Restore the theme before painting without a blocking network request.
+  try {
+    document.documentElement.dataset.dark = window.localStorage.getItem("dark-mode") === "true" ? "true" : "false";
+  } catch {
+    document.documentElement.dataset.dark = "false";
+  }
+</script>
 <script src="/assets/vendor/popper.min.js?v=c212f4b505a8" defer></script>
 <script src="/assets/vendor/tippy.min.js?v=3f0fe70eb26c" defer></script>
 
-<script src="/assets/js/site.js?v=1792815960" defer></script>
+<script src="/assets/js/site.js?v=1792822069" defer></script>
 
 
 
@@ -264,7 +271,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/pvfh-bench.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/pvfh-bench-480.webp" alt="PVFH-Bench: Benchmarking Premise-Induced Visual Fixation Hallucinations in Vision-Language Models" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1525" height="762" srcset="/images/thumbnails/projects/pvfh-bench-480.webp 480w, /images/thumbnails/projects/pvfh-bench-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/pvfh-bench-320.webp" alt="PVFH-Bench: Benchmarking Premise-Induced Visual Fixation Hallucinations in Vision-Language Models" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1525" height="762" srcset="/images/thumbnails/projects/pvfh-bench-320.webp 320w, /images/thumbnails/projects/pvfh-bench-480.webp 480w, /images/thumbnails/projects/pvfh-bench-640.webp 640w, /images/thumbnails/projects/pvfh-bench-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 280.18px), 168px">
     </div>
     
 
@@ -305,7 +312,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/memorycard.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/memorycard-480.webp" alt="MemoryCard: Topic-Aware Multi-Modal Clue Compression for Long-Video Question Answering" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1416" height="690" srcset="/images/thumbnails/projects/memorycard-480.webp 480w, /images/thumbnails/projects/memorycard-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/memorycard-320.webp" alt="MemoryCard: Topic-Aware Multi-Modal Clue Compression for Long-Video Question Answering" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1416" height="690" srcset="/images/thumbnails/projects/memorycard-320.webp 320w, /images/thumbnails/projects/memorycard-480.webp 480w, /images/thumbnails/projects/memorycard-640.webp 640w, /images/thumbnails/projects/memorycard-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 287.3px), 168px">
     </div>
     
 
@@ -346,7 +353,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/kair.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/kair-480.webp" alt="Finding What Matters: Anchoring Context Knowledge with Evolving Indices for Iterative Retrieval" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="760" height="690" srcset="/images/thumbnails/projects/kair-480.webp 480w, /images/projects/kair.webp 760w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/kair-320.webp" alt="Finding What Matters: Anchoring Context Knowledge with Evolving Indices for Iterative Retrieval" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="760" height="690" srcset="/images/thumbnails/projects/kair-320.webp 320w, /images/thumbnails/projects/kair-480.webp 480w, /images/thumbnails/projects/kair-640.webp 640w, /images/projects/kair.webp 760w" sizes="(max-width: 880px) min(calc(100vw - 120px), 154.2px), 168px">
     </div>
     
 
@@ -389,7 +396,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/scidc.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/scidc-480.webp" alt="Scientific Knowledge-driven Decoding Constraints Improving the Reliability of LLMs" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="760" height="470" srcset="/images/thumbnails/projects/scidc-480.webp 480w, /images/projects/scidc.webp 760w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/scidc-320.webp" alt="Scientific Knowledge-driven Decoding Constraints Improving the Reliability of LLMs" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="760" height="470" srcset="/images/thumbnails/projects/scidc-320.webp 320w, /images/thumbnails/projects/scidc-480.webp 480w, /images/thumbnails/projects/scidc-640.webp 640w, /images/projects/scidc.webp 760w" sizes="(max-width: 880px) min(calc(100vw - 120px), 226.38px), 168px">
     </div>
     
 
@@ -430,7 +437,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/writing-as-reasoning.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/writing-as-reasoning-480.webp" alt="Writing As Reasoning: Interleaving Drafting and Deepening for Open-Ended Deep Research" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1416" height="825" srcset="/images/thumbnails/projects/writing-as-reasoning-480.webp 480w, /images/thumbnails/projects/writing-as-reasoning-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/writing-as-reasoning-320.webp" alt="Writing As Reasoning: Interleaving Drafting and Deepening for Open-Ended Deep Research" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1416" height="825" srcset="/images/thumbnails/projects/writing-as-reasoning-320.webp 320w, /images/thumbnails/projects/writing-as-reasoning-480.webp 480w, /images/thumbnails/projects/writing-as-reasoning-640.webp 640w, /images/thumbnails/projects/writing-as-reasoning-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 240.29px), 168px">
     </div>
     
 
@@ -471,7 +478,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/kare-rag.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/kare-rag-480.webp" alt="KARE-RAG: Knowledge-Aware Refinement and Enhancement for RAG" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1530" height="560" srcset="/images/thumbnails/projects/kare-rag-480.webp 480w, /images/thumbnails/projects/kare-rag-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/kare-rag-320.webp" alt="KARE-RAG: Knowledge-Aware Refinement and Enhancement for RAG" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1530" height="560" srcset="/images/thumbnails/projects/kare-rag-320.webp 320w, /images/thumbnails/projects/kare-rag-480.webp 480w, /images/thumbnails/projects/kare-rag-640.webp 640w, /images/thumbnails/projects/kare-rag-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 382.5px), 168px">
     </div>
     
 
@@ -530,6 +537,11 @@
     
   </span>
   <span>
+    
+      下一篇 <i class="icon fa-solid fa-angle-right" aria-hidden="true"></i><br>
+      <a href="/2026/10/23/pengcheng-huang-cast.html">
+        祝贺黄鹏程入选中国科协青年科技人才培育工程博士生专项计划
+      </a>
     
   </span>
 </div>

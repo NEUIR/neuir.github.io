@@ -96,14 +96,21 @@
 <link rel="preload" href="/images/thumbnails/backgrounds/school-1920.webp" as="image" media="(min-width: 761px)" fetchpriority="high">
 
 
-  <link href="/assets/css/site.css?v=1792815960" rel="stylesheet">
+  <link href="/assets/css/site.css?v=1792822069" rel="stylesheet">
 
   
-<script src="/_scripts/dark-mode.js?v=1792815960"></script>
+<script>
+  // Restore the theme before painting without a blocking network request.
+  try {
+    document.documentElement.dataset.dark = window.localStorage.getItem("dark-mode") === "true" ? "true" : "false";
+  } catch {
+    document.documentElement.dataset.dark = "false";
+  }
+</script>
 <script src="/assets/vendor/popper.min.js?v=c212f4b505a8" defer></script>
 <script src="/assets/vendor/tippy.min.js?v=3f0fe70eb26c" defer></script>
 
-<script src="/assets/js/site.js?v=1792815960" defer></script>
+<script src="/assets/js/site.js?v=1792822069" defer></script>
 
 
 
@@ -264,7 +271,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/marvel.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/marvel-480.webp" alt="MARVEL: Unlocking the Multi-Modal Capability of Dense Retrieval via Visual Module Plugin" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="912" height="508" srcset="/images/thumbnails/projects/marvel-480.webp 480w, /images/projects/marvel.webp 912w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/marvel-320.webp" alt="MARVEL: Unlocking the Multi-Modal Capability of Dense Retrieval via Visual Module Plugin" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="912" height="508" srcset="/images/thumbnails/projects/marvel-320.webp 320w, /images/thumbnails/projects/marvel-480.webp 480w, /images/thumbnails/projects/marvel-640.webp 640w, /images/projects/marvel.webp 912w" sizes="(max-width: 880px) min(calc(100vw - 120px), 251.34px), 168px">
     </div>
     
 
@@ -305,7 +312,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/ultralink.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/ultralink-480.webp" alt="UltraLink: An Open-Source Knowledge-Enhanced Multilingual Supervised Fine-tuning Dataset" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1175" height="606" srcset="/images/thumbnails/projects/ultralink-480.webp 480w, /images/thumbnails/projects/ultralink-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/ultralink-320.webp" alt="UltraLink: An Open-Source Knowledge-Enhanced Multilingual Supervised Fine-tuning Dataset" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1175" height="606" srcset="/images/thumbnails/projects/ultralink-320.webp 320w, /images/thumbnails/projects/ultralink-480.webp 480w, /images/thumbnails/projects/ultralink-640.webp 640w, /images/thumbnails/projects/ultralink-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 271.45px), 168px">
     </div>
     
 
@@ -346,7 +353,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/neuscraper.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/projects/neuscraper.webp" alt="Cleaner Pretraining Corpus Curation with Neural Web Scraping" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="436" height="453">
+      <img src="/images/thumbnails/projects/neuscraper-320.webp" alt="Cleaner Pretraining Corpus Curation with Neural Web Scraping" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="436" height="453" srcset="/images/thumbnails/projects/neuscraper-320.webp 320w, /images/projects/neuscraper.webp 436w" sizes="(max-width: 880px) min(calc(100vw - 120px), 134.75px), 168px">
     </div>
     
 
@@ -389,7 +396,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/matplotagent.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/matplotagent-480.webp" alt="MatPlotAgent: Method and Evaluation for LLM-Based Agentic Scientific Data Visualization" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1154" height="650" srcset="/images/thumbnails/projects/matplotagent-480.webp 480w, /images/thumbnails/projects/matplotagent-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/matplotagent-320.webp" alt="MatPlotAgent: Method and Evaluation for LLM-Based Agentic Scientific Data Visualization" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1154" height="650" srcset="/images/thumbnails/projects/matplotagent-320.webp 320w, /images/thumbnails/projects/matplotagent-480.webp 480w, /images/thumbnails/projects/matplotagent-640.webp 640w, /images/thumbnails/projects/matplotagent-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 248.55px), 168px">
     </div>
     
 
@@ -430,7 +437,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/intervenor.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/intervenor-480.webp" alt="INTERVENOR: Prompting the Coding Ability of Large Language Models with the Interactive Chain of Repair" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1190" height="648" srcset="/images/thumbnails/projects/intervenor-480.webp 480w, /images/thumbnails/projects/intervenor-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/intervenor-320.webp" alt="INTERVENOR: Prompting the Coding Ability of Large Language Models with the Interactive Chain of Repair" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1190" height="648" srcset="/images/thumbnails/projects/intervenor-320.webp 320w, /images/thumbnails/projects/intervenor-480.webp 480w, /images/thumbnails/projects/intervenor-640.webp 640w, /images/thumbnails/projects/intervenor-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 257.1px), 168px">
     </div>
     
 

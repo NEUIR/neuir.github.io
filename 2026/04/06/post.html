@@ -96,14 +96,21 @@
 <link rel="preload" href="/images/thumbnails/backgrounds/school-1920.webp" as="image" media="(min-width: 761px)" fetchpriority="high">
 
 
-  <link href="/assets/css/site.css?v=1792815960" rel="stylesheet">
+  <link href="/assets/css/site.css?v=1792822069" rel="stylesheet">
 
   
-<script src="/_scripts/dark-mode.js?v=1792815960"></script>
+<script>
+  // Restore the theme before painting without a blocking network request.
+  try {
+    document.documentElement.dataset.dark = window.localStorage.getItem("dark-mode") === "true" ? "true" : "false";
+  } catch {
+    document.documentElement.dataset.dark = "false";
+  }
+</script>
 <script src="/assets/vendor/popper.min.js?v=c212f4b505a8" defer></script>
 <script src="/assets/vendor/tippy.min.js?v=3f0fe70eb26c" defer></script>
 
-<script src="/assets/js/site.js?v=1792815960" defer></script>
+<script src="/assets/js/site.js?v=1792822069" defer></script>
 
 
 
@@ -264,7 +271,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/lexrel.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/lexrel-480.webp" alt="LexRel: Benchmarking Legal Relation Extraction for Chinese Civil Cases" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1486" height="674" srcset="/images/thumbnails/projects/lexrel-480.webp 480w, /images/thumbnails/projects/lexrel-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/lexrel-320.webp" alt="LexRel: Benchmarking Legal Relation Extraction for Chinese Civil Cases" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1486" height="674" srcset="/images/thumbnails/projects/lexrel-320.webp 320w, /images/thumbnails/projects/lexrel-480.webp 480w, /images/thumbnails/projects/lexrel-640.webp 640w, /images/thumbnails/projects/lexrel-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 308.66px), 168px">
     </div>
     
 
@@ -305,7 +312,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/palign.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/palign-480.webp" alt="Long-Chain Reasoning Distillation via Adaptive Prefix Alignment" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="2062" height="1114" srcset="/images/thumbnails/projects/palign-480.webp 480w, /images/thumbnails/projects/palign-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/palign-320.webp" alt="Long-Chain Reasoning Distillation via Adaptive Prefix Alignment" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="2062" height="1114" srcset="/images/thumbnails/projects/palign-320.webp 320w, /images/thumbnails/projects/palign-480.webp 480w, /images/thumbnails/projects/palign-640.webp 640w, /images/thumbnails/projects/palign-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 259.14px), 168px">
     </div>
     
 
@@ -346,7 +353,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/ada-dlm.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/ada-dlm-480.webp" alt="Towards Efficient and Effective Diffusion Language Model Inference via Semantic-Aware Adaptive Denoising" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1549" height="559" srcset="/images/thumbnails/projects/ada-dlm-480.webp 480w, /images/thumbnails/projects/ada-dlm-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/ada-dlm-320.webp" alt="Towards Efficient and Effective Diffusion Language Model Inference via Semantic-Aware Adaptive Denoising" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1549" height="559" srcset="/images/thumbnails/projects/ada-dlm-320.webp 320w, /images/thumbnails/projects/ada-dlm-480.webp 480w, /images/thumbnails/projects/ada-dlm-640.webp 640w, /images/thumbnails/projects/ada-dlm-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 387.94px), 168px">
     </div>
     
 
@@ -387,7 +394,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/uncode.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/uncode-480.webp" alt="Empirical Analysis of Decoding Biases in Masked Diffusion Models" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="794" height="1000" srcset="/images/thumbnails/projects/uncode-480.webp 480w, /images/projects/uncode.webp 794w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/uncode-320.webp" alt="Empirical Analysis of Decoding Biases in Masked Diffusion Models" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="794" height="1000" srcset="/images/thumbnails/projects/uncode-320.webp 320w, /images/thumbnails/projects/uncode-480.webp 480w, /images/thumbnails/projects/uncode-640.webp 640w, /images/projects/uncode.webp 794w" sizes="(max-width: 880px) min(calc(100vw - 120px), 111.16px), 168px">
     </div>
     
 
@@ -428,7 +435,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/unikiebench.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/unikiebench-480.webp" alt="UNIKIE-BENCH: Benchmarking Large Multimodal Models for Key Information Extraction in Visual Documents" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1490" height="828" srcset="/images/thumbnails/projects/unikiebench-480.webp 480w, /images/thumbnails/projects/unikiebench-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/unikiebench-320.webp" alt="UNIKIE-BENCH: Benchmarking Large Multimodal Models for Key Information Extraction in Visual Documents" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1490" height="828" srcset="/images/thumbnails/projects/unikiebench-320.webp 320w, /images/thumbnails/projects/unikiebench-480.webp 480w, /images/thumbnails/projects/unikiebench-640.webp 640w, /images/thumbnails/projects/unikiebench-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 251.93px), 168px">
     </div>
     
 
@@ -469,7 +476,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/longmabpo.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/longmabpo-480.webp" alt="Chunks as Arms: Multi-Armed Bandit-Guided Sampling for Long-Context LLM Preference Optimization" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="2370" height="1340" srcset="/images/thumbnails/projects/longmabpo-480.webp 480w, /images/thumbnails/projects/longmabpo-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/longmabpo-320.webp" alt="Chunks as Arms: Multi-Armed Bandit-Guided Sampling for Long-Context LLM Preference Optimization" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="2370" height="1340" srcset="/images/thumbnails/projects/longmabpo-320.webp 320w, /images/thumbnails/projects/longmabpo-480.webp 480w, /images/thumbnails/projects/longmabpo-640.webp 640w, /images/thumbnails/projects/longmabpo-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 247.61px), 168px">
     </div>
     
 
@@ -510,7 +517,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/checkrlm.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/checkrlm-480.webp" alt="CheckRLM: Effective Knowledge-Thought Coherence Checking in Retrieval-Augmented Reasoning" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="2408" height="1062" srcset="/images/thumbnails/projects/checkrlm-480.webp 480w, /images/thumbnails/projects/checkrlm-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/checkrlm-320.webp" alt="CheckRLM: Effective Knowledge-Thought Coherence Checking in Retrieval-Augmented Reasoning" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="2408" height="1062" srcset="/images/thumbnails/projects/checkrlm-320.webp 320w, /images/thumbnails/projects/checkrlm-480.webp 480w, /images/thumbnails/projects/checkrlm-640.webp 640w, /images/thumbnails/projects/checkrlm-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 317.44px), 168px">
     </div>
     
 
@@ -553,7 +560,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/lang2act.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/lang2act-480.webp" alt="Lang2Act: Fine-Grained Visual Reasoning through Self-Emergent Linguistic Toolchains" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1644" height="928" srcset="/images/thumbnails/projects/lang2act-480.webp 480w, /images/thumbnails/projects/lang2act-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/lang2act-320.webp" alt="Lang2Act: Fine-Grained Visual Reasoning through Self-Emergent Linguistic Toolchains" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1644" height="928" srcset="/images/thumbnails/projects/lang2act-320.webp 320w, /images/thumbnails/projects/lang2act-480.webp 480w, /images/thumbnails/projects/lang2act-640.webp 640w, /images/thumbnails/projects/lang2act-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 248.02px), 168px">
     </div>
     
 
@@ -594,7 +601,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/dai2026revealing.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/dai2026revealing-480.webp" alt="Revealing the Attention Floating Mechanism in Masked Diffusion Models" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="696" height="664" srcset="/images/thumbnails/projects/dai2026revealing-480.webp 480w, /images/projects/dai2026revealing.webp 696w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/dai2026revealing-320.webp" alt="Revealing the Attention Floating Mechanism in Masked Diffusion Models" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="696" height="664" srcset="/images/thumbnails/projects/dai2026revealing-320.webp 320w, /images/thumbnails/projects/dai2026revealing-480.webp 480w, /images/thumbnails/projects/dai2026revealing-640.webp 640w, /images/projects/dai2026revealing.webp 696w" sizes="(max-width: 880px) min(calc(100vw - 120px), 146.75px), 168px">
     </div>
     
 
@@ -635,7 +642,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/metamem.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/metamem-480.webp" alt="MetaMem: Evolving Meta-Memory for Knowledge Utilization through Self-Reflective Symbolic Optimization" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="2130" height="1298" srcset="/images/thumbnails/projects/metamem-480.webp 480w, /images/thumbnails/projects/metamem-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/metamem-320.webp" alt="MetaMem: Evolving Meta-Memory for Knowledge Utilization through Self-Reflective Symbolic Optimization" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="2130" height="1298" srcset="/images/thumbnails/projects/metamem-320.webp 320w, /images/thumbnails/projects/metamem-480.webp 480w, /images/thumbnails/projects/metamem-640.webp 640w, /images/thumbnails/projects/metamem-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 229.74px), 168px">
     </div>
     
 
@@ -676,7 +683,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/hqekv.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/hqekv-480.webp" alt="HqeKV: Towards Hybrid Quantization and Eviction for KV Cache in Long-Context LLM Inference" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1522" height="584" srcset="/images/thumbnails/projects/hqekv-480.webp 480w, /images/thumbnails/projects/hqekv-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/hqekv-320.webp" alt="HqeKV: Towards Hybrid Quantization and Eviction for KV Cache in Long-Context LLM Inference" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1522" height="584" srcset="/images/thumbnails/projects/hqekv-320.webp 320w, /images/thumbnails/projects/hqekv-480.webp 480w, /images/thumbnails/projects/hqekv-640.webp 640w, /images/thumbnails/projects/hqekv-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 364.86px), 168px">
     </div>
     
 
@@ -717,7 +724,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/orion.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/orion-480.webp" alt="Enhancing Long-Chain Reasoning Distillation through Error-Aware Self-Reflection" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1606" height="872" srcset="/images/thumbnails/projects/orion-480.webp 480w, /images/thumbnails/projects/orion-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/orion-320.webp" alt="Enhancing Long-Chain Reasoning Distillation through Error-Aware Self-Reflection" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1606" height="872" srcset="/images/thumbnails/projects/orion-320.webp 320w, /images/thumbnails/projects/orion-480.webp 480w, /images/thumbnails/projects/orion-640.webp 640w, /images/thumbnails/projects/orion-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 257.84px), 168px">
     </div>
     
 
@@ -758,7 +765,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/genii.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/genii-480.webp" alt="Mitigating Judgment Preference Bias in Large Language Models through Group-Based Polling" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1812" height="988" srcset="/images/thumbnails/projects/genii-480.webp 480w, /images/thumbnails/projects/genii-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/genii-320.webp" alt="Mitigating Judgment Preference Bias in Large Language Models through Group-Based Polling" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1812" height="988" srcset="/images/thumbnails/projects/genii-320.webp 320w, /images/thumbnails/projects/genii-480.webp 480w, /images/thumbnails/projects/genii-640.webp 640w, /images/thumbnails/projects/genii-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 256.76px), 168px">
     </div>
     
 

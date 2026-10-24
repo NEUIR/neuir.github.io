@@ -96,18 +96,25 @@
 <link rel="preload" href="/images/thumbnails/backgrounds/school-1920.webp" as="image" media="(min-width: 761px)" fetchpriority="high">
 
 
-  <link href="/assets/css/site.css?v=1792815960" rel="stylesheet">
+  <link href="/assets/css/site.css?v=1792822069" rel="stylesheet">
 
   
-<script src="/_scripts/dark-mode.js?v=1792815960"></script>
+<script>
+  // Restore the theme before painting without a blocking network request.
+  try {
+    document.documentElement.dataset.dark = window.localStorage.getItem("dark-mode") === "true" ? "true" : "false";
+  } catch {
+    document.documentElement.dataset.dark = "false";
+  }
+</script>
 <script src="/assets/vendor/popper.min.js?v=c212f4b505a8" defer></script>
 <script src="/assets/vendor/tippy.min.js?v=3f0fe70eb26c" defer></script>
 
 <script src="/assets/vendor/mark.min.js?v=21d62e1053f7" defer></script>
 
-<script src="/assets/js/site.js?v=1792815960" defer></script>
+<script src="/assets/js/site.js?v=1792822069" defer></script>
 
-<script src="/assets/js/search.js?v=1792815960" defer></script>
+<script src="/assets/js/search.js?v=1792822069" defer></script>
 
 
 
@@ -230,7 +237,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/legaldelta.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/legaldelta-480.webp" alt="LegalΔ: Enhancing Legal Reasoning in LLMs via Reinforcement Learning with Chain-of-Thought Guided Information Gain" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="962" height="1086" srcset="/images/thumbnails/projects/legaldelta-480.webp 480w, /images/thumbnails/projects/legaldelta-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/legaldelta-320.webp" alt="LegalΔ: Enhancing Legal Reasoning in LLMs via Reinforcement Learning with Chain-of-Thought Guided Information Gain" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="962" height="1086" srcset="/images/thumbnails/projects/legaldelta-320.webp 320w, /images/thumbnails/projects/legaldelta-480.webp 480w, /images/thumbnails/projects/legaldelta-640.webp 640w, /images/thumbnails/projects/legaldelta-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 124.01px), 168px">
     </div>
     
 
@@ -271,7 +278,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/editmem.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/editmem-480.webp" alt="EditMem: Enhancing Multi-Hop Fact Verification via Editable Memory" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="824" height="826" srcset="/images/thumbnails/projects/editmem-480.webp 480w, /images/projects/editmem.webp 824w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/editmem-320.webp" alt="EditMem: Enhancing Multi-Hop Fact Verification via Editable Memory" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="824" height="826" srcset="/images/thumbnails/projects/editmem-320.webp 320w, /images/thumbnails/projects/editmem-480.webp 480w, /images/thumbnails/projects/editmem-640.webp 640w, /images/projects/editmem.webp 824w" sizes="(max-width: 880px) min(calc(100vw - 120px), 139.66px), 168px">
     </div>
     
 
@@ -312,7 +319,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/visrag2.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/visrag2-480.webp" alt="VisRAG 2.0: Evidence-Guided Multi-Image Reasoning in Visual Retrieval-Augmented Generation" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1404" height="692" srcset="/images/thumbnails/projects/visrag2-480.webp 480w, /images/thumbnails/projects/visrag2-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/visrag2-320.webp" alt="VisRAG 2.0: Evidence-Guided Multi-Image Reasoning in Visual Retrieval-Augmented Generation" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1404" height="692" srcset="/images/thumbnails/projects/visrag2-320.webp 320w, /images/thumbnails/projects/visrag2-480.webp 480w, /images/thumbnails/projects/visrag2-640.webp 640w, /images/thumbnails/projects/visrag2-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 284.05px), 168px">
     </div>
     
 
@@ -353,7 +360,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/lisrec.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/lisrec-480.webp" alt="LISRec: Modeling User Preferences with Learned Item Shortcuts for Sequential Recommendation" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1550" height="803" srcset="/images/thumbnails/projects/lisrec-480.webp 480w, /images/thumbnails/projects/lisrec-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/lisrec-320.webp" alt="LISRec: Modeling User Preferences with Learned Item Shortcuts for Sequential Recommendation" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1550" height="803" srcset="/images/thumbnails/projects/lisrec-320.webp 320w, /images/thumbnails/projects/lisrec-480.webp 480w, /images/thumbnails/projects/lisrec-640.webp 640w, /images/thumbnails/projects/lisrec-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 270.24px), 168px">
     </div>
     
 
@@ -394,7 +401,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/more.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/more-480.webp" alt="Mixture-of-Retrieval Experts for Reasoning-Guided Multimodal Knowledge Exploitation" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="2022" height="1212" srcset="/images/thumbnails/projects/more-480.webp 480w, /images/thumbnails/projects/more-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/more-320.webp" alt="Mixture-of-Retrieval Experts for Reasoning-Guided Multimodal Knowledge Exploitation" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="2022" height="1212" srcset="/images/thumbnails/projects/more-320.webp 320w, /images/thumbnails/projects/more-480.webp 480w, /images/thumbnails/projects/more-640.webp 640w, /images/thumbnails/projects/more-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 233.56px), 168px">
     </div>
     
 
@@ -435,7 +442,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/realign.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/realign-480.webp" alt="ReAlign: Optimizing the Visual Document Retriever with Reasoning-Guided Fine-Grained Alignment" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="2036" height="1116" srcset="/images/thumbnails/projects/realign-480.webp 480w, /images/thumbnails/projects/realign-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/realign-320.webp" alt="ReAlign: Optimizing the Visual Document Retriever with Reasoning-Guided Fine-Grained Alignment" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="2036" height="1116" srcset="/images/thumbnails/projects/realign-320.webp 320w, /images/thumbnails/projects/realign-480.webp 480w, /images/thumbnails/projects/realign-640.webp 640w, /images/thumbnails/projects/realign-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 255.41px), 168px">
     </div>
     
 
@@ -476,7 +483,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/scidc.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/scidc-480.webp" alt="Scientific Knowledge-driven Decoding Constraints Improving the Reliability of LLMs" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="760" height="470" srcset="/images/thumbnails/projects/scidc-480.webp 480w, /images/projects/scidc.webp 760w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/scidc-320.webp" alt="Scientific Knowledge-driven Decoding Constraints Improving the Reliability of LLMs" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="760" height="470" srcset="/images/thumbnails/projects/scidc-320.webp 320w, /images/thumbnails/projects/scidc-480.webp 480w, /images/thumbnails/projects/scidc-640.webp 640w, /images/projects/scidc.webp 760w" sizes="(max-width: 880px) min(calc(100vw - 120px), 226.38px), 168px">
     </div>
     
 
@@ -517,7 +524,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/writing-as-reasoning.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/writing-as-reasoning-480.webp" alt="Writing As Reasoning: Interleaving Drafting and Deepening for Open-Ended Deep Research" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1416" height="825" srcset="/images/thumbnails/projects/writing-as-reasoning-480.webp 480w, /images/thumbnails/projects/writing-as-reasoning-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/writing-as-reasoning-320.webp" alt="Writing As Reasoning: Interleaving Drafting and Deepening for Open-Ended Deep Research" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1416" height="825" srcset="/images/thumbnails/projects/writing-as-reasoning-320.webp 320w, /images/thumbnails/projects/writing-as-reasoning-480.webp 480w, /images/thumbnails/projects/writing-as-reasoning-640.webp 640w, /images/thumbnails/projects/writing-as-reasoning-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 240.29px), 168px">
     </div>
     
 
@@ -558,7 +565,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/kare-rag.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/kare-rag-480.webp" alt="KARE-RAG: Knowledge-Aware Refinement and Enhancement for RAG" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1530" height="560" srcset="/images/thumbnails/projects/kare-rag-480.webp 480w, /images/thumbnails/projects/kare-rag-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/kare-rag-320.webp" alt="KARE-RAG: Knowledge-Aware Refinement and Enhancement for RAG" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1530" height="560" srcset="/images/thumbnails/projects/kare-rag-320.webp 320w, /images/thumbnails/projects/kare-rag-480.webp 480w, /images/thumbnails/projects/kare-rag-640.webp 640w, /images/thumbnails/projects/kare-rag-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 382.5px), 168px">
     </div>
     
 
@@ -599,7 +606,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/pvfh-bench.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/pvfh-bench-480.webp" alt="PVFH-Bench: Benchmarking Premise-Induced Visual Fixation Hallucinations in Vision-Language Models" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1525" height="762" srcset="/images/thumbnails/projects/pvfh-bench-480.webp 480w, /images/thumbnails/projects/pvfh-bench-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/pvfh-bench-320.webp" alt="PVFH-Bench: Benchmarking Premise-Induced Visual Fixation Hallucinations in Vision-Language Models" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1525" height="762" srcset="/images/thumbnails/projects/pvfh-bench-320.webp 320w, /images/thumbnails/projects/pvfh-bench-480.webp 480w, /images/thumbnails/projects/pvfh-bench-640.webp 640w, /images/thumbnails/projects/pvfh-bench-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 280.18px), 168px">
     </div>
     
 
@@ -640,7 +647,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/memorycard.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/memorycard-480.webp" alt="MemoryCard: Topic-Aware Multi-Modal Clue Compression for Long-Video Question Answering" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1416" height="690" srcset="/images/thumbnails/projects/memorycard-480.webp 480w, /images/thumbnails/projects/memorycard-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/memorycard-320.webp" alt="MemoryCard: Topic-Aware Multi-Modal Clue Compression for Long-Video Question Answering" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1416" height="690" srcset="/images/thumbnails/projects/memorycard-320.webp 320w, /images/thumbnails/projects/memorycard-480.webp 480w, /images/thumbnails/projects/memorycard-640.webp 640w, /images/thumbnails/projects/memorycard-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 287.3px), 168px">
     </div>
     
 
@@ -681,7 +688,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/kair.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/kair-480.webp" alt="Finding What Matters: Anchoring Context Knowledge with Evolving Indices for Iterative Retrieval" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="760" height="690" srcset="/images/thumbnails/projects/kair-480.webp 480w, /images/projects/kair.webp 760w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/kair-320.webp" alt="Finding What Matters: Anchoring Context Knowledge with Evolving Indices for Iterative Retrieval" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="760" height="690" srcset="/images/thumbnails/projects/kair-320.webp 320w, /images/thumbnails/projects/kair-480.webp 480w, /images/thumbnails/projects/kair-640.webp 640w, /images/projects/kair.webp 760w" sizes="(max-width: 880px) min(calc(100vw - 120px), 154.2px), 168px">
     </div>
     
 
@@ -722,7 +729,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/lexrel.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/lexrel-480.webp" alt="LexRel: Benchmarking Legal Relation Extraction for Chinese Civil Cases" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1486" height="674" srcset="/images/thumbnails/projects/lexrel-480.webp 480w, /images/thumbnails/projects/lexrel-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/lexrel-320.webp" alt="LexRel: Benchmarking Legal Relation Extraction for Chinese Civil Cases" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1486" height="674" srcset="/images/thumbnails/projects/lexrel-320.webp 320w, /images/thumbnails/projects/lexrel-480.webp 480w, /images/thumbnails/projects/lexrel-640.webp 640w, /images/thumbnails/projects/lexrel-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 308.66px), 168px">
     </div>
     
 
@@ -763,7 +770,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/palign.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/palign-480.webp" alt="Long-Chain Reasoning Distillation via Adaptive Prefix Alignment" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="2062" height="1114" srcset="/images/thumbnails/projects/palign-480.webp 480w, /images/thumbnails/projects/palign-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/palign-320.webp" alt="Long-Chain Reasoning Distillation via Adaptive Prefix Alignment" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="2062" height="1114" srcset="/images/thumbnails/projects/palign-320.webp 320w, /images/thumbnails/projects/palign-480.webp 480w, /images/thumbnails/projects/palign-640.webp 640w, /images/thumbnails/projects/palign-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 259.14px), 168px">
     </div>
     
 
@@ -804,7 +811,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/ada-dlm.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/ada-dlm-480.webp" alt="Towards Efficient and Effective Diffusion Language Model Inference via Semantic-Aware Adaptive Denoising" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1549" height="559" srcset="/images/thumbnails/projects/ada-dlm-480.webp 480w, /images/thumbnails/projects/ada-dlm-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/ada-dlm-320.webp" alt="Towards Efficient and Effective Diffusion Language Model Inference via Semantic-Aware Adaptive Denoising" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1549" height="559" srcset="/images/thumbnails/projects/ada-dlm-320.webp 320w, /images/thumbnails/projects/ada-dlm-480.webp 480w, /images/thumbnails/projects/ada-dlm-640.webp 640w, /images/thumbnails/projects/ada-dlm-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 387.94px), 168px">
     </div>
     
 
@@ -845,7 +852,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/lang2act.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/lang2act-480.webp" alt="Lang2Act: Fine-Grained Visual Reasoning through Self-Emergent Linguistic Toolchains" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1644" height="928" srcset="/images/thumbnails/projects/lang2act-480.webp 480w, /images/thumbnails/projects/lang2act-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/lang2act-320.webp" alt="Lang2Act: Fine-Grained Visual Reasoning through Self-Emergent Linguistic Toolchains" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1644" height="928" srcset="/images/thumbnails/projects/lang2act-320.webp 320w, /images/thumbnails/projects/lang2act-480.webp 480w, /images/thumbnails/projects/lang2act-640.webp 640w, /images/thumbnails/projects/lang2act-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 248.02px), 168px">
     </div>
     
 
@@ -886,7 +893,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/dai2026revealing.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/dai2026revealing-480.webp" alt="Revealing the Attention Floating Mechanism in Masked Diffusion Models" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="696" height="664" srcset="/images/thumbnails/projects/dai2026revealing-480.webp 480w, /images/projects/dai2026revealing.webp 696w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/dai2026revealing-320.webp" alt="Revealing the Attention Floating Mechanism in Masked Diffusion Models" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="696" height="664" srcset="/images/thumbnails/projects/dai2026revealing-320.webp 320w, /images/thumbnails/projects/dai2026revealing-480.webp 480w, /images/thumbnails/projects/dai2026revealing-640.webp 640w, /images/projects/dai2026revealing.webp 696w" sizes="(max-width: 880px) min(calc(100vw - 120px), 146.75px), 168px">
     </div>
     
 
@@ -927,7 +934,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/metamem.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/metamem-480.webp" alt="MetaMem: Evolving Meta-Memory for Knowledge Utilization through Self-Reflective Symbolic Optimization" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="2130" height="1298" srcset="/images/thumbnails/projects/metamem-480.webp 480w, /images/thumbnails/projects/metamem-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/metamem-320.webp" alt="MetaMem: Evolving Meta-Memory for Knowledge Utilization through Self-Reflective Symbolic Optimization" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="2130" height="1298" srcset="/images/thumbnails/projects/metamem-320.webp 320w, /images/thumbnails/projects/metamem-480.webp 480w, /images/thumbnails/projects/metamem-640.webp 640w, /images/thumbnails/projects/metamem-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 229.74px), 168px">
     </div>
     
 
@@ -968,7 +975,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/hqekv.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/hqekv-480.webp" alt="HqeKV: Towards Hybrid Quantization and Eviction for KV Cache in Long-Context LLM Inference" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1522" height="584" srcset="/images/thumbnails/projects/hqekv-480.webp 480w, /images/thumbnails/projects/hqekv-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/hqekv-320.webp" alt="HqeKV: Towards Hybrid Quantization and Eviction for KV Cache in Long-Context LLM Inference" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1522" height="584" srcset="/images/thumbnails/projects/hqekv-320.webp 320w, /images/thumbnails/projects/hqekv-480.webp 480w, /images/thumbnails/projects/hqekv-640.webp 640w, /images/thumbnails/projects/hqekv-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 364.86px), 168px">
     </div>
     
 
@@ -1009,7 +1016,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/uncode.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/uncode-480.webp" alt="Empirical Analysis of Decoding Biases in Masked Diffusion Models" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="794" height="1000" srcset="/images/thumbnails/projects/uncode-480.webp 480w, /images/projects/uncode.webp 794w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/uncode-320.webp" alt="Empirical Analysis of Decoding Biases in Masked Diffusion Models" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="794" height="1000" srcset="/images/thumbnails/projects/uncode-320.webp 320w, /images/thumbnails/projects/uncode-480.webp 480w, /images/thumbnails/projects/uncode-640.webp 640w, /images/projects/uncode.webp 794w" sizes="(max-width: 880px) min(calc(100vw - 120px), 111.16px), 168px">
     </div>
     
 
@@ -1050,7 +1057,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/unikiebench.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/unikiebench-480.webp" alt="UNIKIE-BENCH: Benchmarking Large Multimodal Models for Key Information Extraction in Visual Documents" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1490" height="828" srcset="/images/thumbnails/projects/unikiebench-480.webp 480w, /images/thumbnails/projects/unikiebench-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/unikiebench-320.webp" alt="UNIKIE-BENCH: Benchmarking Large Multimodal Models for Key Information Extraction in Visual Documents" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1490" height="828" srcset="/images/thumbnails/projects/unikiebench-320.webp 320w, /images/thumbnails/projects/unikiebench-480.webp 480w, /images/thumbnails/projects/unikiebench-640.webp 640w, /images/thumbnails/projects/unikiebench-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 251.93px), 168px">
     </div>
     
 
@@ -1091,7 +1098,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/orion.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/orion-480.webp" alt="Enhancing Long-Chain Reasoning Distillation through Error-Aware Self-Reflection" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1606" height="872" srcset="/images/thumbnails/projects/orion-480.webp 480w, /images/thumbnails/projects/orion-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/orion-320.webp" alt="Enhancing Long-Chain Reasoning Distillation through Error-Aware Self-Reflection" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1606" height="872" srcset="/images/thumbnails/projects/orion-320.webp 320w, /images/thumbnails/projects/orion-480.webp 480w, /images/thumbnails/projects/orion-640.webp 640w, /images/thumbnails/projects/orion-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 257.84px), 168px">
     </div>
     
 
@@ -1132,7 +1139,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/longmabpo.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/longmabpo-480.webp" alt="Chunks as Arms: Multi-Armed Bandit-Guided Sampling for Long-Context LLM Preference Optimization" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="2370" height="1340" srcset="/images/thumbnails/projects/longmabpo-480.webp 480w, /images/thumbnails/projects/longmabpo-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/longmabpo-320.webp" alt="Chunks as Arms: Multi-Armed Bandit-Guided Sampling for Long-Context LLM Preference Optimization" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="2370" height="1340" srcset="/images/thumbnails/projects/longmabpo-320.webp 320w, /images/thumbnails/projects/longmabpo-480.webp 480w, /images/thumbnails/projects/longmabpo-640.webp 640w, /images/thumbnails/projects/longmabpo-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 247.61px), 168px">
     </div>
     
 
@@ -1173,7 +1180,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/genii.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/genii-480.webp" alt="Mitigating Judgment Preference Bias in Large Language Models through Group-Based Polling" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1812" height="988" srcset="/images/thumbnails/projects/genii-480.webp 480w, /images/thumbnails/projects/genii-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/genii-320.webp" alt="Mitigating Judgment Preference Bias in Large Language Models through Group-Based Polling" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1812" height="988" srcset="/images/thumbnails/projects/genii-320.webp 320w, /images/thumbnails/projects/genii-480.webp 480w, /images/thumbnails/projects/genii-640.webp 640w, /images/thumbnails/projects/genii-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 256.76px), 168px">
     </div>
     
 
@@ -1214,7 +1221,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/checkrlm.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/checkrlm-480.webp" alt="CheckRLM: Effective Knowledge-Thought Coherence Checking in Retrieval-Augmented Reasoning" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="2408" height="1062" srcset="/images/thumbnails/projects/checkrlm-480.webp 480w, /images/thumbnails/projects/checkrlm-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/checkrlm-320.webp" alt="CheckRLM: Effective Knowledge-Thought Coherence Checking in Retrieval-Augmented Reasoning" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="2408" height="1062" srcset="/images/thumbnails/projects/checkrlm-320.webp 320w, /images/thumbnails/projects/checkrlm-480.webp 480w, /images/thumbnails/projects/checkrlm-640.webp 640w, /images/thumbnails/projects/checkrlm-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 317.44px), 168px">
     </div>
     
 
@@ -1255,7 +1262,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/athought.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/athought-480.webp" alt="A*-Thought: Efficient Reasoning via Bidirectional Compression for Low-Resource Settings" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="2040" height="1325" srcset="/images/thumbnails/projects/athought-480.webp 480w, /images/thumbnails/projects/athought-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/athought-320.webp" alt="A*-Thought: Efficient Reasoning via Bidirectional Compression for Low-Resource Settings" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="2040" height="1325" srcset="/images/thumbnails/projects/athought-320.webp 320w, /images/thumbnails/projects/athought-480.webp 480w, /images/thumbnails/projects/athought-640.webp 640w, /images/thumbnails/projects/athought-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 215.55px), 168px">
     </div>
     
 
@@ -1296,7 +1303,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/parammute.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/parammute-480.webp" alt="ParamMute: Suppressing Knowledge-Critical FFNs for Faithful Retrieval-Augmented Generation" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="2283" height="564" srcset="/images/thumbnails/projects/parammute-480.webp 480w, /images/thumbnails/projects/parammute-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/parammute-320.webp" alt="ParamMute: Suppressing Knowledge-Critical FFNs for Faithful Retrieval-Augmented Generation" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="2283" height="564" srcset="/images/thumbnails/projects/parammute-320.webp 320w, /images/thumbnails/projects/parammute-480.webp 480w, /images/thumbnails/projects/parammute-640.webp 640w, /images/thumbnails/projects/parammute-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 566.7px), 168px">
     </div>
     
 
@@ -1337,7 +1344,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/mmrag.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/mmrag-480.webp" alt="Benchmarking Retrieval-Augmented Generation in Multi-Modal Contexts" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1872" height="1058" srcset="/images/thumbnails/projects/mmrag-480.webp 480w, /images/thumbnails/projects/mmrag-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/mmrag-320.webp" alt="Benchmarking Retrieval-Augmented Generation in Multi-Modal Contexts" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1872" height="1058" srcset="/images/thumbnails/projects/mmrag-320.webp 320w, /images/thumbnails/projects/mmrag-480.webp 480w, /images/thumbnails/projects/mmrag-640.webp 640w, /images/thumbnails/projects/mmrag-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 247.71px), 168px">
     </div>
     
 
@@ -1378,7 +1385,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/ultrainteract.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/ultrainteract-480.webp" alt="Advancing llm reasoning generalists with preference trees" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1031" height="414" srcset="/images/thumbnails/projects/ultrainteract-480.webp 480w, /images/thumbnails/projects/ultrainteract-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/ultrainteract-320.webp" alt="Advancing llm reasoning generalists with preference trees" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1031" height="414" srcset="/images/thumbnails/projects/ultrainteract-320.webp 320w, /images/thumbnails/projects/ultrainteract-480.webp 480w, /images/thumbnails/projects/ultrainteract-640.webp 640w, /images/thumbnails/projects/ultrainteract-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 348.65px), 168px">
     </div>
     
 
@@ -1419,7 +1426,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/visrag.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/visrag-480.webp" alt="VisRAG: Vision-based retrieval-augmented generation on multi-modality documents" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1301" height="567" srcset="/images/thumbnails/projects/visrag-480.webp 480w, /images/thumbnails/projects/visrag-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/visrag-320.webp" alt="VisRAG: Vision-based retrieval-augmented generation on multi-modality documents" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1301" height="567" srcset="/images/thumbnails/projects/visrag-320.webp 320w, /images/thumbnails/projects/visrag-480.webp 480w, /images/thumbnails/projects/visrag-640.webp 640w, /images/thumbnails/projects/visrag-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 321.23px), 168px">
     </div>
     
 
@@ -1460,7 +1467,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/ragddr.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/ragddr-480.webp" alt="RAG-DDR: Optimizing Retrieval-Augmented Generation Using Differentiable Data Rewards" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="982" height="589" srcset="/images/thumbnails/projects/ragddr-480.webp 480w, /images/thumbnails/projects/ragddr-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/ragddr-320.webp" alt="RAG-DDR: Optimizing Retrieval-Augmented Generation Using Differentiable Data Rewards" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="982" height="589" srcset="/images/thumbnails/projects/ragddr-320.webp 320w, /images/thumbnails/projects/ragddr-480.webp 480w, /images/thumbnails/projects/ragddr-640.webp 640w, /images/thumbnails/projects/ragddr-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 233.41px), 168px">
     </div>
     
 
@@ -1501,7 +1508,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/coast.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/coast-480.webp" alt="COAST: Enhancing the Code Debugging Ability of LLMs through Communicative Agent Based Data Synthesis" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="684" height="684" srcset="/images/thumbnails/projects/coast-480.webp 480w, /images/projects/coast.webp 684w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/coast-320.webp" alt="COAST: Enhancing the Code Debugging Ability of LLMs through Communicative Agent Based Data Synthesis" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="684" height="684" srcset="/images/thumbnails/projects/coast-320.webp 320w, /images/thumbnails/projects/coast-480.webp 480w, /images/thumbnails/projects/coast-640.webp 640w, /images/projects/coast.webp 684w" sizes="(max-width: 880px) min(calc(100vw - 120px), 140.0px), 168px">
     </div>
     
 
@@ -1542,7 +1549,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/memgraph.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/memgraph-480.webp" alt="Enhancing the Patent Matching Capability of Large Language Models via the Memory Graph" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1470" height="780" srcset="/images/thumbnails/projects/memgraph-480.webp 480w, /images/thumbnails/projects/memgraph-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/memgraph-320.webp" alt="Enhancing the Patent Matching Capability of Large Language Models via the Memory Graph" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1470" height="780" srcset="/images/thumbnails/projects/memgraph-320.webp 320w, /images/thumbnails/projects/memgraph-480.webp 480w, /images/thumbnails/projects/memgraph-640.webp 640w, /images/thumbnails/projects/memgraph-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 263.85px), 168px">
     </div>
     
 
@@ -1583,7 +1590,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/deepnote.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/deepnote-480.webp" alt="DeepNote: Note-Centric Deep Retrieval-Augmented Generation" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="3018" height="1202" srcset="/images/thumbnails/projects/deepnote-480.webp 480w, /images/thumbnails/projects/deepnote-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/deepnote-320.webp" alt="DeepNote: Note-Centric Deep Retrieval-Augmented Generation" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="3018" height="1202" srcset="/images/thumbnails/projects/deepnote-320.webp 320w, /images/thumbnails/projects/deepnote-480.webp 480w, /images/thumbnails/projects/deepnote-640.webp 640w, /images/thumbnails/projects/deepnote-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 351.51px), 168px">
     </div>
     
 
@@ -1624,7 +1631,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/kbalign.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/kbalign-480.webp" alt="KBAlign: Efficient Self Adaptation on Specific Knowledge Bases" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="885" height="558" srcset="/images/thumbnails/projects/kbalign-480.webp 480w, /images/projects/kbalign.webp 885w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/kbalign-320.webp" alt="KBAlign: Efficient Self Adaptation on Specific Knowledge Bases" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="885" height="558" srcset="/images/thumbnails/projects/kbalign-320.webp 320w, /images/thumbnails/projects/kbalign-480.webp 480w, /images/thumbnails/projects/kbalign-640.webp 640w, /images/projects/kbalign.webp 885w" sizes="(max-width: 880px) min(calc(100vw - 120px), 222.04px), 168px">
     </div>
     
 
@@ -1665,7 +1672,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/persllm.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/persllm-480.webp" alt="PersLLM: A Personified Training Approach for Large Language Models" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="2882" height="1096" srcset="/images/thumbnails/projects/persllm-480.webp 480w, /images/thumbnails/projects/persllm-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/persllm-320.webp" alt="PersLLM: A Personified Training Approach for Large Language Models" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="2882" height="1096" srcset="/images/thumbnails/projects/persllm-320.webp 320w, /images/thumbnails/projects/persllm-480.webp 480w, /images/thumbnails/projects/persllm-640.webp 640w, /images/thumbnails/projects/persllm-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 368.14px), 168px">
     </div>
     
 
@@ -1706,7 +1713,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/clueanchor.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/clueanchor-480.webp" alt="ClueAnchor: Clue-Anchored Knowledge Reasoning Exploration and Optimization for Retrieval-Augmented Generation" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="2475" height="1413" srcset="/images/thumbnails/projects/clueanchor-480.webp 480w, /images/thumbnails/projects/clueanchor-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/clueanchor-320.webp" alt="ClueAnchor: Clue-Anchored Knowledge Reasoning Exploration and Optimization for Retrieval-Augmented Generation" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="2475" height="1413" srcset="/images/thumbnails/projects/clueanchor-320.webp 320w, /images/thumbnails/projects/clueanchor-480.webp 480w, /images/thumbnails/projects/clueanchor-640.webp 640w, /images/thumbnails/projects/clueanchor-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 245.22px), 168px">
     </div>
     
 
@@ -1747,7 +1754,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/recut.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/recut-480.webp" alt="ReCUT: Balancing Reasoning Length and Accuracy in LLMs via Stepwise Trails and Preference Optimization" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="2390" height="1242" srcset="/images/thumbnails/projects/recut-480.webp 480w, /images/thumbnails/projects/recut-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/recut-320.webp" alt="ReCUT: Balancing Reasoning Length and Accuracy in LLMs via Stepwise Trails and Preference Optimization" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="2390" height="1242" srcset="/images/thumbnails/projects/recut-320.webp 320w, /images/thumbnails/projects/recut-480.webp 480w, /images/thumbnails/projects/recut-640.webp 640w, /images/thumbnails/projects/recut-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 269.4px), 168px">
     </div>
     
 
@@ -1788,7 +1795,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/expandr.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/expandr-480.webp" alt="ExpandR: Teaching Dense Retrievers Beyond Queries with LLM Guidance" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1703" height="1408" srcset="/images/thumbnails/projects/expandr-480.webp 480w, /images/thumbnails/projects/expandr-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/expandr-320.webp" alt="ExpandR: Teaching Dense Retrievers Beyond Queries with LLM Guidance" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1703" height="1408" srcset="/images/thumbnails/projects/expandr-320.webp 320w, /images/thumbnails/projects/expandr-480.webp 480w, /images/thumbnails/projects/expandr-640.webp 640w, /images/thumbnails/projects/expandr-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 169.33px), 168px">
     </div>
     
 
@@ -1829,7 +1836,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/rageval.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/rageval-480.webp" alt="RAGEval: Scenario Specific RAG Evaluation Dataset Generation Framework" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1459" height="659" srcset="/images/thumbnails/projects/rageval-480.webp 480w, /images/thumbnails/projects/rageval-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/rageval-320.webp" alt="RAGEval: Scenario Specific RAG Evaluation Dataset Generation Framework" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1459" height="659" srcset="/images/thumbnails/projects/rageval-320.webp 320w, /images/thumbnails/projects/rageval-480.webp 480w, /images/thumbnails/projects/rageval-640.webp 640w, /images/thumbnails/projects/rageval-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 309.95px), 168px">
     </div>
     
 
@@ -1870,7 +1877,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/consjudge.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/consjudge-480.webp" alt="Judge as A Judge: Improving the Evaluation of Retrieval-Augmented Generation through the Judge-Consistency of Large Language Models" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="2644" height="1600" srcset="/images/thumbnails/projects/consjudge-480.webp 480w, /images/thumbnails/projects/consjudge-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/consjudge-320.webp" alt="Judge as A Judge: Improving the Evaluation of Retrieval-Augmented Generation through the Judge-Consistency of Large Language Models" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="2644" height="1600" srcset="/images/thumbnails/projects/consjudge-320.webp 320w, /images/thumbnails/projects/consjudge-480.webp 480w, /images/thumbnails/projects/consjudge-640.webp 640w, /images/thumbnails/projects/consjudge-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 231.35px), 168px">
     </div>
     
 
@@ -1911,7 +1918,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/rankcot.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/rankcot-480.webp" alt="Rankcot: Refining knowledge for retrieval-augmented generation through ranking chain-of-thoughts" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="2672" height="1500" srcset="/images/thumbnails/projects/rankcot-480.webp 480w, /images/thumbnails/projects/rankcot-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/rankcot-320.webp" alt="Rankcot: Refining knowledge for retrieval-augmented generation through ranking chain-of-thoughts" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="2672" height="1500" srcset="/images/thumbnails/projects/rankcot-320.webp 320w, /images/thumbnails/projects/rankcot-480.webp 480w, /images/thumbnails/projects/rankcot-640.webp 640w, /images/thumbnails/projects/rankcot-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 249.39px), 168px">
     </div>
     
 
@@ -1952,7 +1959,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/directed.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/directed-480.webp" alt="Exploring the Potential of Dimension Reduction in Building Efficient Dense Retrieval Systems" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1373" height="549" srcset="/images/thumbnails/projects/directed-480.webp 480w, /images/thumbnails/projects/directed-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/directed-320.webp" alt="Exploring the Potential of Dimension Reduction in Building Efficient Dense Retrieval Systems" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1373" height="549" srcset="/images/thumbnails/projects/directed-320.webp 320w, /images/thumbnails/projects/directed-480.webp 480w, /images/thumbnails/projects/directed-640.webp 640w, /images/thumbnails/projects/directed-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 350.13px), 168px">
     </div>
     
 
@@ -1993,7 +2000,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/chameleon.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/chameleon-480.webp" alt="Chameleon: Towards Update-Efficient Learned Indexing for Locally Skewed Data" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="889" height="566" srcset="/images/thumbnails/projects/chameleon-480.webp 480w, /images/projects/chameleon.webp 889w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/chameleon-320.webp" alt="Chameleon: Towards Update-Efficient Learned Indexing for Locally Skewed Data" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="889" height="566" srcset="/images/thumbnails/projects/chameleon-320.webp 320w, /images/thumbnails/projects/chameleon-480.webp 480w, /images/thumbnails/projects/chameleon-640.webp 640w, /images/projects/chameleon.webp 889w" sizes="(max-width: 880px) min(calc(100vw - 120px), 219.89px), 168px">
     </div>
     
 
@@ -2034,7 +2041,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/mcts.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/mcts-480.webp" alt="MCTS: A Multi-Reference Chinese Text Simplification Dataset" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1131" height="574" srcset="/images/thumbnails/projects/mcts-480.webp 480w, /images/thumbnails/projects/mcts-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/mcts-320.webp" alt="MCTS: A Multi-Reference Chinese Text Simplification Dataset" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1131" height="574" srcset="/images/thumbnails/projects/mcts-320.webp 320w, /images/thumbnails/projects/mcts-480.webp 480w, /images/thumbnails/projects/mcts-640.webp 640w, /images/thumbnails/projects/mcts-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 275.85px), 168px">
     </div>
     
 
@@ -2075,7 +2082,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/fit5.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/fit5-480.webp" alt="Fusion-in-T5: Unifying Document Ranking Signals for Improved Information Retrieval" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="988" height="916" srcset="/images/thumbnails/projects/fit5-480.webp 480w, /images/thumbnails/projects/fit5-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/fit5-320.webp" alt="Fusion-in-T5: Unifying Document Ranking Signals for Improved Information Retrieval" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="988" height="916" srcset="/images/thumbnails/projects/fit5-320.webp 320w, /images/thumbnails/projects/fit5-480.webp 480w, /images/thumbnails/projects/fit5-640.webp 640w, /images/thumbnails/projects/fit5-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 151.0px), 168px">
     </div>
     
 
@@ -2116,7 +2123,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/toolink.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/toolink-480.webp" alt="Toolink: Linking toolkit creation and using through chain-of-solving on open-source model" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1480" height="731" srcset="/images/thumbnails/projects/toolink-480.webp 480w, /images/thumbnails/projects/toolink-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/toolink-320.webp" alt="Toolink: Linking toolkit creation and using through chain-of-solving on open-source model" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1480" height="731" srcset="/images/thumbnails/projects/toolink-320.webp 320w, /images/thumbnails/projects/toolink-480.webp 480w, /images/thumbnails/projects/toolink-640.webp 640w, /images/thumbnails/projects/toolink-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 283.45px), 168px">
     </div>
     
 
@@ -2157,7 +2164,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/single.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/single-480.webp" alt="Modeling User Viewing Flow Using Large Language Models for Article Recommendation" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1561" height="686" srcset="/images/thumbnails/projects/single-480.webp 480w, /images/thumbnails/projects/single-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/single-320.webp" alt="Modeling User Viewing Flow Using Large Language Models for Article Recommendation" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1561" height="686" srcset="/images/thumbnails/projects/single-320.webp 320w, /images/thumbnails/projects/single-480.webp 480w, /images/thumbnails/projects/single-640.webp 640w, /images/thumbnails/projects/single-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 318.57px), 168px">
     </div>
     
 
@@ -2198,7 +2205,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/lead.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/lead-480.webp" alt="Enhancing Legal Case Retrieval via Scaling High-quality Synthetic Query-Candidate Pairs" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1404" height="493" srcset="/images/thumbnails/projects/lead-480.webp 480w, /images/thumbnails/projects/lead-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/lead-320.webp" alt="Enhancing Legal Case Retrieval via Scaling High-quality Synthetic Query-Candidate Pairs" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1404" height="493" srcset="/images/thumbnails/projects/lead-320.webp 320w, /images/thumbnails/projects/lead-480.webp 480w, /images/thumbnails/projects/lead-640.webp 640w, /images/thumbnails/projects/lead-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 398.7px), 168px">
     </div>
     
 
@@ -2239,7 +2246,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/matplotagent.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/matplotagent-480.webp" alt="MatPlotAgent: Method and Evaluation for LLM-Based Agentic Scientific Data Visualization" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1154" height="650" srcset="/images/thumbnails/projects/matplotagent-480.webp 480w, /images/thumbnails/projects/matplotagent-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/matplotagent-320.webp" alt="MatPlotAgent: Method and Evaluation for LLM-Based Agentic Scientific Data Visualization" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1154" height="650" srcset="/images/thumbnails/projects/matplotagent-320.webp 320w, /images/thumbnails/projects/matplotagent-480.webp 480w, /images/thumbnails/projects/matplotagent-640.webp 640w, /images/thumbnails/projects/matplotagent-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 248.55px), 168px">
     </div>
     
 
@@ -2280,7 +2287,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/intervenor.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/intervenor-480.webp" alt="INTERVENOR: Prompting the Coding Ability of Large Language Models with the Interactive Chain of Repair" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1190" height="648" srcset="/images/thumbnails/projects/intervenor-480.webp 480w, /images/thumbnails/projects/intervenor-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/intervenor-320.webp" alt="INTERVENOR: Prompting the Coding Ability of Large Language Models with the Interactive Chain of Repair" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1190" height="648" srcset="/images/thumbnails/projects/intervenor-320.webp 320w, /images/thumbnails/projects/intervenor-480.webp 480w, /images/thumbnails/projects/intervenor-640.webp 640w, /images/thumbnails/projects/intervenor-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 257.1px), 168px">
     </div>
     
 
@@ -2321,7 +2328,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/marvel.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/marvel-480.webp" alt="MARVEL: Unlocking the Multi-Modal Capability of Dense Retrieval via Visual Module Plugin" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="912" height="508" srcset="/images/thumbnails/projects/marvel-480.webp 480w, /images/projects/marvel.webp 912w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/marvel-320.webp" alt="MARVEL: Unlocking the Multi-Modal Capability of Dense Retrieval via Visual Module Plugin" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="912" height="508" srcset="/images/thumbnails/projects/marvel-320.webp 320w, /images/thumbnails/projects/marvel-480.webp 480w, /images/thumbnails/projects/marvel-640.webp 640w, /images/projects/marvel.webp 912w" sizes="(max-width: 880px) min(calc(100vw - 120px), 251.34px), 168px">
     </div>
     
 
@@ -2362,7 +2369,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/ultralink.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/ultralink-480.webp" alt="UltraLink: An Open-Source Knowledge-Enhanced Multilingual Supervised Fine-tuning Dataset" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1175" height="606" srcset="/images/thumbnails/projects/ultralink-480.webp 480w, /images/thumbnails/projects/ultralink-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/ultralink-320.webp" alt="UltraLink: An Open-Source Knowledge-Enhanced Multilingual Supervised Fine-tuning Dataset" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1175" height="606" srcset="/images/thumbnails/projects/ultralink-320.webp 320w, /images/thumbnails/projects/ultralink-480.webp 480w, /images/thumbnails/projects/ultralink-640.webp 640w, /images/thumbnails/projects/ultralink-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 271.45px), 168px">
     </div>
     
 
@@ -2403,7 +2410,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/neuscraper.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/projects/neuscraper.webp" alt="Cleaner Pretraining Corpus Curation with Neural Web Scraping" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="436" height="453">
+      <img src="/images/thumbnails/projects/neuscraper-320.webp" alt="Cleaner Pretraining Corpus Curation with Neural Web Scraping" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="436" height="453" srcset="/images/thumbnails/projects/neuscraper-320.webp 320w, /images/projects/neuscraper.webp 436w" sizes="(max-width: 880px) min(calc(100vw - 120px), 134.75px), 168px">
     </div>
     
 
@@ -2444,7 +2451,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/taste.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/taste-480.webp" alt="Text Matching Improves Sequential Recommendation by Reducing Popularity Biases" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="2338" height="974" srcset="/images/thumbnails/projects/taste-480.webp 480w, /images/thumbnails/projects/taste-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/taste-320.webp" alt="Text Matching Improves Sequential Recommendation by Reducing Popularity Biases" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="2338" height="974" srcset="/images/thumbnails/projects/taste-320.webp 320w, /images/thumbnails/projects/taste-480.webp 480w, /images/thumbnails/projects/taste-640.webp 640w, /images/thumbnails/projects/taste-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 336.06px), 168px">
     </div>
     
 
@@ -2485,7 +2492,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/univldr.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/univldr-480.webp" alt="Universal Vision-Language Dense Retrieval: Learning A Unified Representation Space for Multi-Modal Retrieval" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1744" height="580" srcset="/images/thumbnails/projects/univldr-480.webp 480w, /images/thumbnails/projects/univldr-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/univldr-320.webp" alt="Universal Vision-Language Dense Retrieval: Learning A Unified Representation Space for Multi-Modal Retrieval" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1744" height="580" srcset="/images/thumbnails/projects/univldr-320.webp 320w, /images/thumbnails/projects/univldr-480.webp 480w, /images/thumbnails/projects/univldr-640.webp 640w, /images/thumbnails/projects/univldr-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 420.97px), 168px">
     </div>
     
 
@@ -2526,7 +2533,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/openmatch.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/openmatch-480.webp" alt="Openmatch-v2: An all-in-one multi-modality plm-based information retrieval toolkit" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1195" height="841" srcset="/images/thumbnails/projects/openmatch-480.webp 480w, /images/thumbnails/projects/openmatch-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/openmatch-320.webp" alt="Openmatch-v2: An all-in-one multi-modality plm-based information retrieval toolkit" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1195" height="841" srcset="/images/thumbnails/projects/openmatch-320.webp 320w, /images/thumbnails/projects/openmatch-480.webp 480w, /images/thumbnails/projects/openmatch-640.webp 640w, /images/thumbnails/projects/openmatch-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 198.93px), 168px">
     </div>
     
 
@@ -2567,7 +2574,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/santa.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/santa-480.webp" alt="Structure-Aware Language Model Pretraining Improves Dense Retrieval on Structured Data" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1864" height="1072" srcset="/images/thumbnails/projects/santa-480.webp 480w, /images/thumbnails/projects/santa-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/santa-320.webp" alt="Structure-Aware Language Model Pretraining Improves Dense Retrieval on Structured Data" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1864" height="1072" srcset="/images/thumbnails/projects/santa-320.webp 320w, /images/thumbnails/projects/santa-480.webp 480w, /images/thumbnails/projects/santa-640.webp 640w, /images/thumbnails/projects/santa-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 243.43px), 168px">
     </div>
     
 
@@ -2608,7 +2615,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/leveraging_prefix_transfer_for_multi-Intent_text_revision.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/leveraging_prefix_transfer_for_multi-Intent_text_revision-480.webp" alt="Leveraging Prefix Transfer for Multi-Intent Text Revision" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1425" height="438" srcset="/images/thumbnails/projects/leveraging_prefix_transfer_for_multi-Intent_text_revision-480.webp 480w, /images/thumbnails/projects/leveraging_prefix_transfer_for_multi-Intent_text_revision-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/leveraging_prefix_transfer_for_multi-Intent_text_revision-320.webp" alt="Leveraging Prefix Transfer for Multi-Intent Text Revision" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1425" height="438" srcset="/images/thumbnails/projects/leveraging_prefix_transfer_for_multi-Intent_text_revision-320.webp 320w, /images/thumbnails/projects/leveraging_prefix_transfer_for_multi-Intent_text_revision-480.webp 480w, /images/thumbnails/projects/leveraging_prefix_transfer_for_multi-Intent_text_revision-640.webp 640w, /images/thumbnails/projects/leveraging_prefix_transfer_for_multi-Intent_text_revision-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 455.48px), 168px">
     </div>
     
 
@@ -2649,7 +2656,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/p3ranker.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/p3ranker-480.webp" alt="P3 Ranker: Mitigating the Gaps between Pre-training and Ranking Fine-tuning with Prompt-based Learning and Pre-finetuning" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1128" height="630" srcset="/images/thumbnails/projects/p3ranker-480.webp 480w, /images/thumbnails/projects/p3ranker-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/p3ranker-320.webp" alt="P3 Ranker: Mitigating the Gaps between Pre-training and Ranking Fine-tuning with Prompt-based Learning and Pre-finetuning" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1128" height="630" srcset="/images/thumbnails/projects/p3ranker-320.webp 320w, /images/thumbnails/projects/p3ranker-480.webp 480w, /images/thumbnails/projects/p3ranker-640.webp 640w, /images/thumbnails/projects/p3ranker-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 250.67px), 168px">
     </div>
     
 
@@ -2690,7 +2697,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/conae.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/conae-480.webp" alt="Dimension Reduction for Efficient Dense Retrieval via Conditional Autoencoder" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="2074" height="468" srcset="/images/thumbnails/projects/conae-480.webp 480w, /images/thumbnails/projects/conae-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/conae-320.webp" alt="Dimension Reduction for Efficient Dense Retrieval via Conditional Autoencoder" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="2074" height="468" srcset="/images/thumbnails/projects/conae-320.webp 320w, /images/thumbnails/projects/conae-480.webp 480w, /images/thumbnails/projects/conae-640.webp 640w, /images/thumbnails/projects/conae-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 620.43px), 168px">
     </div>
     
 
@@ -2731,7 +2738,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/vernet.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/vernet-480.webp" alt="Neural Quality Estimation with Multiple Hypotheses for Grammatical Error Correction" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="578" height="668" srcset="/images/thumbnails/projects/vernet-480.webp 480w, /images/projects/vernet.webp 578w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/vernet-320.webp" alt="Neural Quality Estimation with Multiple Hypotheses for Grammatical Error Correction" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="578" height="668" srcset="/images/thumbnails/projects/vernet-320.webp 320w, /images/thumbnails/projects/vernet-480.webp 480w, /images/projects/vernet.webp 578w" sizes="(max-width: 880px) min(calc(100vw - 120px), 121.14px), 168px">
     </div>
     
 
@@ -2772,7 +2779,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/dance.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/dance-480.webp" alt="More robust dense retrieval with contrastive dual learning" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1196" height="368" srcset="/images/thumbnails/projects/dance-480.webp 480w, /images/thumbnails/projects/dance-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/dance-320.webp" alt="More robust dense retrieval with contrastive dual learning" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1196" height="368" srcset="/images/thumbnails/projects/dance-320.webp 320w, /images/thumbnails/projects/dance-480.webp 480w, /images/thumbnails/projects/dance-640.webp 640w, /images/thumbnails/projects/dance-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 455.0px), 168px">
     </div>
     
 
@@ -2813,7 +2820,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/openmatch.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/openmatch-480.webp" alt="OpenMatch: An Open Source Library for Neu-IR Research" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1195" height="841" srcset="/images/thumbnails/projects/openmatch-480.webp 480w, /images/thumbnails/projects/openmatch-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/openmatch-320.webp" alt="OpenMatch: An Open Source Library for Neu-IR Research" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1195" height="841" srcset="/images/thumbnails/projects/openmatch-320.webp 320w, /images/thumbnails/projects/openmatch-480.webp 480w, /images/thumbnails/projects/openmatch-640.webp 640w, /images/thumbnails/projects/openmatch-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 198.93px), 168px">
     </div>
     
 
@@ -2854,7 +2861,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/convdr.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/convdr-480.webp" alt="Few-Shot Conversational Dense Retrieval" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="731" height="560" srcset="/images/thumbnails/projects/convdr-480.webp 480w, /images/projects/convdr.webp 731w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/convdr-320.webp" alt="Few-Shot Conversational Dense Retrieval" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="731" height="560" srcset="/images/thumbnails/projects/convdr-320.webp 320w, /images/thumbnails/projects/convdr-480.webp 480w, /images/thumbnails/projects/convdr-640.webp 640w, /images/projects/convdr.webp 731w" sizes="(max-width: 880px) min(calc(100vw - 120px), 182.75px), 168px">
     </div>
     
 
@@ -2895,7 +2902,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/jointkpe.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/jointkpe-480.webp" alt="Capturing Global Informativeness in Open Domain Keyphrase Extraction" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="989" height="516" srcset="/images/thumbnails/projects/jointkpe-480.webp 480w, /images/thumbnails/projects/jointkpe-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/jointkpe-320.webp" alt="Capturing Global Informativeness in Open Domain Keyphrase Extraction" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="989" height="516" srcset="/images/thumbnails/projects/jointkpe-320.webp 320w, /images/thumbnails/projects/jointkpe-480.webp 480w, /images/thumbnails/projects/jointkpe-640.webp 640w, /images/thumbnails/projects/jointkpe-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 268.33px), 168px">
     </div>
     
 
@@ -2936,7 +2943,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/tiage.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/tiage-480.webp" alt="TIAGE: A Benchmark for Topic-Shift Aware Dialog Modeling" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="704" height="492" srcset="/images/thumbnails/projects/tiage-480.webp 480w, /images/projects/tiage.webp 704w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/tiage-320.webp" alt="TIAGE: A Benchmark for Topic-Shift Aware Dialog Modeling" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="704" height="492" srcset="/images/thumbnails/projects/tiage-320.webp 320w, /images/thumbnails/projects/tiage-480.webp 480w, /images/thumbnails/projects/tiage-640.webp 640w, /images/projects/tiage.webp 704w" sizes="(max-width: 880px) min(calc(100vw - 120px), 200.33px), 168px">
     </div>
     
 
@@ -2977,7 +2984,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/metaadaptrank.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/metaadaptrank-480.webp" alt="Few-Shot Text Ranking with Meta Adapted Synthetic Weak Supervision" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1463" height="562" srcset="/images/thumbnails/projects/metaadaptrank-480.webp 480w, /images/thumbnails/projects/metaadaptrank-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/metaadaptrank-320.webp" alt="Few-Shot Text Ranking with Meta Adapted Synthetic Weak Supervision" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1463" height="562" srcset="/images/thumbnails/projects/metaadaptrank-320.webp 320w, /images/thumbnails/projects/metaadaptrank-480.webp 480w, /images/thumbnails/projects/metaadaptrank-640.webp 640w, /images/thumbnails/projects/metaadaptrank-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 364.45px), 168px">
     </div>
     
 
@@ -3018,7 +3025,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/styins.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/styins-480.webp" alt="Text Style Transfer via Learning Style Instance Supported Latent Space" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="934" height="602" srcset="/images/thumbnails/projects/styins-480.webp 480w, /images/projects/styins.webp 934w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/styins-320.webp" alt="Text Style Transfer via Learning Style Instance Supported Latent Space" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="934" height="602" srcset="/images/thumbnails/projects/styins-320.webp 320w, /images/thumbnails/projects/styins-480.webp 480w, /images/thumbnails/projects/styins-640.webp 640w, /images/projects/styins.webp 934w" sizes="(max-width: 880px) min(calc(100vw - 120px), 217.21px), 168px">
     </div>
     
 
@@ -3059,7 +3066,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/reinfoselect.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/reinfoselect-480.webp" alt="Selective Weak Supervision for Neural Information Retrieval" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1117" height="559" srcset="/images/thumbnails/projects/reinfoselect-480.webp 480w, /images/thumbnails/projects/reinfoselect-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/reinfoselect-320.webp" alt="Selective Weak Supervision for Neural Information Retrieval" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1117" height="559" srcset="/images/thumbnails/projects/reinfoselect-320.webp 320w, /images/thumbnails/projects/reinfoselect-480.webp 480w, /images/thumbnails/projects/reinfoselect-640.webp 640w, /images/thumbnails/projects/reinfoselect-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 279.75px), 168px">
     </div>
     
 
@@ -3100,7 +3107,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/covid-fact.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/covid-fact-480.webp" alt="Adapting Open Domain Fact Extraction and Verification to COVID-FACT through In-Domain Language Modeling" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="752" height="416" srcset="/images/thumbnails/projects/covid-fact-480.webp 480w, /images/projects/covid-fact.webp 752w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/covid-fact-320.webp" alt="Adapting Open Domain Fact Extraction and Verification to COVID-FACT through In-Domain Language Modeling" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="752" height="416" srcset="/images/thumbnails/projects/covid-fact-320.webp 320w, /images/thumbnails/projects/covid-fact-480.webp 480w, /images/thumbnails/projects/covid-fact-640.webp 640w, /images/projects/covid-fact.webp 752w" sizes="(max-width: 880px) min(calc(100vw - 120px), 253.08px), 168px">
     </div>
     
 
@@ -3141,7 +3148,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/corefbert.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/corefbert-480.webp" alt="Coreferential Reasoning Learning for Language Representation" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1184" height="385" srcset="/images/thumbnails/projects/corefbert-480.webp 480w, /images/thumbnails/projects/corefbert-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/corefbert-320.webp" alt="Coreferential Reasoning Learning for Language Representation" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1184" height="385" srcset="/images/thumbnails/projects/corefbert-320.webp 320w, /images/thumbnails/projects/corefbert-480.webp 480w, /images/thumbnails/projects/corefbert-640.webp 640w, /images/thumbnails/projects/corefbert-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 430.55px), 168px">
     </div>
     
 
@@ -3182,7 +3189,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/kgat.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/kgat-480.webp" alt="Fine-grained Fact Verification with Kernel Graph Attention Network" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="543" height="644" srcset="/images/thumbnails/projects/kgat-480.webp 480w, /images/projects/kgat.webp 543w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/kgat-320.webp" alt="Fine-grained Fact Verification with Kernel Graph Attention Network" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="543" height="644" srcset="/images/thumbnails/projects/kgat-320.webp 320w, /images/thumbnails/projects/kgat-480.webp 480w, /images/projects/kgat.webp 543w" sizes="(max-width: 880px) min(calc(100vw - 120px), 118.04px), 168px">
     </div>
     
 
@@ -3223,7 +3230,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/conceptflow.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/projects/conceptflow.webp" alt="Grounded Conversation Generation as Guided Traverses in Commonsense Knowledge Graphs" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="460" height="590">
+      <img src="/images/thumbnails/projects/conceptflow-320.webp" alt="Grounded Conversation Generation as Guided Traverses in Commonsense Knowledge Graphs" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="460" height="590" srcset="/images/thumbnails/projects/conceptflow-320.webp 320w, /images/projects/conceptflow.webp 460w" sizes="(max-width: 880px) min(calc(100vw - 120px), 109.15px), 168px">
     </div>
     
 
@@ -3264,7 +3271,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/entity-retrieval.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/entity-retrieval-480.webp" alt="Explore Entity Embedding Effectiveness in Entity Retrieval" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1202" height="532" srcset="/images/thumbnails/projects/entity-retrieval-480.webp 480w, /images/thumbnails/projects/entity-retrieval-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/entity-retrieval-320.webp" alt="Explore Entity Embedding Effectiveness in Entity Retrieval" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1202" height="532" srcset="/images/thumbnails/projects/entity-retrieval-320.webp 320w, /images/thumbnails/projects/entity-retrieval-480.webp 480w, /images/thumbnails/projects/entity-retrieval-640.webp 640w, /images/thumbnails/projects/entity-retrieval-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 316.32px), 168px">
     </div>
     
 
@@ -3305,7 +3312,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/docred.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/docred-480.webp" alt="DocRED: A Large-Scale Document-Level Relation Extraction Dataset" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="715" height="634" srcset="/images/thumbnails/projects/docred-480.webp 480w, /images/projects/docred.webp 715w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/docred-320.webp" alt="DocRED: A Large-Scale Document-Level Relation Extraction Dataset" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="715" height="634" srcset="/images/thumbnails/projects/docred-320.webp 320w, /images/thumbnails/projects/docred-480.webp 480w, /images/thumbnails/projects/docred-640.webp 640w, /images/projects/docred.webp 715w" sizes="(max-width: 880px) min(calc(100vw - 120px), 157.89px), 168px">
     </div>
     
 
@@ -3346,7 +3353,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/edrm.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/edrm-480.webp" alt="Entity-Duet Neural Ranking: Understanding the Role of Knowledge Graph Semantics in Neural Information Retrieval" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1179" height="538" srcset="/images/thumbnails/projects/edrm-480.webp 480w, /images/thumbnails/projects/edrm-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/edrm-320.webp" alt="Entity-Duet Neural Ranking: Understanding the Role of Knowledge Graph Semantics in Neural Information Retrieval" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1179" height="538" srcset="/images/thumbnails/projects/edrm-320.webp 320w, /images/thumbnails/projects/edrm-480.webp 480w, /images/thumbnails/projects/edrm-640.webp 640w, /images/thumbnails/projects/edrm-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 306.8px), 168px">
     </div>
     
 
@@ -3393,7 +3400,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/rag_survey.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/rag_survey-480.webp" alt="Knowledge Intensive Agents" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="2446" height="1220" srcset="/images/thumbnails/projects/rag_survey-480.webp 480w, /images/thumbnails/projects/rag_survey-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/rag_survey-320.webp" alt="Knowledge Intensive Agents" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="2446" height="1220" srcset="/images/thumbnails/projects/rag_survey-320.webp 320w, /images/thumbnails/projects/rag_survey-480.webp 480w, /images/thumbnails/projects/rag_survey-640.webp 640w, /images/thumbnails/projects/rag_survey-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 280.69px), 168px">
     </div>
     
 
@@ -3434,7 +3441,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/conan.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/conan-480.webp" alt="Building A Coding Assistant via the Retrieval-Augmented Language Model" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="993" height="670" srcset="/images/thumbnails/projects/conan-480.webp 480w, /images/thumbnails/projects/conan-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/conan-320.webp" alt="Building A Coding Assistant via the Retrieval-Augmented Language Model" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="993" height="670" srcset="/images/thumbnails/projects/conan-320.webp 320w, /images/thumbnails/projects/conan-480.webp 480w, /images/thumbnails/projects/conan-640.webp 640w, /images/thumbnails/projects/conan-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 207.49px), 168px">
     </div>
     
 
@@ -3475,7 +3482,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/chgnn.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/chgnn-480.webp" alt="CHGNN: A Semi-Supervised Contrastive Hypergraph Learning Network" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1653" height="480" srcset="/images/thumbnails/projects/chgnn-480.webp 480w, /images/thumbnails/projects/chgnn-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/chgnn-320.webp" alt="CHGNN: A Semi-Supervised Contrastive Hypergraph Learning Network" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1653" height="480" srcset="/images/thumbnails/projects/chgnn-320.webp 320w, /images/thumbnails/projects/chgnn-480.webp 480w, /images/thumbnails/projects/chgnn-640.webp 640w, /images/thumbnails/projects/chgnn-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 482.13px), 168px">
     </div>
     
 
@@ -3516,7 +3523,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/compiling.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/compiling-480.webp" alt="Tailored Definitions With Easy Reach: Complexity-Controllable Definition Generation" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="830" height="686" srcset="/images/thumbnails/projects/compiling-480.webp 480w, /images/projects/compiling.webp 830w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/compiling-320.webp" alt="Tailored Definitions With Easy Reach: Complexity-Controllable Definition Generation" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="830" height="686" srcset="/images/thumbnails/projects/compiling-320.webp 320w, /images/thumbnails/projects/compiling-480.webp 480w, /images/thumbnails/projects/compiling-640.webp 640w, /images/projects/compiling.webp 830w" sizes="(max-width: 880px) min(calc(100vw - 120px), 169.39px), 168px">
     </div>
     
 
@@ -3557,7 +3564,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/cogat.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/cogat-480.webp" alt="Multi-Evidence based Fact Verification via A Confidential Graph Neural Network" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1098" height="1064" srcset="/images/thumbnails/projects/cogat-480.webp 480w, /images/thumbnails/projects/cogat-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/cogat-320.webp" alt="Multi-Evidence based Fact Verification via A Confidential Graph Neural Network" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1098" height="1064" srcset="/images/thumbnails/projects/cogat-320.webp 320w, /images/thumbnails/projects/cogat-480.webp 480w, /images/thumbnails/projects/cogat-640.webp 640w, /images/thumbnails/projects/cogat-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 144.47px), 168px">
     </div>
     
 
@@ -3598,7 +3605,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/neural_parse_combination.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/neural_parse_combination-480.webp" alt="Neural Parse Combination" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1213" height="449" srcset="/images/thumbnails/projects/neural_parse_combination-480.webp 480w, /images/thumbnails/projects/neural_parse_combination-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/neural_parse_combination-320.webp" alt="Neural Parse Combination" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1213" height="449" srcset="/images/thumbnails/projects/neural_parse_combination-320.webp 320w, /images/thumbnails/projects/neural_parse_combination-480.webp 480w, /images/thumbnails/projects/neural_parse_combination-640.webp 640w, /images/thumbnails/projects/neural_parse_combination-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 378.22px), 168px">
     </div>
     
 

@@ -96,14 +96,21 @@
 <link rel="preload" href="/images/thumbnails/backgrounds/school-1920.webp" as="image" media="(min-width: 761px)" fetchpriority="high">
 
 
-  <link href="/assets/css/site.css?v=1792815960" rel="stylesheet">
+  <link href="/assets/css/site.css?v=1792822069" rel="stylesheet">
 
   
-<script src="/_scripts/dark-mode.js?v=1792815960"></script>
+<script>
+  // Restore the theme before painting without a blocking network request.
+  try {
+    document.documentElement.dataset.dark = window.localStorage.getItem("dark-mode") === "true" ? "true" : "false";
+  } catch {
+    document.documentElement.dataset.dark = "false";
+  }
+</script>
 <script src="/assets/vendor/popper.min.js?v=c212f4b505a8" defer></script>
 <script src="/assets/vendor/tippy.min.js?v=3f0fe70eb26c" defer></script>
 
-<script src="/assets/js/site.js?v=1792815960" defer></script>
+<script src="/assets/js/site.js?v=1792822069" defer></script>
 
 
 
@@ -217,7 +224,7 @@
 
   <article class="project-entry">
   <div class="project-image" data-lightbox="/images/projects/staffdeck.webp" role="button" tabindex="0" aria-label="点击放大 StaffDeck 项目图片">
-    <img src="/images/thumbnails/projects/staffdeck-480.webp" alt="StaffDeck 项目预览图" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1600" height="820" srcset="/images/thumbnails/projects/staffdeck-480.webp 480w, /images/thumbnails/projects/staffdeck-960.webp 960w" sizes="(max-width: 760px) calc(100vw - 108px), 262px">
+    <img src="/images/thumbnails/projects/staffdeck-320.webp" alt="StaffDeck 项目预览图" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1600" height="820" srcset="/images/thumbnails/projects/staffdeck-320.webp 320w, /images/thumbnails/projects/staffdeck-480.webp 480w, /images/thumbnails/projects/staffdeck-640.webp 640w, /images/thumbnails/projects/staffdeck-960.webp 960w" sizes="(max-width: 760px) calc(100vw - 108px), 262px">
   </div>
 
   <div class="project-content">
@@ -247,14 +254,14 @@
 
         
           <a class="project-shield" href="https://github.com/OpenBMB/StaffDeck" aria-label="查看 StaffDeck 的 GitHub 仓库和 Stars">
-            <img src="https://img.shields.io/github/stars/OpenBMB/StaffDeck?style=social&amp;label=Code+Stars" alt="StaffDeck GitHub Stars" height="20" loading="lazy" decoding="async">
+            <img src="https://img.shields.io/github/stars/OpenBMB/StaffDeck?style=social&amp;label=Code+Stars" alt="StaffDeck GitHub Stars" width="114" height="20" loading="lazy" decoding="async">
             <span class="project-shield-fallback" aria-hidden="true">GitHub Stars</span>
           </a>
         
 
         
           <a class="project-shield" href="https://staffdeck.openbmb.cn/" aria-label="访问 StaffDeck 的 官方网站">
-            <img src="https://img.shields.io/badge/StaffDeck-%E5%AE%98%E6%96%B9%E7%BD%91%E7%AB%99-0ea5e9?logo=googlechrome&amp;logoColor=white" alt="StaffDeck 官方网站" height="20" loading="lazy" decoding="async">
+            <img src="https://img.shields.io/badge/StaffDeck-%E5%AE%98%E6%96%B9%E7%BD%91%E7%AB%99-0ea5e9?logo=googlechrome&amp;logoColor=white" alt="StaffDeck 官方网站" width="135" height="20" loading="lazy" decoding="async">
             <span class="project-shield-fallback" aria-hidden="true">官方网站</span>
           </a>
         
@@ -268,7 +275,7 @@
 
   <article class="project-entry">
   <div class="project-image" data-lightbox="/images/projects/ultrarag.webp" role="button" tabindex="0" aria-label="点击放大 UltraRAG 项目图片">
-    <img src="/images/thumbnails/projects/ultrarag-480.webp" alt="UltraRAG 项目预览图" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="3680" height="1840" srcset="/images/thumbnails/projects/ultrarag-480.webp 480w, /images/thumbnails/projects/ultrarag-960.webp 960w" sizes="(max-width: 760px) calc(100vw - 108px), 262px">
+    <img src="/images/thumbnails/projects/ultrarag-320.webp" alt="UltraRAG 项目预览图" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="3680" height="1840" srcset="/images/thumbnails/projects/ultrarag-320.webp 320w, /images/thumbnails/projects/ultrarag-480.webp 480w, /images/thumbnails/projects/ultrarag-640.webp 640w, /images/thumbnails/projects/ultrarag-960.webp 960w" sizes="(max-width: 760px) calc(100vw - 108px), 262px">
   </div>
 
   <div class="project-content">
@@ -298,19 +305,19 @@
 
         
           <a class="project-shield" href="https://github.com/OpenBMB/UltraRAG" aria-label="查看 UltraRAG 的 GitHub 仓库和 Stars">
-            <img src="https://img.shields.io/github/stars/OpenBMB/UltraRAG?style=social&amp;label=Code+Stars" alt="UltraRAG GitHub Stars" height="20" loading="lazy" decoding="async">
+            <img src="https://img.shields.io/github/stars/OpenBMB/UltraRAG?style=social&amp;label=Code+Stars" alt="UltraRAG GitHub Stars" width="122" height="20" loading="lazy" decoding="async">
             <span class="project-shield-fallback" aria-hidden="true">GitHub Stars</span>
           </a>
         
 
         
           <a class="project-shield" href="https://ultrarag.github.io/" aria-label="访问 UltraRAG 的 项目主页">
-            <img src="https://img.shields.io/badge/UltraRAG-%E9%A1%B9%E7%9B%AE%E4%B8%BB%E9%A1%B5-0ea5e9?logo=googlechrome&amp;logoColor=white" alt="UltraRAG 项目主页" height="20" loading="lazy" decoding="async">
+            <img src="https://img.shields.io/badge/UltraRAG-%E9%A1%B9%E7%9B%AE%E4%B8%BB%E9%A1%B5-0ea5e9?logo=googlechrome&amp;logoColor=white" alt="UltraRAG 项目主页" width="133" height="20" loading="lazy" decoding="async">
             <span class="project-shield-fallback" aria-hidden="true">项目主页</span>
           </a>
         
           <a class="project-shield" href="https://ultrarag.openbmb.cn/pages/en/getting_started/introduction" aria-label="访问 UltraRAG 的 教程网站">
-            <img src="https://img.shields.io/badge/UltraRAG-%E6%95%99%E7%A8%8B%E7%BD%91%E7%AB%99-66b89e?logo=bookstack&amp;logoColor=white" alt="UltraRAG 教程网站" height="20" loading="lazy" decoding="async">
+            <img src="https://img.shields.io/badge/UltraRAG-%E6%95%99%E7%A8%8B%E7%BD%91%E7%AB%99-66b89e?logo=bookstack&amp;logoColor=white" alt="UltraRAG 教程网站" width="133" height="20" loading="lazy" decoding="async">
             <span class="project-shield-fallback" aria-hidden="true">教程网站</span>
           </a>
         
@@ -324,7 +331,7 @@
 
   <article class="project-entry">
   <div class="project-image" data-lightbox="/images/projects/memorycard.webp" role="button" tabindex="0" aria-label="点击放大 MemoryCard 项目图片">
-    <img src="/images/thumbnails/projects/memorycard-480.webp" alt="MemoryCard 项目预览图" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1416" height="690" srcset="/images/thumbnails/projects/memorycard-480.webp 480w, /images/thumbnails/projects/memorycard-960.webp 960w" sizes="(max-width: 760px) calc(100vw - 108px), 262px">
+    <img src="/images/thumbnails/projects/memorycard-320.webp" alt="MemoryCard 项目预览图" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1416" height="690" srcset="/images/thumbnails/projects/memorycard-320.webp 320w, /images/thumbnails/projects/memorycard-480.webp 480w, /images/thumbnails/projects/memorycard-640.webp 640w, /images/thumbnails/projects/memorycard-960.webp 960w" sizes="(max-width: 760px) calc(100vw - 108px), 262px">
   </div>
 
   <div class="project-content">
@@ -354,19 +361,19 @@
 
         
           <a class="project-shield" href="https://github.com/NEUIR/MemoryCard" aria-label="查看 MemoryCard 的 GitHub 仓库和 Stars">
-            <img src="https://img.shields.io/github/stars/NEUIR/MemoryCard?style=social&amp;label=Code+Stars" alt="MemoryCard GitHub Stars" height="20" loading="lazy" decoding="async">
+            <img src="https://img.shields.io/github/stars/NEUIR/MemoryCard?style=social&amp;label=Code+Stars" alt="MemoryCard GitHub Stars" width="108" height="20" loading="lazy" decoding="async">
             <span class="project-shield-fallback" aria-hidden="true">GitHub Stars</span>
           </a>
         
 
         
           <a class="project-shield" href="https://neuir.github.io/MemoryCard/" aria-label="访问 MemoryCard 的 项目主页">
-            <img src="https://img.shields.io/badge/MemoryCard-%E9%A1%B9%E7%9B%AE%E4%B8%BB%E9%A1%B5-0ea5e9?logo=googlechrome&amp;logoColor=white" alt="MemoryCard 项目主页" height="20" loading="lazy" decoding="async">
+            <img src="https://img.shields.io/badge/MemoryCard-%E9%A1%B9%E7%9B%AE%E4%B8%BB%E9%A1%B5-0ea5e9?logo=googlechrome&amp;logoColor=white" alt="MemoryCard 项目主页" width="153" height="20" loading="lazy" decoding="async">
             <span class="project-shield-fallback" aria-hidden="true">项目主页</span>
           </a>
         
           <a class="project-shield" href="https://arxiv.org/abs/2606.05917" aria-label="访问 MemoryCard 的 arXiv">
-            <img src="https://img.shields.io/badge/arXiv-2606.05917-b31b1b?logo=arxiv&amp;logoColor=white" alt="MemoryCard arXiv" height="20" loading="lazy" decoding="async">
+            <img src="https://img.shields.io/badge/arXiv-2606.05917-b31b1b?logo=arxiv&amp;logoColor=white" alt="MemoryCard arXiv" width="133" height="20" loading="lazy" decoding="async">
             <span class="project-shield-fallback" aria-hidden="true">arXiv</span>
           </a>
         
@@ -380,7 +387,7 @@
 
   <article class="project-entry">
   <div class="project-image" data-lightbox="/images/projects/acebench.webp" role="button" tabindex="0" aria-label="点击放大 AceBench 项目图片">
-    <img src="/images/thumbnails/projects/acebench-480.webp" alt="AceBench 项目预览图" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1672" height="941" srcset="/images/thumbnails/projects/acebench-480.webp 480w, /images/thumbnails/projects/acebench-960.webp 960w" sizes="(max-width: 760px) calc(100vw - 108px), 262px">
+    <img src="/images/thumbnails/projects/acebench-320.webp" alt="AceBench 项目预览图" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1672" height="941" srcset="/images/thumbnails/projects/acebench-320.webp 320w, /images/thumbnails/projects/acebench-480.webp 480w, /images/thumbnails/projects/acebench-640.webp 640w, /images/thumbnails/projects/acebench-960.webp 960w" sizes="(max-width: 760px) calc(100vw - 108px), 262px">
   </div>
 
   <div class="project-content">
@@ -410,19 +417,19 @@
 
         
           <a class="project-shield" href="https://github.com/OpenBMB/AceBench" aria-label="查看 AceBench 的 GitHub 仓库和 Stars">
-            <img src="https://img.shields.io/github/stars/OpenBMB/AceBench?style=social&amp;label=Code+Stars" alt="AceBench GitHub Stars" height="20" loading="lazy" decoding="async">
+            <img src="https://img.shields.io/github/stars/OpenBMB/AceBench?style=social&amp;label=Code+Stars" alt="AceBench GitHub Stars" width="114" height="20" loading="lazy" decoding="async">
             <span class="project-shield-fallback" aria-hidden="true">GitHub Stars</span>
           </a>
         
 
         
           <a class="project-shield" href="https://passionate11.github.io/ace-bench-project-page/" aria-label="访问 AceBench 的 项目主页">
-            <img src="https://img.shields.io/badge/AceBench-%E9%A1%B9%E7%9B%AE%E4%B8%BB%E9%A1%B5-0ea5e9?logo=googlechrome&amp;logoColor=white" alt="AceBench 项目主页" height="20" loading="lazy" decoding="async">
+            <img src="https://img.shields.io/badge/AceBench-%E9%A1%B9%E7%9B%AE%E4%B8%BB%E9%A1%B5-0ea5e9?logo=googlechrome&amp;logoColor=white" alt="AceBench 项目主页" width="135" height="20" loading="lazy" decoding="async">
             <span class="project-shield-fallback" aria-hidden="true">项目主页</span>
           </a>
         
           <a class="project-shield" href="https://passionate11.github.io/ace-bench-project-page/paper.pdf" aria-label="访问 AceBench 的 arXiv">
-            <img src="https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&amp;logoColor=white" alt="AceBench arXiv" height="20" loading="lazy" decoding="async">
+            <img src="https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&amp;logoColor=white" alt="AceBench arXiv" width="97" height="20" loading="lazy" decoding="async">
             <span class="project-shield-fallback" aria-hidden="true">arXiv</span>
           </a>
         
@@ -436,7 +443,7 @@
 
   <article class="project-entry">
   <div class="project-image" data-lightbox="/images/projects/openmatch.webp" role="button" tabindex="0" aria-label="点击放大 OpenMatch 项目图片">
-    <img src="/images/thumbnails/projects/openmatch-480.webp" alt="OpenMatch 项目预览图" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1195" height="841" srcset="/images/thumbnails/projects/openmatch-480.webp 480w, /images/thumbnails/projects/openmatch-960.webp 960w" sizes="(max-width: 760px) calc(100vw - 108px), 262px">
+    <img src="/images/thumbnails/projects/openmatch-320.webp" alt="OpenMatch 项目预览图" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1195" height="841" srcset="/images/thumbnails/projects/openmatch-320.webp 320w, /images/thumbnails/projects/openmatch-480.webp 480w, /images/thumbnails/projects/openmatch-640.webp 640w, /images/thumbnails/projects/openmatch-960.webp 960w" sizes="(max-width: 760px) calc(100vw - 108px), 262px">
   </div>
 
   <div class="project-content">
@@ -466,14 +473,14 @@
 
         
           <a class="project-shield" href="https://github.com/OpenMatch/OpenMatch" aria-label="查看 OpenMatch 的 GitHub 仓库和 Stars">
-            <img src="https://img.shields.io/github/stars/OpenMatch/OpenMatch?style=social&amp;label=Code+Stars" alt="OpenMatch GitHub Stars" height="20" loading="lazy" decoding="async">
+            <img src="https://img.shields.io/github/stars/OpenMatch/OpenMatch?style=social&amp;label=Code+Stars" alt="OpenMatch GitHub Stars" width="120" height="20" loading="lazy" decoding="async">
             <span class="project-shield-fallback" aria-hidden="true">GitHub Stars</span>
           </a>
         
 
         
           <a class="project-shield" href="https://openmatch.readthedocs.io/en/latest/" aria-label="访问 OpenMatch 的 使用文档">
-            <img src="https://img.shields.io/badge/OpenMatch-%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3-0ea5e9?logo=readthedocs&amp;logoColor=white" alt="OpenMatch 使用文档" height="20" loading="lazy" decoding="async">
+            <img src="https://img.shields.io/badge/OpenMatch-%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3-0ea5e9?logo=readthedocs&amp;logoColor=white" alt="OpenMatch 使用文档" width="143" height="20" loading="lazy" decoding="async">
             <span class="project-shield-fallback" aria-hidden="true">使用文档</span>
           </a>
         

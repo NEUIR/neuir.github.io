@@ -96,14 +96,21 @@
 <link rel="preload" href="/images/thumbnails/backgrounds/school-1920.webp" as="image" media="(min-width: 761px)" fetchpriority="high">
 
 
-  <link href="/assets/css/site.css?v=1792815960" rel="stylesheet">
+  <link href="/assets/css/site.css?v=1792822069" rel="stylesheet">
 
   
-<script src="/_scripts/dark-mode.js?v=1792815960"></script>
+<script>
+  // Restore the theme before painting without a blocking network request.
+  try {
+    document.documentElement.dataset.dark = window.localStorage.getItem("dark-mode") === "true" ? "true" : "false";
+  } catch {
+    document.documentElement.dataset.dark = "false";
+  }
+</script>
 <script src="/assets/vendor/popper.min.js?v=c212f4b505a8" defer></script>
 <script src="/assets/vendor/tippy.min.js?v=3f0fe70eb26c" defer></script>
 
-<script src="/assets/js/site.js?v=1792815960" defer></script>
+<script src="/assets/js/site.js?v=1792822069" defer></script>
 
 
 
@@ -264,7 +271,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/rageval.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/rageval-480.webp" alt="RAGEval: Scenario Specific RAG Evaluation Dataset Generation Framework" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1459" height="659" srcset="/images/thumbnails/projects/rageval-480.webp 480w, /images/thumbnails/projects/rageval-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/rageval-320.webp" alt="RAGEval: Scenario Specific RAG Evaluation Dataset Generation Framework" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="1459" height="659" srcset="/images/thumbnails/projects/rageval-320.webp 320w, /images/thumbnails/projects/rageval-480.webp 480w, /images/thumbnails/projects/rageval-640.webp 640w, /images/thumbnails/projects/rageval-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 309.95px), 168px">
     </div>
     
 
@@ -305,7 +312,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/rankcot.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/rankcot-480.webp" alt="Rankcot: Refining knowledge for retrieval-augmented generation through ranking chain-of-thoughts" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="2672" height="1500" srcset="/images/thumbnails/projects/rankcot-480.webp 480w, /images/thumbnails/projects/rankcot-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/rankcot-320.webp" alt="Rankcot: Refining knowledge for retrieval-augmented generation through ranking chain-of-thoughts" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="2672" height="1500" srcset="/images/thumbnails/projects/rankcot-320.webp 320w, /images/thumbnails/projects/rankcot-480.webp 480w, /images/thumbnails/projects/rankcot-640.webp 640w, /images/thumbnails/projects/rankcot-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 249.39px), 168px">
     </div>
     
 
@@ -348,7 +355,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/consjudge.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/consjudge-480.webp" alt="Judge as A Judge: Improving the Evaluation of Retrieval-Augmented Generation through the Judge-Consistency of Large Language Models" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="2644" height="1600" srcset="/images/thumbnails/projects/consjudge-480.webp 480w, /images/thumbnails/projects/consjudge-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/consjudge-320.webp" alt="Judge as A Judge: Improving the Evaluation of Retrieval-Augmented Generation through the Judge-Consistency of Large Language Models" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="2644" height="1600" srcset="/images/thumbnails/projects/consjudge-320.webp 320w, /images/thumbnails/projects/consjudge-480.webp 480w, /images/thumbnails/projects/consjudge-640.webp 640w, /images/thumbnails/projects/consjudge-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 231.35px), 168px">
     </div>
     
 

@@ -96,14 +96,21 @@
 <link rel="preload" href="/images/thumbnails/backgrounds/school-1920.webp" as="image" media="(min-width: 761px)" fetchpriority="high">
 
 
-  <link href="/assets/css/site.css?v=1792815960" rel="stylesheet">
+  <link href="/assets/css/site.css?v=1792822069" rel="stylesheet">
 
   
-<script src="/_scripts/dark-mode.js?v=1792815960"></script>
+<script>
+  // Restore the theme before painting without a blocking network request.
+  try {
+    document.documentElement.dataset.dark = window.localStorage.getItem("dark-mode") === "true" ? "true" : "false";
+  } catch {
+    document.documentElement.dataset.dark = "false";
+  }
+</script>
 <script src="/assets/vendor/popper.min.js?v=c212f4b505a8" defer></script>
 <script src="/assets/vendor/tippy.min.js?v=3f0fe70eb26c" defer></script>
 
-<script src="/assets/js/site.js?v=1792815960" defer></script>
+<script src="/assets/js/site.js?v=1792822069" defer></script>
 
 
 
@@ -262,7 +269,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/athought.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/athought-480.webp" alt="A*-Thought: Efficient Reasoning via Bidirectional Compression for Low-Resource Settings" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="2040" height="1325" srcset="/images/thumbnails/projects/athought-480.webp 480w, /images/thumbnails/projects/athought-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/athought-320.webp" alt="A*-Thought: Efficient Reasoning via Bidirectional Compression for Low-Resource Settings" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="2040" height="1325" srcset="/images/thumbnails/projects/athought-320.webp 320w, /images/thumbnails/projects/athought-480.webp 480w, /images/thumbnails/projects/athought-640.webp 640w, /images/thumbnails/projects/athought-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 215.55px), 168px">
     </div>
     
 
@@ -303,7 +310,7 @@
     
     
     <div class="citation-image" data-lightbox="/images/projects/parammute.webp" role="button" tabindex="0" aria-label="点击放大图片">
-      <img src="/images/thumbnails/projects/parammute-480.webp" alt="ParamMute: Suppressing Knowledge-Critical FFNs for Faithful Retrieval-Augmented Generation" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="2283" height="564" srcset="/images/thumbnails/projects/parammute-480.webp 480w, /images/thumbnails/projects/parammute-960.webp 960w" sizes="(max-width: 880px) calc(100vw - 120px), 168px">
+      <img src="/images/thumbnails/projects/parammute-320.webp" alt="ParamMute: Suppressing Knowledge-Critical FFNs for Faithful Retrieval-Augmented Generation" loading="lazy" decoding="async" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" width="2283" height="564" srcset="/images/thumbnails/projects/parammute-320.webp 320w, /images/thumbnails/projects/parammute-480.webp 480w, /images/thumbnails/projects/parammute-640.webp 640w, /images/thumbnails/projects/parammute-960.webp 960w" sizes="(max-width: 880px) min(calc(100vw - 120px), 566.7px), 168px">
     </div>
     
 
