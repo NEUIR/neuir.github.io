@@ -1,10 +1,12 @@
-# citation metadata for the template itself
+# Citation metadata for the NEU-ModelBest Data Intelligence Joint Lab website.
 
-title: "NEUIR Lab"
-version: 2.0
-date-released: 2024-09-25
-url: "https://github.com/NEUIR/neuir.github.io"
+cff-version: "1.2.0"
+message: "If you use this website or its source code, please cite it using these metadata."
+title: "NEU-ModelBest Data Intelligence Joint Lab"
 authors:
   - family-names: "Xin"
     given-names: "Haidong"
-cff-version: 2.0
+version: "2.0"
+date-released: "2024-09-25"
+url: "https://neuir.github.io/"
+repository-code: "https://github.com/NEUIR/neuir.github.io"
