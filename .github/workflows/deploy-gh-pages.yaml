@@ -23,7 +23,7 @@ jobs:
           bundler-cache: true
 
       - name: Setup Node for browser logic tests
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7
         with:
           node-version: "22"
           cache: npm
