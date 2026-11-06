@@ -87,10 +87,6 @@
     "width": 1182,
     "height": 1182
   },
-  "images/headshots/ruyue_shang.webp": {
-    "width": 512,
-    "height": 512
-  },
   "images/headshots/shaohua_duan.webp": {
     "width": 851,
     "height": 862
@@ -664,10 +660,6 @@
     "height": 360
   },
   "images/thumbnails/headshots/ruochang_li-360.webp": {
-    "width": 360,
-    "height": 360
-  },
-  "images/thumbnails/headshots/ruyue_shang-360.webp": {
     "width": 360,
     "height": 360
   },
