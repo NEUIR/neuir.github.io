@@ -280,6 +280,13 @@
   mark: acl2026-main
   image: images/projects/longmabpo.webp
   link: 'https://aclanthology.org/2026.acl-long.161/'
+  buttons:
+  - type: preprint
+    text: arXiv
+    link: 'https://arxiv.org/abs/2508.13993'
+  - type: github
+    text: Code
+    link: 'https://github.com/NEUIR/LongMab-PO'
   publisher: Proceedings of ACL
   title: 'Chunks as Arms: Multi-Armed Bandit-Guided Sampling for Long-Context LLM Preference Optimization'
 - authors:
@@ -329,6 +336,13 @@
   mark: acl2026-main
   image: images/projects/uncode.webp
   link: 'https://aclanthology.org/2026.acl-long.311/'
+  buttons:
+  - type: preprint
+    text: arXiv
+    link: 'https://arxiv.org/abs/2508.13021'
+  - type: github
+    text: Code
+    link: 'https://github.com/NEUIR/Uncode'
   publisher: Proceedings of ACL
   title: 'Empirical Analysis of Decoding Biases in Masked Diffusion Models'
 - authors:
@@ -500,6 +514,13 @@
   mark: emnlp2025-main
   image: images/projects/expandr.webp
   link: 'https://aclanthology.org/2025.emnlp-main.963/'
+  buttons:
+  - type: preprint
+    text: arXiv
+    link: 'https://arxiv.org/abs/2502.17057'
+  - type: github
+    text: Code
+    link: 'https://github.com/NEUIR/ExpandR'
   publisher: Proceedings of EMNLP
   title: 'ExpandR: Teaching Dense Retrievers Beyond Queries with LLM Guidance'
 - authors:
@@ -1164,6 +1185,13 @@
   mark: nips2025
   image: images/projects/parammute.webp
   link: 'https://proceedings.neurips.cc/paper_files/paper/2025/hash/90d1e515d74686ad148b469a3cecbbaa-Abstract-Conference.html'
+  buttons:
+  - type: preprint
+    text: arXiv
+    link: 'https://arxiv.org/abs/2502.15543'
+  - type: github
+    text: Code
+    link: 'https://github.com/OpenBMB/ParamMute'
   title: 'ParamMute: Suppressing Knowledge-Critical FFNs for Faithful Retrieval-Augmented Generation'
   publisher: Proceedings of NeurIPS
 - authors:
